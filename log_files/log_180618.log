@@ -1,0 +1,155 @@
+2018-06-18 21:05:55,988 - __main__ - INFO - Happy rate bot | program started
+2018-06-18 21:05:59,826 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 21:05:59,827 - __main__ - INFO - Message loop started
+2018-06-18 21:08:28,396 - __main__ - INFO - Happy rate bot | program started
+2018-06-18 21:08:28,990 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 21:08:28,991 - __main__ - INFO - Message loop started
+2018-06-18 21:41:32,394 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 21:41:33,144 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 21:41:33,145 - __main__ - INFO - Loaded databases
+2018-06-18 21:41:33,146 - __main__ - INFO - Message loop started
+2018-06-18 21:42:46,003 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 21:42:47,005 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 21:42:47,006 - __main__ - INFO - Loaded databases
+2018-06-18 21:42:47,007 - __main__ - INFO - Message loop started
+2018-06-18 22:00:43,740 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 22:00:53,369 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 22:00:54,366 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 22:04:26,859 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 22:04:27,723 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 22:04:27,723 - __main__ - INFO - Loaded databases
+2018-06-18 22:04:27,725 - __main__ - INFO - Message loop started
+2018-06-18 22:07:14,612 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 22:07:15,235 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 22:07:15,235 - __main__ - INFO - Loaded databases
+2018-06-18 22:07:15,238 - __main__ - INFO - Message loop started
+2018-06-18 22:07:22,249 - PersonDB - DEBUG - updating database...
+2018-06-18 22:07:49,233 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 22:07:53,125 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 22:07:53,125 - __main__ - INFO - Loaded databases
+2018-06-18 22:07:53,127 - __main__ - INFO - Message loop started
+2018-06-18 22:07:55,015 - PersonDB - DEBUG - updating database...
+2018-06-18 23:00:06,534 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:00:07,498 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:00:07,498 - Databases - DEBUG - loading db...
+2018-06-18 23:00:07,499 - Databases - DEBUG - Loaded 0 data
+2018-06-18 23:00:07,499 - __main__ - INFO - Loaded databases
+2018-06-18 23:00:07,501 - __main__ - INFO - Message loop started
+2018-06-18 23:00:35,676 - PersonDB - DEBUG - updating database...
+2018-06-18 23:10:46,572 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:10:47,610 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:10:47,611 - Databases - DEBUG - loading db...
+2018-06-18 23:10:47,611 - Databases - DEBUG - Loaded 0 data
+2018-06-18 23:10:47,611 - PersonDB - INFO - loaded persons db
+2018-06-18 23:12:41,828 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:12:45,151 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:12:45,151 - Databases - DEBUG - loading db...
+2018-06-18 23:12:45,151 - Databases - DEBUG - Loaded 0 data
+2018-06-18 23:12:45,152 - PersonDB - INFO - loaded persons db
+2018-06-18 23:12:45,152 - __main__ - INFO - Loaded databases
+2018-06-18 23:12:45,154 - __main__ - INFO - Message loop started
+2018-06-18 23:13:25,405 - PersonDB - DEBUG - updating database...
+2018-06-18 23:14:00,464 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:14:01,015 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:14:01,016 - Databases - DEBUG - loading db...
+2018-06-18 23:14:25,425 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:14:29,099 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:14:29,099 - Databases - DEBUG - loading db...
+2018-06-18 23:14:29,102 - Databases - DEBUG - Loaded 1 data
+2018-06-18 23:14:29,102 - PersonDB - INFO - loaded persons db
+2018-06-18 23:15:51,609 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:15:56,126 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:15:56,127 - Databases - DEBUG - loading db...
+2018-06-18 23:15:56,128 - Databases - DEBUG - Loaded 1 data
+2018-06-18 23:15:56,128 - PersonDB - INFO - loaded persons db
+2018-06-18 23:15:56,128 - PersonDB - INFO - last uid:0
+2018-06-18 23:15:56,129 - __main__ - INFO - Loaded databases
+2018-06-18 23:15:56,131 - __main__ - INFO - Message loop started
+2018-06-18 23:16:30,586 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:16:31,229 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:16:31,230 - Databases - DEBUG - loading db...
+2018-06-18 23:16:31,230 - Databases - DEBUG - Loaded 1 data
+2018-06-18 23:16:31,231 - PersonDB - INFO - loaded persons db
+2018-06-18 23:16:31,231 - PersonDB - INFO - last uid:0
+2018-06-18 23:16:57,071 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:16:57,926 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:16:57,927 - Databases - DEBUG - loading db...
+2018-06-18 23:16:57,927 - Databases - DEBUG - Loaded 1 data
+2018-06-18 23:16:57,928 - PersonDB - INFO - loaded persons db
+2018-06-18 23:16:57,928 - PersonDB - INFO - last uid:0
+2018-06-18 23:16:57,928 - __main__ - INFO - Loaded databases
+2018-06-18 23:16:57,930 - __main__ - INFO - Message loop started
+2018-06-18 23:17:04,886 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:17:05,727 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:17:05,727 - Databases - DEBUG - loading db...
+2018-06-18 23:17:05,728 - Databases - DEBUG - Loaded 1 data
+2018-06-18 23:17:05,728 - PersonDB - INFO - loaded persons db
+2018-06-18 23:17:05,728 - PersonDB - INFO - last uid:0
+2018-06-18 23:17:05,729 - __main__ - INFO - Loaded databases
+2018-06-18 23:17:05,731 - __main__ - INFO - Message loop started
+2018-06-18 23:17:16,233 - PersonDB - DEBUG - updating database...
+2018-06-18 23:18:11,710 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:18:16,520 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:18:16,520 - Databases - DEBUG - loading db...
+2018-06-18 23:18:16,522 - Databases - DEBUG - Loaded 1 data
+2018-06-18 23:18:16,522 - PersonDB - INFO - loaded persons db
+2018-06-18 23:18:16,522 - PersonDB - INFO - last uid:0
+2018-06-18 23:18:16,523 - __main__ - INFO - Loaded databases
+2018-06-18 23:18:16,525 - __main__ - INFO - Message loop started
+2018-06-18 23:18:19,331 - PersonDB - DEBUG - updating database...
+2018-06-18 23:18:19,332 - Databases - DEBUG - updating database...
+2018-06-18 23:18:19,334 - Databases - DEBUG - database update!
+2018-06-18 23:19:33,809 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:19:37,885 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:19:37,886 - Databases - DEBUG - loading db...
+2018-06-18 23:19:37,886 - Databases - DEBUG - Loaded 1 data
+2018-06-18 23:19:37,887 - PersonDB - INFO - loaded persons db
+2018-06-18 23:19:37,887 - PersonDB - INFO - last uid:0
+2018-06-18 23:19:37,887 - __main__ - INFO - Loaded databases
+2018-06-18 23:19:37,889 - __main__ - INFO - Message loop started
+2018-06-18 23:19:46,560 - PersonDB - DEBUG - updating database...
+2018-06-18 23:19:46,561 - Databases - DEBUG - updating database...
+2018-06-18 23:19:46,566 - Databases - DEBUG - database update!
+2018-06-18 23:21:03,695 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:21:06,445 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:21:06,446 - Databases - DEBUG - loading db...
+2018-06-18 23:21:06,447 - Databases - DEBUG - Loaded 1 data
+2018-06-18 23:21:06,448 - PersonDB - INFO - loaded persons db
+2018-06-18 23:21:06,448 - PersonDB - INFO - last uid:0
+2018-06-18 23:21:06,449 - __main__ - INFO - Loaded databases
+2018-06-18 23:21:06,450 - __main__ - INFO - Message loop started
+2018-06-18 23:21:10,501 - PersonDB - DEBUG - updating database...
+2018-06-18 23:21:10,503 - Databases - DEBUG - database update!
+2018-06-18 23:21:16,271 - PersonDB - DEBUG - updating database...
+2018-06-18 23:21:28,822 - PersonDB - DEBUG - updating database...
+2018-06-18 23:22:39,708 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:22:50,687 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-18 23:22:51,618 - __main__ - INFO - Bot data read, bot ready
+2018-06-18 23:22:51,619 - Databases - DEBUG - loading db...
+2018-06-18 23:22:51,619 - Databases - DEBUG - Loaded 1 data
+2018-06-18 23:22:51,620 - PersonDB - INFO - loaded persons db
+2018-06-18 23:22:51,620 - PersonDB - INFO - last uid:0
+2018-06-18 23:22:51,620 - __main__ - INFO - Loaded databases
+2018-06-18 23:22:51,622 - __main__ - INFO - Message loop started
+2018-06-18 23:23:07,320 - PersonDB - DEBUG - updating database...

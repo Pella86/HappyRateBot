@@ -1,0 +1,5 @@
+--- new string ---
+<b> Main Menu </b>
+<i> Chose a category to vote or see the media in it</i>
+--- new string ---
+Hello World
