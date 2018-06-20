@@ -2,4 +2,11 @@
 <b> Main Menu </b>
 <i> Chose a category to vote or see the media in it</i>
 --- new string ---
-Hello World
+Hello World--- new string ---
+<b> Main Menu </b>
+<i> Chose a category to vote or see the media in it</i>
+
+<b>--- Categories ---</b>
+<i> start here </i>/categories--- new string ---
+Accept term and conditions. /privacy_policy
+ /accept /decline

@@ -29,8 +29,8 @@ import BotDataReader
 import MessageParser
 import PersonDB
 import ChatsDB
+import UsersDB
 import Handle
-
 
 #==============================================================================
 # Logging
@@ -50,7 +50,10 @@ fh.setFormatter(formatter)
 
 # create console and file handler
 log.addHandler(fh)
-log.addHandler(logging.StreamHandler())
+sh = logging.StreamHandler()
+formatter = logging.Formatter('%(name)s - %(message)s')
+sh.setFormatter(formatter)
+log.addHandler(sh)
 
 #==============================================================================
 # handle
@@ -66,16 +69,26 @@ def handle(raw_msg):
         
         chatsdb.addChat(msg.chat)
         chatid = msg.chat.id
-        lang_tag = msg.mfrom.language_code
+#        lang_tag = msg.mfrom.language_code
         
         # add the user 
-
-        if msg.content.type == "text":
-            Handle.handle_private_text(msg.content.text, bot, chatid, lang_tag)
+        usersdb.addUser(msg.mfrom, chatid)
+        
+        user = usersdb.getUser(msg.mfrom)
+        
+        log.debug("handle privacy policy")
+        Handle.handle_privacy_policy(bot, usersdb, user, msg.content)
+        
+        if user.accepted_terms == True:
+            log.debug("handle rest")
+            if msg.content.type == "text":
+                Handle.handle_private_text(msg.content.text, bot, user)
         
         chatsdb.update()
+        usersdb.update()
     
     persondb.update()
+    
     
     
 
@@ -104,6 +117,8 @@ if __name__ == "__main__":
     
     persondb = PersonDB.PersonDB()
     chatsdb = ChatsDB.ChatsDB()
+    usersdb = UsersDB.UsersDB()
+    
     
     log.info("Loaded databases")
     

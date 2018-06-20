@@ -105,7 +105,7 @@ class Translator:
             
             s = ref_content[idx_start: idx_end]
             self.reference_strings.append(s)
-        log.debug("strings: {}".format(len(self.reference_strings)))
+        log.debug("retrived strings: {}".format(len(self.reference_strings)))
         
         # read the blocks
         self.readLanguageFiles()
@@ -121,9 +121,7 @@ class Translator:
         
         idx_en = list(english_pat.finditer(file_content))
         idx_tr = list(translation_pat.finditer(file_content))
-        
-        print(idx_en)
-        
+
         for i, x in enumerate(zip(idx_en, idx_tr)):
             enblock, trblock  = x
             # enblock
@@ -140,14 +138,7 @@ class Translator:
                 idx_end = idx_en[i + 1].start() - 2 
             tr_str =  file_content[idx_start : idx_end]
             tr_str = tr_str if tr_str else None
-            
-            print("en string")
-            print(en_str)
-            
-            print("tr string")
-            print(tr_str)
-            
-            
+                  
             key = (en_str, self.files_to_tags[file])
             self.langtostr[key] = tr_str
                 

@@ -32,7 +32,10 @@ fh.setFormatter(formatter)
 
 # create console and file handler
 log.addHandler(fh)
-log.addHandler(logging.StreamHandler())
+sh = logging.StreamHandler()
+formatter = logging.Formatter('%(name)s - %(message)s')
+sh.setFormatter(formatter)
+log.addHandler(sh)
 
 
 #==============================================================================

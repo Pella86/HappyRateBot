@@ -19,7 +19,7 @@ import datetime
 log = logging.getLogger(__name__)
 
 # set logger level
-log.setLevel(logging.INFO)
+log.setLevel(logging.DEBUG)
 
 # create a file handler
 fh = logging.FileHandler("./log_files/log_" + datetime.datetime.now().strftime("%y%m%d") + ".log")
@@ -29,7 +29,11 @@ fh.setFormatter(formatter)
 
 # create console and file handler
 log.addHandler(fh)
-log.addHandler(logging.StreamHandler())
+
+sh = logging.StreamHandler()
+formatter = logging.Formatter('%(name)s - %(message)s')
+sh.setFormatter(formatter)
+log.addHandler(sh)
 
 #==============================================================================
 # Helper functions
@@ -73,7 +77,9 @@ class Database:
         self.folder = folder
         self.db = {}
     
-    
+    def getValues(self):
+        return [v.getData() for v in self.db.values()]
+
     def loadDB(self):
         log.debug("loading db...")
         files = [os.path.join(self.folder, f) for f in os.listdir(self.folder)]
