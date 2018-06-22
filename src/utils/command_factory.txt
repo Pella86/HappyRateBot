@@ -1,0 +1,7 @@
+/categories categories
+/accept accept_policy
+/decline decline_policy
+/privacy_policy privacy_policy
+/remove_account remove_account
+/profile user_profile
+/set_nickname set_nickname

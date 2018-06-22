@@ -21,7 +21,7 @@ import re
 log = logging.getLogger(__name__)
 
 # set logger level
-log.setLevel(logging.DEBUG)
+log.setLevel(logging.INFO)
 
 # create a file handler
 fh = logging.FileHandler("./log_files/log_" + datetime.datetime.now().strftime("%y%m%d") + ".log")

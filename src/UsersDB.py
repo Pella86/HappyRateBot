@@ -12,6 +12,7 @@ import os
 import logging
 import datetime
 import hashlib
+import string
 
 # my imports
 import Databases
@@ -25,7 +26,7 @@ import random
 log = logging.getLogger(__name__)
 
 # set logger level
-log.setLevel(logging.DEBUG)
+log.setLevel(logging.INFO)
 
 # create a file handler
 fh = logging.FileHandler("./log_files/log_" + datetime.datetime.now().strftime("%y%m%d") + ".log")
@@ -69,9 +70,34 @@ class UsersDB:
             uids = [int(name.split("_")[1]) for name in names]
             uids = sorted(uids)
             last_uid = uids[-1]
-            log.info("last uid:{}".format(last_uid))
+            log.debug("last uid:{}".format(last_uid))
         
-        self.short_uid = last_uid + 1        
+        self.short_uid = last_uid + 1 
+    
+    def check_nickname(self, user, text):
+        
+        error_message = None
+        
+        alphanumeric = string.ascii_letters + string.digits
+        
+        if len(text) < 3:
+            error_message = "too short"
+        elif len(text) >= 15:
+            error_message = "too long"
+        
+        elif not all(c in alphanumeric for c in text):
+            error_message = "invalid character"
+        
+        elif text in [u.display_id for u in self.database.getValues()]:
+            error_message = "already present"
+        
+        if error_message is None:
+            user.display_id = text
+            self.database[user.hash_id].setData(user)
+            return True
+        else:
+            return error_message
+        
 
     def addUser(self, person, chatid):
         # hash the id
@@ -99,6 +125,12 @@ class UsersDB:
             self.database.db[hash_id] = data
             self.short_uid += 1 
             return user
+    
+    def deleteUser(self, user):
+        data = self.database[user.hash_id]
+        os.remove(os.path.join(self.folder, data.filename + ".pickle"))
+        self.database.deleteItem(user.hash_id)
+        
         
     def getUser(self, person):
         log.debug("User already in database, got user")

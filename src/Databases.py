@@ -19,7 +19,7 @@ import datetime
 log = logging.getLogger(__name__)
 
 # set logger level
-log.setLevel(logging.DEBUG)
+log.setLevel(logging.INFO)
 
 # create a file handler
 fh = logging.FileHandler("./log_files/log_" + datetime.datetime.now().strftime("%y%m%d") + ".log")
@@ -76,6 +76,12 @@ class Database:
     def __init__(self, folder):
         self.folder = folder
         self.db = {}
+        
+    def __getitem__(self, dataid):
+        return self.db[dataid]
+    
+    def deleteItem(self, dataid):
+        del self.db[dataid]
     
     def getValues(self):
         return [v.getData() for v in self.db.values()]
@@ -108,7 +114,7 @@ class Database:
             if data.hasChanged:
                 data.hasChanged = False
                 self.writeData(data)
-                log.debug("database update!")
+                log.info("database update!")
                 
                 
             

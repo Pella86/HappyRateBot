@@ -22,7 +22,7 @@ import Databases
 log = logging.getLogger(__name__)
 
 # set logger level
-log.setLevel(logging.DEBUG)
+log.setLevel(logging.INFO)
 
 # create a file handler
 fh = logging.FileHandler("./log_files/log_" + datetime.datetime.now().strftime("%y%m%d") + ".log")
@@ -56,7 +56,7 @@ class ChatsDB:
             uids = [int(name.split("_")[1]) for name in names]
             uids = sorted(uids)
             last_uid = uids[-1]
-            log.info("last uid:{}".format(last_uid))
+            log.debug("last uid:{}".format(last_uid))
         
         self.short_uid = last_uid + 1
         
@@ -71,5 +71,5 @@ class ChatsDB:
             self.short_uid += 1
     
     def update(self):
-        log.debug("updating database...")
+        log.info("updating database...")
         self.database.updateDB()

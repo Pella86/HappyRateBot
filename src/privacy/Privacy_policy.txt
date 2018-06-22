@@ -1,0 +1,33 @@
+- Privacy Policy -
+
+I care about the privacy of the users so I decided to collect less information as possible from the users.
+
+1. Who is collecting the data?
+The bot has access to the messages you send him and to the messages in a group chat directed to the bot himself. The bot will collect and store only your telgram id (hashed) and the chat id with the bot (necessary to reply to you). The data that the user generates are to be considered public so I have no responsability on such data.
+
+2. What data is being collected?
+The telegram id (stored securely on a remote server) and the bot-user chatid.
+
+3. What is the legal basis for processing the data?
+???
+
+4. Will the data be shared with any third parties?
+No, the data will stay on the server.
+
+5. How will the information be used?
+The data provided will only be used to make the bot work (message redirecting, identification, ...)
+
+6. How long will the data be stored for?
+The data (telegram id, bot-user chat id), will be kept on the servers as long as we can (so you won't lose your profile). Yet you can ask us to delete your data and they will be erased from the bot memory.
+If the user is inactive (interrupted the conversation to the bot), the data might be deleted, depending on space requirements.
+
+7. What rights does the data subject have?
+You have the right of information (I will provide a text file with your data when requested), the right to erase your data.
+
+8. How can the data subject raise a complaint?
+write @PmPellaBot or @Pellostyle
+
+cheers,
+the author, @Pellostyle
+
+

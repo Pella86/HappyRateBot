@@ -31,6 +31,7 @@ import PersonDB
 import ChatsDB
 import UsersDB
 import Handle
+from src.language_support.LanguageSupport import _
 
 #==============================================================================
 # Logging
@@ -76,13 +77,17 @@ def handle(raw_msg):
         
         user = usersdb.getUser(msg.mfrom)
         
-        log.debug("handle privacy policy")
-        Handle.handle_privacy_policy(bot, usersdb, user, msg.content)
         
-        if user.accepted_terms == True:
-            log.debug("handle rest")
+        
+        if user.accepted_terms == False:
+            
+            log.debug("handle privacy policy")
+            Handle.handle_privacy_policy(bot, usersdb, user, msg.content)        
+        else:
+            log.debug("handle normal requests")
             if msg.content.type == "text":
-                Handle.handle_private_text(msg.content.text, bot, user)
+                log.debug("Message: " + msg.content.text)
+                Handle.handle_private_text(msg.content.text, bot, user, usersdb)
         
         chatsdb.update()
         usersdb.update()
@@ -96,8 +101,45 @@ def handle(raw_msg):
 # query
 #==============================================================================
 
-def query(msg):
-    pass
+def query(raw_msg):
+    query = MessageParser.CbkQuery(raw_msg, False)
+    
+    query.initOptionals()
+    
+    if query.data.startswith("rmacc"):
+        
+        scmd = query.data.split("_")
+        ans = scmd[1]
+        
+        user = usersdb.getUser(query.person)
+        
+        if ans == "yes":
+            chatid = user.chatid
+            lang_tag = user.lang_tag
+            
+            usersdb.deleteUser(user)
+            
+            s = "All data removed"
+            s = _(s, lang_tag)
+            bot.sendMessage(chatid, s)
+            bot.answerCallbackQuery(query.id, text='Removed')
+        else:
+            Handle.send_main_menu(bot, user)
+            bot.answerCallbackQuery(query.id, text='Not removed')
+        
+        usersdb.update()
+    
+    else:
+        bot.answerCallbackQuery(query.id, text='what?')
+
+
+def inline_query(msg):
+    log.debug("inline query")
+    print(msg)
+
+def chosen_inline(msg):
+    log.debug("chosen inline result")
+    print(msg)
 
 #==============================================================================
 # Main
@@ -124,9 +166,9 @@ if __name__ == "__main__":
     
     response = {
             'chat': handle,
-            'callback_query': query
-            #'inline_query': inline_query,
-            #'chosen_inline_result' : chosen_inline
+            'callback_query': query,
+            'inline_query': inline_query,
+            'chosen_inline_result' : chosen_inline
             }
     
     MessageLoop(bot, response).run_as_thread()

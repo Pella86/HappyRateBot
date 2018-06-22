@@ -665,3 +665,28 @@
 2018-06-20 14:18:14,644 - language_support.LanguageSupport - DEBUG - Reading language files...
 2018-06-20 14:18:14,644 - language_support.LanguageSupport - DEBUG - reading blocks..
 2018-06-20 14:18:14,644 - language_support.LanguageSupport - DEBUG - reading blocks..
+2018-06-20 14:18:14,645 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-20 14:18:14,646 - __main__ - INFO - Bot data read, bot ready
+2018-06-20 14:18:14,646 - Databases - DEBUG - loading db...
+2018-06-20 14:18:14,647 - Databases - DEBUG - Loaded 1 data
+2018-06-20 14:18:14,647 - PersonDB - INFO - loaded persons db
+2018-06-20 14:18:14,647 - PersonDB - INFO - last uid:0
+2018-06-20 14:18:14,647 - Databases - DEBUG - loading db...
+2018-06-20 14:18:14,648 - Databases - DEBUG - Loaded 1 data
+2018-06-20 14:18:14,649 - ChatsDB - INFO - loaded chats db
+2018-06-20 14:18:14,649 - ChatsDB - INFO - last uid:1
+2018-06-20 14:18:14,649 - Databases - DEBUG - loading db...
+2018-06-20 14:18:14,650 - Databases - DEBUG - Loaded 1 data
+2018-06-20 14:18:14,650 - UsersDB - INFO - loaded users database
+2018-06-20 14:18:14,650 - UsersDB - INFO - last uid:1
+2018-06-20 14:18:14,650 - __main__ - INFO - Loaded databases
+2018-06-20 14:18:14,651 - __main__ - INFO - Message loop started
+2018-06-20 14:18:21,718 - __main__ - DEBUG - private message received
+2018-06-20 14:18:22,270 - UsersDB - DEBUG - User already in database, got user
+2018-06-20 14:18:22,877 - __main__ - DEBUG - handle privacy policy
+2018-06-20 14:18:22,878 - __main__ - DEBUG - handle rest
+2018-06-20 14:18:22,878 - language_support.LanguageSupport - DEBUG - translating string...
+2018-06-20 14:18:23,132 - ChatsDB - DEBUG - updating database...
+2018-06-20 14:18:23,132 - UsersDB - INFO - updating database...
+2018-06-20 14:18:23,132 - PersonDB - DEBUG - updating database...
