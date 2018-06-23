@@ -122,4 +122,87 @@ In this bot you can upload your content and let the other users in the bot commu
 Accept terms and conditions:
 For more information you can read the /privacy_policy
 
-/accept       /decline
+/accept       /decline--- new string ---
+<b>User Profile </b>
+<i>Your anonymous id is: {anon_id}</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account--- new string ---
+Send a category name
+<i>The name must be maximum 15 characters long and can contain only alphanumeric characters (a-z and A-Z and 1-10)</i>
+
+Create a category will cost {price} you have {points}
+/cancel
+--- new string ---
+<b>Send a category name</b>
+<i>The name must be maximum 15 characters long and can contain only alphanumeric characters (a-z and A-Z and 1-10)</i>
+
+Create a category will cost {price} you have {points}
+/cancel
+--- new string ---
+Success: new category created--- new string ---
+Create category error: invalid character--- new string ---
+Create category error: too long--- new string ---
+Fail: category already present--- new string ---
+<b>Categories</b>
+
+~~~~hello~~~~
+Category score:0
+/show_hello
+
+~~~~Flowers~~~~
+Category score:0
+/show_Flowers
+
+~~~~Novilon~~~~
+Category score:0
+/show_Novilon
+
+
+/main_menu      0/1--- new string ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pella</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account--- new string ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pellalla</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account--- new string ---
+<b>Main Menu </b>
+<i>Chose a category to vote or see the media in it</i>
+
+<b>--- Categories ---</b>
+<i> start here </i>
+/categories
+
+<b>--- Upload ---</b>
+<i> upload your pictures, gifs, ... </i>
+/upload
+
+<b>--- Profile ---</b>
+<i> Your profile </i>
+/profile
+
+--- new string ---
+You can post anything text, gif, pictures, ...--- new string ---
+Please choose a category where to put the media

@@ -9,8 +9,6 @@ Created on Wed Jun 20 12:10:14 2018
 #==============================================================================
 # py imports
 import os
-import logging
-import datetime
 import hashlib
 import string
 
@@ -18,28 +16,13 @@ import string
 import Databases
 import UserProfile
 import random
+import Logging
 
 #==============================================================================
 # logging
 #==============================================================================
 # create logger
-log = logging.getLogger(__name__)
-
-# set logger level
-log.setLevel(logging.INFO)
-
-# create a file handler
-fh = logging.FileHandler("./log_files/log_" + datetime.datetime.now().strftime("%y%m%d") + ".log")
-
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-fh.setFormatter(formatter)
-
-# create console and file handler
-log.addHandler(fh)
-sh = logging.StreamHandler()
-formatter = logging.Formatter('%(name)s - %(message)s')
-sh.setFormatter(formatter)
-log.addHandler(sh)
+log = Logging.get_logger(__name__, "INFO")
 
 #==============================================================================
 # Helpers
@@ -60,19 +43,10 @@ class UsersDB:
         if not os.path.isdir(self.folder):
             os.mkdir(self.folder)
         
-        self.database = Databases.Database(self.folder)
+        self.database = Databases.Database(self.folder, "user_")
         self.database.loadDB()
+        self.database.update_uid()
         log.info("loaded users database")
-        
-        names = [data.filename for data in self.database.db.values() ]
-        last_uid = 0
-        if names:
-            uids = [int(name.split("_")[1]) for name in names]
-            uids = sorted(uids)
-            last_uid = uids[-1]
-            log.debug("last uid:{}".format(last_uid))
-        
-        self.short_uid = last_uid + 1 
     
     def check_nickname(self, user, text):
         
@@ -104,27 +78,28 @@ class UsersDB:
 
         hash_id = get_hash_id(person.id)
         
-        if not ( hash_id in self.database.db ):
-            log.info("added new user to database: {}".format(self.short_uid))
-            # create a new user
-            
+        if self.database.isNew(hash_id):
+            log.info("added new user to database: {}".format(self.database.short_uid))
+
             # create a unique display id
             start_number = 0x10000000
             stop_number = 0xFFFFFFFF
             display_id = random.randint(start_number,stop_number)
             log.debug("display id {}".format(display_id))
+            
+            # check for uniqueness
             display_id_list = [user.display_id for user in self.database.getValues()]
             while display_id in display_id_list:
                 display_id = random.randint(start_number,stop_number)
                 log.debug("new display id {}".format(display_id))                
             
+            # language
             lang_tag = person.language_code if person.language_code else "en"
 
+            # user instance
             user = UserProfile.UserProfile(hash_id, display_id, chatid, lang_tag)
-            data = Databases.Data(hash_id, user, "user_" + str(self.short_uid))
-            self.database.db[hash_id] = data
-            self.short_uid += 1 
-            return user
+            data = Databases.Data(hash_id, user)
+            self.database.addData(data)
     
     def deleteUser(self, user):
         data = self.database[user.hash_id]
@@ -135,10 +110,10 @@ class UsersDB:
     def getUser(self, person):
         log.debug("User already in database, got user")
         hash_id = get_hash_id(person.id)
-        return self.database.db[hash_id].getData()
+        return self.database[hash_id].getData()
     
     def setUser(self, user):
-        self.database.db[user.hash_id].setData(user)
+        self.database[user.hash_id].setData(user)
 
     def update(self):
         log.info("updating database...")

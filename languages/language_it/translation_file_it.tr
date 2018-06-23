@@ -215,3 +215,138 @@ For more information you can read the /privacy_policy
 /accept       /decline
 --- Translation ---
 
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: {anon_id}</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+Send a category name
+<i>The name must be maximum 15 characters long and can contain only alphanumeric characters (a-z and A-Z and 1-10)</i>
+
+Create a category will cost {price} you have {points}
+/cancel
+
+--- Translation ---
+
+
+--- English ---
+<b>Send a category name</b>
+<i>The name must be maximum 15 characters long and can contain only alphanumeric characters (a-z and A-Z and 1-10)</i>
+
+Create a category will cost {price} you have {points}
+/cancel
+
+--- Translation ---
+
+
+--- English ---
+Success: new category created
+--- Translation ---
+
+
+--- English ---
+Create category error: invalid character
+--- Translation ---
+
+
+--- English ---
+Create category error: too long
+--- Translation ---
+
+
+--- English ---
+Fail: category already present
+--- Translation ---
+
+
+--- English ---
+<b>Categories</b>
+
+~~~~hello~~~~
+Category score:0
+/show_hello
+
+~~~~Flowers~~~~
+Category score:0
+/show_Flowers
+
+~~~~Novilon~~~~
+Category score:0
+/show_Novilon
+
+
+/main_menu      0/1
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pella</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pellalla</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+<b>Main Menu </b>
+<i>Chose a category to vote or see the media in it</i>
+
+<b>--- Categories ---</b>
+<i> start here </i>
+/categories
+
+<b>--- Upload ---</b>
+<i> upload your pictures, gifs, ... </i>
+/upload
+
+<b>--- Profile ---</b>
+<i> Your profile </i>
+/profile
+
+
+--- Translation ---
+
+
+--- English ---
+You can post anything text, gif, pictures, ...
+--- Translation ---
+
+
+--- English ---
+Please choose a category where to put the media
+--- Translation ---
+

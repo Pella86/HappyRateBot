@@ -7,33 +7,17 @@ Created on Mon Jun 18 21:12:18 2018
 #==============================================================================
 # Imports
 #==============================================================================
-import logging
+
 import os
 import pickle
-import datetime
+
+import Logging
 
 #==============================================================================
 # logging
 #==============================================================================
 # create logger
-log = logging.getLogger(__name__)
-
-# set logger level
-log.setLevel(logging.INFO)
-
-# create a file handler
-fh = logging.FileHandler("./log_files/log_" + datetime.datetime.now().strftime("%y%m%d") + ".log")
-
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-fh.setFormatter(formatter)
-
-# create console and file handler
-log.addHandler(fh)
-
-sh = logging.StreamHandler()
-formatter = logging.Formatter('%(name)s - %(message)s')
-sh.setFormatter(formatter)
-log.addHandler(sh)
+log = Logging.get_logger(__name__, "DEBUG")
 
 #==============================================================================
 # Helper functions
@@ -50,10 +34,10 @@ def get_pathname(path):
 #==============================================================================
 class Data:
     
-    def __init__(self, id, content, filename):
+    def __init__(self, id, content):
         self.id = id
         self.content = content
-        self.filename = filename
+        self.filename = None
         self.hasChanged = True
     
     def getData(self):
@@ -73,52 +57,118 @@ class Data:
 class Database:
     
     
-    def __init__(self, folder):
+    def __init__(self, folder, data_name):
+        
         self.folder = folder
-        self.db = {}
+        self.data_name = data_name
+        self._db = {}
+        
+        self.short_uid = None
+
+    def getUID(self):
+        return self.short_uid
+    
+    def isNew(self, data_id):
+        if data_id in self._db:
+            return False
+        else:
+            return True
+    
+    def addData(self, data):
+        self._db[data.id] = data
+        filename = self.data_name + str(self.short_uid)
+        self._db[data.id].filename = filename
+        self._db[data.id].hasChanged = True
+        self.short_uid += 1
+
+    def update_uid(self):
+        
+        names = [data.filename for data in self._db.values()]
+        
+        last_uid = 0
+        if names:
+            uids = [int(name.split("_")[1]) for name in names]
+            uids = sorted(uids)
+            last_uid = uids[-1]
+            log.debug("last uid:{}".format(last_uid))
+        
+        self.short_uid = last_uid + 1 
         
     def __getitem__(self, dataid):
-        return self.db[dataid]
+        return self._db[dataid]
     
     def deleteItem(self, dataid):
-        del self.db[dataid]
+        del self._db[dataid]
     
     def getValues(self):
-        return [v.getData() for v in self.db.values()]
+        return [v.getData() for v in self._db.values()]
 
     def loadDB(self):
         log.debug("loading db...")
         files = [os.path.join(self.folder, f) for f in os.listdir(self.folder)]
         
         data_loaded = 0
+        idlist = []
         for file_name in files:
             _, _, ext = get_pathname(file_name)
             if ext == ".pickle" and os.path.isfile(file_name):
+                # Open file
                 with open(file_name, 'rb') as f:
                     data = pickle.load(f)
-                self.db[data.id] = data
-                data_loaded += 1
-        log.debug("Loaded {} data".format(data_loaded))
+                
+                # check in case there are mistakes
+                if data.id in idlist:
+                    log.debug("duplicate file found")
+                    os.remove(file_name)
+                else:
+                    # load the data in memory
+                    self._db[data.id] = data
+                    idlist.append(data.id)
+                    data_loaded += 1
+        
+        log.info("Loaded {} data".format(data_loaded))
     
     def writeData(self, data):
-        filename = self.folder + "/"+ data.filename + ".pickle"
+        filename = os.path.join(self.folder , data.filename + ".pickle")
         with open(filename, "wb") as f:
             pickle.dump(data, f)   
             
     def saveDB(self):
-        for data in self.db.values():
+        for data in self._db.values():
             self.writeData(data)
     
     def updateDB(self):
-        for data in self.db.values():
+        for data in self._db.values():
             if data.hasChanged:
                 data.hasChanged = False
                 self.writeData(data)
                 log.info("database update!")
                 
-                
+    def updateDatabaseEntry(self, attributes, success_file = ""):
+        log.debug("updating attributes")
+
+        if os.path.isfile(success_file):
+            raise Exception("File already exist")
             
+        for delement in self._db.values():
+            element = delement.getData()
+            
+            for attr_name, attr_value in attributes.items():
+                
+                log.debug("attribute {} : calculated value {}".format(attr_name, attr_value(element)))
+                
+                element.__setattr__(attr_name, attr_value(element))
+            
+            delement.setData(element)
         
+        self.updateDB()
+        
+        if success_file:
+            with open(success_file, "w") as f:
+                f.write("success: " + self.folder)                
+            
+## usage example
+#    categories.categories_db.updateDatabaseEntry({"screen_name": lambda x : x.name, "creation_date": lambda x : datetime.datetime.now()}, "./data/categories_update_success.txt")            
         
         
         

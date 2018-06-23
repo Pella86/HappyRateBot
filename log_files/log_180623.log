@@ -1,0 +1,2551 @@
+2018-06-23 00:01:00,823 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:01:00,824 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:01:00,827 - PersonDB - INFO - loaded persons db
+2018-06-23 00:17:11,100 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:17:11,100 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:17:11,102 - Logging - INFO - loaded persons db
+2018-06-23 00:17:11,102 - Logging - INFO - loaded persons db
+2018-06-23 00:17:11,102 - Logging - INFO - loaded persons db
+2018-06-23 00:17:11,105 - Logging - INFO - loaded chats db
+2018-06-23 00:17:11,105 - Logging - INFO - loaded chats db
+2018-06-23 00:17:11,105 - Logging - INFO - loaded chats db
+2018-06-23 00:17:11,107 - Logging - INFO - loaded users database
+2018-06-23 00:17:11,107 - Logging - INFO - loaded users database
+2018-06-23 00:17:11,107 - Logging - INFO - loaded users database
+2018-06-23 00:17:11,108 - __main__ - INFO - Loaded databases
+2018-06-23 00:17:11,109 - __main__ - INFO - Message loop started
+2018-06-23 00:17:27,095 - Logging - INFO - added new person to database: 5
+2018-06-23 00:17:27,095 - Logging - INFO - added new person to database: 5
+2018-06-23 00:17:27,095 - Logging - INFO - added new person to database: 5
+2018-06-23 00:17:45,670 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:17:45,671 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:17:45,673 - Logging - INFO - loaded persons db
+2018-06-23 00:17:45,673 - Logging - INFO - loaded persons db
+2018-06-23 00:17:45,673 - Logging - INFO - loaded persons db
+2018-06-23 00:17:45,675 - Logging - INFO - loaded chats db
+2018-06-23 00:17:45,675 - Logging - INFO - loaded chats db
+2018-06-23 00:17:45,675 - Logging - INFO - loaded chats db
+2018-06-23 00:17:45,678 - Logging - INFO - loaded users database
+2018-06-23 00:17:45,678 - Logging - INFO - loaded users database
+2018-06-23 00:17:45,678 - Logging - INFO - loaded users database
+2018-06-23 00:17:45,679 - __main__ - INFO - Loaded databases
+2018-06-23 00:17:45,679 - __main__ - INFO - Message loop started
+2018-06-23 00:17:50,929 - Logging - INFO - added new person to database: 5
+2018-06-23 00:17:50,929 - Logging - INFO - added new person to database: 5
+2018-06-23 00:17:50,929 - Logging - INFO - added new person to database: 5
+2018-06-23 00:17:50,930 - __main__ - DEBUG - private message received
+2018-06-23 00:17:50,930 - Logging - INFO - added new chat to database: 6
+2018-06-23 00:17:50,930 - Logging - INFO - added new chat to database: 6
+2018-06-23 00:17:50,930 - Logging - INFO - added new chat to database: 6
+2018-06-23 00:17:51,520 - Logging - INFO - added new user to database: 8
+2018-06-23 00:17:51,520 - Logging - INFO - added new user to database: 8
+2018-06-23 00:17:51,520 - Logging - INFO - added new user to database: 8
+2018-06-23 00:17:51,521 - Logging - DEBUG - display id 559557388
+2018-06-23 00:17:51,521 - Logging - DEBUG - display id 559557388
+2018-06-23 00:17:51,521 - Logging - DEBUG - display id 559557388
+2018-06-23 00:17:51,521 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:17:51,521 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:17:51,521 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:17:52,085 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:17:52,373 - Logging - INFO - updating database...
+2018-06-23 00:17:52,373 - Logging - INFO - updating database...
+2018-06-23 00:17:52,373 - Logging - INFO - updating database...
+2018-06-23 00:19:27,779 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:19:27,780 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:19:27,782 - Logging - INFO - loaded persons db
+2018-06-23 00:19:27,782 - Logging - INFO - loaded persons db
+2018-06-23 00:19:27,782 - Logging - INFO - loaded persons db
+2018-06-23 00:19:27,784 - Logging - INFO - loaded chats db
+2018-06-23 00:19:27,784 - Logging - INFO - loaded chats db
+2018-06-23 00:19:27,784 - Logging - INFO - loaded chats db
+2018-06-23 00:19:27,786 - Logging - INFO - loaded users database
+2018-06-23 00:19:27,786 - Logging - INFO - loaded users database
+2018-06-23 00:19:27,786 - Logging - INFO - loaded users database
+2018-06-23 00:19:27,787 - __main__ - INFO - Loaded databases
+2018-06-23 00:19:27,788 - __main__ - INFO - Message loop started
+2018-06-23 00:19:32,249 - Logging - INFO - added new person to database: 5
+2018-06-23 00:19:32,249 - Logging - INFO - added new person to database: 5
+2018-06-23 00:19:32,249 - Logging - INFO - added new person to database: 5
+2018-06-23 00:19:32,250 - __main__ - DEBUG - private message received
+2018-06-23 00:19:32,250 - Logging - INFO - added new chat to database: 6
+2018-06-23 00:19:32,250 - Logging - INFO - added new chat to database: 6
+2018-06-23 00:19:32,250 - Logging - INFO - added new chat to database: 6
+2018-06-23 00:19:32,790 - Logging - INFO - added new user to database: 8
+2018-06-23 00:19:32,790 - Logging - INFO - added new user to database: 8
+2018-06-23 00:19:32,790 - Logging - INFO - added new user to database: 8
+2018-06-23 00:19:32,791 - Logging - DEBUG - display id 3400818261
+2018-06-23 00:19:32,791 - Logging - DEBUG - display id 3400818261
+2018-06-23 00:19:32,791 - Logging - DEBUG - display id 3400818261
+2018-06-23 00:19:32,792 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:19:32,792 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:19:32,792 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:19:33,374 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:19:33,864 - Logging - INFO - updating database...
+2018-06-23 00:19:33,864 - Logging - INFO - updating database...
+2018-06-23 00:19:33,864 - Logging - INFO - updating database...
+2018-06-23 00:19:33,866 - Databases - INFO - database update!
+2018-06-23 00:19:33,866 - Logging - INFO - updating database...
+2018-06-23 00:19:33,866 - Logging - INFO - updating database...
+2018-06-23 00:19:33,866 - Logging - INFO - updating database...
+2018-06-23 00:19:33,867 - Databases - INFO - database update!
+2018-06-23 00:19:33,868 - Logging - INFO - updating database...
+2018-06-23 00:19:33,868 - Logging - INFO - updating database...
+2018-06-23 00:19:33,868 - Logging - INFO - updating database...
+2018-06-23 00:19:33,869 - Databases - INFO - database update!
+2018-06-23 00:20:14,213 - Logging - INFO - added new person to database: 6
+2018-06-23 00:20:14,213 - Logging - INFO - added new person to database: 6
+2018-06-23 00:20:14,213 - Logging - INFO - added new person to database: 6
+2018-06-23 00:20:14,214 - __main__ - DEBUG - private message received
+2018-06-23 00:20:14,214 - Logging - INFO - added new chat to database: 7
+2018-06-23 00:20:14,214 - Logging - INFO - added new chat to database: 7
+2018-06-23 00:20:14,214 - Logging - INFO - added new chat to database: 7
+2018-06-23 00:20:14,783 - Logging - INFO - added new user to database: 9
+2018-06-23 00:20:14,783 - Logging - INFO - added new user to database: 9
+2018-06-23 00:20:14,783 - Logging - INFO - added new user to database: 9
+2018-06-23 00:20:14,785 - Logging - DEBUG - display id 1292917524
+2018-06-23 00:20:14,785 - Logging - DEBUG - display id 1292917524
+2018-06-23 00:20:14,785 - Logging - DEBUG - display id 1292917524
+2018-06-23 00:20:14,785 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:20:14,785 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:20:14,785 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:20:15,332 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:20:15,332 - Handle - DEBUG - working on function /accept
+2018-06-23 00:20:15,489 - Logging - INFO - updating database...
+2018-06-23 00:20:15,489 - Logging - INFO - updating database...
+2018-06-23 00:20:15,489 - Logging - INFO - updating database...
+2018-06-23 00:20:15,492 - Databases - INFO - database update!
+2018-06-23 00:20:15,492 - Logging - INFO - updating database...
+2018-06-23 00:20:15,492 - Logging - INFO - updating database...
+2018-06-23 00:20:15,492 - Logging - INFO - updating database...
+2018-06-23 00:20:15,497 - Databases - INFO - database update!
+2018-06-23 00:20:15,497 - Logging - INFO - updating database...
+2018-06-23 00:20:15,497 - Logging - INFO - updating database...
+2018-06-23 00:20:15,497 - Logging - INFO - updating database...
+2018-06-23 00:20:15,500 - Databases - INFO - database update!
+2018-06-23 00:20:21,056 - Logging - INFO - added new person to database: 7
+2018-06-23 00:20:21,056 - Logging - INFO - added new person to database: 7
+2018-06-23 00:20:21,056 - Logging - INFO - added new person to database: 7
+2018-06-23 00:20:21,057 - __main__ - DEBUG - private message received
+2018-06-23 00:20:21,057 - Logging - INFO - added new chat to database: 8
+2018-06-23 00:20:21,057 - Logging - INFO - added new chat to database: 8
+2018-06-23 00:20:21,057 - Logging - INFO - added new chat to database: 8
+2018-06-23 00:20:21,621 - Logging - INFO - added new user to database: 10
+2018-06-23 00:20:21,621 - Logging - INFO - added new user to database: 10
+2018-06-23 00:20:21,621 - Logging - INFO - added new user to database: 10
+2018-06-23 00:20:21,623 - Logging - DEBUG - display id 2817477458
+2018-06-23 00:20:21,623 - Logging - DEBUG - display id 2817477458
+2018-06-23 00:20:21,623 - Logging - DEBUG - display id 2817477458
+2018-06-23 00:20:21,623 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:20:21,623 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:20:21,623 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:20:22,176 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:20:22,299 - Logging - INFO - updating database...
+2018-06-23 00:20:22,299 - Logging - INFO - updating database...
+2018-06-23 00:20:22,299 - Logging - INFO - updating database...
+2018-06-23 00:20:22,302 - Databases - INFO - database update!
+2018-06-23 00:20:22,302 - Logging - INFO - updating database...
+2018-06-23 00:20:22,302 - Logging - INFO - updating database...
+2018-06-23 00:20:22,302 - Logging - INFO - updating database...
+2018-06-23 00:20:22,303 - Databases - INFO - database update!
+2018-06-23 00:20:22,304 - Logging - INFO - updating database...
+2018-06-23 00:20:22,304 - Logging - INFO - updating database...
+2018-06-23 00:20:22,304 - Logging - INFO - updating database...
+2018-06-23 00:20:22,305 - Databases - INFO - database update!
+2018-06-23 00:21:32,858 - Logging - INFO - added new person to database: 8
+2018-06-23 00:21:32,858 - Logging - INFO - added new person to database: 8
+2018-06-23 00:21:32,858 - Logging - INFO - added new person to database: 8
+2018-06-23 00:21:32,859 - __main__ - DEBUG - private message received
+2018-06-23 00:21:32,859 - Logging - INFO - added new chat to database: 9
+2018-06-23 00:21:32,859 - Logging - INFO - added new chat to database: 9
+2018-06-23 00:21:32,859 - Logging - INFO - added new chat to database: 9
+2018-06-23 00:21:33,417 - Logging - INFO - added new user to database: 11
+2018-06-23 00:21:33,417 - Logging - INFO - added new user to database: 11
+2018-06-23 00:21:33,417 - Logging - INFO - added new user to database: 11
+2018-06-23 00:21:33,419 - Logging - DEBUG - display id 2806858880
+2018-06-23 00:21:33,419 - Logging - DEBUG - display id 2806858880
+2018-06-23 00:21:33,419 - Logging - DEBUG - display id 2806858880
+2018-06-23 00:21:33,420 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:21:33,420 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:21:33,420 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:21:34,022 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:21:34,022 - Handle - DEBUG - working on function /accept
+2018-06-23 00:21:34,214 - Logging - INFO - updating database...
+2018-06-23 00:21:34,214 - Logging - INFO - updating database...
+2018-06-23 00:21:34,214 - Logging - INFO - updating database...
+2018-06-23 00:21:34,216 - Databases - INFO - database update!
+2018-06-23 00:21:34,216 - Logging - INFO - updating database...
+2018-06-23 00:21:34,216 - Logging - INFO - updating database...
+2018-06-23 00:21:34,216 - Logging - INFO - updating database...
+2018-06-23 00:21:34,219 - Databases - INFO - database update!
+2018-06-23 00:21:34,219 - Logging - INFO - updating database...
+2018-06-23 00:21:34,219 - Logging - INFO - updating database...
+2018-06-23 00:21:34,219 - Logging - INFO - updating database...
+2018-06-23 00:21:34,221 - Databases - INFO - database update!
+2018-06-23 00:21:42,320 - Logging - INFO - added new person to database: 9
+2018-06-23 00:21:42,320 - Logging - INFO - added new person to database: 9
+2018-06-23 00:21:42,320 - Logging - INFO - added new person to database: 9
+2018-06-23 00:21:42,321 - __main__ - DEBUG - private message received
+2018-06-23 00:21:42,321 - Logging - INFO - added new chat to database: 10
+2018-06-23 00:21:42,321 - Logging - INFO - added new chat to database: 10
+2018-06-23 00:21:42,321 - Logging - INFO - added new chat to database: 10
+2018-06-23 00:21:42,874 - Logging - INFO - added new user to database: 12
+2018-06-23 00:21:42,874 - Logging - INFO - added new user to database: 12
+2018-06-23 00:21:42,874 - Logging - INFO - added new user to database: 12
+2018-06-23 00:21:42,875 - Logging - DEBUG - display id 1306460902
+2018-06-23 00:21:42,875 - Logging - DEBUG - display id 1306460902
+2018-06-23 00:21:42,875 - Logging - DEBUG - display id 1306460902
+2018-06-23 00:21:42,876 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:21:42,876 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:21:42,876 - Logging - DEBUG - User already in database, got user
+2018-06-23 00:21:43,422 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:21:44,192 - Logging - INFO - updating database...
+2018-06-23 00:21:44,192 - Logging - INFO - updating database...
+2018-06-23 00:21:44,192 - Logging - INFO - updating database...
+2018-06-23 00:21:44,195 - Databases - INFO - database update!
+2018-06-23 00:21:44,195 - Logging - INFO - updating database...
+2018-06-23 00:21:44,195 - Logging - INFO - updating database...
+2018-06-23 00:21:44,195 - Logging - INFO - updating database...
+2018-06-23 00:21:44,198 - Databases - INFO - database update!
+2018-06-23 00:21:44,199 - Logging - INFO - updating database...
+2018-06-23 00:21:44,199 - Logging - INFO - updating database...
+2018-06-23 00:21:44,199 - Logging - INFO - updating database...
+2018-06-23 00:21:44,202 - Databases - INFO - database update!
+2018-06-23 00:23:25,962 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:23:25,963 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:23:25,965 - PersonDB - INFO - loaded persons db
+2018-06-23 00:23:25,969 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:23:25,972 - UsersDB - INFO - loaded users database
+2018-06-23 00:23:25,972 - __main__ - INFO - Loaded databases
+2018-06-23 00:23:25,973 - __main__ - INFO - Message loop started
+2018-06-23 00:23:49,663 - PersonDB - INFO - added new person to database: 10
+2018-06-23 00:23:49,664 - __main__ - DEBUG - private message received
+2018-06-23 00:23:49,664 - ChatsDB - INFO - added new chat to database: 10
+2018-06-23 00:23:50,212 - UsersDB - INFO - added new user to database: 10
+2018-06-23 00:23:50,212 - UsersDB - DEBUG - display id 2313577204
+2018-06-23 00:23:50,213 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:23:50,804 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:23:51,166 - ChatsDB - INFO - updating database...
+2018-06-23 00:23:51,168 - Databases - INFO - database update!
+2018-06-23 00:23:51,169 - UsersDB - INFO - updating database...
+2018-06-23 00:23:51,170 - Databases - INFO - database update!
+2018-06-23 00:23:51,170 - PersonDB - INFO - updating database...
+2018-06-23 00:23:51,173 - Databases - INFO - database update!
+2018-06-23 00:24:53,455 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:24:53,456 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:24:53,458 - PersonDB - INFO - loaded persons db
+2018-06-23 00:24:53,461 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:24:53,464 - UsersDB - INFO - loaded users database
+2018-06-23 00:24:53,464 - __main__ - INFO - Loaded databases
+2018-06-23 00:24:53,465 - __main__ - INFO - Message loop started
+2018-06-23 00:24:57,200 - __main__ - DEBUG - private message received
+2018-06-23 00:24:57,769 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:24:58,379 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:24:58,380 - __main__ - DEBUG - Message: hi
+2018-06-23 00:24:58,856 - ChatsDB - INFO - updating database...
+2018-06-23 00:24:58,857 - UsersDB - INFO - updating database...
+2018-06-23 00:24:58,857 - PersonDB - INFO - updating database...
+2018-06-23 00:25:17,119 - __main__ - DEBUG - private message received
+2018-06-23 00:25:17,672 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:25:18,210 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:25:18,210 - __main__ - DEBUG - Message: /categories
+2018-06-23 00:25:18,355 - ChatsDB - INFO - updating database...
+2018-06-23 00:25:18,356 - UsersDB - INFO - updating database...
+2018-06-23 00:25:18,356 - PersonDB - INFO - updating database...
+2018-06-23 00:25:21,476 - __main__ - DEBUG - private message received
+2018-06-23 00:25:22,014 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:25:22,546 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:25:22,547 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:25:22,672 - ChatsDB - INFO - updating database...
+2018-06-23 00:25:22,672 - UsersDB - INFO - updating database...
+2018-06-23 00:25:22,673 - PersonDB - INFO - updating database...
+2018-06-23 00:25:30,322 - __main__ - DEBUG - private message received
+2018-06-23 00:25:30,882 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:25:31,421 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:25:31,422 - __main__ - DEBUG - Message: /set_nickname
+2018-06-23 00:25:31,495 - ChatsDB - INFO - updating database...
+2018-06-23 00:25:31,496 - UsersDB - INFO - updating database...
+2018-06-23 00:25:31,496 - PersonDB - INFO - updating database...
+2018-06-23 00:25:33,938 - __main__ - DEBUG - private message received
+2018-06-23 00:25:34,490 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:25:35,031 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:25:35,031 - __main__ - DEBUG - Message: Pella
+2018-06-23 00:25:35,195 - ChatsDB - INFO - updating database...
+2018-06-23 00:25:35,196 - UsersDB - INFO - updating database...
+2018-06-23 00:25:35,198 - Databases - INFO - database update!
+2018-06-23 00:25:35,198 - PersonDB - INFO - updating database...
+2018-06-23 00:25:37,442 - __main__ - DEBUG - private message received
+2018-06-23 00:25:38,010 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:25:38,548 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:25:38,549 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:25:38,676 - ChatsDB - INFO - updating database...
+2018-06-23 00:25:38,677 - UsersDB - INFO - updating database...
+2018-06-23 00:25:38,677 - PersonDB - INFO - updating database...
+2018-06-23 00:25:43,334 - __main__ - DEBUG - private message received
+2018-06-23 00:25:43,907 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:25:44,457 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:25:44,458 - __main__ - DEBUG - Message: /remove_account
+2018-06-23 00:25:44,562 - ChatsDB - INFO - updating database...
+2018-06-23 00:25:44,562 - UsersDB - INFO - updating database...
+2018-06-23 00:25:44,563 - PersonDB - INFO - updating database...
+2018-06-23 00:25:47,132 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:25:47,976 - UsersDB - INFO - updating database...
+2018-06-23 00:25:53,270 - __main__ - DEBUG - private message received
+2018-06-23 00:25:53,827 - UsersDB - INFO - added new user to database: 10
+2018-06-23 00:25:53,829 - UsersDB - DEBUG - display id 1484190769
+2018-06-23 00:25:53,830 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:25:54,373 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:25:54,751 - ChatsDB - INFO - updating database...
+2018-06-23 00:25:54,751 - UsersDB - INFO - updating database...
+2018-06-23 00:25:54,752 - Databases - INFO - database update!
+2018-06-23 00:25:54,753 - PersonDB - INFO - updating database...
+2018-06-23 00:25:58,007 - __main__ - DEBUG - private message received
+2018-06-23 00:25:58,598 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:25:59,150 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:25:59,151 - Handle - DEBUG - working on function /decline
+2018-06-23 00:25:59,424 - ChatsDB - INFO - updating database...
+2018-06-23 00:25:59,424 - UsersDB - INFO - updating database...
+2018-06-23 00:25:59,425 - PersonDB - INFO - updating database...
+2018-06-23 00:26:01,956 - __main__ - DEBUG - private message received
+2018-06-23 00:26:02,520 - UsersDB - INFO - added new user to database: 11
+2018-06-23 00:26:02,521 - UsersDB - DEBUG - display id 1222645628
+2018-06-23 00:26:02,521 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:26:03,071 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:26:03,072 - Handle - DEBUG - working on function /privacy_policy
+2018-06-23 00:26:03,254 - ChatsDB - INFO - updating database...
+2018-06-23 00:26:03,255 - UsersDB - INFO - updating database...
+2018-06-23 00:26:03,257 - Databases - INFO - database update!
+2018-06-23 00:26:03,257 - PersonDB - INFO - updating database...
+2018-06-23 00:26:06,286 - __main__ - DEBUG - private message received
+2018-06-23 00:26:06,868 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:26:07,413 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:26:07,414 - Handle - DEBUG - working on function /accept
+2018-06-23 00:26:07,794 - ChatsDB - INFO - updating database...
+2018-06-23 00:26:07,795 - UsersDB - INFO - updating database...
+2018-06-23 00:26:07,799 - Databases - INFO - database update!
+2018-06-23 00:26:07,799 - PersonDB - INFO - updating database...
+2018-06-23 00:26:14,570 - __main__ - DEBUG - private message received
+2018-06-23 00:26:15,139 - UsersDB - DEBUG - User already in database, got user
+2018-06-23 00:26:15,730 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:26:15,731 - __main__ - DEBUG - Message: /privacy_policy
+2018-06-23 00:26:15,818 - ChatsDB - INFO - updating database...
+2018-06-23 00:26:15,818 - UsersDB - INFO - updating database...
+2018-06-23 00:26:15,818 - PersonDB - INFO - updating database...
+2018-06-23 00:31:49,828 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:31:49,828 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:31:49,832 - PersonDB - INFO - loaded persons db
+2018-06-23 00:31:49,836 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:31:49,838 - UsersDB - INFO - loaded users database
+2018-06-23 00:31:49,839 - __main__ - INFO - Loaded databases
+2018-06-23 00:31:49,840 - __main__ - INFO - Message loop started
+2018-06-23 00:31:58,513 - __main__ - DEBUG - private message received
+2018-06-23 00:31:59,650 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:32:00,042 - ChatsDB - INFO - updating database...
+2018-06-23 00:32:00,042 - UsersDB - INFO - updating database...
+2018-06-23 00:32:00,043 - PersonDB - INFO - updating database...
+2018-06-23 00:32:10,604 - __main__ - DEBUG - private message received
+2018-06-23 00:32:11,768 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:32:11,769 - Handle - DEBUG - working on function /accept
+2018-06-23 00:32:37,238 - __main__ - DEBUG - private message received
+2018-06-23 00:32:38,396 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:32:38,398 - __main__ - DEBUG - Message: /accept
+2018-06-23 00:32:38,993 - ChatsDB - INFO - updating database...
+2018-06-23 00:32:38,993 - UsersDB - INFO - updating database...
+2018-06-23 00:32:38,994 - Databases - INFO - database update!
+2018-06-23 00:32:38,994 - Databases - INFO - database update!
+2018-06-23 00:32:38,995 - PersonDB - INFO - updating database...
+2018-06-23 00:32:42,906 - __main__ - DEBUG - private message received
+2018-06-23 00:32:44,032 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:32:44,034 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:32:44,128 - ChatsDB - INFO - updating database...
+2018-06-23 00:32:44,129 - UsersDB - INFO - updating database...
+2018-06-23 00:32:44,129 - PersonDB - INFO - updating database...
+2018-06-23 00:33:01,072 - __main__ - DEBUG - private message received
+2018-06-23 00:33:02,223 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:33:02,223 - __main__ - DEBUG - Message: /remove_account
+2018-06-23 00:33:02,300 - ChatsDB - INFO - updating database...
+2018-06-23 00:33:02,300 - UsersDB - INFO - updating database...
+2018-06-23 00:33:02,300 - PersonDB - INFO - updating database...
+2018-06-23 00:33:04,368 - UsersDB - INFO - updating database...
+2018-06-23 00:33:08,188 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:33:08,189 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:33:08,191 - PersonDB - INFO - loaded persons db
+2018-06-23 00:33:08,194 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:33:08,196 - UsersDB - INFO - loaded users database
+2018-06-23 00:33:08,196 - __main__ - INFO - Loaded databases
+2018-06-23 00:33:08,197 - __main__ - INFO - Message loop started
+2018-06-23 00:33:15,164 - __main__ - DEBUG - private message received
+2018-06-23 00:33:16,278 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:33:16,278 - __main__ - DEBUG - Message: hi
+2018-06-23 00:33:16,524 - ChatsDB - INFO - updating database...
+2018-06-23 00:33:16,524 - UsersDB - INFO - updating database...
+2018-06-23 00:33:16,524 - PersonDB - INFO - updating database...
+2018-06-23 00:37:05,600 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:37:05,601 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:37:05,605 - PersonDB - INFO - loaded persons db
+2018-06-23 00:37:05,608 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:37:05,611 - UsersDB - INFO - loaded users database
+2018-06-23 00:37:05,611 - __main__ - INFO - Loaded databases
+2018-06-23 00:37:05,612 - __main__ - INFO - Message loop started
+2018-06-23 00:37:21,801 - __main__ - DEBUG - private message received
+2018-06-23 00:37:22,928 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:37:22,928 - __main__ - DEBUG - Message: hi
+2018-06-23 00:37:23,108 - ChatsDB - INFO - updating database...
+2018-06-23 00:37:23,109 - UsersDB - INFO - updating database...
+2018-06-23 00:37:23,109 - PersonDB - INFO - updating database...
+2018-06-23 00:37:30,956 - __main__ - DEBUG - private message received
+2018-06-23 00:37:32,071 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:37:32,072 - __main__ - DEBUG - Message: /categories
+2018-06-23 00:37:32,197 - ChatsDB - INFO - updating database...
+2018-06-23 00:37:32,197 - UsersDB - INFO - updating database...
+2018-06-23 00:37:32,197 - PersonDB - INFO - updating database...
+2018-06-23 00:37:35,031 - __main__ - DEBUG - private message received
+2018-06-23 00:37:36,185 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:37:36,186 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:37:36,278 - ChatsDB - INFO - updating database...
+2018-06-23 00:37:36,279 - UsersDB - INFO - updating database...
+2018-06-23 00:37:36,279 - PersonDB - INFO - updating database...
+2018-06-23 00:37:45,393 - __main__ - DEBUG - private message received
+2018-06-23 00:37:46,534 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:37:46,534 - __main__ - DEBUG - Message: /remove_account
+2018-06-23 00:37:46,605 - ChatsDB - INFO - updating database...
+2018-06-23 00:37:46,606 - UsersDB - INFO - updating database...
+2018-06-23 00:37:46,606 - PersonDB - INFO - updating database...
+2018-06-23 00:37:49,206 - UsersDB - INFO - updating database...
+2018-06-23 00:37:55,525 - __main__ - DEBUG - private message received
+2018-06-23 00:37:56,064 - UsersDB - INFO - added new user to database: 8
+2018-06-23 00:37:56,602 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:37:56,706 - ChatsDB - INFO - updating database...
+2018-06-23 00:37:56,706 - UsersDB - INFO - updating database...
+2018-06-23 00:37:56,708 - Databases - INFO - database update!
+2018-06-23 00:37:56,708 - PersonDB - INFO - updating database...
+2018-06-23 00:37:58,920 - __main__ - DEBUG - private message received
+2018-06-23 00:38:00,065 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:38:00,065 - Handle - DEBUG - working on function /accept
+2018-06-23 00:38:00,509 - ChatsDB - INFO - updating database...
+2018-06-23 00:38:00,509 - UsersDB - INFO - updating database...
+2018-06-23 00:38:00,512 - Databases - INFO - database update!
+2018-06-23 00:38:00,512 - PersonDB - INFO - updating database...
+2018-06-23 00:38:05,350 - __main__ - DEBUG - private message received
+2018-06-23 00:38:06,466 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:38:06,466 - __main__ - DEBUG - Message: /categories
+2018-06-23 00:38:07,164 - ChatsDB - INFO - updating database...
+2018-06-23 00:38:07,166 - UsersDB - INFO - updating database...
+2018-06-23 00:38:07,166 - PersonDB - INFO - updating database...
+2018-06-23 00:38:09,674 - __main__ - DEBUG - private message received
+2018-06-23 00:38:10,824 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:38:10,825 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:38:11,415 - ChatsDB - INFO - updating database...
+2018-06-23 00:38:11,415 - UsersDB - INFO - updating database...
+2018-06-23 00:38:11,416 - PersonDB - INFO - updating database...
+2018-06-23 00:38:13,012 - __main__ - DEBUG - private message received
+2018-06-23 00:38:14,088 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:38:14,088 - __main__ - DEBUG - Message: /set_nickname
+2018-06-23 00:38:14,167 - ChatsDB - INFO - updating database...
+2018-06-23 00:38:14,167 - UsersDB - INFO - updating database...
+2018-06-23 00:38:14,168 - PersonDB - INFO - updating database...
+2018-06-23 00:38:16,357 - __main__ - DEBUG - private message received
+2018-06-23 00:38:17,441 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:38:17,442 - __main__ - DEBUG - Message: Pella
+2018-06-23 00:38:17,611 - ChatsDB - INFO - updating database...
+2018-06-23 00:38:17,612 - UsersDB - INFO - updating database...
+2018-06-23 00:38:17,614 - Databases - INFO - database update!
+2018-06-23 00:38:17,615 - PersonDB - INFO - updating database...
+2018-06-23 00:38:21,151 - __main__ - DEBUG - private message received
+2018-06-23 00:38:22,251 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:38:22,251 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:38:22,325 - ChatsDB - INFO - updating database...
+2018-06-23 00:38:22,325 - UsersDB - INFO - updating database...
+2018-06-23 00:38:22,325 - PersonDB - INFO - updating database...
+2018-06-23 00:38:25,002 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:38:25,002 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:38:25,005 - PersonDB - INFO - loaded persons db
+2018-06-23 00:38:25,007 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:38:25,010 - UsersDB - INFO - loaded users database
+2018-06-23 00:38:25,010 - __main__ - INFO - Loaded databases
+2018-06-23 00:38:25,011 - __main__ - INFO - Message loop started
+2018-06-23 00:38:31,436 - __main__ - DEBUG - private message received
+2018-06-23 00:38:32,545 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:38:32,546 - __main__ - DEBUG - Message: hi
+2018-06-23 00:38:32,749 - ChatsDB - INFO - updating database...
+2018-06-23 00:38:32,750 - UsersDB - INFO - updating database...
+2018-06-23 00:38:32,750 - PersonDB - INFO - updating database...
+2018-06-23 00:38:35,986 - __main__ - DEBUG - private message received
+2018-06-23 00:38:37,076 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:38:37,077 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:38:37,141 - ChatsDB - INFO - updating database...
+2018-06-23 00:38:37,141 - UsersDB - INFO - updating database...
+2018-06-23 00:38:37,142 - PersonDB - INFO - updating database...
+2018-06-23 00:40:17,762 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:40:17,762 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:42:16,586 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:42:16,587 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:42:16,587 - Databases - DEBUG - loading db...
+2018-06-23 00:42:16,588 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,590 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,591 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,592 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,594 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,595 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,596 - Databases - INFO - Loaded 5 data
+2018-06-23 00:42:16,596 - Databases - DEBUG - last uid:4
+2018-06-23 00:42:16,596 - PersonDB - INFO - loaded persons db
+2018-06-23 00:42:16,596 - Databases - DEBUG - loading db...
+2018-06-23 00:42:16,597 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,599 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,601 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,602 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,603 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,604 - Databases - INFO - Loaded 5 data
+2018-06-23 00:42:16,604 - Databases - DEBUG - last uid:5
+2018-06-23 00:42:16,605 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:42:16,605 - Databases - DEBUG - loading db...
+2018-06-23 00:42:16,605 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,609 - Databases - DEBUG - duplicate file found
+2018-06-23 00:42:16,611 - Databases - INFO - Loaded 5 data
+2018-06-23 00:42:16,611 - Databases - DEBUG - last uid:11
+2018-06-23 00:42:16,611 - UsersDB - INFO - loaded users database
+2018-06-23 00:42:16,611 - __main__ - INFO - Loaded databases
+2018-06-23 00:42:16,612 - __main__ - INFO - Message loop started
+2018-06-23 00:42:26,752 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:42:26,752 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:42:26,753 - Databases - DEBUG - loading db...
+2018-06-23 00:42:26,754 - Databases - INFO - Loaded 5 data
+2018-06-23 00:42:26,754 - Databases - DEBUG - last uid:4
+2018-06-23 00:42:26,755 - PersonDB - INFO - loaded persons db
+2018-06-23 00:42:26,755 - Databases - DEBUG - loading db...
+2018-06-23 00:42:26,756 - Databases - INFO - Loaded 5 data
+2018-06-23 00:42:26,756 - Databases - DEBUG - last uid:5
+2018-06-23 00:42:26,757 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:42:26,757 - Databases - DEBUG - loading db...
+2018-06-23 00:42:26,759 - Databases - INFO - Loaded 5 data
+2018-06-23 00:42:26,759 - Databases - DEBUG - last uid:11
+2018-06-23 00:42:26,759 - UsersDB - INFO - loaded users database
+2018-06-23 00:42:26,759 - __main__ - INFO - Loaded databases
+2018-06-23 00:42:26,760 - __main__ - INFO - Message loop started
+2018-06-23 00:43:04,289 - __main__ - DEBUG - private message received
+2018-06-23 00:43:05,409 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:43:05,409 - __main__ - DEBUG - Message: hi
+2018-06-23 00:43:11,020 - ChatsDB - INFO - updating database...
+2018-06-23 00:43:11,020 - UsersDB - INFO - updating database...
+2018-06-23 00:43:11,020 - PersonDB - INFO - updating database...
+2018-06-23 00:43:13,956 - __main__ - DEBUG - private message received
+2018-06-23 00:43:15,105 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:43:15,105 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:43:15,243 - ChatsDB - INFO - updating database...
+2018-06-23 00:43:15,244 - UsersDB - INFO - updating database...
+2018-06-23 00:43:15,244 - PersonDB - INFO - updating database...
+2018-06-23 00:43:21,527 - __main__ - DEBUG - private message received
+2018-06-23 00:43:22,678 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:43:22,679 - __main__ - DEBUG - Message: /set_nickname
+2018-06-23 00:43:22,749 - ChatsDB - INFO - updating database...
+2018-06-23 00:43:22,749 - UsersDB - INFO - updating database...
+2018-06-23 00:43:22,750 - PersonDB - INFO - updating database...
+2018-06-23 00:43:24,628 - __main__ - DEBUG - private message received
+2018-06-23 00:43:25,720 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:43:25,720 - __main__ - DEBUG - Message: Pella
+2018-06-23 00:43:26,166 - ChatsDB - INFO - updating database...
+2018-06-23 00:43:26,167 - UsersDB - INFO - updating database...
+2018-06-23 00:43:26,168 - Databases - INFO - database update!
+2018-06-23 00:43:26,169 - PersonDB - INFO - updating database...
+2018-06-23 00:43:28,175 - __main__ - DEBUG - private message received
+2018-06-23 00:43:29,259 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:43:29,260 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:43:29,363 - ChatsDB - INFO - updating database...
+2018-06-23 00:43:29,363 - UsersDB - INFO - updating database...
+2018-06-23 00:43:29,363 - PersonDB - INFO - updating database...
+2018-06-23 00:44:19,277 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:44:19,277 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:44:19,278 - Databases - DEBUG - loading db...
+2018-06-23 00:44:19,279 - Databases - INFO - Loaded 5 data
+2018-06-23 00:44:19,279 - Databases - DEBUG - last uid:4
+2018-06-23 00:44:19,279 - PersonDB - INFO - loaded persons db
+2018-06-23 00:44:19,280 - Databases - DEBUG - loading db...
+2018-06-23 00:44:19,281 - Databases - INFO - Loaded 5 data
+2018-06-23 00:44:19,281 - Databases - DEBUG - last uid:5
+2018-06-23 00:44:19,281 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:44:19,282 - Databases - DEBUG - loading db...
+2018-06-23 00:44:19,284 - Databases - INFO - Loaded 5 data
+2018-06-23 00:44:19,284 - Databases - DEBUG - last uid:11
+2018-06-23 00:44:19,285 - UsersDB - INFO - loaded users database
+2018-06-23 00:44:19,285 - __main__ - INFO - Loaded databases
+2018-06-23 00:44:19,286 - __main__ - INFO - Message loop started
+2018-06-23 00:44:36,018 - __main__ - DEBUG - private message received
+2018-06-23 00:44:37,135 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:44:37,136 - __main__ - DEBUG - Message: hi
+2018-06-23 00:44:37,396 - ChatsDB - INFO - updating database...
+2018-06-23 00:44:37,396 - UsersDB - INFO - updating database...
+2018-06-23 00:44:37,397 - PersonDB - INFO - updating database...
+2018-06-23 00:44:41,889 - __main__ - DEBUG - private message received
+2018-06-23 00:44:43,048 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:44:43,048 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:44:43,136 - ChatsDB - INFO - updating database...
+2018-06-23 00:44:43,136 - UsersDB - INFO - updating database...
+2018-06-23 00:44:43,137 - PersonDB - INFO - updating database...
+2018-06-23 00:45:24,505 - __main__ - DEBUG - private message received
+2018-06-23 00:45:25,613 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:45:25,613 - __main__ - DEBUG - Message: /remove_account
+2018-06-23 00:45:25,919 - ChatsDB - INFO - updating database...
+2018-06-23 00:45:25,919 - UsersDB - INFO - updating database...
+2018-06-23 00:45:25,920 - PersonDB - INFO - updating database...
+2018-06-23 00:45:28,011 - UsersDB - INFO - updating database...
+2018-06-23 00:45:34,136 - __main__ - DEBUG - private message received
+2018-06-23 00:45:34,694 - UsersDB - INFO - added new user to database: 12
+2018-06-23 00:45:35,243 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:45:35,354 - ChatsDB - INFO - updating database...
+2018-06-23 00:45:35,354 - UsersDB - INFO - updating database...
+2018-06-23 00:45:35,356 - Databases - INFO - database update!
+2018-06-23 00:45:35,356 - PersonDB - INFO - updating database...
+2018-06-23 00:46:07,169 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:46:07,169 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:46:07,170 - Databases - DEBUG - loading db...
+2018-06-23 00:46:07,171 - Databases - INFO - Loaded 5 data
+2018-06-23 00:46:07,171 - Databases - DEBUG - last uid:4
+2018-06-23 00:46:07,171 - PersonDB - INFO - loaded persons db
+2018-06-23 00:46:07,171 - Databases - DEBUG - loading db...
+2018-06-23 00:46:07,173 - Databases - INFO - Loaded 5 data
+2018-06-23 00:46:07,173 - Databases - DEBUG - last uid:5
+2018-06-23 00:46:07,174 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:46:07,174 - Databases - DEBUG - loading db...
+2018-06-23 00:46:07,176 - Databases - INFO - Loaded 5 data
+2018-06-23 00:46:07,176 - Databases - DEBUG - last uid:12
+2018-06-23 00:46:07,176 - UsersDB - INFO - loaded users database
+2018-06-23 00:46:07,176 - __main__ - INFO - Loaded databases
+2018-06-23 00:46:07,177 - __main__ - INFO - Message loop started
+2018-06-23 00:46:08,302 - __main__ - DEBUG - private message received
+2018-06-23 00:46:09,366 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:46:09,784 - ChatsDB - INFO - updating database...
+2018-06-23 00:46:09,784 - UsersDB - INFO - updating database...
+2018-06-23 00:46:09,785 - PersonDB - INFO - updating database...
+2018-06-23 00:46:10,314 - __main__ - DEBUG - private message received
+2018-06-23 00:46:11,370 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:46:11,371 - Handle - DEBUG - working on function /accept
+2018-06-23 00:46:11,523 - ChatsDB - INFO - updating database...
+2018-06-23 00:46:11,524 - UsersDB - INFO - updating database...
+2018-06-23 00:46:11,525 - Databases - INFO - database update!
+2018-06-23 00:46:11,525 - PersonDB - INFO - updating database...
+2018-06-23 00:46:12,073 - __main__ - DEBUG - private message received
+2018-06-23 00:46:13,145 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:46:13,145 - __main__ - DEBUG - Message: /decline
+2018-06-23 00:46:13,238 - ChatsDB - INFO - updating database...
+2018-06-23 00:46:13,238 - UsersDB - INFO - updating database...
+2018-06-23 00:46:13,239 - PersonDB - INFO - updating database...
+2018-06-23 00:46:24,389 - __main__ - DEBUG - private message received
+2018-06-23 00:46:25,475 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:46:25,476 - __main__ - DEBUG - Message: hello
+2018-06-23 00:46:25,596 - ChatsDB - INFO - updating database...
+2018-06-23 00:46:25,597 - UsersDB - INFO - updating database...
+2018-06-23 00:46:25,597 - PersonDB - INFO - updating database...
+2018-06-23 00:46:35,549 - __main__ - DEBUG - private message received
+2018-06-23 00:46:36,620 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:46:36,620 - __main__ - DEBUG - Message: /profile
+2018-06-23 00:46:36,728 - ChatsDB - INFO - updating database...
+2018-06-23 00:46:36,729 - UsersDB - INFO - updating database...
+2018-06-23 00:46:36,730 - PersonDB - INFO - updating database...
+2018-06-23 00:46:57,591 - __main__ - DEBUG - private message received
+2018-06-23 00:46:58,683 - __main__ - DEBUG - handle normal requests
+2018-06-23 00:46:58,684 - __main__ - DEBUG - Message: /remove_account
+2018-06-23 00:46:58,844 - ChatsDB - INFO - updating database...
+2018-06-23 00:46:58,844 - UsersDB - INFO - updating database...
+2018-06-23 00:46:58,844 - PersonDB - INFO - updating database...
+2018-06-23 00:47:00,947 - UsersDB - INFO - updating database...
+2018-06-23 00:47:10,027 - __main__ - DEBUG - private message received
+2018-06-23 00:47:10,583 - UsersDB - INFO - added new user to database: 13
+2018-06-23 00:47:11,120 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:47:11,339 - ChatsDB - INFO - updating database...
+2018-06-23 00:47:11,339 - UsersDB - INFO - updating database...
+2018-06-23 00:47:11,342 - Databases - INFO - database update!
+2018-06-23 00:47:11,345 - PersonDB - INFO - updating database...
+2018-06-23 00:47:32,645 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:47:32,646 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:47:32,646 - Databases - DEBUG - loading db...
+2018-06-23 00:47:32,648 - Databases - INFO - Loaded 5 data
+2018-06-23 00:47:32,648 - Databases - DEBUG - last uid:4
+2018-06-23 00:47:32,648 - PersonDB - INFO - loaded persons db
+2018-06-23 00:47:32,648 - Databases - DEBUG - loading db...
+2018-06-23 00:47:32,650 - Databases - INFO - Loaded 5 data
+2018-06-23 00:47:32,650 - Databases - DEBUG - last uid:5
+2018-06-23 00:47:32,650 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:47:32,650 - Databases - DEBUG - loading db...
+2018-06-23 00:47:32,652 - Databases - INFO - Loaded 5 data
+2018-06-23 00:47:32,652 - Databases - DEBUG - last uid:13
+2018-06-23 00:47:32,653 - UsersDB - INFO - loaded users database
+2018-06-23 00:47:32,653 - __main__ - INFO - Loaded databases
+2018-06-23 00:47:32,654 - __main__ - INFO - Message loop started
+2018-06-23 00:47:35,632 - __main__ - DEBUG - private message received
+2018-06-23 00:47:36,701 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:47:36,891 - ChatsDB - INFO - updating database...
+2018-06-23 00:47:36,891 - UsersDB - INFO - updating database...
+2018-06-23 00:47:36,892 - PersonDB - INFO - updating database...
+2018-06-23 00:47:37,421 - __main__ - DEBUG - private message received
+2018-06-23 00:47:38,490 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:47:38,706 - ChatsDB - INFO - updating database...
+2018-06-23 00:47:38,706 - UsersDB - INFO - updating database...
+2018-06-23 00:47:38,707 - PersonDB - INFO - updating database...
+2018-06-23 00:48:31,866 - __main__ - DEBUG - private message received
+2018-06-23 00:48:32,950 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:48:33,086 - ChatsDB - INFO - updating database...
+2018-06-23 00:48:33,086 - UsersDB - INFO - updating database...
+2018-06-23 00:48:33,086 - PersonDB - INFO - updating database...
+2018-06-23 00:48:38,709 - __main__ - DEBUG - private message received
+2018-06-23 00:48:39,798 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:48:39,799 - Handle - DEBUG - working on function /privacy_policy
+2018-06-23 00:48:40,214 - ChatsDB - INFO - updating database...
+2018-06-23 00:48:40,214 - UsersDB - INFO - updating database...
+2018-06-23 00:48:40,215 - PersonDB - INFO - updating database...
+2018-06-23 00:49:02,141 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 00:49:02,142 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 00:49:02,143 - Databases - DEBUG - loading db...
+2018-06-23 00:49:02,144 - Databases - INFO - Loaded 5 data
+2018-06-23 00:49:02,144 - Databases - DEBUG - last uid:4
+2018-06-23 00:49:02,145 - PersonDB - INFO - loaded persons db
+2018-06-23 00:49:02,145 - Databases - DEBUG - loading db...
+2018-06-23 00:49:02,147 - Databases - INFO - Loaded 5 data
+2018-06-23 00:49:02,147 - Databases - DEBUG - last uid:5
+2018-06-23 00:49:02,147 - ChatsDB - INFO - loaded chats db
+2018-06-23 00:49:02,147 - Databases - DEBUG - loading db...
+2018-06-23 00:49:02,149 - Databases - INFO - Loaded 5 data
+2018-06-23 00:49:02,149 - Databases - DEBUG - last uid:13
+2018-06-23 00:49:02,150 - UsersDB - INFO - loaded users database
+2018-06-23 00:49:02,150 - __main__ - INFO - Loaded databases
+2018-06-23 00:49:02,151 - __main__ - INFO - Message loop started
+2018-06-23 00:49:15,535 - __main__ - DEBUG - private message received
+2018-06-23 00:49:16,619 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:49:16,840 - __main__ - INFO - bot was blocked by user
+2018-06-23 00:49:16,841 - ChatsDB - INFO - updating database...
+2018-06-23 00:49:16,841 - UsersDB - INFO - updating database...
+2018-06-23 00:49:16,842 - PersonDB - INFO - updating database...
+2018-06-23 00:49:17,368 - __main__ - DEBUG - private message received
+2018-06-23 00:49:18,444 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:49:18,630 - __main__ - INFO - bot was blocked by user
+2018-06-23 00:49:18,630 - ChatsDB - INFO - updating database...
+2018-06-23 00:49:18,630 - UsersDB - INFO - updating database...
+2018-06-23 00:49:18,631 - PersonDB - INFO - updating database...
+2018-06-23 00:49:19,170 - __main__ - DEBUG - private message received
+2018-06-23 00:49:20,248 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:49:20,400 - __main__ - INFO - bot was blocked by user
+2018-06-23 00:49:20,400 - ChatsDB - INFO - updating database...
+2018-06-23 00:49:20,400 - UsersDB - INFO - updating database...
+2018-06-23 00:49:20,401 - PersonDB - INFO - updating database...
+2018-06-23 00:49:58,521 - __main__ - DEBUG - private message received
+2018-06-23 00:49:59,679 - __main__ - DEBUG - handle privacy policy
+2018-06-23 00:49:59,842 - ChatsDB - INFO - updating database...
+2018-06-23 00:49:59,843 - UsersDB - INFO - updating database...
+2018-06-23 00:49:59,843 - PersonDB - INFO - updating database...
+2018-06-23 01:55:21,505 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 01:55:21,506 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 01:55:21,506 - Databases - DEBUG - loading db...
+2018-06-23 01:55:21,508 - Databases - INFO - Loaded 5 data
+2018-06-23 01:55:21,508 - Databases - DEBUG - last uid:4
+2018-06-23 01:55:21,508 - PersonDB - INFO - loaded persons db
+2018-06-23 01:55:21,508 - Databases - DEBUG - loading db...
+2018-06-23 01:55:21,510 - Databases - INFO - Loaded 5 data
+2018-06-23 01:55:21,510 - Databases - DEBUG - last uid:5
+2018-06-23 01:55:21,511 - ChatsDB - INFO - loaded chats db
+2018-06-23 01:55:21,511 - Databases - DEBUG - loading db...
+2018-06-23 01:55:21,513 - Databases - INFO - Loaded 5 data
+2018-06-23 01:55:21,513 - Databases - DEBUG - last uid:13
+2018-06-23 01:55:21,513 - UsersDB - INFO - loaded users database
+2018-06-23 01:55:21,514 - __main__ - INFO - Loaded databases
+2018-06-23 01:55:21,514 - __main__ - INFO - Message loop started
+2018-06-23 02:02:51,642 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:02:51,643 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:02:51,643 - Databases - DEBUG - loading db...
+2018-06-23 02:02:51,645 - Databases - INFO - Loaded 5 data
+2018-06-23 02:02:51,645 - Databases - DEBUG - last uid:4
+2018-06-23 02:02:51,645 - PersonDB - INFO - loaded persons db
+2018-06-23 02:02:51,646 - Databases - DEBUG - loading db...
+2018-06-23 02:02:51,648 - Databases - INFO - Loaded 5 data
+2018-06-23 02:02:51,648 - Databases - DEBUG - last uid:5
+2018-06-23 02:02:51,648 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:02:51,648 - Databases - DEBUG - loading db...
+2018-06-23 02:02:51,650 - Databases - INFO - Loaded 5 data
+2018-06-23 02:02:51,650 - Databases - DEBUG - last uid:13
+2018-06-23 02:02:51,650 - UsersDB - INFO - loaded users database
+2018-06-23 02:02:51,650 - __main__ - INFO - Loaded databases
+2018-06-23 02:02:51,651 - __main__ - INFO - Message loop started
+2018-06-23 02:03:10,290 - __main__ - DEBUG - private message received
+2018-06-23 02:03:11,368 - __main__ - DEBUG - handle privacy policy
+2018-06-23 02:03:12,895 - ChatsDB - INFO - updating database...
+2018-06-23 02:03:12,896 - UsersDB - INFO - updating database...
+2018-06-23 02:03:12,896 - PersonDB - INFO - updating database...
+2018-06-23 02:03:17,831 - __main__ - DEBUG - private message received
+2018-06-23 02:03:18,970 - __main__ - DEBUG - handle privacy policy
+2018-06-23 02:03:18,970 - Handle - DEBUG - working on function /accept
+2018-06-23 02:04:43,458 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:04:43,459 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:04:43,459 - Databases - DEBUG - loading db...
+2018-06-23 02:04:43,461 - Databases - INFO - Loaded 5 data
+2018-06-23 02:04:43,461 - Databases - DEBUG - last uid:4
+2018-06-23 02:04:43,461 - PersonDB - INFO - loaded persons db
+2018-06-23 02:04:43,461 - Databases - DEBUG - loading db...
+2018-06-23 02:04:43,463 - Databases - INFO - Loaded 5 data
+2018-06-23 02:04:43,463 - Databases - DEBUG - last uid:5
+2018-06-23 02:04:43,463 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:04:43,464 - Databases - DEBUG - loading db...
+2018-06-23 02:04:43,467 - Databases - INFO - Loaded 5 data
+2018-06-23 02:04:43,468 - Databases - DEBUG - last uid:13
+2018-06-23 02:04:43,468 - UsersDB - INFO - loaded users database
+2018-06-23 02:04:43,468 - __main__ - INFO - Loaded databases
+2018-06-23 02:04:43,469 - __main__ - INFO - Message loop started
+2018-06-23 02:04:49,206 - __main__ - DEBUG - private message received
+2018-06-23 02:04:50,380 - __main__ - DEBUG - handle privacy policy
+2018-06-23 02:04:50,693 - ChatsDB - INFO - updating database...
+2018-06-23 02:04:50,693 - UsersDB - INFO - updating database...
+2018-06-23 02:04:50,693 - PersonDB - INFO - updating database...
+2018-06-23 02:04:54,415 - __main__ - DEBUG - private message received
+2018-06-23 02:04:55,503 - __main__ - DEBUG - handle privacy policy
+2018-06-23 02:04:55,504 - Handle - DEBUG - working on function /accept
+2018-06-23 02:05:39,324 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:05:39,325 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:05:39,325 - Databases - DEBUG - loading db...
+2018-06-23 02:05:39,327 - Databases - INFO - Loaded 5 data
+2018-06-23 02:05:39,327 - Databases - DEBUG - last uid:4
+2018-06-23 02:05:39,327 - PersonDB - INFO - loaded persons db
+2018-06-23 02:05:39,327 - Databases - DEBUG - loading db...
+2018-06-23 02:05:39,329 - Databases - INFO - Loaded 5 data
+2018-06-23 02:05:39,329 - Databases - DEBUG - last uid:5
+2018-06-23 02:05:39,329 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:05:39,329 - Databases - DEBUG - loading db...
+2018-06-23 02:05:39,331 - Databases - INFO - Loaded 5 data
+2018-06-23 02:05:39,331 - Databases - DEBUG - last uid:13
+2018-06-23 02:05:39,331 - UsersDB - INFO - loaded users database
+2018-06-23 02:05:39,331 - __main__ - INFO - Loaded databases
+2018-06-23 02:05:39,332 - __main__ - INFO - Message loop started
+2018-06-23 02:08:16,175 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:08:16,176 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:08:16,176 - Databases - DEBUG - loading db...
+2018-06-23 02:08:16,178 - Databases - INFO - Loaded 5 data
+2018-06-23 02:08:16,178 - Databases - DEBUG - last uid:4
+2018-06-23 02:08:16,179 - PersonDB - INFO - loaded persons db
+2018-06-23 02:08:16,179 - Databases - DEBUG - loading db...
+2018-06-23 02:08:16,181 - Databases - INFO - Loaded 5 data
+2018-06-23 02:08:16,182 - Databases - DEBUG - last uid:5
+2018-06-23 02:08:16,182 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:08:16,182 - Databases - DEBUG - loading db...
+2018-06-23 02:08:16,184 - Databases - INFO - Loaded 5 data
+2018-06-23 02:08:16,184 - Databases - DEBUG - last uid:13
+2018-06-23 02:08:16,184 - UsersDB - INFO - loaded users database
+2018-06-23 02:08:16,185 - __main__ - INFO - Loaded databases
+2018-06-23 02:08:16,186 - __main__ - INFO - Message loop started
+2018-06-23 02:08:20,130 - __main__ - DEBUG - private message received
+2018-06-23 02:08:21,256 - __main__ - DEBUG - handle privacy policy
+2018-06-23 02:08:21,741 - ChatsDB - INFO - updating database...
+2018-06-23 02:08:21,742 - UsersDB - INFO - updating database...
+2018-06-23 02:08:21,742 - PersonDB - INFO - updating database...
+2018-06-23 02:08:25,680 - __main__ - DEBUG - private message received
+2018-06-23 02:08:26,758 - __main__ - DEBUG - handle privacy policy
+2018-06-23 02:08:26,759 - Handle - DEBUG - working on function /accept
+2018-06-23 02:08:52,597 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:08:52,598 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:08:52,599 - Databases - DEBUG - loading db...
+2018-06-23 02:08:52,600 - Databases - INFO - Loaded 5 data
+2018-06-23 02:08:52,601 - Databases - DEBUG - last uid:4
+2018-06-23 02:08:52,601 - PersonDB - INFO - loaded persons db
+2018-06-23 02:08:52,601 - Databases - DEBUG - loading db...
+2018-06-23 02:08:52,602 - Databases - INFO - Loaded 5 data
+2018-06-23 02:08:52,603 - Databases - DEBUG - last uid:5
+2018-06-23 02:08:52,603 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:08:52,603 - Databases - DEBUG - loading db...
+2018-06-23 02:08:52,605 - Databases - INFO - Loaded 5 data
+2018-06-23 02:08:52,605 - Databases - DEBUG - last uid:13
+2018-06-23 02:08:52,605 - UsersDB - INFO - loaded users database
+2018-06-23 02:08:52,605 - __main__ - INFO - Loaded databases
+2018-06-23 02:08:52,606 - __main__ - INFO - Message loop started
+2018-06-23 02:08:55,879 - __main__ - DEBUG - private message received
+2018-06-23 02:08:56,964 - __main__ - DEBUG - handle privacy policy
+2018-06-23 02:08:56,964 - Handle - DEBUG - working on function /accept
+2018-06-23 02:08:57,575 - ChatsDB - INFO - updating database...
+2018-06-23 02:08:57,576 - UsersDB - INFO - updating database...
+2018-06-23 02:08:57,577 - Databases - INFO - database update!
+2018-06-23 02:08:57,577 - PersonDB - INFO - updating database...
+2018-06-23 02:09:02,525 - __main__ - DEBUG - private message received
+2018-06-23 02:09:03,622 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:09:03,623 - __main__ - DEBUG - Message: hi
+2018-06-23 02:09:03,768 - ChatsDB - INFO - updating database...
+2018-06-23 02:09:03,768 - UsersDB - INFO - updating database...
+2018-06-23 02:09:03,768 - PersonDB - INFO - updating database...
+2018-06-23 02:09:29,270 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:09:29,270 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:09:29,271 - Databases - DEBUG - loading db...
+2018-06-23 02:09:29,272 - Databases - INFO - Loaded 5 data
+2018-06-23 02:09:29,272 - Databases - DEBUG - last uid:4
+2018-06-23 02:09:29,273 - PersonDB - INFO - loaded persons db
+2018-06-23 02:09:29,273 - Databases - DEBUG - loading db...
+2018-06-23 02:09:29,274 - Databases - INFO - Loaded 5 data
+2018-06-23 02:09:29,274 - Databases - DEBUG - last uid:5
+2018-06-23 02:09:29,275 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:09:29,275 - Databases - DEBUG - loading db...
+2018-06-23 02:09:29,276 - Databases - INFO - Loaded 5 data
+2018-06-23 02:09:29,276 - Databases - DEBUG - last uid:13
+2018-06-23 02:09:29,277 - UsersDB - INFO - loaded users database
+2018-06-23 02:09:29,277 - __main__ - INFO - Loaded databases
+2018-06-23 02:09:29,278 - __main__ - INFO - Message loop started
+2018-06-23 02:09:30,428 - __main__ - DEBUG - private message received
+2018-06-23 02:09:31,504 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:09:31,504 - __main__ - DEBUG - Message: hi
+2018-06-23 02:09:31,971 - BotWrappers - INFO - bot was blocked by user
+2018-06-23 02:09:31,971 - ChatsDB - INFO - updating database...
+2018-06-23 02:09:31,971 - UsersDB - INFO - updating database...
+2018-06-23 02:09:31,972 - PersonDB - INFO - updating database...
+2018-06-23 02:09:32,510 - __main__ - DEBUG - private message received
+2018-06-23 02:09:33,605 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:09:33,607 - __main__ - DEBUG - Message: hi
+2018-06-23 02:09:33,777 - BotWrappers - INFO - bot was blocked by user
+2018-06-23 02:09:33,778 - ChatsDB - INFO - updating database...
+2018-06-23 02:09:33,778 - UsersDB - INFO - updating database...
+2018-06-23 02:09:33,779 - PersonDB - INFO - updating database...
+2018-06-23 02:09:34,330 - __main__ - DEBUG - private message received
+2018-06-23 02:09:35,421 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:09:35,422 - __main__ - DEBUG - Message: hi
+2018-06-23 02:09:35,644 - BotWrappers - INFO - bot was blocked by user
+2018-06-23 02:09:35,645 - ChatsDB - INFO - updating database...
+2018-06-23 02:09:35,645 - UsersDB - INFO - updating database...
+2018-06-23 02:09:35,645 - PersonDB - INFO - updating database...
+2018-06-23 02:09:45,820 - __main__ - DEBUG - private message received
+2018-06-23 02:09:46,927 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:09:46,927 - __main__ - DEBUG - Message: hi
+2018-06-23 02:09:47,006 - ChatsDB - INFO - updating database...
+2018-06-23 02:09:47,007 - UsersDB - INFO - updating database...
+2018-06-23 02:09:47,007 - PersonDB - INFO - updating database...
+2018-06-23 02:09:58,706 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:09:58,707 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:09:58,707 - Databases - DEBUG - loading db...
+2018-06-23 02:09:58,709 - Databases - INFO - Loaded 5 data
+2018-06-23 02:09:58,709 - Databases - DEBUG - last uid:4
+2018-06-23 02:09:58,709 - PersonDB - INFO - loaded persons db
+2018-06-23 02:09:58,709 - Databases - DEBUG - loading db...
+2018-06-23 02:09:58,711 - Databases - INFO - Loaded 5 data
+2018-06-23 02:09:58,712 - Databases - DEBUG - last uid:5
+2018-06-23 02:09:58,712 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:09:58,712 - Databases - DEBUG - loading db...
+2018-06-23 02:09:58,714 - Databases - INFO - Loaded 5 data
+2018-06-23 02:09:58,714 - Databases - DEBUG - last uid:13
+2018-06-23 02:09:58,715 - UsersDB - INFO - loaded users database
+2018-06-23 02:09:58,715 - __main__ - INFO - Loaded databases
+2018-06-23 02:09:58,716 - __main__ - INFO - Message loop started
+2018-06-23 02:09:59,944 - __main__ - DEBUG - private message received
+2018-06-23 02:10:01,025 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:10:01,025 - __main__ - DEBUG - Message: hi
+2018-06-23 02:10:01,233 - ChatsDB - INFO - updating database...
+2018-06-23 02:10:01,234 - UsersDB - INFO - updating database...
+2018-06-23 02:10:01,234 - PersonDB - INFO - updating database...
+2018-06-23 02:10:01,786 - __main__ - DEBUG - private message received
+2018-06-23 02:10:02,891 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:10:02,891 - __main__ - DEBUG - Message: hi
+2018-06-23 02:10:03,196 - ChatsDB - INFO - updating database...
+2018-06-23 02:10:03,196 - UsersDB - INFO - updating database...
+2018-06-23 02:10:03,196 - PersonDB - INFO - updating database...
+2018-06-23 02:10:03,751 - __main__ - DEBUG - private message received
+2018-06-23 02:10:04,852 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:10:04,853 - __main__ - DEBUG - Message: hello
+2018-06-23 02:10:04,947 - ChatsDB - INFO - updating database...
+2018-06-23 02:10:04,947 - UsersDB - INFO - updating database...
+2018-06-23 02:10:04,947 - PersonDB - INFO - updating database...
+2018-06-23 02:39:30,598 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:39:30,599 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:39:30,599 - Databases - DEBUG - loading db...
+2018-06-23 02:39:30,602 - Databases - INFO - Loaded 5 data
+2018-06-23 02:39:30,602 - Databases - DEBUG - last uid:4
+2018-06-23 02:39:30,602 - PersonDB - INFO - loaded persons db
+2018-06-23 02:39:30,602 - Databases - DEBUG - loading db...
+2018-06-23 02:39:30,604 - Databases - INFO - Loaded 5 data
+2018-06-23 02:39:30,604 - Databases - DEBUG - last uid:5
+2018-06-23 02:39:30,605 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:39:30,605 - Databases - DEBUG - loading db...
+2018-06-23 02:39:30,607 - Databases - INFO - Loaded 5 data
+2018-06-23 02:39:30,607 - Databases - DEBUG - last uid:13
+2018-06-23 02:39:30,607 - UsersDB - INFO - loaded users database
+2018-06-23 02:39:30,607 - __main__ - INFO - Loaded databases
+2018-06-23 02:39:30,608 - __main__ - INFO - Message loop started
+2018-06-23 02:39:35,278 - __main__ - DEBUG - private message received
+2018-06-23 02:39:36,394 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:39:36,394 - __main__ - DEBUG - Message: /profile
+2018-06-23 02:39:36,889 - ChatsDB - INFO - updating database...
+2018-06-23 02:39:36,889 - UsersDB - INFO - updating database...
+2018-06-23 02:39:36,889 - PersonDB - INFO - updating database...
+2018-06-23 02:39:38,965 - __main__ - DEBUG - private message received
+2018-06-23 02:39:40,082 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:39:40,082 - __main__ - DEBUG - Message: /create_category
+2018-06-23 02:39:40,159 - ChatsDB - INFO - updating database...
+2018-06-23 02:39:40,160 - UsersDB - INFO - updating database...
+2018-06-23 02:39:40,160 - PersonDB - INFO - updating database...
+2018-06-23 02:39:45,570 - __main__ - DEBUG - private message received
+2018-06-23 02:39:46,649 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:39:46,650 - __main__ - DEBUG - Message: /create_category
+2018-06-23 02:39:46,846 - ChatsDB - INFO - updating database...
+2018-06-23 02:39:46,847 - UsersDB - INFO - updating database...
+2018-06-23 02:39:46,847 - PersonDB - INFO - updating database...
+2018-06-23 02:40:33,799 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:40:33,800 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:40:33,800 - Databases - DEBUG - loading db...
+2018-06-23 02:40:33,802 - Databases - INFO - Loaded 5 data
+2018-06-23 02:40:33,802 - Databases - DEBUG - last uid:4
+2018-06-23 02:40:33,802 - PersonDB - INFO - loaded persons db
+2018-06-23 02:40:33,802 - Databases - DEBUG - loading db...
+2018-06-23 02:40:33,804 - Databases - INFO - Loaded 5 data
+2018-06-23 02:40:33,804 - Databases - DEBUG - last uid:5
+2018-06-23 02:40:33,805 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:40:33,805 - Databases - DEBUG - loading db...
+2018-06-23 02:40:33,806 - Databases - INFO - Loaded 5 data
+2018-06-23 02:40:33,807 - Databases - DEBUG - last uid:13
+2018-06-23 02:40:33,807 - UsersDB - INFO - loaded users database
+2018-06-23 02:40:33,807 - __main__ - INFO - Loaded databases
+2018-06-23 02:40:33,808 - __main__ - INFO - Message loop started
+2018-06-23 02:40:38,006 - __main__ - DEBUG - private message received
+2018-06-23 02:40:39,075 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:40:39,076 - __main__ - DEBUG - Message: /profile
+2018-06-23 02:40:39,376 - ChatsDB - INFO - updating database...
+2018-06-23 02:40:39,377 - UsersDB - INFO - updating database...
+2018-06-23 02:40:39,377 - PersonDB - INFO - updating database...
+2018-06-23 02:40:41,325 - __main__ - DEBUG - private message received
+2018-06-23 02:40:42,393 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:40:42,393 - __main__ - DEBUG - Message: /create_category
+2018-06-23 02:41:59,661 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:41:59,662 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:41:59,662 - Databases - DEBUG - loading db...
+2018-06-23 02:41:59,664 - Databases - INFO - Loaded 5 data
+2018-06-23 02:41:59,665 - Databases - DEBUG - last uid:4
+2018-06-23 02:41:59,665 - PersonDB - INFO - loaded persons db
+2018-06-23 02:41:59,665 - Databases - DEBUG - loading db...
+2018-06-23 02:41:59,667 - Databases - INFO - Loaded 5 data
+2018-06-23 02:41:59,667 - Databases - DEBUG - last uid:5
+2018-06-23 02:41:59,667 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:41:59,667 - Databases - DEBUG - loading db...
+2018-06-23 02:41:59,669 - Databases - INFO - Loaded 5 data
+2018-06-23 02:41:59,669 - Databases - DEBUG - last uid:13
+2018-06-23 02:41:59,669 - UsersDB - INFO - loaded users database
+2018-06-23 02:41:59,669 - __main__ - INFO - Loaded databases
+2018-06-23 02:41:59,670 - __main__ - INFO - Message loop started
+2018-06-23 02:42:03,956 - __main__ - DEBUG - private message received
+2018-06-23 02:42:05,042 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:42:05,043 - __main__ - DEBUG - Message: /create_category
+2018-06-23 02:42:05,350 - ChatsDB - INFO - updating database...
+2018-06-23 02:42:05,351 - UsersDB - INFO - updating database...
+2018-06-23 02:42:05,351 - PersonDB - INFO - updating database...
+2018-06-23 02:50:27,030 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:50:27,031 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:50:27,031 - Databases - DEBUG - loading db...
+2018-06-23 02:50:27,034 - Databases - INFO - Loaded 5 data
+2018-06-23 02:50:27,035 - Databases - DEBUG - last uid:4
+2018-06-23 02:50:27,035 - PersonDB - INFO - loaded persons db
+2018-06-23 02:50:27,035 - Databases - DEBUG - loading db...
+2018-06-23 02:50:27,037 - Databases - INFO - Loaded 5 data
+2018-06-23 02:50:27,038 - Databases - DEBUG - last uid:5
+2018-06-23 02:50:27,038 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:50:27,038 - Databases - DEBUG - loading db...
+2018-06-23 02:50:27,039 - Databases - INFO - Loaded 5 data
+2018-06-23 02:50:27,040 - Databases - DEBUG - last uid:13
+2018-06-23 02:50:27,040 - UsersDB - INFO - loaded users database
+2018-06-23 02:50:27,040 - Databases - DEBUG - updating attributes
+2018-06-23 02:51:21,509 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:51:21,510 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:51:21,510 - Databases - DEBUG - loading db...
+2018-06-23 02:51:21,511 - Databases - INFO - Loaded 5 data
+2018-06-23 02:51:21,512 - Databases - DEBUG - last uid:4
+2018-06-23 02:51:21,512 - PersonDB - INFO - loaded persons db
+2018-06-23 02:51:21,512 - Databases - DEBUG - loading db...
+2018-06-23 02:51:21,513 - Databases - INFO - Loaded 5 data
+2018-06-23 02:51:21,513 - Databases - DEBUG - last uid:5
+2018-06-23 02:51:21,514 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:51:21,514 - Databases - DEBUG - loading db...
+2018-06-23 02:51:21,515 - Databases - INFO - Loaded 5 data
+2018-06-23 02:51:21,515 - Databases - DEBUG - last uid:13
+2018-06-23 02:51:21,516 - UsersDB - INFO - loaded users database
+2018-06-23 02:51:21,516 - Databases - DEBUG - updating attributes
+2018-06-23 02:52:17,841 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:52:17,842 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:52:17,842 - Databases - DEBUG - loading db...
+2018-06-23 02:52:17,843 - Databases - INFO - Loaded 5 data
+2018-06-23 02:52:17,843 - Databases - DEBUG - last uid:4
+2018-06-23 02:52:17,844 - PersonDB - INFO - loaded persons db
+2018-06-23 02:52:17,844 - Databases - DEBUG - loading db...
+2018-06-23 02:52:17,845 - Databases - INFO - Loaded 5 data
+2018-06-23 02:52:17,846 - Databases - DEBUG - last uid:5
+2018-06-23 02:52:17,846 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:52:17,846 - Databases - DEBUG - loading db...
+2018-06-23 02:52:17,848 - Databases - INFO - Loaded 5 data
+2018-06-23 02:52:17,848 - Databases - DEBUG - last uid:13
+2018-06-23 02:52:17,848 - UsersDB - INFO - loaded users database
+2018-06-23 02:52:17,849 - Databases - DEBUG - updating attributes
+2018-06-23 02:52:30,468 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:52:30,469 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:52:30,469 - Databases - DEBUG - loading db...
+2018-06-23 02:52:30,470 - Databases - INFO - Loaded 5 data
+2018-06-23 02:52:30,471 - Databases - DEBUG - last uid:4
+2018-06-23 02:52:30,471 - PersonDB - INFO - loaded persons db
+2018-06-23 02:52:30,471 - Databases - DEBUG - loading db...
+2018-06-23 02:52:30,472 - Databases - INFO - Loaded 5 data
+2018-06-23 02:52:30,472 - Databases - DEBUG - last uid:5
+2018-06-23 02:52:30,472 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:52:30,473 - Databases - DEBUG - loading db...
+2018-06-23 02:52:30,474 - Databases - INFO - Loaded 5 data
+2018-06-23 02:52:30,474 - Databases - DEBUG - last uid:13
+2018-06-23 02:52:30,474 - UsersDB - INFO - loaded users database
+2018-06-23 02:52:30,475 - Databases - DEBUG - updating attributes
+2018-06-23 02:52:49,509 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:52:49,510 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:52:49,510 - Databases - DEBUG - loading db...
+2018-06-23 02:52:49,511 - Databases - INFO - Loaded 5 data
+2018-06-23 02:52:49,512 - Databases - DEBUG - last uid:4
+2018-06-23 02:52:49,512 - PersonDB - INFO - loaded persons db
+2018-06-23 02:52:49,512 - Databases - DEBUG - loading db...
+2018-06-23 02:52:49,513 - Databases - INFO - Loaded 5 data
+2018-06-23 02:52:49,514 - Databases - DEBUG - last uid:5
+2018-06-23 02:52:49,514 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:52:49,514 - Databases - DEBUG - loading db...
+2018-06-23 02:52:49,516 - Databases - INFO - Loaded 5 data
+2018-06-23 02:52:49,516 - Databases - DEBUG - last uid:13
+2018-06-23 02:52:49,516 - UsersDB - INFO - loaded users database
+2018-06-23 02:52:49,516 - Databases - DEBUG - updating attributes
+2018-06-23 02:53:33,991 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:53:33,991 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:53:33,992 - Databases - DEBUG - loading db...
+2018-06-23 02:53:33,993 - Databases - INFO - Loaded 5 data
+2018-06-23 02:53:33,993 - Databases - DEBUG - last uid:4
+2018-06-23 02:53:33,993 - PersonDB - INFO - loaded persons db
+2018-06-23 02:53:33,994 - Databases - DEBUG - loading db...
+2018-06-23 02:53:33,995 - Databases - INFO - Loaded 5 data
+2018-06-23 02:53:33,995 - Databases - DEBUG - last uid:5
+2018-06-23 02:53:33,995 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:53:33,996 - Databases - DEBUG - loading db...
+2018-06-23 02:53:33,997 - Databases - INFO - Loaded 5 data
+2018-06-23 02:53:33,997 - Databases - DEBUG - last uid:13
+2018-06-23 02:53:33,998 - UsersDB - INFO - loaded users database
+2018-06-23 02:53:33,998 - Databases - DEBUG - updating attributes
+2018-06-23 02:53:33,998 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:53:33,998 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:53:33,999 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:53:33,999 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:53:33,999 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:53:34,000 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:53:34,000 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:53:34,000 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:53:34,000 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:53:34,001 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:53:34,001 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:53:34,001 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:53:34,001 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:53:34,001 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:53:34,002 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:53:51,585 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:53:51,586 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:53:51,586 - Databases - DEBUG - loading db...
+2018-06-23 02:53:51,588 - Databases - INFO - Loaded 5 data
+2018-06-23 02:53:51,588 - Databases - DEBUG - last uid:4
+2018-06-23 02:53:51,588 - PersonDB - INFO - loaded persons db
+2018-06-23 02:53:51,588 - Databases - DEBUG - loading db...
+2018-06-23 02:53:51,590 - Databases - INFO - Loaded 5 data
+2018-06-23 02:53:51,590 - Databases - DEBUG - last uid:5
+2018-06-23 02:53:51,590 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:53:51,590 - Databases - DEBUG - loading db...
+2018-06-23 02:53:51,592 - Databases - INFO - Loaded 5 data
+2018-06-23 02:53:51,592 - Databases - DEBUG - last uid:13
+2018-06-23 02:53:51,592 - UsersDB - INFO - loaded users database
+2018-06-23 02:53:51,592 - Databases - DEBUG - updating attributes
+2018-06-23 02:53:51,593 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:53:51,593 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:53:51,593 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:53:51,593 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:53:51,594 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:53:51,594 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:53:51,594 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:53:51,594 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:53:51,595 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:53:51,595 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:53:51,595 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:53:51,595 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:53:51,595 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:53:51,596 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:53:51,596 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:53:51,597 - Databases - INFO - database update!
+2018-06-23 02:53:51,598 - Databases - INFO - database update!
+2018-06-23 02:53:51,599 - Databases - INFO - database update!
+2018-06-23 02:53:51,601 - Databases - INFO - database update!
+2018-06-23 02:53:51,602 - Databases - INFO - database update!
+2018-06-23 02:53:59,307 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:53:59,308 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:53:59,308 - Databases - DEBUG - loading db...
+2018-06-23 02:53:59,309 - Databases - INFO - Loaded 5 data
+2018-06-23 02:53:59,309 - Databases - DEBUG - last uid:4
+2018-06-23 02:53:59,310 - PersonDB - INFO - loaded persons db
+2018-06-23 02:53:59,310 - Databases - DEBUG - loading db...
+2018-06-23 02:53:59,311 - Databases - INFO - Loaded 5 data
+2018-06-23 02:53:59,311 - Databases - DEBUG - last uid:5
+2018-06-23 02:53:59,311 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:53:59,312 - Databases - DEBUG - loading db...
+2018-06-23 02:53:59,313 - Databases - INFO - Loaded 5 data
+2018-06-23 02:53:59,313 - Databases - DEBUG - last uid:13
+2018-06-23 02:53:59,313 - UsersDB - INFO - loaded users database
+2018-06-23 02:53:59,313 - Databases - DEBUG - updating attributes
+2018-06-23 02:54:14,333 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:54:14,334 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:54:14,335 - Databases - DEBUG - loading db...
+2018-06-23 02:54:14,336 - Databases - INFO - Loaded 5 data
+2018-06-23 02:54:14,337 - Databases - DEBUG - last uid:4
+2018-06-23 02:54:14,337 - PersonDB - INFO - loaded persons db
+2018-06-23 02:54:14,337 - Databases - DEBUG - loading db...
+2018-06-23 02:54:14,339 - Databases - INFO - Loaded 5 data
+2018-06-23 02:54:14,340 - Databases - DEBUG - last uid:5
+2018-06-23 02:54:14,340 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:54:14,340 - Databases - DEBUG - loading db...
+2018-06-23 02:54:14,342 - Databases - INFO - Loaded 5 data
+2018-06-23 02:54:14,342 - Databases - DEBUG - last uid:13
+2018-06-23 02:54:14,343 - UsersDB - INFO - loaded users database
+2018-06-23 02:54:14,343 - Databases - DEBUG - updating attributes
+2018-06-23 02:54:14,344 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:54:14,344 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:54:14,344 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:54:14,345 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:54:14,345 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:54:14,345 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:54:14,345 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:54:14,346 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:54:14,346 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:54:14,346 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:54:14,346 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:54:14,346 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:54:14,347 - Databases - DEBUG - attribute pella_coins : calculated value 0
+2018-06-23 02:54:14,347 - Databases - DEBUG - attribute karma : calculated value None
+2018-06-23 02:54:14,347 - Databases - DEBUG - attribute rep_points : calculated value 1
+2018-06-23 02:54:14,349 - Databases - INFO - database update!
+2018-06-23 02:54:14,351 - Databases - INFO - database update!
+2018-06-23 02:54:14,352 - Databases - INFO - database update!
+2018-06-23 02:54:14,353 - Databases - INFO - database update!
+2018-06-23 02:54:14,354 - Databases - INFO - database update!
+2018-06-23 02:54:14,356 - __main__ - INFO - Loaded databases
+2018-06-23 02:54:14,357 - __main__ - INFO - Message loop started
+2018-06-23 02:55:12,868 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:55:12,869 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:55:12,869 - Databases - DEBUG - loading db...
+2018-06-23 02:55:12,871 - Databases - INFO - Loaded 5 data
+2018-06-23 02:55:12,872 - Databases - DEBUG - last uid:4
+2018-06-23 02:55:12,872 - PersonDB - INFO - loaded persons db
+2018-06-23 02:55:12,873 - Databases - DEBUG - loading db...
+2018-06-23 02:55:12,874 - Databases - INFO - Loaded 5 data
+2018-06-23 02:55:12,875 - Databases - DEBUG - last uid:5
+2018-06-23 02:55:12,875 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:55:12,875 - Databases - DEBUG - loading db...
+2018-06-23 02:55:12,876 - Databases - INFO - Loaded 5 data
+2018-06-23 02:55:12,877 - Databases - DEBUG - last uid:13
+2018-06-23 02:55:12,877 - UsersDB - INFO - loaded users database
+2018-06-23 02:55:12,877 - Databases - DEBUG - updating attributes
+2018-06-23 02:55:38,958 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:55:38,959 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:55:38,959 - Databases - DEBUG - loading db...
+2018-06-23 02:55:38,961 - Databases - INFO - Loaded 5 data
+2018-06-23 02:55:38,961 - Databases - DEBUG - last uid:4
+2018-06-23 02:55:38,961 - PersonDB - INFO - loaded persons db
+2018-06-23 02:55:38,961 - Databases - DEBUG - loading db...
+2018-06-23 02:55:38,963 - Databases - INFO - Loaded 5 data
+2018-06-23 02:55:38,963 - Databases - DEBUG - last uid:5
+2018-06-23 02:55:38,963 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:55:38,964 - Databases - DEBUG - loading db...
+2018-06-23 02:55:38,965 - Databases - INFO - Loaded 5 data
+2018-06-23 02:55:38,965 - Databases - DEBUG - last uid:13
+2018-06-23 02:55:38,966 - UsersDB - INFO - loaded users database
+2018-06-23 02:55:38,966 - __main__ - INFO - Loaded databases
+2018-06-23 02:55:38,967 - __main__ - INFO - Message loop started
+2018-06-23 02:55:43,614 - __main__ - DEBUG - private message received
+2018-06-23 02:55:44,713 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:55:44,713 - __main__ - DEBUG - Message: /create_category
+2018-06-23 02:55:44,974 - ChatsDB - INFO - updating database...
+2018-06-23 02:55:44,974 - UsersDB - INFO - updating database...
+2018-06-23 02:55:44,974 - PersonDB - INFO - updating database...
+2018-06-23 02:56:13,583 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:56:13,583 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:56:13,584 - Databases - DEBUG - loading db...
+2018-06-23 02:56:13,585 - Databases - INFO - Loaded 5 data
+2018-06-23 02:56:13,585 - Databases - DEBUG - last uid:4
+2018-06-23 02:56:13,586 - PersonDB - INFO - loaded persons db
+2018-06-23 02:56:13,586 - Databases - DEBUG - loading db...
+2018-06-23 02:56:13,587 - Databases - INFO - Loaded 5 data
+2018-06-23 02:56:13,587 - Databases - DEBUG - last uid:5
+2018-06-23 02:56:13,588 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:56:13,589 - Databases - DEBUG - loading db...
+2018-06-23 02:56:13,591 - Databases - INFO - Loaded 5 data
+2018-06-23 02:56:13,591 - Databases - DEBUG - last uid:13
+2018-06-23 02:56:13,592 - UsersDB - INFO - loaded users database
+2018-06-23 02:56:13,592 - __main__ - INFO - Loaded databases
+2018-06-23 02:56:13,593 - __main__ - INFO - Message loop started
+2018-06-23 02:56:16,175 - __main__ - DEBUG - private message received
+2018-06-23 02:56:17,282 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:56:17,282 - __main__ - DEBUG - Message: /create_category
+2018-06-23 02:56:39,535 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:56:39,536 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:56:39,536 - Databases - DEBUG - loading db...
+2018-06-23 02:56:39,538 - Databases - INFO - Loaded 5 data
+2018-06-23 02:56:39,538 - Databases - DEBUG - last uid:4
+2018-06-23 02:56:39,538 - PersonDB - INFO - loaded persons db
+2018-06-23 02:56:39,538 - Databases - DEBUG - loading db...
+2018-06-23 02:56:39,540 - Databases - INFO - Loaded 5 data
+2018-06-23 02:56:39,540 - Databases - DEBUG - last uid:5
+2018-06-23 02:56:39,540 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:56:39,541 - Databases - DEBUG - loading db...
+2018-06-23 02:56:39,542 - Databases - INFO - Loaded 5 data
+2018-06-23 02:56:39,542 - Databases - DEBUG - last uid:13
+2018-06-23 02:56:39,543 - UsersDB - INFO - loaded users database
+2018-06-23 02:56:39,543 - __main__ - INFO - Loaded databases
+2018-06-23 02:56:39,544 - __main__ - INFO - Message loop started
+2018-06-23 02:56:46,703 - __main__ - DEBUG - private message received
+2018-06-23 02:56:47,795 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:56:47,796 - __main__ - DEBUG - Message: /create_category
+2018-06-23 02:57:13,298 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 02:57:13,299 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 02:57:13,299 - Databases - DEBUG - loading db...
+2018-06-23 02:57:13,301 - Databases - INFO - Loaded 5 data
+2018-06-23 02:57:13,301 - Databases - DEBUG - last uid:4
+2018-06-23 02:57:13,301 - PersonDB - INFO - loaded persons db
+2018-06-23 02:57:13,301 - Databases - DEBUG - loading db...
+2018-06-23 02:57:13,303 - Databases - INFO - Loaded 5 data
+2018-06-23 02:57:13,303 - Databases - DEBUG - last uid:5
+2018-06-23 02:57:13,303 - ChatsDB - INFO - loaded chats db
+2018-06-23 02:57:13,303 - Databases - DEBUG - loading db...
+2018-06-23 02:57:13,305 - Databases - INFO - Loaded 5 data
+2018-06-23 02:57:13,305 - Databases - DEBUG - last uid:13
+2018-06-23 02:57:13,305 - UsersDB - INFO - loaded users database
+2018-06-23 02:57:13,305 - __main__ - INFO - Loaded databases
+2018-06-23 02:57:13,306 - __main__ - INFO - Message loop started
+2018-06-23 02:57:16,599 - __main__ - DEBUG - private message received
+2018-06-23 02:57:17,701 - __main__ - DEBUG - handle normal requests
+2018-06-23 02:57:17,702 - __main__ - DEBUG - Message: /create_category
+2018-06-23 03:34:21,310 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 03:34:21,311 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 03:34:21,311 - Databases - DEBUG - loading db...
+2018-06-23 03:34:21,313 - Databases - INFO - Loaded 5 data
+2018-06-23 03:34:21,313 - Databases - DEBUG - last uid:4
+2018-06-23 03:34:21,313 - PersonDB - INFO - loaded persons db
+2018-06-23 03:34:21,313 - Databases - DEBUG - loading db...
+2018-06-23 03:34:21,315 - Databases - INFO - Loaded 5 data
+2018-06-23 03:34:21,316 - Databases - DEBUG - last uid:5
+2018-06-23 03:34:21,316 - ChatsDB - INFO - loaded chats db
+2018-06-23 03:34:21,316 - Databases - DEBUG - loading db...
+2018-06-23 03:34:21,317 - Databases - INFO - Loaded 5 data
+2018-06-23 03:34:21,318 - Databases - DEBUG - last uid:13
+2018-06-23 03:34:21,318 - UsersDB - INFO - loaded users database
+2018-06-23 03:34:21,318 - Databases - DEBUG - updating attributes
+2018-06-23 03:34:21,318 - Databases - DEBUG - attribute tmp_create_category : calculated value None
+2018-06-23 03:34:21,318 - Databases - DEBUG - attribute tmp_create_category : calculated value None
+2018-06-23 03:34:21,318 - Databases - DEBUG - attribute tmp_create_category : calculated value None
+2018-06-23 03:34:21,318 - Databases - DEBUG - attribute tmp_create_category : calculated value None
+2018-06-23 03:34:21,319 - Databases - DEBUG - attribute tmp_create_category : calculated value None
+2018-06-23 03:34:21,319 - Databases - INFO - database update!
+2018-06-23 03:34:21,320 - Databases - INFO - database update!
+2018-06-23 03:34:21,321 - Databases - INFO - database update!
+2018-06-23 03:34:21,323 - Databases - INFO - database update!
+2018-06-23 03:34:21,324 - Databases - INFO - database update!
+2018-06-23 03:34:21,325 - __main__ - INFO - Loaded databases
+2018-06-23 03:34:21,326 - __main__ - INFO - Message loop started
+2018-06-23 03:34:37,657 - __main__ - DEBUG - private message received
+2018-06-23 03:34:38,791 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:34:38,791 - __main__ - DEBUG - Message: /create_category
+2018-06-23 03:35:57,790 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 03:35:57,790 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 03:35:57,790 - Databases - DEBUG - loading db...
+2018-06-23 03:35:57,792 - Databases - INFO - Loaded 5 data
+2018-06-23 03:35:57,792 - Databases - DEBUG - last uid:4
+2018-06-23 03:35:57,792 - PersonDB - INFO - loaded persons db
+2018-06-23 03:35:57,792 - Databases - DEBUG - loading db...
+2018-06-23 03:35:57,794 - Databases - INFO - Loaded 5 data
+2018-06-23 03:35:57,794 - Databases - DEBUG - last uid:5
+2018-06-23 03:35:57,794 - ChatsDB - INFO - loaded chats db
+2018-06-23 03:35:57,794 - Databases - DEBUG - loading db...
+2018-06-23 03:35:57,796 - Databases - INFO - Loaded 5 data
+2018-06-23 03:35:57,796 - Databases - DEBUG - last uid:13
+2018-06-23 03:35:57,796 - UsersDB - INFO - loaded users database
+2018-06-23 03:35:57,796 - __main__ - INFO - Loaded databases
+2018-06-23 03:35:57,797 - __main__ - INFO - Message loop started
+2018-06-23 03:36:09,417 - __main__ - DEBUG - private message received
+2018-06-23 03:36:10,496 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:36:10,497 - __main__ - DEBUG - Message: /create_category
+2018-06-23 03:36:11,034 - ChatsDB - INFO - updating database...
+2018-06-23 03:36:11,034 - UsersDB - INFO - updating database...
+2018-06-23 03:36:11,034 - PersonDB - INFO - updating database...
+2018-06-23 03:36:31,695 - __main__ - DEBUG - private message received
+2018-06-23 03:36:32,803 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:36:32,803 - __main__ - DEBUG - Message: HelloWorld
+2018-06-23 03:40:00,194 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 03:40:00,194 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 03:40:00,194 - Databases - DEBUG - loading db...
+2018-06-23 03:40:00,196 - Databases - INFO - Loaded 5 data
+2018-06-23 03:40:00,196 - Databases - DEBUG - last uid:4
+2018-06-23 03:40:00,196 - PersonDB - INFO - loaded persons db
+2018-06-23 03:40:00,196 - Databases - DEBUG - loading db...
+2018-06-23 03:40:00,198 - Databases - INFO - Loaded 5 data
+2018-06-23 03:40:00,198 - Databases - DEBUG - last uid:5
+2018-06-23 03:40:00,198 - ChatsDB - INFO - loaded chats db
+2018-06-23 03:40:00,199 - Databases - DEBUG - loading db...
+2018-06-23 03:40:00,200 - Databases - INFO - Loaded 5 data
+2018-06-23 03:40:00,200 - Databases - DEBUG - last uid:13
+2018-06-23 03:40:00,201 - UsersDB - INFO - loaded users database
+2018-06-23 03:40:00,201 - __main__ - INFO - Loaded databases
+2018-06-23 03:40:00,202 - __main__ - INFO - Message loop started
+2018-06-23 03:40:07,371 - __main__ - DEBUG - private message received
+2018-06-23 03:40:08,506 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:40:08,507 - __main__ - DEBUG - Message: /create_category
+2018-06-23 03:41:05,968 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 03:41:05,968 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 03:41:05,969 - Databases - DEBUG - loading db...
+2018-06-23 03:41:05,970 - Databases - INFO - Loaded 5 data
+2018-06-23 03:41:05,970 - Databases - DEBUG - last uid:4
+2018-06-23 03:41:05,970 - PersonDB - INFO - loaded persons db
+2018-06-23 03:41:05,971 - Databases - DEBUG - loading db...
+2018-06-23 03:41:05,972 - Databases - INFO - Loaded 5 data
+2018-06-23 03:41:05,973 - Databases - DEBUG - last uid:5
+2018-06-23 03:41:05,973 - ChatsDB - INFO - loaded chats db
+2018-06-23 03:41:05,973 - Databases - DEBUG - loading db...
+2018-06-23 03:41:05,974 - Databases - INFO - Loaded 5 data
+2018-06-23 03:41:05,975 - Databases - DEBUG - last uid:13
+2018-06-23 03:41:05,975 - UsersDB - INFO - loaded users database
+2018-06-23 03:41:05,975 - Databases - DEBUG - loading db...
+2018-06-23 03:41:05,976 - Databases - INFO - Loaded 0 data
+2018-06-23 03:41:05,976 - CategoriesDB - INFO - loaded db
+2018-06-23 03:41:05,976 - __main__ - INFO - Loaded databases
+2018-06-23 03:41:05,977 - __main__ - INFO - Message loop started
+2018-06-23 03:41:12,275 - __main__ - DEBUG - private message received
+2018-06-23 03:41:13,635 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:41:13,635 - __main__ - DEBUG - Message: hi
+2018-06-23 03:41:13,915 - ChatsDB - INFO - updating database...
+2018-06-23 03:41:13,915 - UsersDB - INFO - updating database...
+2018-06-23 03:41:13,927 - PersonDB - INFO - updating database...
+2018-06-23 03:41:16,383 - __main__ - DEBUG - private message received
+2018-06-23 03:41:17,459 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:41:17,460 - __main__ - DEBUG - Message: /profile
+2018-06-23 03:43:18,730 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 03:43:18,731 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 03:43:18,731 - Databases - DEBUG - loading db...
+2018-06-23 03:43:18,732 - Databases - INFO - Loaded 5 data
+2018-06-23 03:43:18,733 - Databases - DEBUG - last uid:4
+2018-06-23 03:43:18,733 - PersonDB - INFO - loaded persons db
+2018-06-23 03:43:18,733 - Databases - DEBUG - loading db...
+2018-06-23 03:43:18,735 - Databases - INFO - Loaded 5 data
+2018-06-23 03:43:18,735 - Databases - DEBUG - last uid:5
+2018-06-23 03:43:18,735 - ChatsDB - INFO - loaded chats db
+2018-06-23 03:43:18,735 - Databases - DEBUG - loading db...
+2018-06-23 03:43:18,737 - Databases - INFO - Loaded 5 data
+2018-06-23 03:43:18,738 - Databases - DEBUG - last uid:13
+2018-06-23 03:43:18,738 - UsersDB - INFO - loaded users database
+2018-06-23 03:43:18,738 - Databases - DEBUG - loading db...
+2018-06-23 03:43:18,738 - Databases - INFO - Loaded 0 data
+2018-06-23 03:43:18,739 - CategoriesDB - INFO - loaded db
+2018-06-23 03:43:18,739 - __main__ - INFO - Loaded databases
+2018-06-23 03:43:18,740 - __main__ - INFO - Message loop started
+2018-06-23 03:43:22,868 - __main__ - DEBUG - private message received
+2018-06-23 03:43:23,934 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:43:23,935 - __main__ - DEBUG - Message: /profile
+2018-06-23 03:43:24,421 - ChatsDB - INFO - updating database...
+2018-06-23 03:43:24,421 - UsersDB - INFO - updating database...
+2018-06-23 03:43:24,421 - PersonDB - INFO - updating database...
+2018-06-23 03:43:27,042 - __main__ - DEBUG - private message received
+2018-06-23 03:43:28,143 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:43:28,143 - __main__ - DEBUG - Message: /create_category
+2018-06-23 03:43:28,348 - ChatsDB - INFO - updating database...
+2018-06-23 03:43:28,348 - UsersDB - INFO - updating database...
+2018-06-23 03:43:28,349 - PersonDB - INFO - updating database...
+2018-06-23 03:43:37,705 - __main__ - DEBUG - private message received
+2018-06-23 03:43:38,824 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:43:38,824 - __main__ - DEBUG - Message: HelloWorld
+2018-06-23 03:44:04,025 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 03:44:04,025 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 03:44:04,026 - Databases - DEBUG - loading db...
+2018-06-23 03:44:04,027 - Databases - INFO - Loaded 5 data
+2018-06-23 03:44:04,027 - Databases - DEBUG - last uid:4
+2018-06-23 03:44:04,027 - PersonDB - INFO - loaded persons db
+2018-06-23 03:44:04,028 - Databases - DEBUG - loading db...
+2018-06-23 03:44:04,029 - Databases - INFO - Loaded 5 data
+2018-06-23 03:44:04,029 - Databases - DEBUG - last uid:5
+2018-06-23 03:44:04,029 - ChatsDB - INFO - loaded chats db
+2018-06-23 03:44:04,030 - Databases - DEBUG - loading db...
+2018-06-23 03:44:04,031 - Databases - INFO - Loaded 5 data
+2018-06-23 03:44:04,031 - Databases - DEBUG - last uid:13
+2018-06-23 03:44:04,033 - UsersDB - INFO - loaded users database
+2018-06-23 03:44:04,098 - Databases - DEBUG - loading db...
+2018-06-23 03:44:04,098 - Databases - INFO - Loaded 0 data
+2018-06-23 03:44:04,099 - CategoriesDB - INFO - loaded db
+2018-06-23 03:44:04,099 - __main__ - INFO - Loaded databases
+2018-06-23 03:44:04,100 - __main__ - INFO - Message loop started
+2018-06-23 03:44:08,659 - __main__ - DEBUG - private message received
+2018-06-23 03:44:09,739 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:44:09,740 - __main__ - DEBUG - Message: /create_category
+2018-06-23 03:44:14,535 - ChatsDB - INFO - updating database...
+2018-06-23 03:44:14,535 - UsersDB - INFO - updating database...
+2018-06-23 03:44:14,536 - PersonDB - INFO - updating database...
+2018-06-23 03:44:20,611 - __main__ - DEBUG - private message received
+2018-06-23 03:44:21,695 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:44:21,695 - __main__ - DEBUG - Message: HelloWorld
+2018-06-23 03:44:23,037 - ChatsDB - INFO - updating database...
+2018-06-23 03:44:23,037 - UsersDB - INFO - updating database...
+2018-06-23 03:44:23,038 - PersonDB - INFO - updating database...
+2018-06-23 03:45:04,611 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 03:45:04,612 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 03:45:04,612 - Databases - DEBUG - loading db...
+2018-06-23 03:45:04,614 - Databases - INFO - Loaded 5 data
+2018-06-23 03:45:04,614 - Databases - DEBUG - last uid:4
+2018-06-23 03:45:04,614 - PersonDB - INFO - loaded persons db
+2018-06-23 03:45:04,614 - Databases - DEBUG - loading db...
+2018-06-23 03:45:04,616 - Databases - INFO - Loaded 5 data
+2018-06-23 03:45:04,616 - Databases - DEBUG - last uid:5
+2018-06-23 03:45:04,616 - ChatsDB - INFO - loaded chats db
+2018-06-23 03:45:04,617 - Databases - DEBUG - loading db...
+2018-06-23 03:45:04,618 - Databases - INFO - Loaded 5 data
+2018-06-23 03:45:04,618 - Databases - DEBUG - last uid:13
+2018-06-23 03:45:04,618 - UsersDB - INFO - loaded users database
+2018-06-23 03:45:04,619 - Databases - DEBUG - loading db...
+2018-06-23 03:45:04,619 - Databases - INFO - Loaded 0 data
+2018-06-23 03:45:04,619 - CategoriesDB - INFO - loaded db
+2018-06-23 03:45:04,619 - __main__ - INFO - Loaded databases
+2018-06-23 03:45:04,620 - __main__ - INFO - Message loop started
+2018-06-23 03:45:08,900 - __main__ - DEBUG - private message received
+2018-06-23 03:45:10,008 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:45:10,008 - __main__ - DEBUG - Message: /create_category
+2018-06-23 03:45:10,632 - ChatsDB - INFO - updating database...
+2018-06-23 03:45:10,633 - UsersDB - INFO - updating database...
+2018-06-23 03:45:10,634 - PersonDB - INFO - updating database...
+2018-06-23 03:45:15,333 - __main__ - DEBUG - private message received
+2018-06-23 03:45:16,423 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:45:16,424 - __main__ - DEBUG - Message: Hello_world
+2018-06-23 03:45:17,626 - ChatsDB - INFO - updating database...
+2018-06-23 03:45:17,626 - UsersDB - INFO - updating database...
+2018-06-23 03:45:17,626 - PersonDB - INFO - updating database...
+2018-06-23 03:45:24,340 - __main__ - DEBUG - private message received
+2018-06-23 03:45:25,457 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:45:25,458 - __main__ - DEBUG - Message: /categories
+2018-06-23 03:45:26,800 - ChatsDB - INFO - updating database...
+2018-06-23 03:45:26,801 - UsersDB - INFO - updating database...
+2018-06-23 03:45:26,801 - PersonDB - INFO - updating database...
+2018-06-23 03:45:27,352 - __main__ - DEBUG - private message received
+2018-06-23 03:45:28,477 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:45:28,477 - __main__ - DEBUG - Message: /profile
+2018-06-23 03:45:28,734 - ChatsDB - INFO - updating database...
+2018-06-23 03:45:28,735 - UsersDB - INFO - updating database...
+2018-06-23 03:45:28,735 - PersonDB - INFO - updating database...
+2018-06-23 03:45:30,884 - __main__ - DEBUG - private message received
+2018-06-23 03:45:31,994 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:45:31,995 - __main__ - DEBUG - Message: /create_category
+2018-06-23 03:45:32,431 - ChatsDB - INFO - updating database...
+2018-06-23 03:45:32,432 - UsersDB - INFO - updating database...
+2018-06-23 03:45:32,432 - PersonDB - INFO - updating database...
+2018-06-23 03:45:36,226 - __main__ - DEBUG - private message received
+2018-06-23 03:45:37,297 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:45:37,297 - __main__ - DEBUG - Message: Hello World
+2018-06-23 03:45:37,498 - ChatsDB - INFO - updating database...
+2018-06-23 03:45:37,498 - UsersDB - INFO - updating database...
+2018-06-23 03:45:37,498 - PersonDB - INFO - updating database...
+2018-06-23 03:45:44,871 - __main__ - DEBUG - private message received
+2018-06-23 03:45:45,965 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:45:45,966 - __main__ - DEBUG - Message: hello
+2018-06-23 03:45:46,129 - ChatsDB - INFO - updating database...
+2018-06-23 03:45:46,130 - UsersDB - INFO - updating database...
+2018-06-23 03:45:46,132 - Databases - INFO - database update!
+2018-06-23 03:45:46,133 - PersonDB - INFO - updating database...
+2018-06-23 03:56:15,930 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 03:56:15,931 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 03:56:15,931 - Databases - DEBUG - loading db...
+2018-06-23 03:56:15,933 - Databases - INFO - Loaded 5 data
+2018-06-23 03:56:15,933 - Databases - DEBUG - last uid:4
+2018-06-23 03:56:15,933 - PersonDB - INFO - loaded persons db
+2018-06-23 03:56:15,933 - Databases - DEBUG - loading db...
+2018-06-23 03:56:15,936 - Databases - INFO - Loaded 5 data
+2018-06-23 03:56:15,936 - Databases - DEBUG - last uid:5
+2018-06-23 03:56:15,936 - ChatsDB - INFO - loaded chats db
+2018-06-23 03:56:15,936 - Databases - DEBUG - loading db...
+2018-06-23 03:56:15,938 - Databases - INFO - Loaded 5 data
+2018-06-23 03:56:15,938 - Databases - DEBUG - last uid:13
+2018-06-23 03:56:15,939 - UsersDB - INFO - loaded users database
+2018-06-23 03:56:15,939 - Databases - DEBUG - loading db...
+2018-06-23 03:56:15,939 - Databases - INFO - Loaded 1 data
+2018-06-23 03:56:15,940 - Databases - DEBUG - last uid:1
+2018-06-23 03:56:15,940 - CategoriesDB - INFO - loaded db
+2018-06-23 03:56:15,940 - __main__ - INFO - Loaded databases
+2018-06-23 03:56:15,941 - __main__ - INFO - Message loop started
+2018-06-23 03:56:19,705 - __main__ - DEBUG - private message received
+2018-06-23 03:56:20,788 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:56:20,789 - __main__ - DEBUG - Message: hi
+2018-06-23 03:56:21,304 - ChatsDB - INFO - updating database...
+2018-06-23 03:56:21,304 - UsersDB - INFO - updating database...
+2018-06-23 03:56:21,305 - CategoriesDB - INFO - updating database...
+2018-06-23 03:56:21,305 - PersonDB - INFO - updating database...
+2018-06-23 03:56:25,369 - __main__ - DEBUG - private message received
+2018-06-23 03:56:26,475 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:56:26,476 - __main__ - DEBUG - Message: /profile
+2018-06-23 03:56:26,596 - ChatsDB - INFO - updating database...
+2018-06-23 03:56:26,596 - UsersDB - INFO - updating database...
+2018-06-23 03:56:26,596 - CategoriesDB - INFO - updating database...
+2018-06-23 03:56:26,597 - PersonDB - INFO - updating database...
+2018-06-23 03:56:31,920 - __main__ - DEBUG - private message received
+2018-06-23 03:56:33,049 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:56:33,067 - __main__ - DEBUG - Message: /set_nickname
+2018-06-23 03:56:33,206 - ChatsDB - INFO - updating database...
+2018-06-23 03:56:33,206 - UsersDB - INFO - updating database...
+2018-06-23 03:56:33,207 - CategoriesDB - INFO - updating database...
+2018-06-23 03:56:33,207 - PersonDB - INFO - updating database...
+2018-06-23 03:56:35,545 - __main__ - DEBUG - private message received
+2018-06-23 03:56:36,646 - __main__ - DEBUG - handle normal requests
+2018-06-23 03:56:36,647 - __main__ - DEBUG - Message: Pella
+2018-06-23 03:56:36,847 - ChatsDB - INFO - updating database...
+2018-06-23 03:56:36,848 - UsersDB - INFO - updating database...
+2018-06-23 03:56:36,850 - Databases - INFO - database update!
+2018-06-23 03:56:36,850 - CategoriesDB - INFO - updating database...
+2018-06-23 03:56:36,851 - PersonDB - INFO - updating database...
+2018-06-23 14:20:11,045 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:20:11,045 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:20:11,046 - Databases - DEBUG - loading db...
+2018-06-23 14:20:11,049 - Databases - INFO - Loaded 5 data
+2018-06-23 14:20:11,049 - Databases - DEBUG - last uid:4
+2018-06-23 14:20:11,049 - PersonDB - INFO - loaded persons db
+2018-06-23 14:20:11,049 - Databases - DEBUG - loading db...
+2018-06-23 14:20:11,052 - Databases - INFO - Loaded 5 data
+2018-06-23 14:20:11,053 - Databases - DEBUG - last uid:5
+2018-06-23 14:20:11,053 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:20:11,053 - Databases - DEBUG - loading db...
+2018-06-23 14:20:11,056 - Databases - INFO - Loaded 5 data
+2018-06-23 14:20:11,056 - Databases - DEBUG - last uid:13
+2018-06-23 14:20:11,056 - UsersDB - INFO - loaded users database
+2018-06-23 14:20:11,056 - Databases - DEBUG - loading db...
+2018-06-23 14:20:11,058 - Databases - INFO - Loaded 1 data
+2018-06-23 14:20:11,058 - Databases - DEBUG - last uid:1
+2018-06-23 14:20:11,058 - CategoriesDB - INFO - loaded db
+2018-06-23 14:20:11,059 - __main__ - INFO - Loaded databases
+2018-06-23 14:20:11,059 - __main__ - INFO - Message loop started
+2018-06-23 14:20:15,622 - __main__ - DEBUG - private message received
+2018-06-23 14:20:16,755 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:20:16,755 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:21:30,857 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:21:30,858 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:21:30,858 - Databases - DEBUG - loading db...
+2018-06-23 14:21:30,861 - Databases - INFO - Loaded 5 data
+2018-06-23 14:21:30,861 - Databases - DEBUG - last uid:4
+2018-06-23 14:21:30,861 - PersonDB - INFO - loaded persons db
+2018-06-23 14:21:30,861 - Databases - DEBUG - loading db...
+2018-06-23 14:21:30,863 - Databases - INFO - Loaded 5 data
+2018-06-23 14:21:30,863 - Databases - DEBUG - last uid:5
+2018-06-23 14:21:30,863 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:21:30,864 - Databases - DEBUG - loading db...
+2018-06-23 14:21:30,865 - Databases - INFO - Loaded 5 data
+2018-06-23 14:21:30,865 - Databases - DEBUG - last uid:13
+2018-06-23 14:21:30,866 - UsersDB - INFO - loaded users database
+2018-06-23 14:21:30,866 - Databases - DEBUG - loading db...
+2018-06-23 14:21:30,867 - Databases - INFO - Loaded 1 data
+2018-06-23 14:21:30,867 - Databases - DEBUG - last uid:1
+2018-06-23 14:21:30,867 - CategoriesDB - INFO - loaded db
+2018-06-23 14:21:30,868 - __main__ - INFO - Loaded databases
+2018-06-23 14:21:30,868 - __main__ - INFO - Message loop started
+2018-06-23 14:21:34,279 - __main__ - DEBUG - private message received
+2018-06-23 14:21:35,406 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:21:35,406 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:22:18,474 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:22:18,475 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:22:18,475 - Databases - DEBUG - loading db...
+2018-06-23 14:22:18,476 - Databases - INFO - Loaded 5 data
+2018-06-23 14:22:18,477 - Databases - DEBUG - last uid:4
+2018-06-23 14:22:18,477 - PersonDB - INFO - loaded persons db
+2018-06-23 14:22:18,477 - Databases - DEBUG - loading db...
+2018-06-23 14:22:18,478 - Databases - INFO - Loaded 5 data
+2018-06-23 14:22:18,479 - Databases - DEBUG - last uid:5
+2018-06-23 14:22:18,479 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:22:18,479 - Databases - DEBUG - loading db...
+2018-06-23 14:22:18,481 - Databases - INFO - Loaded 5 data
+2018-06-23 14:22:18,481 - Databases - DEBUG - last uid:13
+2018-06-23 14:22:18,481 - UsersDB - INFO - loaded users database
+2018-06-23 14:22:18,481 - Databases - DEBUG - loading db...
+2018-06-23 14:22:18,482 - Databases - INFO - Loaded 1 data
+2018-06-23 14:22:18,482 - Databases - DEBUG - last uid:1
+2018-06-23 14:22:18,483 - CategoriesDB - INFO - loaded db
+2018-06-23 14:22:18,483 - __main__ - INFO - Loaded databases
+2018-06-23 14:22:18,484 - __main__ - INFO - Message loop started
+2018-06-23 14:22:22,742 - __main__ - DEBUG - private message received
+2018-06-23 14:22:23,834 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:22:23,835 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:22:24,274 - ChatsDB - INFO - updating database...
+2018-06-23 14:22:24,274 - UsersDB - INFO - updating database...
+2018-06-23 14:22:24,274 - CategoriesDB - INFO - updating database...
+2018-06-23 14:22:24,275 - PersonDB - INFO - updating database...
+2018-06-23 14:23:38,025 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:23:38,026 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:23:38,026 - Databases - DEBUG - loading db...
+2018-06-23 14:23:38,027 - Databases - INFO - Loaded 5 data
+2018-06-23 14:23:38,028 - Databases - DEBUG - last uid:4
+2018-06-23 14:23:38,028 - PersonDB - INFO - loaded persons db
+2018-06-23 14:23:38,028 - Databases - DEBUG - loading db...
+2018-06-23 14:23:38,030 - Databases - INFO - Loaded 5 data
+2018-06-23 14:23:38,031 - Databases - DEBUG - last uid:5
+2018-06-23 14:23:38,031 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:23:38,032 - Databases - DEBUG - loading db...
+2018-06-23 14:23:38,034 - Databases - INFO - Loaded 5 data
+2018-06-23 14:23:38,035 - Databases - DEBUG - last uid:13
+2018-06-23 14:23:38,035 - UsersDB - INFO - loaded users database
+2018-06-23 14:23:38,035 - Databases - DEBUG - loading db...
+2018-06-23 14:23:38,036 - Databases - INFO - Loaded 1 data
+2018-06-23 14:23:38,036 - Databases - DEBUG - last uid:1
+2018-06-23 14:23:38,036 - CategoriesDB - INFO - loaded db
+2018-06-23 14:23:38,036 - __main__ - INFO - Loaded databases
+2018-06-23 14:23:38,037 - __main__ - INFO - Message loop started
+2018-06-23 14:23:42,259 - __main__ - DEBUG - private message received
+2018-06-23 14:23:43,346 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:23:43,347 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:23:44,084 - ChatsDB - INFO - updating database...
+2018-06-23 14:23:44,085 - UsersDB - INFO - updating database...
+2018-06-23 14:23:44,085 - CategoriesDB - INFO - updating database...
+2018-06-23 14:23:44,086 - PersonDB - INFO - updating database...
+2018-06-23 14:23:55,800 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:23:55,800 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:23:55,801 - Databases - DEBUG - loading db...
+2018-06-23 14:23:55,803 - Databases - INFO - Loaded 5 data
+2018-06-23 14:23:55,803 - Databases - DEBUG - last uid:4
+2018-06-23 14:23:55,803 - PersonDB - INFO - loaded persons db
+2018-06-23 14:23:55,804 - Databases - DEBUG - loading db...
+2018-06-23 14:23:55,805 - Databases - INFO - Loaded 5 data
+2018-06-23 14:23:55,805 - Databases - DEBUG - last uid:5
+2018-06-23 14:23:55,805 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:23:55,806 - Databases - DEBUG - loading db...
+2018-06-23 14:23:55,807 - Databases - INFO - Loaded 5 data
+2018-06-23 14:23:55,807 - Databases - DEBUG - last uid:13
+2018-06-23 14:23:55,807 - UsersDB - INFO - loaded users database
+2018-06-23 14:23:55,807 - Databases - DEBUG - loading db...
+2018-06-23 14:23:55,808 - Databases - INFO - Loaded 1 data
+2018-06-23 14:23:55,808 - Databases - DEBUG - last uid:1
+2018-06-23 14:23:55,808 - CategoriesDB - INFO - loaded db
+2018-06-23 14:23:55,809 - __main__ - INFO - Loaded databases
+2018-06-23 14:23:55,810 - __main__ - INFO - Message loop started
+2018-06-23 14:24:01,808 - __main__ - DEBUG - private message received
+2018-06-23 14:24:02,912 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:24:02,913 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:24:03,166 - ChatsDB - INFO - updating database...
+2018-06-23 14:24:03,166 - UsersDB - INFO - updating database...
+2018-06-23 14:24:03,166 - CategoriesDB - INFO - updating database...
+2018-06-23 14:24:03,167 - PersonDB - INFO - updating database...
+2018-06-23 14:24:56,649 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:24:56,650 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:24:56,650 - Databases - DEBUG - loading db...
+2018-06-23 14:24:56,651 - Databases - INFO - Loaded 5 data
+2018-06-23 14:24:56,652 - Databases - DEBUG - last uid:4
+2018-06-23 14:24:56,652 - PersonDB - INFO - loaded persons db
+2018-06-23 14:24:56,652 - Databases - DEBUG - loading db...
+2018-06-23 14:24:56,654 - Databases - INFO - Loaded 5 data
+2018-06-23 14:24:56,654 - Databases - DEBUG - last uid:5
+2018-06-23 14:24:56,654 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:24:56,654 - Databases - DEBUG - loading db...
+2018-06-23 14:24:56,656 - Databases - INFO - Loaded 5 data
+2018-06-23 14:24:56,656 - Databases - DEBUG - last uid:13
+2018-06-23 14:24:56,656 - UsersDB - INFO - loaded users database
+2018-06-23 14:24:56,656 - Databases - DEBUG - loading db...
+2018-06-23 14:24:56,657 - Databases - INFO - Loaded 1 data
+2018-06-23 14:24:56,657 - Databases - DEBUG - last uid:1
+2018-06-23 14:24:56,657 - CategoriesDB - INFO - loaded db
+2018-06-23 14:24:56,658 - __main__ - INFO - Loaded databases
+2018-06-23 14:24:56,658 - __main__ - INFO - Message loop started
+2018-06-23 14:24:59,529 - __main__ - DEBUG - private message received
+2018-06-23 14:25:00,657 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:25:00,657 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:25:01,334 - ChatsDB - INFO - updating database...
+2018-06-23 14:25:01,335 - UsersDB - INFO - updating database...
+2018-06-23 14:25:01,335 - CategoriesDB - INFO - updating database...
+2018-06-23 14:25:01,335 - PersonDB - INFO - updating database...
+2018-06-23 14:25:26,322 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:25:26,323 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:25:26,323 - Databases - DEBUG - loading db...
+2018-06-23 14:25:26,324 - Databases - INFO - Loaded 5 data
+2018-06-23 14:25:26,325 - Databases - DEBUG - last uid:4
+2018-06-23 14:25:26,325 - PersonDB - INFO - loaded persons db
+2018-06-23 14:25:26,325 - Databases - DEBUG - loading db...
+2018-06-23 14:25:26,327 - Databases - INFO - Loaded 5 data
+2018-06-23 14:25:26,328 - Databases - DEBUG - last uid:5
+2018-06-23 14:25:26,328 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:25:26,329 - Databases - DEBUG - loading db...
+2018-06-23 14:25:26,330 - Databases - INFO - Loaded 5 data
+2018-06-23 14:25:26,330 - Databases - DEBUG - last uid:13
+2018-06-23 14:25:26,331 - UsersDB - INFO - loaded users database
+2018-06-23 14:25:26,331 - Databases - DEBUG - loading db...
+2018-06-23 14:25:26,332 - Databases - INFO - Loaded 1 data
+2018-06-23 14:25:26,332 - Databases - DEBUG - last uid:1
+2018-06-23 14:25:26,333 - CategoriesDB - INFO - loaded db
+2018-06-23 14:25:26,333 - __main__ - INFO - Loaded databases
+2018-06-23 14:25:26,334 - __main__ - INFO - Message loop started
+2018-06-23 14:25:29,237 - __main__ - DEBUG - private message received
+2018-06-23 14:25:30,329 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:25:30,329 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:25:48,790 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:25:48,790 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:25:48,791 - Databases - DEBUG - loading db...
+2018-06-23 14:25:48,792 - Databases - INFO - Loaded 5 data
+2018-06-23 14:25:48,792 - Databases - DEBUG - last uid:4
+2018-06-23 14:25:48,793 - PersonDB - INFO - loaded persons db
+2018-06-23 14:25:48,793 - Databases - DEBUG - loading db...
+2018-06-23 14:25:48,795 - Databases - INFO - Loaded 5 data
+2018-06-23 14:25:48,795 - Databases - DEBUG - last uid:5
+2018-06-23 14:25:48,795 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:25:48,795 - Databases - DEBUG - loading db...
+2018-06-23 14:25:48,797 - Databases - INFO - Loaded 5 data
+2018-06-23 14:25:48,797 - Databases - DEBUG - last uid:13
+2018-06-23 14:25:48,797 - UsersDB - INFO - loaded users database
+2018-06-23 14:25:48,798 - Databases - DEBUG - loading db...
+2018-06-23 14:25:48,798 - Databases - INFO - Loaded 1 data
+2018-06-23 14:25:48,799 - Databases - DEBUG - last uid:1
+2018-06-23 14:25:48,799 - CategoriesDB - INFO - loaded db
+2018-06-23 14:25:48,799 - __main__ - INFO - Loaded databases
+2018-06-23 14:25:48,800 - __main__ - INFO - Message loop started
+2018-06-23 14:25:54,965 - __main__ - DEBUG - private message received
+2018-06-23 14:25:56,057 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:25:56,058 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:25:56,605 - ChatsDB - INFO - updating database...
+2018-06-23 14:25:56,605 - UsersDB - INFO - updating database...
+2018-06-23 14:25:56,605 - CategoriesDB - INFO - updating database...
+2018-06-23 14:25:56,606 - PersonDB - INFO - updating database...
+2018-06-23 14:40:54,249 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:40:54,249 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:40:54,250 - Databases - DEBUG - loading db...
+2018-06-23 14:40:54,251 - Databases - INFO - Loaded 5 data
+2018-06-23 14:40:54,252 - Databases - DEBUG - last uid:4
+2018-06-23 14:40:54,252 - PersonDB - INFO - loaded persons db
+2018-06-23 14:40:54,252 - Databases - DEBUG - loading db...
+2018-06-23 14:40:54,254 - Databases - INFO - Loaded 5 data
+2018-06-23 14:40:54,254 - Databases - DEBUG - last uid:5
+2018-06-23 14:40:54,254 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:40:54,255 - Databases - DEBUG - loading db...
+2018-06-23 14:40:54,256 - Databases - INFO - Loaded 5 data
+2018-06-23 14:40:54,256 - Databases - DEBUG - last uid:13
+2018-06-23 14:40:54,256 - UsersDB - INFO - loaded users database
+2018-06-23 14:40:54,257 - Databases - DEBUG - loading db...
+2018-06-23 14:40:54,257 - Databases - INFO - Loaded 1 data
+2018-06-23 14:40:54,257 - Databases - DEBUG - last uid:1
+2018-06-23 14:40:54,258 - CategoriesDB - INFO - loaded db
+2018-06-23 14:40:54,258 - __main__ - INFO - Loaded databases
+2018-06-23 14:40:54,259 - __main__ - INFO - Message loop started
+2018-06-23 14:40:57,789 - __main__ - DEBUG - private message received
+2018-06-23 14:40:58,897 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:40:58,898 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:41:41,670 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:41:41,670 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:41:41,671 - Databases - DEBUG - loading db...
+2018-06-23 14:41:41,672 - Databases - INFO - Loaded 5 data
+2018-06-23 14:41:41,672 - Databases - DEBUG - last uid:4
+2018-06-23 14:41:41,672 - PersonDB - INFO - loaded persons db
+2018-06-23 14:41:41,673 - Databases - DEBUG - loading db...
+2018-06-23 14:41:41,674 - Databases - INFO - Loaded 5 data
+2018-06-23 14:41:41,674 - Databases - DEBUG - last uid:5
+2018-06-23 14:41:41,674 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:41:41,675 - Databases - DEBUG - loading db...
+2018-06-23 14:41:41,676 - Databases - INFO - Loaded 5 data
+2018-06-23 14:41:41,676 - Databases - DEBUG - last uid:13
+2018-06-23 14:41:41,676 - UsersDB - INFO - loaded users database
+2018-06-23 14:41:41,677 - Databases - DEBUG - loading db...
+2018-06-23 14:41:41,677 - Databases - INFO - Loaded 1 data
+2018-06-23 14:41:41,677 - Databases - DEBUG - last uid:1
+2018-06-23 14:41:41,678 - CategoriesDB - INFO - loaded db
+2018-06-23 14:41:41,678 - __main__ - INFO - Loaded databases
+2018-06-23 14:41:41,678 - __main__ - INFO - Message loop started
+2018-06-23 14:41:44,710 - __main__ - DEBUG - private message received
+2018-06-23 14:41:45,809 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:41:45,810 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:41:46,291 - ChatsDB - INFO - updating database...
+2018-06-23 14:41:46,291 - UsersDB - INFO - updating database...
+2018-06-23 14:41:46,291 - CategoriesDB - INFO - updating database...
+2018-06-23 14:41:46,292 - PersonDB - INFO - updating database...
+2018-06-23 14:42:24,621 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:42:24,622 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:42:24,622 - Databases - DEBUG - loading db...
+2018-06-23 14:42:24,624 - Databases - INFO - Loaded 5 data
+2018-06-23 14:42:24,624 - Databases - DEBUG - last uid:4
+2018-06-23 14:42:24,624 - PersonDB - INFO - loaded persons db
+2018-06-23 14:42:24,624 - Databases - DEBUG - loading db...
+2018-06-23 14:42:24,626 - Databases - INFO - Loaded 5 data
+2018-06-23 14:42:24,626 - Databases - DEBUG - last uid:5
+2018-06-23 14:42:24,626 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:42:24,627 - Databases - DEBUG - loading db...
+2018-06-23 14:42:24,629 - Databases - INFO - Loaded 5 data
+2018-06-23 14:42:24,629 - Databases - DEBUG - last uid:13
+2018-06-23 14:42:24,629 - UsersDB - INFO - loaded users database
+2018-06-23 14:42:24,630 - Databases - DEBUG - loading db...
+2018-06-23 14:42:24,630 - Databases - INFO - Loaded 1 data
+2018-06-23 14:42:24,630 - Databases - DEBUG - last uid:1
+2018-06-23 14:42:24,630 - CategoriesDB - INFO - loaded db
+2018-06-23 14:42:24,630 - __main__ - INFO - Loaded databases
+2018-06-23 14:42:24,631 - __main__ - INFO - Message loop started
+2018-06-23 14:42:29,010 - __main__ - DEBUG - private message received
+2018-06-23 14:42:30,185 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:42:30,186 - __main__ - DEBUG - Message: /main_menu
+2018-06-23 14:42:31,673 - ChatsDB - INFO - updating database...
+2018-06-23 14:42:31,674 - UsersDB - INFO - updating database...
+2018-06-23 14:42:31,674 - CategoriesDB - INFO - updating database...
+2018-06-23 14:42:31,675 - PersonDB - INFO - updating database...
+2018-06-23 14:42:33,434 - __main__ - DEBUG - private message received
+2018-06-23 14:42:34,558 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:42:34,558 - __main__ - DEBUG - Message: /profile
+2018-06-23 14:42:47,807 - ChatsDB - INFO - updating database...
+2018-06-23 14:42:47,808 - UsersDB - INFO - updating database...
+2018-06-23 14:42:47,808 - CategoriesDB - INFO - updating database...
+2018-06-23 14:42:47,808 - PersonDB - INFO - updating database...
+2018-06-23 14:42:55,720 - __main__ - DEBUG - private message received
+2018-06-23 14:42:56,852 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:42:56,853 - __main__ - DEBUG - Message: /create_category
+2018-06-23 14:42:56,929 - ChatsDB - INFO - updating database...
+2018-06-23 14:42:56,929 - UsersDB - INFO - updating database...
+2018-06-23 14:42:56,930 - CategoriesDB - INFO - updating database...
+2018-06-23 14:42:56,930 - PersonDB - INFO - updating database...
+2018-06-23 14:43:12,352 - __main__ - DEBUG - private message received
+2018-06-23 14:43:13,441 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:43:13,441 - __main__ - DEBUG - Message: Flowers
+2018-06-23 14:43:16,813 - ChatsDB - INFO - updating database...
+2018-06-23 14:43:16,814 - UsersDB - INFO - updating database...
+2018-06-23 14:43:16,814 - CategoriesDB - INFO - updating database...
+2018-06-23 14:43:16,818 - Databases - INFO - database update!
+2018-06-23 14:43:16,819 - PersonDB - INFO - updating database...
+2018-06-23 14:43:19,442 - __main__ - DEBUG - private message received
+2018-06-23 14:43:20,544 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:43:20,545 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:43:20,809 - ChatsDB - INFO - updating database...
+2018-06-23 14:43:20,810 - UsersDB - INFO - updating database...
+2018-06-23 14:43:20,810 - CategoriesDB - INFO - updating database...
+2018-06-23 14:43:20,811 - PersonDB - INFO - updating database...
+2018-06-23 14:43:29,625 - __main__ - DEBUG - private message received
+2018-06-23 14:43:30,749 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:43:30,750 - __main__ - DEBUG - Message: /create_category
+2018-06-23 14:43:30,962 - ChatsDB - INFO - updating database...
+2018-06-23 14:43:30,963 - UsersDB - INFO - updating database...
+2018-06-23 14:43:30,963 - CategoriesDB - INFO - updating database...
+2018-06-23 14:43:30,963 - PersonDB - INFO - updating database...
+2018-06-23 14:43:39,937 - __main__ - DEBUG - private message received
+2018-06-23 14:43:41,101 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:43:41,102 - __main__ - DEBUG - Message: FLOWERS
+2018-06-23 14:43:41,588 - ChatsDB - INFO - updating database...
+2018-06-23 14:43:41,588 - UsersDB - INFO - updating database...
+2018-06-23 14:43:41,589 - CategoriesDB - INFO - updating database...
+2018-06-23 14:43:41,589 - PersonDB - INFO - updating database...
+2018-06-23 14:43:53,370 - __main__ - DEBUG - private message received
+2018-06-23 14:43:54,494 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:43:54,494 - __main__ - DEBUG - Message: /create_category
+2018-06-23 14:43:54,683 - ChatsDB - INFO - updating database...
+2018-06-23 14:43:54,683 - UsersDB - INFO - updating database...
+2018-06-23 14:43:54,684 - CategoriesDB - INFO - updating database...
+2018-06-23 14:43:54,684 - PersonDB - INFO - updating database...
+2018-06-23 14:44:10,357 - __main__ - DEBUG - private message received
+2018-06-23 14:44:11,428 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:44:11,429 - __main__ - DEBUG - Message: PoliticallyCorrect
+2018-06-23 14:44:15,113 - ChatsDB - INFO - updating database...
+2018-06-23 14:44:15,113 - UsersDB - INFO - updating database...
+2018-06-23 14:44:15,113 - CategoriesDB - INFO - updating database...
+2018-06-23 14:44:15,114 - PersonDB - INFO - updating database...
+2018-06-23 14:44:37,332 - __main__ - DEBUG - private message received
+2018-06-23 14:44:38,417 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:44:38,418 - __main__ - DEBUG - Message: /create_category
+2018-06-23 14:44:38,566 - ChatsDB - INFO - updating database...
+2018-06-23 14:44:38,567 - UsersDB - INFO - updating database...
+2018-06-23 14:44:38,567 - CategoriesDB - INFO - updating database...
+2018-06-23 14:44:38,567 - PersonDB - INFO - updating database...
+2018-06-23 14:44:43,195 - __main__ - DEBUG - private message received
+2018-06-23 14:44:44,340 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:44:44,340 - __main__ - DEBUG - Message: Novilon
+2018-06-23 14:44:44,758 - ChatsDB - INFO - updating database...
+2018-06-23 14:44:44,758 - UsersDB - INFO - updating database...
+2018-06-23 14:44:44,759 - CategoriesDB - INFO - updating database...
+2018-06-23 14:44:44,764 - Databases - INFO - database update!
+2018-06-23 14:44:44,765 - PersonDB - INFO - updating database...
+2018-06-23 14:44:47,731 - __main__ - DEBUG - private message received
+2018-06-23 14:44:48,839 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:44:48,840 - __main__ - DEBUG - Message: /create_category
+2018-06-23 14:44:49,070 - ChatsDB - INFO - updating database...
+2018-06-23 14:44:49,071 - UsersDB - INFO - updating database...
+2018-06-23 14:44:49,071 - CategoriesDB - INFO - updating database...
+2018-06-23 14:44:49,071 - PersonDB - INFO - updating database...
+2018-06-23 14:44:51,586 - __main__ - DEBUG - private message received
+2018-06-23 14:44:52,660 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:44:52,660 - __main__ - DEBUG - Message: Spectacular
+2018-06-23 14:44:52,942 - ChatsDB - INFO - updating database...
+2018-06-23 14:44:52,942 - UsersDB - INFO - updating database...
+2018-06-23 14:44:52,943 - CategoriesDB - INFO - updating database...
+2018-06-23 14:44:52,945 - Databases - INFO - database update!
+2018-06-23 14:44:52,946 - PersonDB - INFO - updating database...
+2018-06-23 14:44:56,022 - __main__ - DEBUG - private message received
+2018-06-23 14:44:57,084 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:44:57,084 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:44:57,269 - ChatsDB - INFO - updating database...
+2018-06-23 14:44:57,270 - UsersDB - INFO - updating database...
+2018-06-23 14:44:57,270 - CategoriesDB - INFO - updating database...
+2018-06-23 14:44:57,270 - PersonDB - INFO - updating database...
+2018-06-23 14:46:14,153 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 14:46:14,154 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 14:46:14,154 - Databases - DEBUG - loading db...
+2018-06-23 14:46:14,155 - Databases - INFO - Loaded 5 data
+2018-06-23 14:46:14,156 - Databases - DEBUG - last uid:4
+2018-06-23 14:46:14,156 - PersonDB - INFO - loaded persons db
+2018-06-23 14:46:14,156 - Databases - DEBUG - loading db...
+2018-06-23 14:46:14,158 - Databases - INFO - Loaded 5 data
+2018-06-23 14:46:14,159 - Databases - DEBUG - last uid:5
+2018-06-23 14:46:14,159 - ChatsDB - INFO - loaded chats db
+2018-06-23 14:46:14,159 - Databases - DEBUG - loading db...
+2018-06-23 14:46:14,161 - Databases - INFO - Loaded 5 data
+2018-06-23 14:46:14,161 - Databases - DEBUG - last uid:13
+2018-06-23 14:46:14,161 - UsersDB - INFO - loaded users database
+2018-06-23 14:46:14,161 - Databases - DEBUG - loading db...
+2018-06-23 14:46:14,163 - Databases - INFO - Loaded 4 data
+2018-06-23 14:46:14,163 - Databases - DEBUG - last uid:4
+2018-06-23 14:46:14,163 - CategoriesDB - INFO - loaded db
+2018-06-23 14:46:14,163 - __main__ - INFO - Loaded databases
+2018-06-23 14:46:14,164 - __main__ - INFO - Message loop started
+2018-06-23 14:46:18,427 - __main__ - DEBUG - private message received
+2018-06-23 14:46:19,516 - __main__ - DEBUG - handle normal requests
+2018-06-23 14:46:19,517 - __main__ - DEBUG - Message: /categories
+2018-06-23 14:46:19,797 - ChatsDB - INFO - updating database...
+2018-06-23 14:46:19,797 - UsersDB - INFO - updating database...
+2018-06-23 14:46:19,798 - CategoriesDB - INFO - updating database...
+2018-06-23 14:46:19,798 - PersonDB - INFO - updating database...
+2018-06-23 15:07:24,517 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 15:07:24,518 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 15:07:24,519 - Databases - DEBUG - loading db...
+2018-06-23 15:07:24,522 - Databases - INFO - Loaded 5 data
+2018-06-23 15:07:24,522 - Databases - DEBUG - last uid:4
+2018-06-23 15:07:24,522 - PersonDB - INFO - loaded persons db
+2018-06-23 15:07:24,523 - Databases - DEBUG - loading db...
+2018-06-23 15:07:24,525 - Databases - INFO - Loaded 5 data
+2018-06-23 15:07:24,526 - Databases - DEBUG - last uid:5
+2018-06-23 15:07:24,526 - ChatsDB - INFO - loaded chats db
+2018-06-23 15:07:24,526 - Databases - DEBUG - loading db...
+2018-06-23 15:07:24,529 - Databases - INFO - Loaded 5 data
+2018-06-23 15:07:24,529 - Databases - DEBUG - last uid:13
+2018-06-23 15:07:24,530 - UsersDB - INFO - loaded users database
+2018-06-23 15:07:24,530 - Databases - DEBUG - loading db...
+2018-06-23 15:07:24,531 - Databases - INFO - Loaded 4 data
+2018-06-23 15:07:24,531 - Databases - DEBUG - last uid:4
+2018-06-23 15:07:24,531 - CategoriesDB - INFO - loaded db
+2018-06-23 15:07:24,532 - __main__ - INFO - Loaded databases
+2018-06-23 15:07:24,533 - __main__ - INFO - Message loop started
+2018-06-23 15:07:28,838 - __main__ - DEBUG - private message received
+2018-06-23 15:07:29,936 - __main__ - DEBUG - handle normal requests
+2018-06-23 15:07:29,937 - __main__ - DEBUG - Message: /categories
+2018-06-23 15:08:27,296 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 15:08:27,297 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 15:08:27,297 - Databases - DEBUG - loading db...
+2018-06-23 15:08:27,300 - Databases - INFO - Loaded 5 data
+2018-06-23 15:08:27,300 - Databases - DEBUG - last uid:4
+2018-06-23 15:08:27,301 - PersonDB - INFO - loaded persons db
+2018-06-23 15:08:27,301 - Databases - DEBUG - loading db...
+2018-06-23 15:08:27,303 - Databases - INFO - Loaded 5 data
+2018-06-23 15:08:27,303 - Databases - DEBUG - last uid:5
+2018-06-23 15:08:27,303 - ChatsDB - INFO - loaded chats db
+2018-06-23 15:08:27,304 - Databases - DEBUG - loading db...
+2018-06-23 15:08:27,306 - Databases - INFO - Loaded 5 data
+2018-06-23 15:08:27,306 - Databases - DEBUG - last uid:13
+2018-06-23 15:08:27,306 - UsersDB - INFO - loaded users database
+2018-06-23 15:08:27,307 - Databases - DEBUG - loading db...
+2018-06-23 15:08:27,309 - Databases - INFO - Loaded 4 data
+2018-06-23 15:08:27,309 - Databases - DEBUG - last uid:4
+2018-06-23 15:08:27,309 - CategoriesDB - INFO - loaded db
+2018-06-23 15:08:27,309 - __main__ - INFO - Loaded databases
+2018-06-23 15:08:27,310 - __main__ - INFO - Message loop started
+2018-06-23 15:08:29,902 - __main__ - DEBUG - private message received
+2018-06-23 15:08:31,005 - __main__ - DEBUG - handle normal requests
+2018-06-23 15:08:31,005 - __main__ - DEBUG - Message: /categories
+2018-06-23 15:08:31,280 - ChatsDB - INFO - updating database...
+2018-06-23 15:08:31,281 - UsersDB - INFO - updating database...
+2018-06-23 15:08:31,281 - CategoriesDB - INFO - updating database...
+2018-06-23 15:08:31,281 - PersonDB - INFO - updating database...
+2018-06-23 15:08:35,409 - __main__ - DEBUG - private message received
+2018-06-23 15:08:36,497 - __main__ - DEBUG - handle normal requests
+2018-06-23 15:08:36,498 - __main__ - DEBUG - Message: /main_menu
+2018-06-23 15:08:39,361 - ChatsDB - INFO - updating database...
+2018-06-23 15:08:39,361 - UsersDB - INFO - updating database...
+2018-06-23 15:08:39,362 - CategoriesDB - INFO - updating database...
+2018-06-23 15:08:39,362 - PersonDB - INFO - updating database...
+2018-06-23 15:08:41,464 - __main__ - DEBUG - private message received
+2018-06-23 15:08:42,595 - __main__ - DEBUG - handle normal requests
+2018-06-23 15:08:42,595 - __main__ - DEBUG - Message: /profile
+2018-06-23 15:08:42,766 - ChatsDB - INFO - updating database...
+2018-06-23 15:08:42,766 - UsersDB - INFO - updating database...
+2018-06-23 15:08:42,766 - CategoriesDB - INFO - updating database...
+2018-06-23 15:08:42,767 - PersonDB - INFO - updating database...
+2018-06-23 15:08:46,421 - __main__ - DEBUG - private message received
+2018-06-23 15:08:47,556 - __main__ - DEBUG - handle normal requests
+2018-06-23 15:08:47,557 - __main__ - DEBUG - Message: /set_nickname
+2018-06-23 15:08:47,655 - ChatsDB - INFO - updating database...
+2018-06-23 15:08:47,655 - UsersDB - INFO - updating database...
+2018-06-23 15:08:47,655 - CategoriesDB - INFO - updating database...
+2018-06-23 15:08:47,656 - PersonDB - INFO - updating database...
+2018-06-23 15:08:58,756 - __main__ - DEBUG - private message received
+2018-06-23 15:08:59,898 - __main__ - DEBUG - handle normal requests
+2018-06-23 15:08:59,898 - __main__ - DEBUG - Message: Pellalla
+2018-06-23 15:09:00,431 - ChatsDB - INFO - updating database...
+2018-06-23 15:09:00,431 - UsersDB - INFO - updating database...
+2018-06-23 15:09:00,435 - Databases - INFO - database update!
+2018-06-23 15:09:00,436 - CategoriesDB - INFO - updating database...
+2018-06-23 15:09:00,438 - PersonDB - INFO - updating database...
+2018-06-23 15:10:58,500 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 15:10:58,501 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 15:10:58,501 - Databases - DEBUG - loading db...
+2018-06-23 15:10:58,502 - Databases - INFO - Loaded 5 data
+2018-06-23 15:10:58,503 - Databases - DEBUG - last uid:4
+2018-06-23 15:10:58,503 - PersonDB - INFO - loaded persons db
+2018-06-23 15:10:58,503 - Databases - DEBUG - loading db...
+2018-06-23 15:10:58,505 - Databases - INFO - Loaded 5 data
+2018-06-23 15:10:58,506 - Databases - DEBUG - last uid:5
+2018-06-23 15:10:58,506 - ChatsDB - INFO - loaded chats db
+2018-06-23 15:10:58,506 - Databases - DEBUG - loading db...
+2018-06-23 15:10:58,508 - Databases - INFO - Loaded 5 data
+2018-06-23 15:10:58,508 - Databases - DEBUG - last uid:13
+2018-06-23 15:10:58,508 - UsersDB - INFO - loaded users database
+2018-06-23 15:10:58,509 - Databases - DEBUG - loading db...
+2018-06-23 15:10:58,510 - Databases - INFO - Loaded 4 data
+2018-06-23 15:10:58,510 - Databases - DEBUG - last uid:4
+2018-06-23 15:10:58,510 - CategoriesDB - INFO - loaded db
+2018-06-23 15:10:58,510 - __main__ - INFO - Loaded databases
+2018-06-23 15:10:58,511 - __main__ - INFO - Message loop started
+2018-06-23 15:11:07,185 - __main__ - DEBUG - private message received
+2018-06-23 15:11:08,256 - __main__ - DEBUG - handle normal requests
+2018-06-23 15:11:08,257 - __main__ - DEBUG - Message: hi
+2018-06-23 15:11:08,953 - ChatsDB - INFO - updating database...
+2018-06-23 15:11:08,953 - UsersDB - INFO - updating database...
+2018-06-23 15:11:08,954 - CategoriesDB - INFO - updating database...
+2018-06-23 15:11:08,954 - PersonDB - INFO - updating database...
+2018-06-23 15:11:12,800 - __main__ - DEBUG - private message received
+2018-06-23 15:11:13,894 - __main__ - DEBUG - handle normal requests
+2018-06-23 15:11:13,894 - __main__ - DEBUG - Message: /categories
+2018-06-23 15:11:14,092 - ChatsDB - INFO - updating database...
+2018-06-23 15:11:14,093 - UsersDB - INFO - updating database...
+2018-06-23 15:11:14,093 - CategoriesDB - INFO - updating database...
+2018-06-23 15:11:14,093 - PersonDB - INFO - updating database...
+2018-06-23 15:13:32,659 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 15:13:32,660 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 15:13:32,660 - Databases - DEBUG - loading db...
+2018-06-23 15:13:32,662 - Databases - INFO - Loaded 5 data
+2018-06-23 15:13:32,663 - Databases - DEBUG - last uid:4
+2018-06-23 15:13:32,663 - PersonDB - INFO - loaded persons db
+2018-06-23 15:13:32,663 - Databases - DEBUG - loading db...
+2018-06-23 15:13:32,666 - Databases - INFO - Loaded 5 data
+2018-06-23 15:13:32,667 - Databases - DEBUG - last uid:5
+2018-06-23 15:13:32,667 - ChatsDB - INFO - loaded chats db
+2018-06-23 15:13:32,667 - Databases - DEBUG - loading db...
+2018-06-23 15:13:32,668 - Databases - INFO - Loaded 5 data
+2018-06-23 15:13:32,669 - Databases - DEBUG - last uid:13
+2018-06-23 15:13:32,669 - UsersDB - INFO - loaded users database
+2018-06-23 15:13:32,669 - Databases - DEBUG - loading db...
+2018-06-23 15:13:32,670 - Databases - INFO - Loaded 4 data
+2018-06-23 15:13:32,671 - Databases - DEBUG - last uid:4
+2018-06-23 15:13:32,671 - CategoriesDB - INFO - loaded db
+2018-06-23 15:13:32,672 - __main__ - INFO - Loaded databases
+2018-06-23 15:13:32,673 - __main__ - INFO - Message loop started
+2018-06-23 15:13:35,664 - __main__ - DEBUG - private message received
+2018-06-23 15:13:36,791 - __main__ - DEBUG - handle normal requests
+2018-06-23 15:13:36,792 - __main__ - DEBUG - Message: /categories
+2018-06-23 15:13:37,134 - ChatsDB - INFO - updating database...
+2018-06-23 15:13:37,134 - UsersDB - INFO - updating database...
+2018-06-23 15:13:37,135 - CategoriesDB - INFO - updating database...
+2018-06-23 15:13:37,135 - PersonDB - INFO - updating database...
+2018-06-23 21:31:00,256 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 21:31:00,256 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 21:31:00,257 - Databases - DEBUG - loading db...
+2018-06-23 21:31:00,260 - Databases - INFO - Loaded 5 data
+2018-06-23 21:31:00,260 - Databases - DEBUG - last uid:4
+2018-06-23 21:31:00,260 - PersonDB - INFO - loaded persons db
+2018-06-23 21:31:00,261 - Databases - DEBUG - loading db...
+2018-06-23 21:31:00,263 - Databases - INFO - Loaded 5 data
+2018-06-23 21:31:00,263 - Databases - DEBUG - last uid:5
+2018-06-23 21:31:00,264 - ChatsDB - INFO - loaded chats db
+2018-06-23 21:31:00,264 - Databases - DEBUG - loading db...
+2018-06-23 21:31:00,266 - Databases - INFO - Loaded 5 data
+2018-06-23 21:31:00,266 - Databases - DEBUG - last uid:13
+2018-06-23 21:31:00,267 - UsersDB - INFO - loaded users database
+2018-06-23 21:31:00,267 - Databases - DEBUG - loading db...
+2018-06-23 21:31:00,270 - Databases - INFO - Loaded 4 data
+2018-06-23 21:31:00,270 - Databases - DEBUG - last uid:4
+2018-06-23 21:31:00,271 - CategoriesDB - INFO - loaded db
+2018-06-23 21:31:00,271 - __main__ - INFO - Loaded databases
+2018-06-23 21:31:00,272 - __main__ - INFO - Message loop started
+2018-06-23 21:31:07,163 - __main__ - DEBUG - private message received
+2018-06-23 21:31:08,314 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:31:08,315 - __main__ - DEBUG - Message: hi
+2018-06-23 21:31:08,574 - ChatsDB - INFO - updating database...
+2018-06-23 21:31:08,574 - UsersDB - INFO - updating database...
+2018-06-23 21:31:08,575 - CategoriesDB - INFO - updating database...
+2018-06-23 21:31:08,575 - PersonDB - INFO - updating database...
+2018-06-23 21:31:12,694 - __main__ - DEBUG - private message received
+2018-06-23 21:31:13,854 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:31:13,855 - __main__ - DEBUG - Message: /categories
+2018-06-23 21:31:25,931 - __main__ - DEBUG - private message received
+2018-06-23 21:31:27,104 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:31:27,105 - __main__ - DEBUG - Message: /profile
+2018-06-23 21:31:27,240 - ChatsDB - INFO - updating database...
+2018-06-23 21:31:27,241 - UsersDB - INFO - updating database...
+2018-06-23 21:31:27,241 - CategoriesDB - INFO - updating database...
+2018-06-23 21:31:27,241 - PersonDB - INFO - updating database...
+2018-06-23 21:31:35,898 - __main__ - DEBUG - private message received
+2018-06-23 21:31:37,044 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:31:37,045 - __main__ - DEBUG - Message: /set_nickname
+2018-06-23 21:31:37,142 - ChatsDB - INFO - updating database...
+2018-06-23 21:31:37,142 - UsersDB - INFO - updating database...
+2018-06-23 21:31:37,143 - CategoriesDB - INFO - updating database...
+2018-06-23 21:31:37,143 - PersonDB - INFO - updating database...
+2018-06-23 21:31:37,686 - __main__ - DEBUG - private message received
+2018-06-23 21:31:38,796 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:31:38,797 - __main__ - DEBUG - Message: Pella
+2018-06-23 21:31:39,483 - ChatsDB - INFO - updating database...
+2018-06-23 21:31:39,483 - UsersDB - INFO - updating database...
+2018-06-23 21:31:39,486 - Databases - INFO - database update!
+2018-06-23 21:31:39,486 - CategoriesDB - INFO - updating database...
+2018-06-23 21:31:39,486 - PersonDB - INFO - updating database...
+2018-06-23 21:48:09,013 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 21:48:09,014 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 21:48:09,014 - Databases - DEBUG - loading db...
+2018-06-23 21:48:09,016 - Databases - INFO - Loaded 5 data
+2018-06-23 21:48:09,016 - Databases - DEBUG - last uid:4
+2018-06-23 21:48:09,017 - PersonDB - INFO - loaded persons db
+2018-06-23 21:48:09,017 - Databases - DEBUG - loading db...
+2018-06-23 21:48:09,019 - Databases - INFO - Loaded 5 data
+2018-06-23 21:48:09,019 - Databases - DEBUG - last uid:5
+2018-06-23 21:48:09,020 - ChatsDB - INFO - loaded chats db
+2018-06-23 21:48:09,021 - Databases - DEBUG - loading db...
+2018-06-23 21:48:09,022 - Databases - INFO - Loaded 5 data
+2018-06-23 21:48:09,023 - Databases - DEBUG - last uid:13
+2018-06-23 21:48:09,023 - UsersDB - INFO - loaded users database
+2018-06-23 21:48:09,023 - Databases - DEBUG - loading db...
+2018-06-23 21:48:09,025 - Databases - INFO - Loaded 4 data
+2018-06-23 21:48:09,025 - Databases - DEBUG - last uid:4
+2018-06-23 21:48:09,025 - CategoriesDB - INFO - loaded db
+2018-06-23 21:48:09,025 - __main__ - INFO - Loaded databases
+2018-06-23 21:48:09,026 - __main__ - INFO - Message loop started
+2018-06-23 21:48:10,890 - __main__ - DEBUG - private message received
+2018-06-23 21:48:12,001 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:48:12,002 - __main__ - DEBUG - Message: /categories
+2018-06-23 21:48:12,341 - ChatsDB - INFO - updating database...
+2018-06-23 21:48:12,342 - UsersDB - INFO - updating database...
+2018-06-23 21:48:12,342 - CategoriesDB - INFO - updating database...
+2018-06-23 21:48:12,342 - PersonDB - INFO - updating database...
+2018-06-23 21:50:22,257 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 21:50:22,258 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 21:50:22,258 - Databases - DEBUG - loading db...
+2018-06-23 21:50:22,261 - Databases - INFO - Loaded 5 data
+2018-06-23 21:50:22,261 - Databases - DEBUG - last uid:4
+2018-06-23 21:50:22,261 - PersonDB - INFO - loaded persons db
+2018-06-23 21:50:22,261 - Databases - DEBUG - loading db...
+2018-06-23 21:50:22,264 - Databases - INFO - Loaded 5 data
+2018-06-23 21:50:22,264 - Databases - DEBUG - last uid:5
+2018-06-23 21:50:22,264 - ChatsDB - INFO - loaded chats db
+2018-06-23 21:50:22,264 - Databases - DEBUG - loading db...
+2018-06-23 21:50:22,266 - Databases - INFO - Loaded 5 data
+2018-06-23 21:50:22,266 - Databases - DEBUG - last uid:13
+2018-06-23 21:50:22,266 - UsersDB - INFO - loaded users database
+2018-06-23 21:50:22,266 - Databases - DEBUG - loading db...
+2018-06-23 21:50:22,268 - Databases - INFO - Loaded 4 data
+2018-06-23 21:50:22,268 - Databases - DEBUG - last uid:4
+2018-06-23 21:50:22,268 - CategoriesDB - INFO - loaded db
+2018-06-23 21:50:22,268 - __main__ - INFO - Loaded databases
+2018-06-23 21:50:22,269 - __main__ - INFO - Message loop started
+2018-06-23 21:50:32,510 - __main__ - DEBUG - private message received
+2018-06-23 21:50:33,654 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:50:33,655 - __main__ - DEBUG - Message: /categories
+2018-06-23 21:50:34,133 - ChatsDB - INFO - updating database...
+2018-06-23 21:50:34,134 - UsersDB - INFO - updating database...
+2018-06-23 21:50:34,134 - CategoriesDB - INFO - updating database...
+2018-06-23 21:50:34,135 - PersonDB - INFO - updating database...
+2018-06-23 21:51:08,134 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 21:51:08,134 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 21:51:08,135 - Databases - DEBUG - loading db...
+2018-06-23 21:51:08,136 - Databases - INFO - Loaded 5 data
+2018-06-23 21:51:08,137 - Databases - DEBUG - last uid:4
+2018-06-23 21:51:08,137 - PersonDB - INFO - loaded persons db
+2018-06-23 21:51:08,137 - Databases - DEBUG - loading db...
+2018-06-23 21:51:08,138 - Databases - INFO - Loaded 5 data
+2018-06-23 21:51:08,139 - Databases - DEBUG - last uid:5
+2018-06-23 21:51:08,139 - ChatsDB - INFO - loaded chats db
+2018-06-23 21:51:08,139 - Databases - DEBUG - loading db...
+2018-06-23 21:51:08,140 - Databases - INFO - Loaded 5 data
+2018-06-23 21:51:08,141 - Databases - DEBUG - last uid:13
+2018-06-23 21:51:08,141 - UsersDB - INFO - loaded users database
+2018-06-23 21:51:08,141 - Databases - DEBUG - loading db...
+2018-06-23 21:51:08,142 - Databases - INFO - Loaded 4 data
+2018-06-23 21:51:08,143 - Databases - DEBUG - last uid:4
+2018-06-23 21:51:08,143 - CategoriesDB - INFO - loaded db
+2018-06-23 21:51:08,143 - __main__ - INFO - Loaded databases
+2018-06-23 21:51:08,144 - __main__ - INFO - Message loop started
+2018-06-23 21:51:13,771 - __main__ - DEBUG - private message received
+2018-06-23 21:51:14,857 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:51:14,858 - __main__ - DEBUG - Message: /categories
+2018-06-23 21:51:15,331 - ChatsDB - INFO - updating database...
+2018-06-23 21:51:15,331 - UsersDB - INFO - updating database...
+2018-06-23 21:51:15,332 - CategoriesDB - INFO - updating database...
+2018-06-23 21:51:15,332 - PersonDB - INFO - updating database...
+2018-06-23 21:51:48,772 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 21:51:48,772 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 21:51:48,773 - Databases - DEBUG - loading db...
+2018-06-23 21:51:48,774 - Databases - INFO - Loaded 5 data
+2018-06-23 21:51:48,774 - Databases - DEBUG - last uid:4
+2018-06-23 21:51:48,775 - PersonDB - INFO - loaded persons db
+2018-06-23 21:51:48,775 - Databases - DEBUG - loading db...
+2018-06-23 21:51:48,776 - Databases - INFO - Loaded 5 data
+2018-06-23 21:51:48,776 - Databases - DEBUG - last uid:5
+2018-06-23 21:51:48,776 - ChatsDB - INFO - loaded chats db
+2018-06-23 21:51:48,777 - Databases - DEBUG - loading db...
+2018-06-23 21:51:48,778 - Databases - INFO - Loaded 5 data
+2018-06-23 21:51:48,779 - Databases - DEBUG - last uid:13
+2018-06-23 21:51:48,779 - UsersDB - INFO - loaded users database
+2018-06-23 21:51:48,779 - Databases - DEBUG - loading db...
+2018-06-23 21:51:48,781 - Databases - INFO - Loaded 4 data
+2018-06-23 21:51:48,781 - Databases - DEBUG - last uid:4
+2018-06-23 21:51:48,781 - CategoriesDB - INFO - loaded db
+2018-06-23 21:51:48,781 - __main__ - INFO - Loaded databases
+2018-06-23 21:51:48,782 - __main__ - INFO - Message loop started
+2018-06-23 21:51:53,173 - __main__ - DEBUG - private message received
+2018-06-23 21:51:54,311 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:51:54,312 - __main__ - DEBUG - Message: /categories
+2018-06-23 21:51:55,179 - ChatsDB - INFO - updating database...
+2018-06-23 21:51:55,179 - UsersDB - INFO - updating database...
+2018-06-23 21:51:55,180 - CategoriesDB - INFO - updating database...
+2018-06-23 21:51:55,180 - PersonDB - INFO - updating database...
+2018-06-23 21:52:51,435 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 21:52:51,436 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 21:52:51,436 - Databases - DEBUG - loading db...
+2018-06-23 21:52:51,437 - Databases - INFO - Loaded 5 data
+2018-06-23 21:52:51,438 - Databases - DEBUG - last uid:4
+2018-06-23 21:52:51,438 - PersonDB - INFO - loaded persons db
+2018-06-23 21:52:51,438 - Databases - DEBUG - loading db...
+2018-06-23 21:52:51,440 - Databases - INFO - Loaded 5 data
+2018-06-23 21:52:51,440 - Databases - DEBUG - last uid:5
+2018-06-23 21:52:51,440 - ChatsDB - INFO - loaded chats db
+2018-06-23 21:52:51,440 - Databases - DEBUG - loading db...
+2018-06-23 21:52:51,442 - Databases - INFO - Loaded 5 data
+2018-06-23 21:52:51,442 - Databases - DEBUG - last uid:13
+2018-06-23 21:52:51,442 - UsersDB - INFO - loaded users database
+2018-06-23 21:52:51,443 - Databases - DEBUG - loading db...
+2018-06-23 21:52:51,444 - Databases - INFO - Loaded 4 data
+2018-06-23 21:52:51,445 - Databases - DEBUG - last uid:4
+2018-06-23 21:52:51,445 - CategoriesDB - INFO - loaded db
+2018-06-23 21:52:51,445 - __main__ - INFO - Loaded databases
+2018-06-23 21:52:51,446 - __main__ - INFO - Message loop started
+2018-06-23 21:52:55,676 - __main__ - DEBUG - ['cp', 'cat', '0', 'succ']
+2018-06-23 21:53:01,074 - __main__ - DEBUG - ['cp', 'cat', '0', 'succ']
+2018-06-23 21:53:40,868 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 21:53:40,869 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 21:53:40,869 - Databases - DEBUG - loading db...
+2018-06-23 21:53:40,871 - Databases - INFO - Loaded 5 data
+2018-06-23 21:53:40,871 - Databases - DEBUG - last uid:4
+2018-06-23 21:53:40,872 - PersonDB - INFO - loaded persons db
+2018-06-23 21:53:40,872 - Databases - DEBUG - loading db...
+2018-06-23 21:53:40,873 - Databases - INFO - Loaded 5 data
+2018-06-23 21:53:40,874 - Databases - DEBUG - last uid:5
+2018-06-23 21:53:40,874 - ChatsDB - INFO - loaded chats db
+2018-06-23 21:53:40,875 - Databases - DEBUG - loading db...
+2018-06-23 21:53:40,877 - Databases - INFO - Loaded 5 data
+2018-06-23 21:53:40,877 - Databases - DEBUG - last uid:13
+2018-06-23 21:53:40,877 - UsersDB - INFO - loaded users database
+2018-06-23 21:53:40,877 - Databases - DEBUG - loading db...
+2018-06-23 21:53:40,878 - Databases - INFO - Loaded 4 data
+2018-06-23 21:53:40,879 - Databases - DEBUG - last uid:4
+2018-06-23 21:53:40,879 - CategoriesDB - INFO - loaded db
+2018-06-23 21:53:40,879 - __main__ - INFO - Loaded databases
+2018-06-23 21:53:40,879 - __main__ - INFO - Message loop started
+2018-06-23 21:53:46,082 - __main__ - DEBUG - private message received
+2018-06-23 21:53:47,250 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:53:47,250 - __main__ - DEBUG - Message: /categories
+2018-06-23 21:53:50,730 - ChatsDB - INFO - updating database...
+2018-06-23 21:53:50,730 - UsersDB - INFO - updating database...
+2018-06-23 21:53:50,731 - CategoriesDB - INFO - updating database...
+2018-06-23 21:53:50,731 - PersonDB - INFO - updating database...
+2018-06-23 21:53:51,307 - __main__ - DEBUG - ['cp', 'cat', '0', 'succ']
+2018-06-23 21:53:56,991 - __main__ - DEBUG - ['cp', 'cat', '0', 'succ']
+2018-06-23 21:54:01,628 - __main__ - DEBUG - ['cp', 'cat1', 'succ']
+2018-06-23 21:55:21,350 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 21:55:21,351 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 21:55:21,351 - Databases - DEBUG - loading db...
+2018-06-23 21:55:21,353 - Databases - INFO - Loaded 5 data
+2018-06-23 21:55:21,353 - Databases - DEBUG - last uid:4
+2018-06-23 21:55:21,353 - PersonDB - INFO - loaded persons db
+2018-06-23 21:55:21,353 - Databases - DEBUG - loading db...
+2018-06-23 21:55:21,355 - Databases - INFO - Loaded 5 data
+2018-06-23 21:55:21,355 - Databases - DEBUG - last uid:5
+2018-06-23 21:55:21,355 - ChatsDB - INFO - loaded chats db
+2018-06-23 21:55:21,356 - Databases - DEBUG - loading db...
+2018-06-23 21:55:21,357 - Databases - INFO - Loaded 5 data
+2018-06-23 21:55:21,358 - Databases - DEBUG - last uid:13
+2018-06-23 21:55:21,358 - UsersDB - INFO - loaded users database
+2018-06-23 21:55:21,358 - Databases - DEBUG - loading db...
+2018-06-23 21:55:21,360 - Databases - INFO - Loaded 4 data
+2018-06-23 21:55:21,360 - Databases - DEBUG - last uid:4
+2018-06-23 21:55:21,360 - CategoriesDB - INFO - loaded db
+2018-06-23 21:55:21,360 - __main__ - INFO - Loaded databases
+2018-06-23 21:55:21,361 - __main__ - INFO - Message loop started
+2018-06-23 21:55:25,886 - __main__ - DEBUG - private message received
+2018-06-23 21:55:27,063 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:55:27,064 - __main__ - DEBUG - Message: /categories
+2018-06-23 21:55:36,567 - ChatsDB - INFO - updating database...
+2018-06-23 21:55:36,567 - UsersDB - INFO - updating database...
+2018-06-23 21:55:36,567 - CategoriesDB - INFO - updating database...
+2018-06-23 21:55:36,567 - PersonDB - INFO - updating database...
+2018-06-23 21:55:46,440 - __main__ - DEBUG - ['cp', 'cat', '0', 'succ']
+2018-06-23 21:55:51,999 - __main__ - DEBUG - ['cp', 'cat', '1', 'succ']
+2018-06-23 21:55:57,429 - __main__ - DEBUG - ['cp', 'cat', '2', 'succ']
+2018-06-23 21:56:00,556 - __main__ - DEBUG - ['cp', 'cat', '3', 'prev']
+2018-06-23 21:56:02,676 - __main__ - DEBUG - ['cp', 'cat', '2', 'prev']
+2018-06-23 21:56:04,995 - __main__ - DEBUG - ['cp', 'cat', '1', 'prev']
+2018-06-23 21:56:09,408 - __main__ - DEBUG - ['cp', 'cat', '0', 'succ']
+2018-06-23 21:56:11,518 - __main__ - DEBUG - ['cp', 'cat', '1', 'prev']
+2018-06-23 21:56:14,756 - __main__ - DEBUG - ['cp', 'cat', '0', 'succ']
+2018-06-23 21:58:08,756 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 21:58:08,757 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 21:58:08,757 - Databases - DEBUG - loading db...
+2018-06-23 21:58:08,759 - Databases - INFO - Loaded 5 data
+2018-06-23 21:58:08,759 - Databases - DEBUG - last uid:4
+2018-06-23 21:58:08,759 - PersonDB - INFO - loaded persons db
+2018-06-23 21:58:08,760 - Databases - DEBUG - loading db...
+2018-06-23 21:58:08,762 - Databases - INFO - Loaded 5 data
+2018-06-23 21:58:08,763 - Databases - DEBUG - last uid:5
+2018-06-23 21:58:08,763 - ChatsDB - INFO - loaded chats db
+2018-06-23 21:58:08,764 - Databases - DEBUG - loading db...
+2018-06-23 21:58:08,765 - Databases - INFO - Loaded 5 data
+2018-06-23 21:58:08,765 - Databases - DEBUG - last uid:13
+2018-06-23 21:58:08,766 - UsersDB - INFO - loaded users database
+2018-06-23 21:58:08,766 - Databases - DEBUG - loading db...
+2018-06-23 21:58:08,767 - Databases - INFO - Loaded 4 data
+2018-06-23 21:58:08,767 - Databases - DEBUG - last uid:4
+2018-06-23 21:58:08,767 - CategoriesDB - INFO - loaded db
+2018-06-23 21:58:08,768 - __main__ - INFO - Loaded databases
+2018-06-23 21:58:08,768 - __main__ - INFO - Message loop started
+2018-06-23 21:58:12,397 - __main__ - DEBUG - private message received
+2018-06-23 21:58:13,520 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:58:13,520 - __main__ - DEBUG - Message: /categories
+2018-06-23 21:58:16,117 - ChatsDB - INFO - updating database...
+2018-06-23 21:58:16,118 - UsersDB - INFO - updating database...
+2018-06-23 21:58:16,118 - CategoriesDB - INFO - updating database...
+2018-06-23 21:58:16,118 - PersonDB - INFO - updating database...
+2018-06-23 21:58:18,485 - __main__ - DEBUG - ['cp', 'cat', '0', 'succ']
+2018-06-23 21:58:55,456 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 21:58:55,457 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 21:58:55,457 - Databases - DEBUG - loading db...
+2018-06-23 21:58:55,458 - Databases - INFO - Loaded 5 data
+2018-06-23 21:58:55,459 - Databases - DEBUG - last uid:4
+2018-06-23 21:58:55,459 - PersonDB - INFO - loaded persons db
+2018-06-23 21:58:55,460 - Databases - DEBUG - loading db...
+2018-06-23 21:58:55,461 - Databases - INFO - Loaded 5 data
+2018-06-23 21:58:55,462 - Databases - DEBUG - last uid:5
+2018-06-23 21:58:55,462 - ChatsDB - INFO - loaded chats db
+2018-06-23 21:58:55,462 - Databases - DEBUG - loading db...
+2018-06-23 21:58:55,463 - Databases - INFO - Loaded 5 data
+2018-06-23 21:58:55,464 - Databases - DEBUG - last uid:13
+2018-06-23 21:58:55,464 - UsersDB - INFO - loaded users database
+2018-06-23 21:58:55,464 - Databases - DEBUG - loading db...
+2018-06-23 21:58:55,465 - Databases - INFO - Loaded 4 data
+2018-06-23 21:58:55,465 - Databases - DEBUG - last uid:4
+2018-06-23 21:58:55,465 - CategoriesDB - INFO - loaded db
+2018-06-23 21:58:55,466 - __main__ - INFO - Loaded databases
+2018-06-23 21:58:55,467 - __main__ - INFO - Message loop started
+2018-06-23 21:59:00,959 - __main__ - DEBUG - private message received
+2018-06-23 21:59:02,156 - __main__ - DEBUG - handle normal requests
+2018-06-23 21:59:02,157 - __main__ - DEBUG - Message: /categories
+2018-06-23 21:59:02,655 - ChatsDB - INFO - updating database...
+2018-06-23 21:59:02,655 - UsersDB - INFO - updating database...
+2018-06-23 21:59:02,655 - CategoriesDB - INFO - updating database...
+2018-06-23 21:59:02,655 - PersonDB - INFO - updating database...
+2018-06-23 21:59:04,376 - __main__ - DEBUG - ['cp', 'cat', '0', 'succ']
+2018-06-23 21:59:06,958 - __main__ - DEBUG - ['cp', 'cat', '1', 'succ']
+2018-06-23 21:59:09,319 - __main__ - DEBUG - ['cp', 'cat', '1', 'prev']
+2018-06-23 21:59:11,563 - __main__ - DEBUG - ['cp', 'cat', '0', 'prev']
+2018-06-23 22:01:54,759 - __main__ - DEBUG - private message received
+2018-06-23 22:01:55,907 - __main__ - DEBUG - handle normal requests
+2018-06-23 22:01:55,908 - __main__ - DEBUG - Message: /show_hello
+2018-06-23 22:01:56,092 - ChatsDB - INFO - updating database...
+2018-06-23 22:01:56,092 - UsersDB - INFO - updating database...
+2018-06-23 22:01:56,092 - CategoriesDB - INFO - updating database...
+2018-06-23 22:01:56,093 - PersonDB - INFO - updating database...
+2018-06-23 23:57:49,339 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-23 23:57:49,340 - __main__ - INFO - Bot data read, bot ready
+2018-06-23 23:57:49,340 - Databases - DEBUG - loading db...
+2018-06-23 23:57:49,343 - Databases - INFO - Loaded 5 data
+2018-06-23 23:57:49,343 - Databases - DEBUG - last uid:4
+2018-06-23 23:57:49,343 - PersonDB - INFO - loaded persons db
+2018-06-23 23:57:49,343 - Databases - DEBUG - loading db...
+2018-06-23 23:57:49,347 - Databases - INFO - Loaded 5 data
+2018-06-23 23:57:49,347 - Databases - DEBUG - last uid:5
+2018-06-23 23:57:49,347 - ChatsDB - INFO - loaded chats db
+2018-06-23 23:57:49,348 - Databases - DEBUG - loading db...
+2018-06-23 23:57:49,350 - Databases - INFO - Loaded 5 data
+2018-06-23 23:57:49,350 - Databases - DEBUG - last uid:13
+2018-06-23 23:57:49,351 - UsersDB - INFO - loaded users database
+2018-06-23 23:57:49,351 - Databases - DEBUG - loading db...
+2018-06-23 23:57:49,353 - Databases - INFO - Loaded 4 data
+2018-06-23 23:57:49,353 - Databases - DEBUG - last uid:4
+2018-06-23 23:57:49,353 - CategoriesDB - INFO - loaded db
+2018-06-23 23:57:49,354 - __main__ - INFO - Loaded databases
+2018-06-23 23:57:49,354 - __main__ - INFO - Message loop started
+2018-06-23 23:59:22,126 - __main__ - DEBUG - private message received
+2018-06-23 23:59:23,271 - __main__ - DEBUG - handle normal requests
+2018-06-23 23:59:23,271 - __main__ - DEBUG - Message: /categories
+2018-06-23 23:59:24,085 - ChatsDB - INFO - updating database...
+2018-06-23 23:59:24,085 - UsersDB - INFO - updating database...
+2018-06-23 23:59:24,085 - CategoriesDB - INFO - updating database...
+2018-06-23 23:59:24,086 - PersonDB - INFO - updating database...
+2018-06-23 23:59:26,334 - __main__ - DEBUG - ['cp', 'cat', '0', 'succ']
+2018-06-23 23:59:28,704 - __main__ - DEBUG - ['cp', 'cat', '1', 'succ']
+2018-06-23 23:59:30,788 - __main__ - DEBUG - ['cp', 'cat', '1', 'prev']

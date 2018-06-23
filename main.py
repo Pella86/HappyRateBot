@@ -17,8 +17,6 @@ sys.path.append("./src")
 
 #py imports
 import time
-import logging
-import datetime
 
 # telepot imports
 import telepot
@@ -30,7 +28,9 @@ import MessageParser
 import PersonDB
 import ChatsDB
 import UsersDB
+import CategoriesDB
 import Handle
+import Logging
 from src.language_support.LanguageSupport import _
 
 #==============================================================================
@@ -38,23 +38,7 @@ from src.language_support.LanguageSupport import _
 #==============================================================================
 
 # create logger
-log = logging.getLogger(__name__)
-
-# set logger level
-log.setLevel(logging.DEBUG)
-
-# create a file handler
-fh = logging.FileHandler("./log_files/log_" + datetime.datetime.now().strftime("%y%m%d") + ".log")
-
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-fh.setFormatter(formatter)
-
-# create console and file handler
-log.addHandler(fh)
-sh = logging.StreamHandler()
-formatter = logging.Formatter('%(name)s - %(message)s')
-sh.setFormatter(formatter)
-log.addHandler(sh)
+log = Logging.get_logger(__name__, "DEBUG")
 
 #==============================================================================
 # handle
@@ -70,27 +54,29 @@ def handle(raw_msg):
         
         chatsdb.addChat(msg.chat)
         chatid = msg.chat.id
-#        lang_tag = msg.mfrom.language_code
-        
+
         # add the user 
         usersdb.addUser(msg.mfrom, chatid)
         
         user = usersdb.getUser(msg.mfrom)
         
-        
-        
+        # check if user is active?
+        user.isActive = True
+
         if user.accepted_terms == False:
-            
             log.debug("handle privacy policy")
             Handle.handle_privacy_policy(bot, usersdb, user, msg.content)        
         else:
             log.debug("handle normal requests")
             if msg.content.type == "text":
                 log.debug("Message: " + msg.content.text)
-                Handle.handle_private_text(msg.content.text, bot, user, usersdb)
+                Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb)
+        
+
         
         chatsdb.update()
         usersdb.update()
+        categoriesdb.update()
     
     persondb.update()
     
@@ -106,13 +92,15 @@ def query(raw_msg):
     
     query.initOptionals()
     
+    user = usersdb.getUser(query.person)
+    
+    log.debug(query.data)
+    
     if query.data.startswith("rmacc"):
         
         scmd = query.data.split("_")
         ans = scmd[1]
-        
-        user = usersdb.getUser(query.person)
-        
+
         if ans == "yes":
             chatid = user.chatid
             lang_tag = user.lang_tag
@@ -128,6 +116,22 @@ def query(raw_msg):
             bot.answerCallbackQuery(query.id, text='Not removed')
         
         usersdb.update()
+    
+    elif query.data.startswith("cp_"):
+        # change page
+        cmd_list = query.data.split("_")
+        log.debug(str(cmd_list))
+        
+        if len(cmd_list) < 4:
+            raise Exception("list too short")
+
+        page_n = int(cmd_list[2])
+        prev = True if cmd_list[3] == "prev" else False        
+
+        if cmd_list[1] == "cat":
+            Handle.answer_categories_page(bot, user, categoriesdb, query, prev, page_n)
+        elif cmd_list[1] == "shortcat":
+            Handle.answer_short_categories(bot, user, categoriesdb, query, prev, page_n)
     
     else:
         bot.answerCallbackQuery(query.id, text='what?')
@@ -160,8 +164,8 @@ if __name__ == "__main__":
     persondb = PersonDB.PersonDB()
     chatsdb = ChatsDB.ChatsDB()
     usersdb = UsersDB.UsersDB()
-    
-    
+    categoriesdb = CategoriesDB.CategoriesDB()
+
     log.info("Loaded databases")
     
     response = {
