@@ -59,18 +59,24 @@ class MediaVote:
         
         rmk =InlineKeyboardMarkup(inline_keyboard=[[Button("under construction", "lol")]])
         
-        if self.content.type == "photo":
-            bot.sendPhoto(user.chatid, file_id, caption = caption, reply_markup = rmk)
-        elif self.content.type == "video":
-            bot.sendVideo(user.chatid, file_id, caption = caption, reply_markup = rmk)
-        elif self.content.type == "document":
-            bot.sendDocument(user.chatid, file_id, caption = caption, reply_markup = rmk)  
-        elif self.content.type == "text":
+        if self.content.type == "text":
             original_message = self.content.text + "\n"
             original_message += "---------------------\n"
             original_message += caption
             
-            BotWrappers.sendMessage(bot, user, original_message, sdb, reply_markup = rmk)            
+            BotWrappers.sendMessage(bot, user, original_message, sdb, reply_markup = rmk)                        
+        
+        else:
+            caption = caption.format(**sdb)
+            
+            if self.content.type == "photo":
+                bot.sendPhoto(user.chatid, file_id, caption = caption, reply_markup = rmk)
+            elif self.content.type == "video":
+                bot.sendVideo(user.chatid, file_id, caption = caption, reply_markup = rmk)
+            elif self.content.type == "document":
+                bot.sendDocument(user.chatid, file_id, caption = caption, reply_markup = rmk)  
+            
+
             
             
             

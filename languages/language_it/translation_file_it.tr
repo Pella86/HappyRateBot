@@ -449,3 +449,99 @@ Category: hello
 /main_menu
 --- Translation ---
 
+
+--- English ---
+Category not found
+/upload
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: 1221786348</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: 349469045</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+<b>Send a category name</b>
+<i>The name must be maximum 15 characters long and can contain only alphanumeric characters (a-z and A-Z and 1-10)</i>
+
+Create a category will cost 0 you have 0  ₽
+/cancel
+
+--- Translation ---
+
+
+--- English ---
+Create category error: too short
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: 4156202834</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: 1762991954</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: 1376857120</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+

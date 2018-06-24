@@ -117,10 +117,8 @@ class CategoryPages(Pages):
             if self.page > self.calcTotPages(self.cat_list):
                 bot.answerCallbackQuery(self.query.id, "Reached last page")
                 return
-        
-        elements = self.create_element_list(user, mediavotedb)
-        
-        self.sendPage(bot, user, elements, self.calcTotPages(self.cat_list))         
+
+        self.sendPage(bot, user, mediavotedb)         
 
     def sendPage(self, bot, user, mediavotedb):
         list_of_elements = self.create_element_list(user, mediavotedb)
@@ -134,7 +132,7 @@ class CategoryPages(Pages):
 class CategoryPagesShort(Pages):
     
     def __init__(self, page, cat_list, query = None):
-        super().__init__("Categories", page, 10, "cp_shortcat_", query)
+        super().__init__("Categories", page, 6, "cp_shortcat_", query)
         
         self.cat_list = cat_list   
 
@@ -167,9 +165,7 @@ class CategoryPagesShort(Pages):
                 bot.answerCallbackQuery(self.query.id, "Reached last page")
                 return
         
-        elements = self.create_element_list()
-        
-        self.sendPage(bot, user, elements, self.calcTotPages(self.cat_list))
+        self.sendPage(bot, user)
     
     def sendPage(self, bot, user):
         list_of_elements = self.create_element_list()
