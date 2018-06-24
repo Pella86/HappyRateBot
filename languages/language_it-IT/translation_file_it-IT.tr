@@ -349,3 +349,102 @@ You can post anything text, gif, pictures, ...
 Please choose a category where to put the media
 --- Translation ---
 
+
+--- English ---
+Please choose a category where to put the media
+/cancel
+--- Translation ---
+
+
+--- English ---
+Content uploaded successfully
+--- Translation ---
+
+
+--- English ---
+accepted
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: 666915784</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+Content uploaded successfully
+/main_menu
+--- Translation ---
+
+
+--- English ---
+Content already in database
+--- Translation ---
+
+
+--- English ---
+Hello-------------
+Uploader: {display_id}
+Category: {category}{upvotes} up - {downvotes} down | Score: {score}/main_menu
+--- Translation ---
+
+
+--- English ---
+Hello
+-------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu
+--- Translation ---
+
+
+--- English ---
+hello
+-------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu
+--- Translation ---
+
+
+--- English ---
+Hello
+--------------------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu
+--- Translation ---
+
+
+--- English ---
+Hello
+---------------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu
+--- Translation ---
+
+
+--- English ---
+hello
+---------------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu
+--- Translation ---
+

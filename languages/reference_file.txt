@@ -205,4 +205,55 @@ Category score:0
 
 --- new string ---
 You can post anything text, gif, pictures, ...--- new string ---
+Please choose a category where to put the media--- new string ---
 Please choose a category where to put the media
+/cancel--- new string ---
+Content uploaded successfully--- new string ---
+accepted--- new string ---
+<b>User Profile </b>
+<i>Your anonymous id is: 666915784</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account--- new string ---
+Content uploaded successfully
+/main_menu--- new string ---
+Content already in database--- new string ---
+Hello-------------
+Uploader: {display_id}
+Category: {category}{upvotes} up - {downvotes} down | Score: {score}/main_menu--- new string ---
+Hello
+-------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu--- new string ---
+hello
+-------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu--- new string ---
+Hello
+--------------------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu--- new string ---
+Hello
+---------------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu--- new string ---
+hello
+---------------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu

@@ -4,15 +4,23 @@ Created on Sat Jun 23 23:26:12 2018
 
 @author: Mauro
 """
-
+#==============================================================================
+# Imports
+#==============================================================================
 from telepot.namedtuple import InlineKeyboardButton, InlineKeyboardMarkup
 
 import BotWrappers
 import NumberFormatter
 
+#==============================================================================
+# helpers
+#==============================================================================
 def Button(text, cb):    
     return InlineKeyboardButton(text=text, callback_data=cb)
 
+#==============================================================================
+# Pages base class
+#==============================================================================
 class Pages:
     
     def __init__(self, title, page, max_per_page, query_tag, query = None):
@@ -61,8 +69,9 @@ class Pages:
         else:
             BotWrappers.sendMessage(bot, user, s, translation=False, reply_markup=rmk, parse_mode="HTML")        
         
-
-
+#==============================================================================
+# Categories
+#==============================================================================
 class CategoryPages(Pages):
     
     def __init__(self, page, cat_list, query = None):
@@ -70,8 +79,13 @@ class CategoryPages(Pages):
         
         self.cat_list = cat_list
 
-    def create_element(self, cat_list, i):
-        s = "~~~~" + cat_list[i].display_name + "~~~~" + "\n"
+    def create_element(self, cat_list, i, user, mediavotedb):
+        s = "~~~~ " + cat_list[i].display_name + " ~~~~" + "\n"
+        n_voted, total = user.countVoted(cat_list[i].name_id, mediavotedb)
+        if total == 0:
+            s += "Empty\n"
+        else:
+            s += "Voted: {} / {}\n".format(n_voted, total)
         s += "Category score: " + str(NumberFormatter.FormatNumber(cat_list[i].score, 0)) + "\n"
         #user_voted_all = get media if user in  already voted
         #calc tot for media in media list if not hide nor ban
@@ -80,19 +94,19 @@ class CategoryPages(Pages):
         s += "/show_" + cat_list[i].display_name
         return s  
     
-    def create_element_list(self):
+    def create_element_list(self, user, mediavotedb):
         elements = []
         
         for i in range(*self.get_page_list_indexes()):
             if i < len(self.cat_list):
-                s = self.create_element(self.cat_list, i)
+                s = self.create_element(self.cat_list, i, user, mediavotedb)
                 elements.append(s)
             else:
                 break
         return elements
 
     
-    def check_answer(self, bot, user, prev):
+    def check_answer(self, bot, user, prev, mediavotedb):
         if prev:
             self.page -= 1
             if self.page < 0:
@@ -104,10 +118,18 @@ class CategoryPages(Pages):
                 bot.answerCallbackQuery(self.query.id, "Reached last page")
                 return
         
-        elements = self.create_element_list()
+        elements = self.create_element_list(user, mediavotedb)
         
         self.sendPage(bot, user, elements, self.calcTotPages(self.cat_list))         
 
+    def sendPage(self, bot, user, mediavotedb):
+        list_of_elements = self.create_element_list(user, mediavotedb)
+        tot_pages = self.calcTotPages(self.cat_list)
+        super().sendPage(bot, user, list_of_elements, tot_pages)
+
+#==============================================================================
+# Categories condensed
+#==============================================================================
 
 class CategoryPagesShort(Pages):
     
@@ -147,6 +169,11 @@ class CategoryPagesShort(Pages):
         
         elements = self.create_element_list()
         
-        self.sendPage(bot, user, elements, self.calcTotPages(self.cat_list))    
+        self.sendPage(bot, user, elements, self.calcTotPages(self.cat_list))
+    
+    def sendPage(self, bot, user):
+        list_of_elements = self.create_element_list()
+        tot_pages = self.calcTotPages(self.cat_list)
+        super().sendPage(bot, user, list_of_elements, tot_pages)
     
     

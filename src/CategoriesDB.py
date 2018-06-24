@@ -43,6 +43,9 @@ class CategoriesDB:
     def isPresent(self, catname):
         return not self.database.isNew(catname.lower())
     
+    def getCategory(self, cat_name):
+        return self.database[cat_name].getData()
+    
     
     def checkName(self, text):
         error_message = True

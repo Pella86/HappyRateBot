@@ -105,7 +105,9 @@ class UsersDB:
         data = self.database[user.hash_id]
         os.remove(os.path.join(self.folder, data.filename + ".pickle"))
         self.database.deleteItem(user.hash_id)
-        
+    
+    def hGetUser(self, hash_id):
+        return self.database[hash_id].getData()
         
     def getUser(self, person):
         log.debug("User already in database, got user")

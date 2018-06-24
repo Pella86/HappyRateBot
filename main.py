@@ -29,6 +29,7 @@ import PersonDB
 import ChatsDB
 import UsersDB
 import CategoriesDB
+import MediaVoteDB
 import Handle
 import Logging
 from src.language_support.LanguageSupport import _
@@ -67,16 +68,26 @@ def handle(raw_msg):
             log.debug("handle privacy policy")
             Handle.handle_privacy_policy(bot, usersdb, user, msg.content)        
         else:
-            log.debug("handle normal requests")
-            if msg.content.type == "text":
-                log.debug("Message: " + msg.content.text)
-                Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb)
+            
+            send_main_menu = True
+            send_main_menu = Handle.handle_content(msg.content, bot, user, categoriesdb, mediavotedb)
+            
+            
+            if msg.content.type == "text" and send_main_menu:
+                log.debug("Message: " + msg.content.text.encode("utf-8").decode("utf-8", "backslashreplace"))
+                send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+            
+            if send_main_menu:
+                Handle.send_main_menu(bot, user)
+                
+            
         
 
         
         chatsdb.update()
         usersdb.update()
         categoriesdb.update()
+        mediavotedb.update()
     
     persondb.update()
     
@@ -129,7 +140,7 @@ def query(raw_msg):
         prev = True if cmd_list[3] == "prev" else False        
 
         if cmd_list[1] == "cat":
-            Handle.answer_categories_page(bot, user, categoriesdb, query, prev, page_n)
+            Handle.answer_categories_page(bot, user, categoriesdb, query, prev, page_n, mediavotedb)
         elif cmd_list[1] == "shortcat":
             Handle.answer_short_categories(bot, user, categoriesdb, query, prev, page_n)
     
@@ -165,6 +176,8 @@ if __name__ == "__main__":
     chatsdb = ChatsDB.ChatsDB()
     usersdb = UsersDB.UsersDB()
     categoriesdb = CategoriesDB.CategoriesDB()
+    mediavotedb = MediaVoteDB.MediaVoteDB()
+    
 
     log.info("Loaded databases")
     

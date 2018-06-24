@@ -27,7 +27,7 @@ log = Logging.get_logger(__name__, "DEBUG")
 def sendMessage(bot, user, text, sdb = None, translation = True, *args, **kwargs):
     
     if sdb:
-        text = text.format(*sdb)
+        text = text.format(**sdb)
     
     if translation:
         text = _(text, user.lang_tag)
@@ -45,7 +45,7 @@ def sendMessage(bot, user, text, sdb = None, translation = True, *args, **kwargs
 
 def editMessage(bot, user, msgchatid, text, sdb = None, translation=True, *args, **kwargs ):
     if sdb:
-        text = text.format(*sdb)
+        text = text.format(**sdb)
     
     if translation:
         text = _(text, user.lang_tag) 

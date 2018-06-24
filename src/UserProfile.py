@@ -56,6 +56,18 @@ class UserProfile:
     
     def getPoints(self):
         return str(NumberFormatter.PellaCoins(self.pella_coins))
+    
+    def countVoted(self, cat_name, mediavotedb):
+        voted = 0
+        total = 0
+        for media in mediavotedb.getValues():
+            media_visible = not (media.deleted or media.uid in self.no_show_ids)
+            if media.cat_name == cat_name and media_visible:
+                if self.hash_id in media.voters_id:
+                    voted += 1
+                total += 1
+        return voted, total
+                    
         
 
         

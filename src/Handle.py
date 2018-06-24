@@ -17,12 +17,16 @@ Created on Mon Jun 18 23:32:03 2018
 # Imports
 #==============================================================================
 
+import random
+
 from telepot.namedtuple import InlineKeyboardButton, InlineKeyboardMarkup
 
 import Logging
 import BotWrappers
 import Category
 import Pages
+import MediaVote
+import Databases
 
 #==============================================================================
 # logging
@@ -37,49 +41,124 @@ log = Logging.get_logger(__name__, "DEBUG")
 def Button(text, cb):    
     return InlineKeyboardButton(text=text, callback_data=cb)
 
+
+
 #==============================================================================
 # Handle
 #==============================================================================
 
-def handle_private_text(text, bot, user, usersdb, catdb):
+def handle_content(content, bot, user, catdb, mediavotedb):
+        
+    if user.tmp_upload_category == True:
+        if content.type == "text" and user.tmp_upload_content is not None and user.tmp_upload_content != True:
+            print(user.tmp_upload_content)
+            error_message = None
+            
+            # check if category is present
+            if catdb.isPresent(content.text.lower()):
+                cat_name = content.text.lower()
+            else:
+                error_message = "category not found"
+                BotWrappers.sendMessage(bot, user, "Category not found\n/upload")
+    
+            if error_message is None:
+                mediavotedb.addContent(user.tmp_upload_content, cat_name, user.hash_id)
+                BotWrappers.sendMessage(bot, user, "Content uploaded successfully\n/main_menu")
+                log.debug("handle normal requests")
+        
+        user.tmp_upload_content = False
+        user.tmp_upload_category = False
+        
+        return False
+
+    if user.tmp_upload_content == True:
+        error_message = None
+        
+        content_id = content.text if content.type == "text" else content.file_id
+        
+        print(content)
+        
+        file_ids = [v.content.text if v.content.type == "text" else v.content.file_id for v in mediavotedb.getValues()]
+        
+        print(file_ids)
+
+        if content_id in file_ids:
+            error_message = "not original content"
+            
+        if error_message is None:
+            # read the content from the message
+            user.tmp_upload_content = content
+            
+            short_categories(bot, user, catdb)
+
+            s = "Please choose a category where to put the media\n/cancel"
+            BotWrappers.sendMessage(bot, user, s)
+            
+            user.tmp_upload_category = True
+        
+        else:
+            user.tmp_upload_content = None
+            s = "Content already in database\n/main_maenu"
+            BotWrappers.sendMessage(bot, user, s)   
+        
+        return False
+    return True
+        
+def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
     
     if user.tmp_display_id:
         set_nickname_result(text, bot, user, usersdb)
+        return False
     
     if user.tmp_create_category:
         get_category(bot, user, text, catdb)
+        return False
+     
+    if text.startswith("/show"):
+        st = text.split("_")
+        # st[0] == "/show"
+        # st[1] == "catname"
+        # st[3] == uid image
         
-    if user.tmp_upload_content == True:
-        # read the content from the message
-        user.tmp_upload_content = text
-        
-        s = "Please choose a category where to put the media\n/cancel"
-        BotWrappers.sendMessage(bot, user, s)
-        short_categories(bot, user, catdb)
-        user.tmp_upload_category = True
-    
-    if user.tmp_upload_category == True:
-        # read the category
-        if catdb.isPresent(text):
-            cat_name = text.lower()
+        print(len(st))
         
         
-        # create the media
+        if len(st) == 1:
+            #pick a random media in all the database and and show it
+            medias = mediavotedb.getValues()
+            media = random.choice(medias)
+            
+            media.showPrivate(bot, user, usersdb, catdb)
+            
+        elif len(st) == 2:
+            # pick a random media and show
+            cat_name = st[1]
+            medias = mediavotedb.getMediaCategory(cat_name)
+            print(medias)
+            
+            media = random.choice(medias)
+            print(media)
+            
+            media.showPrivate(bot, user, usersdb, catdb)
         
-        # add media to database
-        pass
+        elif len(st) == 3:
+            pass
         
+        return False
 
     if text in commands and commands[text].domain == "#general":
         
         if commands[text].name == commands["/privacy_policy"].name:
             commands[text].func()(bot, usersdb, user)
+            return False
         elif commands[text].name == commands["/categories"].name:
-            commands[text].func()(bot, user, catdb)
+            commands[text].func()(bot, user, catdb, mediavotedb)
+            return False
         else:
             commands[text].func()(bot, user)
-    else:
-        send_main_menu(bot, user)
+            return False
+    return True
+
 
 #==============================================================================
 # Main menu
@@ -149,38 +228,33 @@ def user_profile(bot, user):
 def short_categories(bot, user, catdb):
     cat_list = catdb.getValues()
     p = Pages.CategoryPagesShort(0, cat_list)
-    elements = p.create_element_list()
-    p.sendPage(bot, user, elements, p.calcTotPages(cat_list))
+    p.sendPage(bot, user)
 
 def answer_short_categories(bot, user, catdb, query, prev, page_n):
     cat_list = catdb.getValues()
-    
     p = Pages.CategoryPagesShort(page_n, cat_list, query)
-    
     p.check_answer(bot, user, prev)    
 
 #==============================================================================
 # Categories pages
 #============================================================================== 
 
-def categories(bot, user, catdb):
+def categories(bot, user, catdb, mediavotedb):
     # get category list
     cat_list = catdb.getValues()
     
     # generate page elements
     p = Pages.CategoryPages(0, cat_list)
     
-    elements = p.create_element_list()
-    
-    p.sendPage(bot, user, elements, p.calcTotPages(cat_list))
+    p.sendPage(bot, user, mediavotedb)
     
 
-def answer_categories_page(bot, user, catdb, query, prev, page_n):
+def answer_categories_page(bot, user, catdb, query, prev, page_n, mediavotedb):
     cat_list = catdb.getValues()
     
     p = Pages.CategoryPages(page_n, cat_list, query)
     
-    p.check_answer(bot, user, prev)
+    p.check_answer(bot, user, prev, mediavotedb)
 
 #==============================================================================
 # Category stuff

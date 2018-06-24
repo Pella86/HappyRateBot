@@ -17,7 +17,7 @@ import Logging
 # logging
 #==============================================================================
 # create logger
-log = Logging.get_logger(__name__, "DEBUG")
+log = Logging.get_logger(__name__, "INFO")
 
 #==============================================================================
 # Helper functions
