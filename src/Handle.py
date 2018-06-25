@@ -25,8 +25,6 @@ import Logging
 import BotWrappers
 import Category
 import Pages
-import MediaVote
-import Databases
 
 #==============================================================================
 # logging
@@ -41,8 +39,6 @@ log = Logging.get_logger(__name__, "DEBUG")
 def Button(text, cb):    
     return InlineKeyboardButton(text=text, callback_data=cb)
 
-
-
 #==============================================================================
 # Handle
 #==============================================================================
@@ -50,8 +46,11 @@ def Button(text, cb):
 def handle_content(content, bot, user, catdb, mediavotedb):
         
     if user.tmp_upload_category == True:
-        if content.type == "text" and user.tmp_upload_content is not None and user.tmp_upload_content != True:
-            print(user.tmp_upload_content)
+        text_type = content.type == "text"
+        user_prompted_upload = user.tmp_upload_content is not None
+        user_has_valid_content = user.tmp_upload_content != True
+        
+        if text_type and user_prompted_upload and user_has_valid_content:
             error_message = None
             
             # check if category is present
@@ -59,7 +58,7 @@ def handle_content(content, bot, user, catdb, mediavotedb):
                 cat_name = content.text.lower()
             else:
                 error_message = "category not found"
-                BotWrappers.sendMessage(bot, user, "Category not found\n/upload")
+                BotWrappers.sendMessage(bot, user, "Category not found\n/upload    /main_menu")
     
             if error_message is None:
                 mediavotedb.addContent(user.tmp_upload_content, cat_name, user.hash_id)
@@ -76,14 +75,16 @@ def handle_content(content, bot, user, catdb, mediavotedb):
         
         content_id = content.text if content.type == "text" else content.file_id
         
-        print(content)
-        
         file_ids = [v.content.text if v.content.type == "text" else v.content.file_id for v in mediavotedb.getValues()]
-        
-        print(file_ids)
 
         if content_id in file_ids:
             error_message = "not original content"
+        
+        if content.text.startswith("/"):
+            if content.text == commands["/cancel"].name:
+                error_message = "cancel"
+            else:
+                error_message = "command not allowed"
             
         if error_message is None:
             # read the content from the message
@@ -97,9 +98,16 @@ def handle_content(content, bot, user, catdb, mediavotedb):
             user.tmp_upload_category = True
         
         else:
-            user.tmp_upload_content = None
-            s = "Content already in database\n/main_maenu"
-            BotWrappers.sendMessage(bot, user, s)   
+            if error_message == "not original content":
+                user.tmp_upload_content = None
+                s = "Content already in database\n/main_maenu"
+                BotWrappers.sendMessage(bot, user, s) 
+            elif error_message ==  "cancel":
+                return True
+            elif error_message == "command not allowed":
+                user.tmp_upload_content = None
+                s = "Commands not allowed\n/main_maenu"
+                BotWrappers.sendMessage(bot, user, s)                
         
         return False
     return True
@@ -116,11 +124,6 @@ def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
      
     if text.startswith("/show"):
         st = text.split("_")
-        # st[0] == "/show"
-        # st[1] == "catname"
-        # st[3] == uid image
-        
-        print(len(st))
         
         
         if len(st) == 1:
@@ -132,13 +135,13 @@ def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
             
         elif len(st) == 2:
             # pick a random media and show
-            cat_name = st[1]
+            cat_name = st[1].lower()
             medias = mediavotedb.getMediaCategory(cat_name)
-            print(medias)
-            
+
             media = random.choice(medias)
-            print(media)
             
+            print(media.content.type)
+           
             media.showPrivate(bot, user, usersdb, catdb)
         
         elif len(st) == 3:
@@ -306,6 +309,8 @@ def cancel(bot, user):
     user.tmp_upload_content = None
     user.tmp_upload_category = None
     user.tmp_create_category = None
+    BotWrappers.sendMessage(bot, user, "cancelled!")
+    send_main_menu(bot, user)
 
 #==============================================================================
 # Nickname stuff
@@ -315,7 +320,7 @@ def set_nickname(bot, user):
     # create a delegator bot and starts its own message loop?
     user.tmp_display_id = True
     
-    s = "Send a new nickname. The nickname has to be between 3 and 15 characters. And can contain only alphanumeric values (a-z, A-Z, 0-9)."
+    s = "Send a new nickname. The nickname has to be between 3 and 15 characters. And can contain only alphanumeric values (a-z, A-Z, 0-9).\n/cancel"
     
     
     BotWrappers.sendMessage(bot, user, s)

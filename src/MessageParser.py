@@ -220,7 +220,7 @@ class Photo(Content):
 class Sticker(Content):
     
     def __init__(self, sticker):
-        super().__init__(sticker, "sticer")
+        super().__init__(sticker, "sticker")
         
         self.width = sticker['width']
         self.height = sticker['height']
@@ -304,7 +304,60 @@ class Photos(Content):
     
     def __str__(self):
         return self.info()
+
+class Voice(Content):
+    
+    def __init__(self, msg, opt = False):
+        super().__init__(msg, "voice")
         
+        self.duration = msg["duration"]
+        
+        self.original = msg
+        self.init_opt = False
+        if opt:
+            self.initOptionals()
+    
+    def initOptionals(self):
+        self.mime_type = self.original.get("mime_type")
+        self.file_size = self.original.get("file_size")
+        self.init_opt = True
+
+class VideoNote(Content):
+    
+    def __init__(self, msg, opt = False):
+        super().__init__(msg, "video_note")
+        
+        self.length = msg["length"]
+        self.duration = msg["duration"]
+        
+        self.original = msg
+        self.init_opt = False
+        if opt:
+            self.initOptionals()
+    
+    def initOptionals():
+        raise Exception("Not implemented")
+        # to do implement shit
+
+class Audio(Content):
+    
+    def __init__(self, msg, opt = False):
+        super().__init__(msg, "audio")
+        
+        self.duration = msg["duration"]
+
+        self.original = msg        
+        self.init_opt = False
+        if opt:
+            self.initOptionals()
+ 
+    def initOptionals():
+        raise Exception("Not implemented")
+        # to do implement shit
+    
+        
+        
+
     
 
 class Message:
@@ -350,7 +403,7 @@ class Message:
         content_type, _, _ = telepot.glance(self.original)
         self.content_type = content_type
         self.known_content = ["text", "photo", "new_chat_member", "sticker",
-                              "video", "document"]
+                              "video", "document", "voice", "video_note", "audio"]
         
         
         self.content = None
@@ -361,14 +414,23 @@ class Message:
         if self.content_type == "photo":
             self.content = Photos(self.original["photo"])
 
-        if content_type == "sticker":
+        if self.content_type == "sticker":
             self.content = Sticker(self.original["sticker"])
         
-        if content_type == "video":
+        if self.content_type == "video":
             self.content = Video(self.original["video"])
         
-        if content_type == "document":
+        if self.content_type == "document":
             self.content = Document(self.original["document"])
+        
+        if self.content_type == "voice":
+            self.content = Voice(self.original["voice"])
+        
+        if self.content_type == "video_note":
+            self.content = VideoNote(self.original["video_note"])
+            
+        if self.content_type == "audio":
+            self.content = Audio(self.original["audio"])
 
         if self.content_type == "new_chat_member":
             self.new_chat_participant = Person(self.original["new_chat_participant"])

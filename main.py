@@ -17,6 +17,7 @@ sys.path.append("./src")
 
 #py imports
 import time
+import pprint
 
 # telepot imports
 import telepot
@@ -34,6 +35,8 @@ import Handle
 import Logging
 from src.language_support.LanguageSupport import _
 
+import BotWrappers
+
 #==============================================================================
 # Logging
 #==============================================================================
@@ -45,23 +48,39 @@ log = Logging.get_logger(__name__, "DEBUG")
 # handle
 #==============================================================================
 
+
+def LogBigMistakes(func):
+    def func_wrapper(*args, **kwargs):
+        try:
+            func(*args, **kwargs)
+        except Exception:
+            log.exception(func.__name__ + ": Big mistake")
+    return func_wrapper
+
+@LogBigMistakes
 def handle(raw_msg):
+    log.debug("Message:\n" + pprint.pformat(raw_msg, indent = 2))
+
     msg = MessageParser.Message(raw_msg)
     
     persondb.addPerson(msg.mfrom) # logs every person!
     
+    
+    
     if msg.chat.type == "private":
         log.debug("private message received")
+        
+        
         
         chatsdb.addChat(msg.chat)
         chatid = msg.chat.id
 
         # add the user 
         usersdb.addUser(msg.mfrom, chatid)
-        
         user = usersdb.getUser(msg.mfrom)
+
         
-        # check if user is active?
+        # received a message user is supposedly active
         user.isActive = True
 
         if user.accepted_terms == False:
@@ -69,21 +88,26 @@ def handle(raw_msg):
             Handle.handle_privacy_policy(bot, usersdb, user, msg.content)        
         else:
             
+            # flag to send main menu
             send_main_menu = True
+            
+            # check the content if there is piped some request
             send_main_menu = Handle.handle_content(msg.content, bot, user, categoriesdb, mediavotedb)
             
-            
+            # analyize content
             if msg.content.type == "text" and send_main_menu:
-                log.debug("Message: " + msg.content.text.encode("utf-8").decode("utf-8", "backslashreplace"))
+                # log the messages to the bot 
+                text = msg.content.text
+                log_msg = text if len(text) < 244 else text[:241] + "..."
+                log_msg = log_msg.encode("utf-8").decode("utf-8", "backslashreplace")
+                log.debug("Message: " + log_msg)
+                
+                # handle the requests
                 send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
             
             if send_main_menu:
                 Handle.send_main_menu(bot, user)
                 
-            
-        
-
-        
         chatsdb.update()
         usersdb.update()
         categoriesdb.update()
@@ -97,7 +121,7 @@ def handle(raw_msg):
 #==============================================================================
 # query
 #==============================================================================
-
+@LogBigMistakes
 def query(raw_msg):
     query = MessageParser.CbkQuery(raw_msg, False)
     
@@ -147,11 +171,12 @@ def query(raw_msg):
     else:
         bot.answerCallbackQuery(query.id, text='what?')
 
-
+@LogBigMistakes
 def inline_query(msg):
     log.debug("inline query")
     print(msg)
 
+@LogBigMistakes
 def chosen_inline(msg):
     log.debug("chosen inline result")
     print(msg)
@@ -159,6 +184,7 @@ def chosen_inline(msg):
 #==============================================================================
 # Main
 #==============================================================================
+
 
 if __name__ == "__main__":
     log.info("\n---Happy rate bot---")
@@ -180,15 +206,17 @@ if __name__ == "__main__":
     
 
     log.info("Loaded databases")
+    try:
+        response = {
+                'chat': handle,
+                'callback_query': query,
+                'inline_query': inline_query,
+                'chosen_inline_result' : chosen_inline
+                }
     
-    response = {
-            'chat': handle,
-            'callback_query': query,
-            'inline_query': inline_query,
-            'chosen_inline_result' : chosen_inline
-            }
-    
-    MessageLoop(bot, response).run_as_thread()
+        MessageLoop(bot, response).run_as_thread()
+    except Exception as e:
+        log.exception("main: Big mistake")
     
     log.info("Message loop started")
     while 1:

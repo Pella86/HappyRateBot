@@ -545,3 +545,55 @@ Create category error: too short
 /remove_account
 --- Translation ---
 
+
+--- English ---
+test message
+--- Translation ---
+
+
+--- English ---
+Maronna
+---------------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu
+--- Translation ---
+
+
+--- English ---
+Uploader: {display_id}
+Category: {category}
+{upvotes} up - {downvotes} down | Score: {score}
+/main_menu
+--- Translation ---
+
+
+--- English ---
+Uploader: Pella
+Category: easd
+0 up - 0 down | Score: 0.0
+/main_menu
+--- Translation ---
+
+
+--- English ---
+la matita
+---------------------
+Uploader: Pella
+Category: ass
+0 up - 0 down | Score: 0.0
+/main_menu
+--- Translation ---
+
+
+--- English ---
+Commands not allowed
+/main_maenu
+--- Translation ---
+
+
+--- English ---
+cancelled!
+--- Translation ---
+

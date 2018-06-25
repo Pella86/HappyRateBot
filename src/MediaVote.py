@@ -41,8 +41,6 @@ class MediaVote:
         return (karma * tot_votes) / days_up
     
     def showPrivate(self, bot, user, userdb, catdb):
-        
-            
         caption = "Uploader: {display_id}\n"
         caption += "Category: {category}\n"
         caption += "{upvotes} up - {downvotes} down | Score: {score}\n"
@@ -54,8 +52,6 @@ class MediaVote:
         sdb["upvotes"] = self.upvotes
         sdb["downvotes"] = self.downvotes
         sdb["score"] = NumberFormatter.FormatNumber(self.calculateScore(), 0)
-
-        file_id = self.content.file_id
         
         rmk =InlineKeyboardMarkup(inline_keyboard=[[Button("under construction", "lol")]])
         
@@ -67,14 +63,8 @@ class MediaVote:
             BotWrappers.sendMessage(bot, user, original_message, sdb, reply_markup = rmk)                        
         
         else:
+            BotWrappers.sendMedia(bot, user, self.content, caption, sdb, reply_markup = rmk)
             caption = caption.format(**sdb)
-            
-            if self.content.type == "photo":
-                bot.sendPhoto(user.chatid, file_id, caption = caption, reply_markup = rmk)
-            elif self.content.type == "video":
-                bot.sendVideo(user.chatid, file_id, caption = caption, reply_markup = rmk)
-            elif self.content.type == "document":
-                bot.sendDocument(user.chatid, file_id, caption = caption, reply_markup = rmk)  
             
 
             

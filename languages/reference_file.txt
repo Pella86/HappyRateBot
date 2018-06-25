@@ -320,4 +320,28 @@ Create category error: too short--- new string ---
 
 <b>--- delete profile ---</b>
 <i> this action will delete every file you uploaded and reset all scores </i>
-/remove_account
+/remove_account--- new string ---
+test message--- new string ---
+Maronna
+---------------------
+Uploader: Pella
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu--- new string ---
+Uploader: {display_id}
+Category: {category}
+{upvotes} up - {downvotes} down | Score: {score}
+/main_menu--- new string ---
+Uploader: Pella
+Category: easd
+0 up - 0 down | Score: 0.0
+/main_menu--- new string ---
+la matita
+---------------------
+Uploader: Pella
+Category: ass
+0 up - 0 down | Score: 0.0
+/main_menu--- new string ---
+Commands not allowed
+/main_maenu--- new string ---
+cancelled!

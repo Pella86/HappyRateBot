@@ -35,10 +35,10 @@ class MediaVoteDB:
     def getMediaCategory(self, cat_name):
         
         all_media = self.getValues()
-        print(all_media)
-        
+
         medias_category = []
         for media in all_media:
+            print(media.content.type)
             if media.cat_name == cat_name:
                 medias_category.append(media)
         return medias_category
