@@ -27,12 +27,13 @@ from telepot.loop import MessageLoop
 import BotDataReader
 import MessageParser
 import PersonDB
-import ChatsDB
+#import ChatsDB
 import UsersDB
 import CategoriesDB
 import MediaVoteDB
 import Handle
 import Logging
+import Pages
 from src.language_support.LanguageSupport import _
 
 import BotWrappers
@@ -72,7 +73,7 @@ def handle(raw_msg):
         
         
         
-        chatsdb.addChat(msg.chat)
+        #chatsdb.addChat(msg.chat)
         chatid = msg.chat.id
 
         # add the user 
@@ -108,7 +109,7 @@ def handle(raw_msg):
             if send_main_menu:
                 Handle.send_main_menu(bot, user)
                 
-        chatsdb.update()
+        #chatsdb.update()
         usersdb.update()
         categoriesdb.update()
         mediavotedb.update()
@@ -137,14 +138,17 @@ def query(raw_msg):
         ans = scmd[1]
 
         if ans == "yes":
-            chatid = user.chatid
-            lang_tag = user.lang_tag
+            
+            categoriesdb.deleteCategoryUser(user, mediavotedb)
+            log.info("deleted categories")
+            
+            mediavotedb.deleteUserMedia(user)
+            log.info("deleted media")
             
             usersdb.deleteUser(user)
+            log.info("deleted user")
             
-            s = "All data removed"
-            s = _(s, lang_tag)
-            bot.sendMessage(chatid, s)
+            BotWrappers.sendMessage(bot, user, "All data removed")
             bot.answerCallbackQuery(query.id, text='Removed')
         else:
             Handle.send_main_menu(bot, user)
@@ -152,10 +156,27 @@ def query(raw_msg):
         
         usersdb.update()
     
+    elif query.data.startswith("remcat_"):
+        st = query.data.split("_")
+        
+        if len(st) == 2:
+            categoriesdb.deleteCategory(st[1])
+            bot.answerCallbackQuery(query.id, text='Deleted {}'.format(st[1]))
+        else:
+            bot.answerCallbackQuery(query.id, text='Delete cat somethings fucky')
+    
+    elif query.data.startswith("bancat_"):
+        st = query.data.split("_")
+        
+        if len(st) == 2:
+            categoriesdb.banCategory(st[1])
+            bot.answerCallbackQuery(query.id, text='Banned {}'.format(st[1]))
+        else:
+            bot.answerCallbackQuery(query.id, text='Ban cat somethings fucky')
+    
     elif query.data.startswith("cp_"):
         # change page
         cmd_list = query.data.split("_")
-        log.debug(str(cmd_list))
         
         if len(cmd_list) < 4:
             raise Exception("list too short")
@@ -167,7 +188,11 @@ def query(raw_msg):
             Handle.answer_categories_page(bot, user, categoriesdb, query, prev, page_n, mediavotedb)
         elif cmd_list[1] == "shortcat":
             Handle.answer_short_categories(bot, user, categoriesdb, query, prev, page_n)
-    
+        
+        elif cmd_list[1] == "catlist":
+            cat_list = categoriesdb.getValues()
+            p = Pages.CategoryList(page_n, cat_list, query)
+            p.check_answer(bot, user, prev)  
     else:
         bot.answerCallbackQuery(query.id, text='what?')
 
@@ -199,10 +224,15 @@ if __name__ == "__main__":
     log.info("Bot data read, bot ready")
     
     persondb = PersonDB.PersonDB()
-    chatsdb = ChatsDB.ChatsDB()
     usersdb = UsersDB.UsersDB()
     categoriesdb = CategoriesDB.CategoriesDB()
     mediavotedb = MediaVoteDB.MediaVoteDB()
+    
+    # clean up mess
+    
+    for category in categoriesdb.getValues():
+        if category.creator not in usersdb.database.keys():
+            print("found stray category")
     
 
     log.info("Loaded databases")

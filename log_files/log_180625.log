@@ -1843,3 +1843,585 @@ IndexError: Cannot choose from an empty sequence
 2018-06-25 11:00:29,428 - UsersDB - INFO - updating database...
 2018-06-25 11:00:29,428 - CategoriesDB - INFO - updating database...
 2018-06-25 11:00:29,428 - PersonDB - INFO - updating database...
+2018-06-25 12:44:28,466 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529923469,
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10786,
+  'video_note': { 'duration': 4,
+                  'file_id': 'DQADBAADuQMAAkJ3iVGVenH30dFiRgI',
+                  'file_size': 183569,
+                  'length': 240,
+                  'thumb': { 'file_id': 'AAQEABN8q50aAASKsf4ViVQSi7CeAAIC',
+                             'file_size': 1495,
+                             'height': 90,
+                             'width': 90}}}
+2018-06-25 12:44:29,042 - __main__ - DEBUG - private message received
+2018-06-25 12:44:30,658 - ChatsDB - INFO - updating database...
+2018-06-25 12:44:30,658 - UsersDB - INFO - updating database...
+2018-06-25 12:44:30,659 - CategoriesDB - INFO - updating database...
+2018-06-25 12:44:30,659 - PersonDB - INFO - updating database...
+2018-06-25 12:44:32,630 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529923473,
+  'entities': [{'length': 7, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10788,
+  'text': '/upload'}
+2018-06-25 12:44:33,175 - __main__ - DEBUG - private message received
+2018-06-25 12:44:34,243 - __main__ - DEBUG - Message: /upload
+2018-06-25 12:44:34,350 - ChatsDB - INFO - updating database...
+2018-06-25 12:44:34,350 - UsersDB - INFO - updating database...
+2018-06-25 12:44:34,351 - CategoriesDB - INFO - updating database...
+2018-06-25 12:44:34,351 - PersonDB - INFO - updating database...
+2018-06-25 12:44:37,272 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529923477,
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10790,
+  'video_note': { 'duration': 2,
+                  'file_id': 'DQADBAADugMAAkJ3iVFHRNNBLZhtegI',
+                  'file_size': 63183,
+                  'length': 240,
+                  'thumb': { 'file_id': 'AAQEABPAY7oaAASS07EAAVBA0_qyIQACAg',
+                             'file_size': 1490,
+                             'height': 90,
+                             'width': 90}}}
+2018-06-25 12:44:37,820 - __main__ - DEBUG - private message received
+2018-06-25 12:44:38,928 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 55, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 95, in handle
+    send_main_menu = Handle.handle_content(msg.content, bot, user, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 83, in handle_content
+    if content.text.startswith("/"):
+AttributeError: 'VideoNote' object has no attribute 'text'
+2018-06-25 12:44:58,709 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529923499,
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10791,
+  'text': 'Aa'}
+2018-06-25 12:44:59,237 - __main__ - DEBUG - private message received
+2018-06-25 12:45:00,683 - ChatsDB - INFO - updating database...
+2018-06-25 12:45:00,683 - UsersDB - INFO - updating database...
+2018-06-25 12:45:00,684 - CategoriesDB - INFO - updating database...
+2018-06-25 12:45:00,684 - PersonDB - INFO - updating database...
+2018-06-25 12:45:05,129 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529923505,
+  'entities': [{'length': 7, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10794,
+  'text': '/cancel'}
+2018-06-25 12:45:05,658 - __main__ - DEBUG - private message received
+2018-06-25 12:45:06,831 - ChatsDB - INFO - updating database...
+2018-06-25 12:45:06,831 - UsersDB - INFO - updating database...
+2018-06-25 12:45:06,831 - CategoriesDB - INFO - updating database...
+2018-06-25 12:45:06,831 - PersonDB - INFO - updating database...
+2018-06-25 12:45:11,908 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529923512,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10796,
+  'text': '/main_menu'}
+2018-06-25 12:45:12,451 - __main__ - DEBUG - private message received
+2018-06-25 12:45:13,535 - __main__ - DEBUG - Message: /main_menu
+2018-06-25 12:45:13,995 - ChatsDB - INFO - updating database...
+2018-06-25 12:45:13,995 - UsersDB - INFO - updating database...
+2018-06-25 12:45:13,996 - CategoriesDB - INFO - updating database...
+2018-06-25 12:45:13,996 - PersonDB - INFO - updating database...
+2018-06-25 12:45:25,260 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529923525,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10798,
+  'text': '/profile'}
+2018-06-25 12:45:25,813 - __main__ - DEBUG - private message received
+2018-06-25 12:45:26,876 - __main__ - DEBUG - Message: /profile
+2018-06-25 12:45:27,118 - ChatsDB - INFO - updating database...
+2018-06-25 12:45:27,118 - UsersDB - INFO - updating database...
+2018-06-25 12:45:27,119 - CategoriesDB - INFO - updating database...
+2018-06-25 12:45:27,119 - PersonDB - INFO - updating database...
+2018-06-25 12:45:33,723 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529923534,
+  'entities': [{'length': 13, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10800,
+  'text': '/set_nickname'}
+2018-06-25 12:45:34,259 - __main__ - DEBUG - private message received
+2018-06-25 12:45:35,326 - __main__ - DEBUG - Message: /set_nickname
+2018-06-25 12:45:35,448 - ChatsDB - INFO - updating database...
+2018-06-25 12:45:35,449 - UsersDB - INFO - updating database...
+2018-06-25 12:45:35,449 - CategoriesDB - INFO - updating database...
+2018-06-25 12:45:35,449 - PersonDB - INFO - updating database...
+2018-06-25 12:45:36,938 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529923537,
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10802,
+  'text': 'Pello'}
+2018-06-25 12:45:37,478 - __main__ - DEBUG - private message received
+2018-06-25 12:45:38,551 - __main__ - DEBUG - Message: Pello
+2018-06-25 12:45:39,749 - ChatsDB - INFO - updating database...
+2018-06-25 12:45:39,750 - UsersDB - INFO - updating database...
+2018-06-25 12:45:39,753 - Databases - INFO - database update!
+2018-06-25 12:45:39,753 - CategoriesDB - INFO - updating database...
+2018-06-25 12:45:39,754 - PersonDB - INFO - updating database...
+2018-06-25 12:45:51,347 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529923551,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10804,
+  'text': '/main_menu'}
+2018-06-25 12:45:51,886 - __main__ - DEBUG - private message received
+2018-06-25 12:45:52,961 - __main__ - DEBUG - Message: /main_menu
+2018-06-25 12:45:53,345 - ChatsDB - INFO - updating database...
+2018-06-25 12:45:53,345 - UsersDB - INFO - updating database...
+2018-06-25 12:45:53,345 - CategoriesDB - INFO - updating database...
+2018-06-25 12:45:53,345 - PersonDB - INFO - updating database...
+2018-06-25 16:03:04,629 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-25 16:03:04,630 - __main__ - INFO - Bot data read, bot ready
+2018-06-25 16:03:04,630 - Databases - DEBUG - loading db...
+2018-06-25 16:03:04,635 - Databases - INFO - Loaded 9 data
+2018-06-25 16:03:04,635 - Databases - DEBUG - last uid:8
+2018-06-25 16:03:04,635 - PersonDB - INFO - loaded persons db
+2018-06-25 16:03:04,635 - Databases - DEBUG - loading db...
+2018-06-25 16:03:04,639 - Databases - INFO - Loaded 9 data
+2018-06-25 16:03:04,639 - Databases - DEBUG - last uid:18
+2018-06-25 16:03:04,639 - UsersDB - INFO - loaded users database
+2018-06-25 16:03:04,640 - Databases - DEBUG - loading db...
+2018-06-25 16:03:04,644 - Databases - INFO - Loaded 11 data
+2018-06-25 16:03:04,645 - Databases - DEBUG - last uid:11
+2018-06-25 16:03:04,645 - CategoriesDB - INFO - loaded db
+2018-06-25 16:03:04,646 - Databases - DEBUG - loading db...
+2018-06-25 16:03:04,650 - Databases - INFO - Loaded 11 data
+2018-06-25 16:03:04,650 - Databases - DEBUG - last uid:11
+2018-06-25 16:03:04,651 - MediaVoteDB - INFO - database loaded
+2018-06-25 16:03:04,651 - __main__ - INFO - Loaded databases
+2018-06-25 16:03:04,652 - __main__ - INFO - Message loop started
+2018-06-25 16:03:12,273 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935392,
+  'entities': [{'length': 7, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10806,
+  'text': '/upload'}
+2018-06-25 16:03:12,828 - __main__ - DEBUG - private message received
+2018-06-25 16:03:13,899 - __main__ - DEBUG - Message: /upload
+2018-06-25 16:03:14,175 - UsersDB - INFO - updating database...
+2018-06-25 16:03:14,175 - CategoriesDB - INFO - updating database...
+2018-06-25 16:03:14,175 - PersonDB - INFO - updating database...
+2018-06-25 16:03:26,238 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935406,
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10808,
+  'video_note': { 'duration': 4,
+                  'file_id': 'DQADBAAD7gMAAkJ3iVHVRFYbP18vJAI',
+                  'file_size': 151212,
+                  'length': 240,
+                  'thumb': { 'file_id': 'AAQEABNNhpoaAAR1Lr198NSbXoSjAAIC',
+                             'file_size': 1444,
+                             'height': 90,
+                             'width': 90}}}
+2018-06-25 16:03:26,781 - __main__ - DEBUG - private message received
+2018-06-25 16:03:28,051 - UsersDB - INFO - updating database...
+2018-06-25 16:03:28,052 - CategoriesDB - INFO - updating database...
+2018-06-25 16:03:28,052 - PersonDB - INFO - updating database...
+2018-06-25 16:03:35,498 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935416,
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10811,
+  'text': 'Hello'}
+2018-06-25 16:03:36,035 - __main__ - DEBUG - private message received
+2018-06-25 16:03:37,186 - Handle - DEBUG - handle normal requests
+2018-06-25 16:03:37,187 - UsersDB - INFO - updating database...
+2018-06-25 16:03:37,187 - CategoriesDB - INFO - updating database...
+2018-06-25 16:03:37,188 - Databases - INFO - database update!
+2018-06-25 16:03:37,189 - PersonDB - INFO - updating database...
+2018-06-25 16:03:39,063 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935419,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10813,
+  'text': '/main_menu'}
+2018-06-25 16:03:39,598 - __main__ - DEBUG - private message received
+2018-06-25 16:03:40,668 - __main__ - DEBUG - Message: /main_menu
+2018-06-25 16:03:40,955 - UsersDB - INFO - updating database...
+2018-06-25 16:03:40,956 - CategoriesDB - INFO - updating database...
+2018-06-25 16:03:40,956 - PersonDB - INFO - updating database...
+2018-06-25 16:03:43,378 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935423,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10815,
+  'text': '/categories'}
+2018-06-25 16:03:43,916 - __main__ - DEBUG - private message received
+2018-06-25 16:03:44,981 - __main__ - DEBUG - Message: /categories
+2018-06-25 16:03:45,070 - UsersDB - INFO - updating database...
+2018-06-25 16:03:45,070 - CategoriesDB - INFO - updating database...
+2018-06-25 16:03:45,071 - PersonDB - INFO - updating database...
+2018-06-25 16:03:46,495 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935427,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10817,
+  'text': '/show_hello'}
+2018-06-25 16:03:47,028 - __main__ - DEBUG - private message received
+2018-06-25 16:03:48,093 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:03:48,192 - UsersDB - INFO - updating database...
+2018-06-25 16:03:48,193 - CategoriesDB - INFO - updating database...
+2018-06-25 16:03:48,193 - PersonDB - INFO - updating database...
+2018-06-25 16:03:51,532 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935432,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10819,
+  'text': '/show_hello'}
+2018-06-25 16:03:52,071 - __main__ - DEBUG - private message received
+2018-06-25 16:03:53,139 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:03:53,257 - UsersDB - INFO - updating database...
+2018-06-25 16:03:53,258 - CategoriesDB - INFO - updating database...
+2018-06-25 16:03:53,258 - PersonDB - INFO - updating database...
+2018-06-25 16:03:54,603 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935435,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10821,
+  'text': '/show_hello'}
+2018-06-25 16:03:55,138 - __main__ - DEBUG - private message received
+2018-06-25 16:03:56,213 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:03:56,303 - UsersDB - INFO - updating database...
+2018-06-25 16:03:56,304 - CategoriesDB - INFO - updating database...
+2018-06-25 16:03:56,304 - PersonDB - INFO - updating database...
+2018-06-25 16:03:58,702 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935439,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10823,
+  'text': '/show_hello'}
+2018-06-25 16:03:59,236 - __main__ - DEBUG - private message received
+2018-06-25 16:04:00,314 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:04:03,264 - UsersDB - INFO - updating database...
+2018-06-25 16:04:03,264 - CategoriesDB - INFO - updating database...
+2018-06-25 16:04:03,264 - PersonDB - INFO - updating database...
+2018-06-25 16:04:04,228 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935444,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10825,
+  'text': '/show_hello'}
+2018-06-25 16:04:04,762 - __main__ - DEBUG - private message received
+2018-06-25 16:04:05,827 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:04:05,928 - UsersDB - INFO - updating database...
+2018-06-25 16:04:05,928 - CategoriesDB - INFO - updating database...
+2018-06-25 16:04:05,929 - PersonDB - INFO - updating database...
+2018-06-25 16:04:07,089 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935447,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10827,
+  'text': '/show_hello'}
+2018-06-25 16:04:07,626 - __main__ - DEBUG - private message received
+2018-06-25 16:04:08,695 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:04:08,698 - UsersDB - INFO - updating database...
+2018-06-25 16:04:08,699 - CategoriesDB - INFO - updating database...
+2018-06-25 16:04:08,699 - PersonDB - INFO - updating database...
+2018-06-25 16:04:19,449 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935460,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10828,
+  'text': '/show_hello'}
+2018-06-25 16:04:19,982 - __main__ - DEBUG - private message received
+2018-06-25 16:04:21,053 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:04:21,274 - UsersDB - INFO - updating database...
+2018-06-25 16:04:21,274 - CategoriesDB - INFO - updating database...
+2018-06-25 16:04:21,275 - PersonDB - INFO - updating database...
+2018-06-25 16:04:23,172 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935463,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10830,
+  'text': '/show_hello'}
+2018-06-25 16:04:23,703 - __main__ - DEBUG - private message received
+2018-06-25 16:04:24,775 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:04:24,776 - UsersDB - INFO - updating database...
+2018-06-25 16:04:24,776 - CategoriesDB - INFO - updating database...
+2018-06-25 16:04:24,777 - PersonDB - INFO - updating database...
+2018-06-25 16:05:07,661 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-25 16:05:07,662 - __main__ - INFO - Bot data read, bot ready
+2018-06-25 16:05:07,662 - Databases - DEBUG - loading db...
+2018-06-25 16:05:07,665 - Databases - INFO - Loaded 9 data
+2018-06-25 16:05:07,665 - Databases - DEBUG - last uid:8
+2018-06-25 16:05:07,666 - PersonDB - INFO - loaded persons db
+2018-06-25 16:05:07,666 - Databases - DEBUG - loading db...
+2018-06-25 16:05:07,668 - Databases - INFO - Loaded 9 data
+2018-06-25 16:05:07,669 - Databases - DEBUG - last uid:18
+2018-06-25 16:05:07,669 - UsersDB - INFO - loaded users database
+2018-06-25 16:05:07,669 - Databases - DEBUG - loading db...
+2018-06-25 16:05:07,673 - Databases - INFO - Loaded 11 data
+2018-06-25 16:05:07,673 - Databases - DEBUG - last uid:11
+2018-06-25 16:05:07,674 - CategoriesDB - INFO - loaded db
+2018-06-25 16:05:07,674 - Databases - DEBUG - loading db...
+2018-06-25 16:05:07,677 - Databases - INFO - Loaded 12 data
+2018-06-25 16:05:07,678 - Databases - DEBUG - last uid:12
+2018-06-25 16:05:07,678 - MediaVoteDB - INFO - database loaded
+2018-06-25 16:05:07,678 - __main__ - INFO - Loaded databases
+2018-06-25 16:05:07,680 - __main__ - INFO - Message loop started
+2018-06-25 16:05:09,215 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935509,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10831,
+  'text': '/show_hello'}
+2018-06-25 16:05:09,755 - __main__ - DEBUG - private message received
+2018-06-25 16:05:10,833 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:05:11,520 - UsersDB - INFO - updating database...
+2018-06-25 16:05:11,520 - CategoriesDB - INFO - updating database...
+2018-06-25 16:05:11,521 - PersonDB - INFO - updating database...
+2018-06-25 16:06:22,559 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935583,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10834,
+  'text': '/show_hello'}
+2018-06-25 16:06:23,100 - __main__ - DEBUG - private message received
+2018-06-25 16:06:24,182 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:06:24,298 - UsersDB - INFO - updating database...
+2018-06-25 16:06:24,299 - CategoriesDB - INFO - updating database...
+2018-06-25 16:06:24,299 - PersonDB - INFO - updating database...
+2018-06-25 16:06:25,729 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935586,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10836,
+  'text': '/show_hello'}
+2018-06-25 16:06:26,262 - __main__ - DEBUG - private message received
+2018-06-25 16:06:27,334 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:06:28,375 - UsersDB - INFO - updating database...
+2018-06-25 16:06:28,376 - CategoriesDB - INFO - updating database...
+2018-06-25 16:06:28,376 - PersonDB - INFO - updating database...
+2018-06-25 16:06:29,109 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1529935589,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 10839,
+  'text': '/show_hello'}
+2018-06-25 16:06:29,644 - __main__ - DEBUG - private message received
+2018-06-25 16:06:30,724 - __main__ - DEBUG - Message: /show_hello
+2018-06-25 16:06:30,888 - UsersDB - INFO - updating database...
+2018-06-25 16:06:30,888 - CategoriesDB - INFO - updating database...
+2018-06-25 16:06:30,889 - PersonDB - INFO - updating database...

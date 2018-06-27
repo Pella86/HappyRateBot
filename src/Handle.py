@@ -26,6 +26,8 @@ import BotWrappers
 import Category
 import Pages
 
+from CreatorID import creator_hash_id
+
 #==============================================================================
 # logging
 #==============================================================================
@@ -36,8 +38,7 @@ log = Logging.get_logger(__name__, "DEBUG")
 # helpers
 #==============================================================================
 
-def Button(text, cb):    
-    return InlineKeyboardButton(text=text, callback_data=cb)
+
 
 #==============================================================================
 # Handle
@@ -80,11 +81,11 @@ def handle_content(content, bot, user, catdb, mediavotedb):
         if content_id in file_ids:
             error_message = "not original content"
         
-        if content.text.startswith("/"):
+        if content.type == "text" and content.text.startswith("/"):
             if content.text == commands["/cancel"].name:
                 error_message = "cancel"
             else:
-                error_message = "command not allowed"
+                error_message = "commands not allowed"
             
         if error_message is None:
             # read the content from the message
@@ -137,16 +138,38 @@ def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
             # pick a random media and show
             cat_name = st[1].lower()
             medias = mediavotedb.getMediaCategory(cat_name)
-
-            media = random.choice(medias)
-            
-            print(media.content.type)
-           
-            media.showPrivate(bot, user, usersdb, catdb)
+            if medias:
+                media = random.choice(medias)
+                
+                print(media.content.type)
+               
+                media.showPrivate(bot, user, usersdb, catdb)
+            else:
+                BotWrappers.sendMessage(bot, user, "Category is empty\n/main_menu")
         
         elif len(st) == 3:
             pass
         
+        return False
+    
+    if text.startswith("/catinfo") and user.hash_id == creator_hash_id:
+        
+        st = text.split("_")
+        
+        if len(st) == 2:
+            cat_name = st[1].lower()
+            print(cat_name in catdb.getKeys())
+            if cat_name in catdb.getKeys():
+                cat = catdb.database[cat_name].getData()
+                cat.show(bot, user)
+                return False
+            else:
+                BotWrappers.sendMessage(bot, user, "category not in database")
+    
+    if text == "/catlist" and user.hash_id == creator_hash_id:
+        cat_list = catdb.getValues()
+        p = Pages.CategoryList(0, cat_list)
+        p.sendPage(bot, user)
         return False
 
     if text in commands and commands[text].domain == "#general":
@@ -287,6 +310,10 @@ def get_category(bot, user, text, catdb):
     # check if category name is valid
     # must be alphanumeric
     valid = catdb.checkName(text)
+    user.tmp_display_id = ""
+    user.tmp_upload_content = None
+    user.tmp_upload_category = None
+    user.tmp_create_category = None
     
     if valid == True:
     
@@ -295,6 +322,8 @@ def get_category(bot, user, text, catdb):
         if catdb.addCategory(category):
             s = "Success: new category created"
             BotWrappers.sendMessage(bot, user, s)
+            
+            
         else:
             s = "Fail: category already present"
             BotWrappers.sendMessage(bot, user, s)

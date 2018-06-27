@@ -47,6 +47,12 @@ class UsersDB:
         self.database.loadDB()
         self.database.update_uid()
         log.info("loaded users database")
+
+        folder = "./databases/banned_user_db"
+        if not os.path.isdir(folder):
+            os.mkdir(folder)
+        
+        self.banned_database = Databases.Database(folder, "banned_user_")        
     
     def check_nickname(self, user, text):
         
@@ -71,6 +77,12 @@ class UsersDB:
             return True
         else:
             return error_message
+    
+    def banUser(self, user):
+        duser = self.database[user.hash_id]
+        self.deleteUser(user)
+        
+        ban_duser = Data(user.hash_id, user.)
         
 
     def addUser(self, person, chatid):
@@ -103,8 +115,7 @@ class UsersDB:
     
     def deleteUser(self, user):
         data = self.database[user.hash_id]
-        os.remove(os.path.join(self.folder, data.filename + ".pickle"))
-        self.database.deleteItem(user.hash_id)
+        self.database.deleteItem(data)
     
     def hGetUser(self, hash_id):
         return self.database[hash_id].getData()
@@ -120,5 +131,6 @@ class UsersDB:
     def update(self):
         log.info("updating database...")
         self.database.updateDB()
+        
         
         

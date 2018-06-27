@@ -10,8 +10,9 @@ Created on Sat Jun 23 01:58:59 2018
 #==============================================================================
 
 import telepot
-import Logging
+from telepot.namedtuple import InlineKeyboardButton, InlineKeyboardMarkup
 
+import Logging
 from language_support.LanguageSupport import _
 
 #==============================================================================
@@ -24,6 +25,20 @@ log = Logging.get_logger(__name__, "DEBUG")
 # bot functions
 #==============================================================================
 
+def Button(text, cb):    
+    return InlineKeyboardButton(text=text, callback_data=cb)
+
+class ReplyKeyboard:
+    
+    def __init__(self):
+        self.keyboard = []
+        
+    def addButtonLine(self, line):
+        self.keyboard.append(line)
+    
+    def getKeyboard(self):
+        return InlineKeyboardMarkup(inline_keyboard=self.keyboard)
+
 
 def checkUserActivity(func):
     def function_wrapper(bot, user, *args, **kwargs):
@@ -33,7 +48,8 @@ def checkUserActivity(func):
             except telepot.exception.BotWasBlockedError:
                 log.info("bot was blocked by user")
                 user.isActive = False
-            except Exception:
+            except Exception as e:
+                print(e)
                 raise Exception
         else:
             log.info("user is inactive")
@@ -86,7 +102,7 @@ def sendMedia(bot, user, content, caption = None, sdb = None, translation = True
         bot.sendAudio(user.chatid, file_id, caption=caption, *args, **kwargs)
     elif content.type == "voice":
         bot.sendVoice(user.chatid, file_id, caption=caption, *args, **kwargs)
-    elif content.type == "voice_note":
+    elif content.type == "video_note":
         bot.sendVideoNote(user.chatid, file_id, *args, **kwargs)
         if caption:
             sendMessage(bot, user, caption, translation=False)

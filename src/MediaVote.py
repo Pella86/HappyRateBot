@@ -38,7 +38,7 @@ class MediaVote:
         tot_votes = self.upvotes + self.downvotes
         days_up = datetime.datetime.now() - self.creation_date
         days_up = 1 if days_up.days < 1 else days_up.days
-        return (karma * tot_votes) / days_up
+        return ((karma / tot_votes) * 500) / days_up
     
     def showPrivate(self, bot, user, userdb, catdb):
         caption = "Uploader: {display_id}\n"
@@ -66,7 +66,6 @@ class MediaVote:
             BotWrappers.sendMedia(bot, user, self.content, caption, sdb, reply_markup = rmk)
             caption = caption.format(**sdb)
             
-
             
             
             

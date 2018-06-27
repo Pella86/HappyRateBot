@@ -17,7 +17,7 @@ import Logging
 # logging
 #==============================================================================
 # create logger
-log = Logging.get_logger(__name__, "INFO")
+log = Logging.get_logger(__name__, "DEBUG")
 
 #==============================================================================
 # Helper functions
@@ -64,6 +64,9 @@ class Database:
         self._db = {}
         
         self.short_uid = None
+    
+    def keys(self):
+        return self._db.keys()
 
     def getUID(self):
         return self.short_uid
@@ -93,12 +96,17 @@ class Database:
             log.debug("last uid:{}".format(last_uid))
         
         self.short_uid = last_uid + 1 
+    
+    def setItem(self, data):
+        log.debug("data set " + str(data.id) + " : " + str(data.content))
+        self._db[data.id].setData(data.content)
         
     def __getitem__(self, dataid):
         return self._db[dataid]
     
-    def deleteItem(self, dataid):
-        del self._db[dataid]
+    def deleteItem(self, data):
+        os.remove(os.path.join(self.folder, data.filename + ".pickle"))
+        del self._db[data.id]
     
     def getValues(self):
         return [v.getData() for v in self._db.values()]

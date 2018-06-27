@@ -31,7 +31,22 @@ class MediaVoteDB:
         self.database.loadDB()
         self.database.update_uid()
         log.info("database loaded")
+        
+        folder = "./databases/banned_media_db"
+        if not os.path.isdir(folder):
+            os.mkdir(folder)
+        
+        self.banned_database = Databases.Database(folder, "banned_media_")
+        self.banned_database.loadDB()
+        self.banned_database.update_uid()
+        log.info("loaded banned")
     
+    def banMedia(self, media):
+        dban_media = self.database[media.uid]
+        self.banned_database.addData(dban_media)
+        self.database.deleteItem(dban_media)
+        log.debug("category " + str(media.uid) + " banned")
+
     def getMediaCategory(self, cat_name):
         
         all_media = self.getValues()
@@ -59,4 +74,17 @@ class MediaVoteDB:
     
     def update(self):
         self.database.updateDB()
+        self.banned_database.updateDB()
+           
+    def deleteUserMedia(self, user):
+        # delete all the pictures, a part the one deleted which will be set to 
+        # user_id to be None
+        log.debug("delete user media...")
+        deleted_media = 0
+        for media in self.getValues():
+            if media.creator_hash_id == user.hash_id:
+                dmedia = self.database[media.uid]
+                self.database.deleteItem(dmedia)
+                deleted_media += 1
+        log.debug("deleted {} media".format(deleted_media))
         

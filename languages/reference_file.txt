@@ -344,4 +344,51 @@ Category: ass
 /main_menu--- new string ---
 Commands not allowed
 /main_maenu--- new string ---
-cancelled!
+cancelled!--- new string ---
+Category not found
+/upload    /main_menu--- new string ---
+Send a new nickname. The nickname has to be between 3 and 15 characters. And can contain only alphanumeric values (a-z, A-Z, 0-9).
+/cancel--- new string ---
+hello
+---------------------
+Uploader: Pello
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu--- new string ---
+Maronna
+---------------------
+Uploader: Pello
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu--- new string ---
+Hello
+---------------------
+Uploader: Pello
+Category: hello
+0 up - 0 down | Score: 0.0
+/main_menu--- new string ---
+category not in database--- new string ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pello</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account--- new string ---
+Category is empty
+/main_menu--- new string ---
+<b>User Profile </b>
+<i>Your anonymous id is: 370648434</i>
+<i>Change nickname</i> /set_nickname
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
