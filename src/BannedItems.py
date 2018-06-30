@@ -5,57 +5,82 @@ Created on Tue Jun 26 00:08:09 2018
 @author: Mauro
 """
 
+import bfh
+import io
 import os
-import struct
 
-class BannedItem:
-    
-    def __init__(self, id):
-        self.id = id
-        
+import Logging
 
+#==============================================================================
+# Logging
+#==============================================================================
 
+log = Logging.get_logger(__name__, "WARNING")
 
+#==============================================================================
+# Banned Items class
+#==============================================================================
 class BannedItems:
     
     
-    def __init__(self, file, file_type):
+    def __init__(self, file, item_type):
         self.file = file
+        
+        if not os.path.isfile(self.file):        
+            with open(self.file, "wb") as f:
+                bf = bfh.BinaryFile(f)
+                bf.write("I", 0)        
+        
         self.ids = []
-        self.file_type = file_type
+        self.item_type = item_type
+        
+        self.loadFile()
+        
+
     
     def loadFile(self):
-        co = 0
+        
         with open(self.file, "rb") as f:
-            nitems = struct.unpack('i', f.read(4))[0]
-            co += 4
-            f.seek(co)
+            bf = bfh.BinaryFile(f)
+            
+            nitems = bf.read('I')
             
             for i in range(nitems):
-                byte_size = int(struct.unpack("B", f.read(1))[0])
-                co += 1
-                f.seek(co)
-                if self.file_type == "c":
-                    id = struct.unpack(self.type, f.read(byte_size))
-                    id = "".join(id)
-                elif self.file_type == "x":
-                    id = struct.unpack(self.type, f.read(byte_size))[0]
-                self.ids.append(id)
-                co += byte_size
-                f.seek(co)
+                if self.item_type == "string":
+                    item = bf.read_string()
+                elif self.item_type == "hash_id":
+                    item = bf.read_256hash()
+                else:
+                    item = bf.read(self.item_type)
+            self.ids.append(item)
+        
+        log.debug("read items:")
+        for item in self.ids:
+            log.debug("{}".format(item))
     
     def addItem(self, item):
-        with open(self.file, "ab") as f:
-            #write size
-            if self.file_type == "c":
-                s = len(item)
-            # how do i calculte the bit lengths?
-            f.write()
-                
-                
-                
+        
+        if item in self.ids:
+            raise Exception("Banned items duplicate id")
+        
+        self.ids.append(item)
+        
+        with open(self.file, "wb") as f:
+            # change the size
+            co = 0
+            bf = bfh.BinaryFile(f, co)
+            bf.write('I', len(self.ids))
             
+            # adjust offset
+            co = bf.file.seek(0, io.SEEK_END)
+            bf.co = co
+            
+            # write data
+            if self.item_type == "string":
+                bf.write_string(item)
+            elif self.item_type == "hash_id":
+                bf.write_256hash(item)
+            else:
+                bf.write(self.item_type, item)
         
         
-    
-    def addItem(self, )

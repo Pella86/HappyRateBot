@@ -1,0 +1,968 @@
+2018-06-30 08:55:54,508 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 08:55:54,509 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 08:55:54,509 - Databases - DEBUG - loading db...
+2018-06-30 08:55:54,514 - Databases - INFO - Loaded 10 data
+2018-06-30 08:55:54,514 - Databases - DEBUG - last uid:9
+2018-06-30 08:55:54,514 - PersonDB - INFO - loaded persons db
+2018-06-30 08:55:54,515 - Databases - DEBUG - loading db...
+2018-06-30 08:55:54,520 - Databases - INFO - Loaded 9 data
+2018-06-30 08:55:54,520 - Databases - DEBUG - last uid:19
+2018-06-30 08:55:54,520 - UsersDB - INFO - loaded users database
+2018-06-30 08:55:54,521 - Databases - DEBUG - loading db...
+2018-06-30 08:55:54,521 - Databases - INFO - Loaded 1 data
+2018-06-30 08:55:54,522 - Databases - DEBUG - last uid:5
+2018-06-30 08:55:54,522 - CategoriesDB - INFO - loaded db
+2018-06-30 08:55:54,523 - BannedItems - DEBUG - read items:
+2018-06-30 08:55:54,523 - BannedItems - DEBUG - bantest
+2018-06-30 08:55:54,523 - Databases - DEBUG - loading db...
+2018-06-30 08:55:54,525 - Databases - INFO - Loaded 4 data
+2018-06-30 08:55:54,525 - Databases - DEBUG - last uid:7
+2018-06-30 08:55:54,525 - MediaVoteDB - INFO - database loaded
+2018-06-30 08:55:54,526 - Databases - DEBUG - loading db...
+2018-06-30 08:55:54,526 - Databases - INFO - Loaded 0 data
+2018-06-30 08:55:54,526 - MediaVoteDB - INFO - loaded banned
+2018-06-30 08:55:54,526 - __main__ - INFO - Loaded databases
+2018-06-30 08:55:54,527 - __main__ - INFO - Message loop started
+2018-06-30 08:56:00,591 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530341765,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11202,
+  'text': '/show_Space'}
+2018-06-30 08:56:01,166 - __main__ - DEBUG - private message received
+2018-06-30 08:56:02,341 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 08:56:02,820 - UsersDB - INFO - updating database...
+2018-06-30 08:56:02,820 - CategoriesDB - INFO - updating database...
+2018-06-30 08:56:02,820 - PersonDB - INFO - updating database...
+2018-06-30 08:56:19,126 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530341784,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11204,
+  'text': '/main_menu'}
+2018-06-30 08:56:19,729 - __main__ - DEBUG - private message received
+2018-06-30 08:56:20,834 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 08:56:20,997 - UsersDB - INFO - updating database...
+2018-06-30 08:56:20,998 - CategoriesDB - INFO - updating database...
+2018-06-30 08:56:20,998 - PersonDB - INFO - updating database...
+2018-06-30 08:56:23,178 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530341788,
+  'entities': [{'length': 7, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11206,
+  'text': '/upload'}
+2018-06-30 08:56:23,714 - __main__ - DEBUG - private message received
+2018-06-30 08:56:24,800 - __main__ - DEBUG - Message: /upload
+2018-06-30 08:56:24,800 - Handle - DEBUG - user requested upload...
+2018-06-30 08:56:24,800 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 08:56:24,801 - Handle - DEBUG - user uploaded first time 12:41:07 26/06/18
+2018-06-30 08:56:24,892 - UsersDB - INFO - updating database...
+2018-06-30 08:56:24,892 - CategoriesDB - INFO - updating database...
+2018-06-30 08:56:24,893 - PersonDB - INFO - updating database...
+2018-06-30 08:56:35,557 - __main__ - DEBUG - private message received
+2018-06-30 08:56:37,011 - UsersDB - INFO - updating database...
+2018-06-30 08:56:37,012 - CategoriesDB - INFO - updating database...
+2018-06-30 08:56:37,012 - PersonDB - INFO - updating database...
+2018-06-30 08:58:02,256 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530341887,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11210,
+  'text': '/main_maenu'}
+2018-06-30 08:58:02,800 - __main__ - DEBUG - private message received
+2018-06-30 08:58:03,879 - __main__ - DEBUG - Message: /main_maenu
+2018-06-30 08:58:04,344 - UsersDB - INFO - updating database...
+2018-06-30 08:58:04,344 - CategoriesDB - INFO - updating database...
+2018-06-30 08:58:04,345 - PersonDB - INFO - updating database...
+2018-06-30 08:58:18,133 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 08:58:18,134 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 08:58:18,134 - Databases - DEBUG - loading db...
+2018-06-30 08:58:18,136 - Databases - INFO - Loaded 10 data
+2018-06-30 08:58:18,137 - Databases - DEBUG - last uid:9
+2018-06-30 08:58:18,137 - PersonDB - INFO - loaded persons db
+2018-06-30 08:58:18,137 - Databases - DEBUG - loading db...
+2018-06-30 08:58:18,140 - Databases - INFO - Loaded 9 data
+2018-06-30 08:58:18,141 - Databases - DEBUG - last uid:19
+2018-06-30 08:58:18,141 - UsersDB - INFO - loaded users database
+2018-06-30 08:58:18,141 - Databases - DEBUG - loading db...
+2018-06-30 08:58:18,142 - Databases - INFO - Loaded 1 data
+2018-06-30 08:58:18,142 - Databases - DEBUG - last uid:5
+2018-06-30 08:58:18,142 - CategoriesDB - INFO - loaded db
+2018-06-30 08:58:18,142 - BannedItems - DEBUG - read items:
+2018-06-30 08:58:18,143 - BannedItems - DEBUG - bantest
+2018-06-30 08:58:18,143 - Databases - DEBUG - loading db...
+2018-06-30 08:58:18,144 - Databases - INFO - Loaded 4 data
+2018-06-30 08:58:18,145 - Databases - DEBUG - last uid:7
+2018-06-30 08:58:18,145 - MediaVoteDB - INFO - database loaded
+2018-06-30 08:58:18,145 - Databases - DEBUG - loading db...
+2018-06-30 08:58:18,145 - Databases - INFO - Loaded 0 data
+2018-06-30 08:58:18,146 - MediaVoteDB - INFO - loaded banned
+2018-06-30 08:58:18,146 - __main__ - INFO - Loaded databases
+2018-06-30 08:58:18,146 - __main__ - INFO - Message loop started
+2018-06-30 08:58:21,251 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 63, in handle
+    log.debug("Message:\n" + pprint.pformat(raw_msg, indent = 2).decode("ascii"))
+AttributeError: 'str' object has no attribute 'decode'
+2018-06-30 08:58:53,991 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 08:58:53,992 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 08:58:53,992 - Databases - DEBUG - loading db...
+2018-06-30 08:58:53,994 - Databases - INFO - Loaded 10 data
+2018-06-30 08:58:53,994 - Databases - DEBUG - last uid:9
+2018-06-30 08:58:53,995 - PersonDB - INFO - loaded persons db
+2018-06-30 08:58:53,995 - Databases - DEBUG - loading db...
+2018-06-30 08:58:53,997 - Databases - INFO - Loaded 9 data
+2018-06-30 08:58:53,997 - Databases - DEBUG - last uid:19
+2018-06-30 08:58:53,997 - UsersDB - INFO - loaded users database
+2018-06-30 08:58:53,998 - Databases - DEBUG - loading db...
+2018-06-30 08:58:53,998 - Databases - INFO - Loaded 1 data
+2018-06-30 08:58:53,998 - Databases - DEBUG - last uid:5
+2018-06-30 08:58:53,999 - CategoriesDB - INFO - loaded db
+2018-06-30 08:58:53,999 - BannedItems - DEBUG - read items:
+2018-06-30 08:58:54,000 - BannedItems - DEBUG - bantest
+2018-06-30 08:58:54,000 - Databases - DEBUG - loading db...
+2018-06-30 08:58:54,001 - Databases - INFO - Loaded 4 data
+2018-06-30 08:58:54,001 - Databases - DEBUG - last uid:7
+2018-06-30 08:58:54,002 - MediaVoteDB - INFO - database loaded
+2018-06-30 08:58:54,002 - Databases - DEBUG - loading db...
+2018-06-30 08:58:54,002 - Databases - INFO - Loaded 0 data
+2018-06-30 08:58:54,002 - MediaVoteDB - INFO - loaded banned
+2018-06-30 08:58:54,003 - __main__ - INFO - Loaded databases
+2018-06-30 08:58:54,003 - __main__ - INFO - Message loop started
+2018-06-30 08:59:04,140 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private
+2018-06-30 08:59:04,685 - __main__ - DEBUG - private message received
+2018-06-30 08:59:05,767 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 08:59:06,050 - UsersDB - INFO - updating database...
+2018-06-30 08:59:06,051 - CategoriesDB - INFO - updating database...
+2018-06-30 08:59:06,051 - PersonDB - INFO - updating database...
+2018-06-30 08:59:13,182 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private
+2018-06-30 08:59:13,763 - __main__ - DEBUG - private message received
+2018-06-30 08:59:15,006 - UsersDB - INFO - updating database...
+2018-06-30 08:59:15,007 - CategoriesDB - INFO - updating database...
+2018-06-30 08:59:15,007 - PersonDB - INFO - updating database...
+2018-06-30 08:59:30,051 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 08:59:30,052 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 08:59:30,052 - Databases - DEBUG - loading db...
+2018-06-30 08:59:30,055 - Databases - INFO - Loaded 10 data
+2018-06-30 08:59:30,056 - Databases - DEBUG - last uid:9
+2018-06-30 08:59:30,056 - PersonDB - INFO - loaded persons db
+2018-06-30 08:59:30,056 - Databases - DEBUG - loading db...
+2018-06-30 08:59:30,059 - Databases - INFO - Loaded 9 data
+2018-06-30 08:59:30,059 - Databases - DEBUG - last uid:19
+2018-06-30 08:59:30,059 - UsersDB - INFO - loaded users database
+2018-06-30 08:59:30,060 - Databases - DEBUG - loading db...
+2018-06-30 08:59:30,060 - Databases - INFO - Loaded 1 data
+2018-06-30 08:59:30,060 - Databases - DEBUG - last uid:5
+2018-06-30 08:59:30,060 - CategoriesDB - INFO - loaded db
+2018-06-30 08:59:30,061 - BannedItems - DEBUG - read items:
+2018-06-30 08:59:30,061 - BannedItems - DEBUG - bantest
+2018-06-30 08:59:30,061 - Databases - DEBUG - loading db...
+2018-06-30 08:59:30,063 - Databases - INFO - Loaded 4 data
+2018-06-30 08:59:30,063 - Databases - DEBUG - last uid:7
+2018-06-30 08:59:30,063 - MediaVoteDB - INFO - database loaded
+2018-06-30 08:59:30,063 - Databases - DEBUG - loading db...
+2018-06-30 08:59:30,064 - Databases - INFO - Loaded 0 data
+2018-06-30 08:59:30,064 - MediaVoteDB - INFO - loaded banned
+2018-06-30 08:59:30,064 - __main__ - INFO - Loaded databases
+2018-06-30 08:59:30,065 - __main__ - INFO - Message loop started
+2018-06-30 08:59:39,675 - __main__ - DEBUG - private message received
+2018-06-30 08:59:40,769 - __main__ - DEBUG - Message: /upload
+2018-06-30 08:59:40,770 - Handle - DEBUG - user requested upload...
+2018-06-30 08:59:40,770 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 08:59:40,771 - Handle - DEBUG - user uploaded first time 12:41:07 26/06/18
+2018-06-30 08:59:41,231 - UsersDB - INFO - updating database...
+2018-06-30 08:59:41,231 - CategoriesDB - INFO - updating database...
+2018-06-30 08:59:41,232 - PersonDB - INFO - updating database...
+2018-06-30 08:59:46,391 - __main__ - DEBUG - private message received
+2018-06-30 08:59:48,116 - UsersDB - INFO - updating database...
+2018-06-30 08:59:48,116 - CategoriesDB - INFO - updating database...
+2018-06-30 08:59:48,117 - PersonDB - INFO - updating database...
+2018-06-30 09:00:46,851 - __main__ - DEBUG - private message received
+2018-06-30 09:00:48,076 - Handle - DEBUG - handle normal requests
+2018-06-30 09:00:48,076 - UsersDB - INFO - updating database...
+2018-06-30 09:00:48,077 - CategoriesDB - INFO - updating database...
+2018-06-30 09:00:48,081 - Databases - INFO - database update!
+2018-06-30 09:00:48,081 - PersonDB - INFO - updating database...
+2018-06-30 09:01:02,228 - __main__ - DEBUG - private message received
+2018-06-30 09:01:03,310 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 09:01:03,411 - UsersDB - INFO - updating database...
+2018-06-30 09:01:03,412 - CategoriesDB - INFO - updating database...
+2018-06-30 09:01:03,412 - PersonDB - INFO - updating database...
+2018-06-30 09:01:08,731 - __main__ - DEBUG - private message received
+2018-06-30 09:01:09,786 - __main__ - DEBUG - Message: /categories
+2018-06-30 09:01:10,862 - UsersDB - INFO - updating database...
+2018-06-30 09:01:10,862 - CategoriesDB - INFO - updating database...
+2018-06-30 09:01:10,862 - PersonDB - INFO - updating database...
+2018-06-30 09:01:12,951 - __main__ - DEBUG - private message received
+2018-06-30 09:01:14,026 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 09:01:14,156 - UsersDB - INFO - updating database...
+2018-06-30 09:01:14,156 - CategoriesDB - INFO - updating database...
+2018-06-30 09:01:14,156 - PersonDB - INFO - updating database...
+2018-06-30 09:01:17,792 - __main__ - DEBUG - vote_up_7
+2018-06-30 09:01:27,524 - __main__ - DEBUG - private message received
+2018-06-30 09:01:28,619 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 09:01:28,716 - UsersDB - INFO - updating database...
+2018-06-30 09:01:28,716 - CategoriesDB - INFO - updating database...
+2018-06-30 09:01:28,717 - PersonDB - INFO - updating database...
+2018-06-30 09:01:30,863 - __main__ - DEBUG - private message received
+2018-06-30 09:01:31,962 - __main__ - DEBUG - Message: /categories
+2018-06-30 09:01:32,121 - UsersDB - INFO - updating database...
+2018-06-30 09:01:32,122 - CategoriesDB - INFO - updating database...
+2018-06-30 09:01:32,122 - PersonDB - INFO - updating database...
+2018-06-30 09:01:34,733 - __main__ - DEBUG - private message received
+2018-06-30 09:01:35,872 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 09:01:38,054 - UsersDB - INFO - updating database...
+2018-06-30 09:01:38,054 - CategoriesDB - INFO - updating database...
+2018-06-30 09:01:38,054 - PersonDB - INFO - updating database...
+2018-06-30 09:01:41,435 - __main__ - DEBUG - vote_up_8
+2018-06-30 09:01:41,686 - Databases - INFO - database update!
+2018-06-30 09:01:41,687 - UsersDB - INFO - updating database...
+2018-06-30 09:01:41,689 - Databases - INFO - database update!
+2018-06-30 09:01:53,390 - __main__ - DEBUG - private message received
+2018-06-30 09:01:54,467 - __main__ - DEBUG - Message: /upload
+2018-06-30 09:01:54,468 - Handle - DEBUG - user requested upload...
+2018-06-30 09:01:54,468 - Handle - DEBUG - user uploaded 1 media 
+2018-06-30 09:01:54,468 - Handle - DEBUG - user uploaded first time 09:00:47 30/06/18
+2018-06-30 09:01:54,575 - UsersDB - INFO - updating database...
+2018-06-30 09:01:54,576 - CategoriesDB - INFO - updating database...
+2018-06-30 09:01:54,576 - PersonDB - INFO - updating database...
+2018-06-30 09:02:12,392 - __main__ - DEBUG - private message received
+2018-06-30 09:02:13,658 - UsersDB - INFO - updating database...
+2018-06-30 09:02:13,658 - CategoriesDB - INFO - updating database...
+2018-06-30 09:02:13,658 - PersonDB - INFO - updating database...
+2018-06-30 09:02:19,428 - __main__ - DEBUG - private message received
+2018-06-30 09:02:20,643 - Handle - DEBUG - handle normal requests
+2018-06-30 09:02:20,644 - UsersDB - INFO - updating database...
+2018-06-30 09:02:20,644 - CategoriesDB - INFO - updating database...
+2018-06-30 09:02:20,646 - Databases - INFO - database update!
+2018-06-30 09:02:20,646 - PersonDB - INFO - updating database...
+2018-06-30 09:02:30,686 - __main__ - DEBUG - private message received
+2018-06-30 09:02:31,772 - __main__ - DEBUG - Message: /create_category
+2018-06-30 09:02:32,278 - UsersDB - INFO - updating database...
+2018-06-30 09:02:32,278 - CategoriesDB - INFO - updating database...
+2018-06-30 09:02:32,278 - PersonDB - INFO - updating database...
+2018-06-30 09:02:45,609 - __main__ - DEBUG - private message received
+2018-06-30 09:02:46,721 - __main__ - DEBUG - Message: Nature
+2018-06-30 09:02:46,859 - UsersDB - INFO - updating database...
+2018-06-30 09:02:46,859 - CategoriesDB - INFO - updating database...
+2018-06-30 09:02:46,861 - Databases - INFO - database update!
+2018-06-30 09:02:46,861 - PersonDB - INFO - updating database...
+2018-06-30 09:02:54,118 - __main__ - DEBUG - private message received
+2018-06-30 09:02:55,185 - __main__ - DEBUG - Message: /upload
+2018-06-30 09:02:55,186 - Handle - DEBUG - user requested upload...
+2018-06-30 09:02:55,186 - Handle - DEBUG - user uploaded 2 media 
+2018-06-30 09:02:55,186 - Handle - DEBUG - user uploaded first time 09:00:47 30/06/18
+2018-06-30 09:02:55,288 - UsersDB - INFO - updating database...
+2018-06-30 09:02:55,288 - CategoriesDB - INFO - updating database...
+2018-06-30 09:02:55,289 - PersonDB - INFO - updating database...
+2018-06-30 09:03:10,322 - __main__ - DEBUG - private message received
+2018-06-30 09:03:13,344 - UsersDB - INFO - updating database...
+2018-06-30 09:03:13,345 - CategoriesDB - INFO - updating database...
+2018-06-30 09:03:13,345 - PersonDB - INFO - updating database...
+2018-06-30 09:03:16,410 - __main__ - DEBUG - private message received
+2018-06-30 09:03:17,602 - Handle - DEBUG - handle normal requests
+2018-06-30 09:03:17,602 - UsersDB - INFO - updating database...
+2018-06-30 09:03:17,603 - CategoriesDB - INFO - updating database...
+2018-06-30 09:03:17,605 - Databases - INFO - database update!
+2018-06-30 09:03:17,605 - PersonDB - INFO - updating database...
+2018-06-30 09:03:24,022 - __main__ - DEBUG - private message received
+2018-06-30 09:03:25,111 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 09:03:25,246 - UsersDB - INFO - updating database...
+2018-06-30 09:03:25,246 - CategoriesDB - INFO - updating database...
+2018-06-30 09:03:25,246 - PersonDB - INFO - updating database...
+2018-06-30 09:03:27,880 - __main__ - DEBUG - private message received
+2018-06-30 09:03:28,944 - __main__ - DEBUG - Message: /categories
+2018-06-30 09:03:29,019 - UsersDB - INFO - updating database...
+2018-06-30 09:03:29,019 - CategoriesDB - INFO - updating database...
+2018-06-30 09:03:29,020 - PersonDB - INFO - updating database...
+2018-06-30 09:03:32,105 - __main__ - DEBUG - private message received
+2018-06-30 09:03:33,183 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 09:03:37,897 - UsersDB - INFO - updating database...
+2018-06-30 09:03:37,897 - CategoriesDB - INFO - updating database...
+2018-06-30 09:03:37,898 - PersonDB - INFO - updating database...
+2018-06-30 09:03:42,738 - __main__ - DEBUG - vote_up_10
+2018-06-30 09:03:43,109 - Databases - INFO - database update!
+2018-06-30 09:03:43,109 - UsersDB - INFO - updating database...
+2018-06-30 09:03:43,111 - Databases - INFO - database update!
+2018-06-30 09:03:47,988 - __main__ - DEBUG - private message received
+2018-06-30 09:03:49,084 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 09:03:49,223 - UsersDB - INFO - updating database...
+2018-06-30 09:03:49,223 - CategoriesDB - INFO - updating database...
+2018-06-30 09:03:49,223 - PersonDB - INFO - updating database...
+2018-06-30 09:03:52,149 - __main__ - DEBUG - private message received
+2018-06-30 09:03:53,218 - __main__ - DEBUG - Message: /profile
+2018-06-30 09:03:53,335 - UsersDB - INFO - updating database...
+2018-06-30 09:03:53,336 - CategoriesDB - INFO - updating database...
+2018-06-30 09:03:53,336 - PersonDB - INFO - updating database...
+2018-06-30 09:36:58,180 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 09:36:58,181 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 09:36:58,181 - Databases - DEBUG - loading db...
+2018-06-30 09:36:58,185 - Databases - INFO - Loaded 10 data
+2018-06-30 09:36:58,186 - Databases - DEBUG - last uid:9
+2018-06-30 09:36:58,186 - PersonDB - INFO - loaded persons db
+2018-06-30 09:36:58,186 - Databases - DEBUG - loading db...
+2018-06-30 09:36:58,189 - Databases - INFO - Loaded 9 data
+2018-06-30 09:36:58,189 - Databases - DEBUG - last uid:19
+2018-06-30 09:36:58,189 - UsersDB - INFO - loaded users database
+2018-06-30 09:36:58,190 - Databases - DEBUG - loading db...
+2018-06-30 09:36:58,190 - Databases - INFO - Loaded 2 data
+2018-06-30 09:36:58,191 - Databases - DEBUG - last uid:6
+2018-06-30 09:36:58,191 - CategoriesDB - INFO - loaded db
+2018-06-30 09:36:58,191 - BannedItems - DEBUG - read items:
+2018-06-30 09:36:58,191 - BannedItems - DEBUG - bantest
+2018-06-30 09:36:58,192 - Databases - DEBUG - loading db...
+2018-06-30 09:36:58,194 - Databases - INFO - Loaded 7 data
+2018-06-30 09:36:58,194 - Databases - DEBUG - last uid:10
+2018-06-30 09:36:58,194 - MediaVoteDB - INFO - database loaded
+2018-06-30 09:36:58,195 - Databases - DEBUG - loading db...
+2018-06-30 09:36:58,195 - Databases - INFO - Loaded 0 data
+2018-06-30 09:36:58,195 - MediaVoteDB - INFO - loaded banned
+2018-06-30 09:36:58,196 - __main__ - INFO - Loaded databases
+2018-06-30 09:36:58,196 - __main__ - INFO - Message loop started
+2018-06-30 09:37:01,031 - __main__ - DEBUG - private message received
+2018-06-30 09:37:02,133 - __main__ - DEBUG - Message: /categories
+2018-06-30 09:37:02,621 - UsersDB - INFO - updating database...
+2018-06-30 09:37:02,621 - CategoriesDB - INFO - updating database...
+2018-06-30 09:37:02,621 - PersonDB - INFO - updating database...
+2018-06-30 09:37:05,094 - __main__ - DEBUG - private message received
+2018-06-30 09:37:06,162 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 09:37:06,381 - UsersDB - INFO - updating database...
+2018-06-30 09:37:06,381 - CategoriesDB - INFO - updating database...
+2018-06-30 09:37:06,381 - PersonDB - INFO - updating database...
+2018-06-30 09:37:08,526 - __main__ - DEBUG - vote_up_7
+2018-06-30 09:37:32,476 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 09:37:32,477 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 09:37:32,477 - Databases - DEBUG - loading db...
+2018-06-30 09:37:32,480 - Databases - INFO - Loaded 10 data
+2018-06-30 09:37:32,480 - Databases - DEBUG - last uid:9
+2018-06-30 09:37:32,480 - PersonDB - INFO - loaded persons db
+2018-06-30 09:37:32,480 - Databases - DEBUG - loading db...
+2018-06-30 09:37:32,483 - Databases - INFO - Loaded 9 data
+2018-06-30 09:37:32,484 - Databases - DEBUG - last uid:19
+2018-06-30 09:37:32,484 - UsersDB - INFO - loaded users database
+2018-06-30 09:37:32,484 - Databases - DEBUG - loading db...
+2018-06-30 09:37:32,485 - Databases - INFO - Loaded 2 data
+2018-06-30 09:37:32,485 - Databases - DEBUG - last uid:6
+2018-06-30 09:37:32,485 - CategoriesDB - INFO - loaded db
+2018-06-30 09:37:32,486 - BannedItems - DEBUG - read items:
+2018-06-30 09:37:32,486 - BannedItems - DEBUG - bantest
+2018-06-30 09:37:32,486 - Databases - DEBUG - loading db...
+2018-06-30 09:37:32,488 - Databases - INFO - Loaded 7 data
+2018-06-30 09:37:32,488 - Databases - DEBUG - last uid:10
+2018-06-30 09:37:32,488 - MediaVoteDB - INFO - database loaded
+2018-06-30 09:37:32,489 - Databases - DEBUG - loading db...
+2018-06-30 09:37:32,489 - Databases - INFO - Loaded 0 data
+2018-06-30 09:37:32,489 - MediaVoteDB - INFO - loaded banned
+2018-06-30 09:37:32,489 - __main__ - INFO - Loaded databases
+2018-06-30 09:37:32,490 - __main__ - INFO - Message loop started
+2018-06-30 09:37:37,387 - __main__ - DEBUG - private message received
+2018-06-30 09:37:38,465 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 09:37:38,993 - UsersDB - INFO - updating database...
+2018-06-30 09:37:38,994 - CategoriesDB - INFO - updating database...
+2018-06-30 09:37:38,994 - PersonDB - INFO - updating database...
+2018-06-30 09:37:54,136 - __main__ - DEBUG - vote_up_7
+2018-06-30 09:38:04,106 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 09:38:04,107 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 09:38:04,107 - Databases - DEBUG - loading db...
+2018-06-30 09:38:04,110 - Databases - INFO - Loaded 10 data
+2018-06-30 09:38:04,110 - Databases - DEBUG - last uid:9
+2018-06-30 09:38:04,110 - PersonDB - INFO - loaded persons db
+2018-06-30 09:38:04,110 - Databases - DEBUG - loading db...
+2018-06-30 09:38:04,114 - Databases - INFO - Loaded 9 data
+2018-06-30 09:38:04,117 - Databases - DEBUG - last uid:19
+2018-06-30 09:38:04,120 - UsersDB - INFO - loaded users database
+2018-06-30 09:38:04,120 - Databases - DEBUG - loading db...
+2018-06-30 09:38:04,121 - Databases - INFO - Loaded 2 data
+2018-06-30 09:38:04,121 - Databases - DEBUG - last uid:6
+2018-06-30 09:38:04,122 - CategoriesDB - INFO - loaded db
+2018-06-30 09:38:04,122 - BannedItems - DEBUG - read items:
+2018-06-30 09:38:04,122 - BannedItems - DEBUG - bantest
+2018-06-30 09:38:04,123 - Databases - DEBUG - loading db...
+2018-06-30 09:38:04,127 - Databases - INFO - Loaded 7 data
+2018-06-30 09:38:04,127 - Databases - DEBUG - last uid:10
+2018-06-30 09:38:04,127 - MediaVoteDB - INFO - database loaded
+2018-06-30 09:38:04,127 - Databases - DEBUG - loading db...
+2018-06-30 09:38:04,128 - Databases - INFO - Loaded 0 data
+2018-06-30 09:38:04,128 - MediaVoteDB - INFO - loaded banned
+2018-06-30 09:38:04,128 - __main__ - INFO - Loaded databases
+2018-06-30 09:38:04,129 - __main__ - INFO - Message loop started
+2018-06-30 09:38:09,817 - __main__ - DEBUG - private message received
+2018-06-30 09:38:10,875 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 09:38:11,422 - UsersDB - INFO - updating database...
+2018-06-30 09:38:11,423 - CategoriesDB - INFO - updating database...
+2018-06-30 09:38:11,423 - PersonDB - INFO - updating database...
+2018-06-30 09:38:14,938 - __main__ - DEBUG - vote_up_9
+2018-06-30 09:38:15,105 - Databases - INFO - database update!
+2018-06-30 09:38:15,105 - UsersDB - INFO - updating database...
+2018-06-30 09:38:15,107 - Databases - INFO - database update!
+2018-06-30 09:38:35,918 - __main__ - DEBUG - private message received
+2018-06-30 09:38:37,029 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 09:38:41,302 - UsersDB - INFO - updating database...
+2018-06-30 09:38:41,303 - CategoriesDB - INFO - updating database...
+2018-06-30 09:38:41,304 - PersonDB - INFO - updating database...
+2018-06-30 09:38:43,717 - __main__ - DEBUG - private message received
+2018-06-30 09:38:44,809 - __main__ - DEBUG - Message: /categories
+2018-06-30 09:38:44,943 - UsersDB - INFO - updating database...
+2018-06-30 09:38:44,943 - CategoriesDB - INFO - updating database...
+2018-06-30 09:38:44,943 - PersonDB - INFO - updating database...
+2018-06-30 09:38:46,581 - __main__ - DEBUG - private message received
+2018-06-30 09:38:47,678 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 09:38:48,149 - UsersDB - INFO - updating database...
+2018-06-30 09:38:48,150 - CategoriesDB - INFO - updating database...
+2018-06-30 09:38:48,150 - PersonDB - INFO - updating database...
+2018-06-30 09:38:50,608 - __main__ - DEBUG - vote_up_8
+2018-06-30 09:40:32,002 - __main__ - DEBUG - private message received
+2018-06-30 09:40:33,147 - __main__ - DEBUG - Message: /upload
+2018-06-30 09:40:33,148 - Handle - DEBUG - user requested upload...
+2018-06-30 09:40:33,149 - Handle - DEBUG - user uploaded 3 media 
+2018-06-30 09:40:33,149 - Handle - DEBUG - user uploaded first time 09:00:47 30/06/18
+2018-06-30 09:40:33,342 - UsersDB - INFO - updating database...
+2018-06-30 09:40:33,342 - CategoriesDB - INFO - updating database...
+2018-06-30 09:40:33,343 - PersonDB - INFO - updating database...
+2018-06-30 09:41:51,360 - __main__ - DEBUG - private message received
+2018-06-30 09:41:52,900 - UsersDB - INFO - updating database...
+2018-06-30 09:41:52,901 - CategoriesDB - INFO - updating database...
+2018-06-30 09:41:52,901 - PersonDB - INFO - updating database...
+2018-06-30 09:41:53,454 - __main__ - DEBUG - private message received
+2018-06-30 09:41:54,767 - Handle - DEBUG - handle normal requests
+2018-06-30 09:41:54,767 - UsersDB - INFO - updating database...
+2018-06-30 09:41:54,767 - CategoriesDB - INFO - updating database...
+2018-06-30 09:41:54,769 - Databases - INFO - database update!
+2018-06-30 09:41:54,770 - PersonDB - INFO - updating database...
+2018-06-30 09:42:03,884 - __main__ - DEBUG - private message received
+2018-06-30 09:42:04,964 - __main__ - DEBUG - Message: /upload
+2018-06-30 09:42:04,965 - Handle - DEBUG - user requested upload...
+2018-06-30 09:42:04,965 - Handle - DEBUG - user uploaded 4 media 
+2018-06-30 09:42:04,965 - Handle - DEBUG - user uploaded first time 09:00:47 30/06/18
+2018-06-30 09:42:09,613 - UsersDB - INFO - updating database...
+2018-06-30 09:42:09,614 - CategoriesDB - INFO - updating database...
+2018-06-30 09:42:09,614 - PersonDB - INFO - updating database...
+2018-06-30 09:42:31,969 - __main__ - DEBUG - private message received
+2018-06-30 09:42:33,443 - UsersDB - INFO - updating database...
+2018-06-30 09:42:33,444 - CategoriesDB - INFO - updating database...
+2018-06-30 09:42:33,445 - PersonDB - INFO - updating database...
+2018-06-30 09:42:35,740 - __main__ - DEBUG - private message received
+2018-06-30 09:42:37,268 - Handle - DEBUG - handle normal requests
+2018-06-30 09:42:37,268 - UsersDB - INFO - updating database...
+2018-06-30 09:42:37,268 - CategoriesDB - INFO - updating database...
+2018-06-30 09:42:37,270 - Databases - INFO - database update!
+2018-06-30 09:42:37,270 - PersonDB - INFO - updating database...
+2018-06-30 09:42:43,443 - __main__ - DEBUG - private message received
+2018-06-30 09:42:44,527 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 09:42:44,715 - UsersDB - INFO - updating database...
+2018-06-30 09:42:44,715 - CategoriesDB - INFO - updating database...
+2018-06-30 09:42:44,715 - PersonDB - INFO - updating database...
+2018-06-30 09:42:48,467 - __main__ - DEBUG - private message received
+2018-06-30 09:42:49,536 - __main__ - DEBUG - Message: /upload
+2018-06-30 09:42:49,537 - Handle - DEBUG - user requested upload...
+2018-06-30 09:42:49,537 - Handle - DEBUG - user uploaded 5 media 
+2018-06-30 09:42:49,537 - Handle - DEBUG - user uploaded first time 09:00:47 30/06/18
+2018-06-30 09:42:49,671 - UsersDB - INFO - updating database...
+2018-06-30 09:42:49,671 - CategoriesDB - INFO - updating database...
+2018-06-30 09:42:49,672 - PersonDB - INFO - updating database...
+2018-06-30 09:51:44,406 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 09:51:44,407 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 09:51:44,407 - Databases - DEBUG - loading db...
+2018-06-30 09:51:44,410 - Databases - INFO - Loaded 10 data
+2018-06-30 09:51:44,411 - Databases - DEBUG - last uid:9
+2018-06-30 09:51:44,411 - PersonDB - INFO - loaded persons db
+2018-06-30 09:51:44,411 - Databases - DEBUG - loading db...
+2018-06-30 09:51:44,413 - Databases - INFO - Loaded 9 data
+2018-06-30 09:51:44,413 - Databases - DEBUG - last uid:19
+2018-06-30 09:51:44,413 - UsersDB - INFO - loaded users database
+2018-06-30 09:51:44,414 - Databases - DEBUG - loading db...
+2018-06-30 09:51:44,414 - Databases - INFO - Loaded 2 data
+2018-06-30 09:51:44,414 - Databases - DEBUG - last uid:6
+2018-06-30 09:51:44,415 - CategoriesDB - INFO - loaded db
+2018-06-30 09:51:44,415 - BannedItems - DEBUG - read items:
+2018-06-30 09:51:44,415 - BannedItems - DEBUG - bantest
+2018-06-30 09:51:44,415 - Databases - DEBUG - loading db...
+2018-06-30 09:51:44,419 - Databases - INFO - Loaded 9 data
+2018-06-30 09:51:44,419 - Databases - DEBUG - last uid:12
+2018-06-30 09:51:44,419 - MediaVoteDB - INFO - database loaded
+2018-06-30 09:51:44,420 - Databases - DEBUG - loading db...
+2018-06-30 09:51:44,420 - Databases - INFO - Loaded 0 data
+2018-06-30 09:51:44,420 - MediaVoteDB - INFO - loaded banned
+2018-06-30 09:51:44,420 - __main__ - INFO - Loaded databases
+2018-06-30 09:51:44,421 - __main__ - INFO - Message loop started
+2018-06-30 09:51:49,351 - __main__ - DEBUG - private message received
+2018-06-30 09:51:50,434 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 09:51:51,693 - UsersDB - INFO - updating database...
+2018-06-30 09:51:51,694 - CategoriesDB - INFO - updating database...
+2018-06-30 09:51:51,694 - PersonDB - INFO - updating database...
+2018-06-30 09:51:59,978 - __main__ - DEBUG - private message received
+2018-06-30 09:52:01,069 - __main__ - DEBUG - Message: /categories
+2018-06-30 09:52:01,204 - UsersDB - INFO - updating database...
+2018-06-30 09:52:01,204 - CategoriesDB - INFO - updating database...
+2018-06-30 09:52:01,204 - PersonDB - INFO - updating database...
+2018-06-30 09:52:05,267 - __main__ - DEBUG - private message received
+2018-06-30 09:52:06,350 - __main__ - DEBUG - Message: /profile
+2018-06-30 09:52:06,351 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 101, in handle
+    send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 198, in handle_private_text
+    commands[text].func()(bot, user, mediavotedb)
+  File "./src\Handle.py", line 267, in user_profile
+    user.calculateKarma(mediavotedb)
+  File "./src\UserProfile.py", line 60, in calculateKarma
+    for media in mediavotedb:
+TypeError: 'MediaVoteDB' object is not iterable
+2018-06-30 09:52:24,975 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 09:52:24,976 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 09:52:24,976 - Databases - DEBUG - loading db...
+2018-06-30 09:52:24,979 - Databases - INFO - Loaded 10 data
+2018-06-30 09:52:24,979 - Databases - DEBUG - last uid:9
+2018-06-30 09:52:24,979 - PersonDB - INFO - loaded persons db
+2018-06-30 09:52:24,979 - Databases - DEBUG - loading db...
+2018-06-30 09:52:24,982 - Databases - INFO - Loaded 9 data
+2018-06-30 09:52:24,982 - Databases - DEBUG - last uid:19
+2018-06-30 09:52:24,982 - UsersDB - INFO - loaded users database
+2018-06-30 09:52:24,982 - Databases - DEBUG - loading db...
+2018-06-30 09:52:24,983 - Databases - INFO - Loaded 2 data
+2018-06-30 09:52:24,983 - Databases - DEBUG - last uid:6
+2018-06-30 09:52:24,983 - CategoriesDB - INFO - loaded db
+2018-06-30 09:52:24,983 - BannedItems - DEBUG - read items:
+2018-06-30 09:52:24,984 - BannedItems - DEBUG - bantest
+2018-06-30 09:52:24,984 - Databases - DEBUG - loading db...
+2018-06-30 09:52:24,987 - Databases - INFO - Loaded 9 data
+2018-06-30 09:52:24,988 - Databases - DEBUG - last uid:12
+2018-06-30 09:52:24,988 - MediaVoteDB - INFO - database loaded
+2018-06-30 09:52:24,988 - Databases - DEBUG - loading db...
+2018-06-30 09:52:24,988 - Databases - INFO - Loaded 0 data
+2018-06-30 09:52:24,988 - MediaVoteDB - INFO - loaded banned
+2018-06-30 09:52:24,988 - __main__ - INFO - Loaded databases
+2018-06-30 09:52:24,989 - __main__ - INFO - Message loop started
+2018-06-30 09:52:28,020 - __main__ - DEBUG - private message received
+2018-06-30 09:52:29,095 - __main__ - DEBUG - Message: /profile
+2018-06-30 09:52:29,725 - UsersDB - INFO - updating database...
+2018-06-30 09:52:29,726 - CategoriesDB - INFO - updating database...
+2018-06-30 09:52:29,726 - PersonDB - INFO - updating database...
+2018-06-30 09:59:32,107 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 09:59:32,108 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 09:59:32,108 - Databases - DEBUG - loading db...
+2018-06-30 09:59:32,111 - Databases - INFO - Loaded 10 data
+2018-06-30 09:59:32,111 - Databases - DEBUG - last uid:9
+2018-06-30 09:59:32,111 - PersonDB - INFO - loaded persons db
+2018-06-30 09:59:32,112 - Databases - DEBUG - loading db...
+2018-06-30 09:59:32,114 - Databases - INFO - Loaded 9 data
+2018-06-30 09:59:32,115 - Databases - DEBUG - last uid:19
+2018-06-30 09:59:32,115 - UsersDB - INFO - loaded users database
+2018-06-30 09:59:32,115 - Databases - DEBUG - loading db...
+2018-06-30 09:59:32,116 - Databases - INFO - Loaded 2 data
+2018-06-30 09:59:32,116 - Databases - DEBUG - last uid:6
+2018-06-30 09:59:32,117 - CategoriesDB - INFO - loaded db
+2018-06-30 09:59:32,117 - BannedItems - DEBUG - read items:
+2018-06-30 09:59:32,117 - BannedItems - DEBUG - bantest
+2018-06-30 09:59:32,118 - Databases - DEBUG - loading db...
+2018-06-30 09:59:32,121 - Databases - INFO - Loaded 9 data
+2018-06-30 09:59:32,122 - Databases - DEBUG - last uid:12
+2018-06-30 09:59:32,122 - MediaVoteDB - INFO - database loaded
+2018-06-30 09:59:32,123 - Databases - DEBUG - loading db...
+2018-06-30 09:59:32,124 - Databases - INFO - Loaded 0 data
+2018-06-30 09:59:32,125 - MediaVoteDB - INFO - loaded banned
+2018-06-30 09:59:32,125 - __main__ - INFO - Loaded databases
+2018-06-30 09:59:32,126 - __main__ - INFO - Message loop started
+2018-06-30 09:59:34,710 - __main__ - DEBUG - private message received
+2018-06-30 09:59:35,768 - __main__ - DEBUG - Message: /create_category
+2018-06-30 09:59:35,769 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 101, in handle
+    send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 207, in handle_private_text
+    commands[text].func()(bot, user)
+  File "./src\Handle.py", line 313, in create_category
+    if user.getPoints() < cat_price:
+TypeError: '<' not supported between instances of 'str' and 'int'
+2018-06-30 09:59:51,057 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 09:59:51,058 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 09:59:51,058 - Databases - DEBUG - loading db...
+2018-06-30 09:59:51,061 - Databases - INFO - Loaded 10 data
+2018-06-30 09:59:51,062 - Databases - DEBUG - last uid:9
+2018-06-30 09:59:51,062 - PersonDB - INFO - loaded persons db
+2018-06-30 09:59:51,062 - Databases - DEBUG - loading db...
+2018-06-30 09:59:51,064 - Databases - INFO - Loaded 9 data
+2018-06-30 09:59:51,064 - Databases - DEBUG - last uid:19
+2018-06-30 09:59:51,065 - UsersDB - INFO - loaded users database
+2018-06-30 09:59:51,065 - Databases - DEBUG - loading db...
+2018-06-30 09:59:51,066 - Databases - INFO - Loaded 2 data
+2018-06-30 09:59:51,066 - Databases - DEBUG - last uid:6
+2018-06-30 09:59:51,066 - CategoriesDB - INFO - loaded db
+2018-06-30 09:59:51,067 - BannedItems - DEBUG - read items:
+2018-06-30 09:59:51,067 - BannedItems - DEBUG - bantest
+2018-06-30 09:59:51,067 - Databases - DEBUG - loading db...
+2018-06-30 09:59:51,070 - Databases - INFO - Loaded 9 data
+2018-06-30 09:59:51,071 - Databases - DEBUG - last uid:12
+2018-06-30 09:59:51,071 - MediaVoteDB - INFO - database loaded
+2018-06-30 09:59:51,071 - Databases - DEBUG - loading db...
+2018-06-30 09:59:51,072 - Databases - INFO - Loaded 0 data
+2018-06-30 09:59:51,072 - MediaVoteDB - INFO - loaded banned
+2018-06-30 09:59:51,072 - __main__ - INFO - Loaded databases
+2018-06-30 09:59:51,073 - __main__ - INFO - Message loop started
+2018-06-30 09:59:54,544 - __main__ - DEBUG - private message received
+2018-06-30 09:59:55,652 - __main__ - DEBUG - Message: /create_category
+2018-06-30 09:59:55,652 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 101, in handle
+    send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 207, in handle_private_text
+    commands[text].func()(bot, user)
+  File "./src\Handle.py", line 332, in create_category
+    BotWrappers.sendMessage(bot, user, s, sdb, parse_mode = "HTML")
+UnboundLocalError: local variable 'sdb' referenced before assignment
+2018-06-30 10:00:44,890 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 10:00:44,891 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 10:00:44,891 - Databases - DEBUG - loading db...
+2018-06-30 10:00:44,893 - Databases - INFO - Loaded 10 data
+2018-06-30 10:00:44,894 - Databases - DEBUG - last uid:9
+2018-06-30 10:00:44,894 - PersonDB - INFO - loaded persons db
+2018-06-30 10:00:44,894 - Databases - DEBUG - loading db...
+2018-06-30 10:00:44,897 - Databases - INFO - Loaded 9 data
+2018-06-30 10:00:44,897 - Databases - DEBUG - last uid:19
+2018-06-30 10:00:44,897 - UsersDB - INFO - loaded users database
+2018-06-30 10:00:44,898 - Databases - DEBUG - loading db...
+2018-06-30 10:00:44,898 - Databases - INFO - Loaded 2 data
+2018-06-30 10:00:44,899 - Databases - DEBUG - last uid:6
+2018-06-30 10:00:44,899 - CategoriesDB - INFO - loaded db
+2018-06-30 10:00:44,899 - BannedItems - DEBUG - read items:
+2018-06-30 10:00:44,899 - BannedItems - DEBUG - bantest
+2018-06-30 10:00:44,900 - Databases - DEBUG - loading db...
+2018-06-30 10:00:44,902 - Databases - INFO - Loaded 9 data
+2018-06-30 10:00:44,902 - Databases - DEBUG - last uid:12
+2018-06-30 10:00:44,903 - MediaVoteDB - INFO - database loaded
+2018-06-30 10:00:44,903 - Databases - DEBUG - loading db...
+2018-06-30 10:00:44,903 - Databases - INFO - Loaded 0 data
+2018-06-30 10:00:44,903 - MediaVoteDB - INFO - loaded banned
+2018-06-30 10:00:44,904 - __main__ - INFO - Loaded databases
+2018-06-30 10:00:44,905 - __main__ - INFO - Message loop started
+2018-06-30 10:00:47,509 - __main__ - DEBUG - private message received
+2018-06-30 10:00:48,581 - __main__ - DEBUG - Message: /create_category
+2018-06-30 10:00:49,359 - UsersDB - INFO - updating database...
+2018-06-30 10:00:49,360 - CategoriesDB - INFO - updating database...
+2018-06-30 10:00:49,360 - PersonDB - INFO - updating database...
+2018-06-30 10:01:04,443 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 10:01:04,444 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 10:01:04,444 - Databases - DEBUG - loading db...
+2018-06-30 10:01:04,447 - Databases - INFO - Loaded 10 data
+2018-06-30 10:01:04,447 - Databases - DEBUG - last uid:9
+2018-06-30 10:01:04,447 - PersonDB - INFO - loaded persons db
+2018-06-30 10:01:04,448 - Databases - DEBUG - loading db...
+2018-06-30 10:01:04,450 - Databases - INFO - Loaded 9 data
+2018-06-30 10:01:04,450 - Databases - DEBUG - last uid:19
+2018-06-30 10:01:04,450 - UsersDB - INFO - loaded users database
+2018-06-30 10:01:04,451 - Databases - DEBUG - loading db...
+2018-06-30 10:01:04,451 - Databases - INFO - Loaded 2 data
+2018-06-30 10:01:04,452 - Databases - DEBUG - last uid:6
+2018-06-30 10:01:04,452 - CategoriesDB - INFO - loaded db
+2018-06-30 10:01:04,452 - BannedItems - DEBUG - read items:
+2018-06-30 10:01:04,453 - BannedItems - DEBUG - bantest
+2018-06-30 10:01:04,453 - Databases - DEBUG - loading db...
+2018-06-30 10:01:04,456 - Databases - INFO - Loaded 9 data
+2018-06-30 10:01:04,457 - Databases - DEBUG - last uid:12
+2018-06-30 10:01:04,457 - MediaVoteDB - INFO - database loaded
+2018-06-30 10:01:04,457 - Databases - DEBUG - loading db...
+2018-06-30 10:01:04,457 - Databases - INFO - Loaded 0 data
+2018-06-30 10:01:04,458 - MediaVoteDB - INFO - loaded banned
+2018-06-30 10:01:04,458 - __main__ - INFO - Loaded databases
+2018-06-30 10:01:04,458 - __main__ - INFO - Message loop started
+2018-06-30 10:01:09,267 - __main__ - DEBUG - private message received
+2018-06-30 10:01:10,386 - __main__ - DEBUG - Message: /create_category
+2018-06-30 10:01:10,716 - UsersDB - INFO - updating database...
+2018-06-30 10:01:10,716 - CategoriesDB - INFO - updating database...
+2018-06-30 10:01:10,717 - PersonDB - INFO - updating database...
+2018-06-30 10:01:28,983 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 10:01:28,984 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 10:01:28,984 - Databases - DEBUG - loading db...
+2018-06-30 10:01:28,986 - Databases - INFO - Loaded 10 data
+2018-06-30 10:01:28,987 - Databases - DEBUG - last uid:9
+2018-06-30 10:01:28,987 - PersonDB - INFO - loaded persons db
+2018-06-30 10:01:28,987 - Databases - DEBUG - loading db...
+2018-06-30 10:01:28,989 - Databases - INFO - Loaded 9 data
+2018-06-30 10:01:28,990 - Databases - DEBUG - last uid:19
+2018-06-30 10:01:28,990 - UsersDB - INFO - loaded users database
+2018-06-30 10:01:28,990 - Databases - DEBUG - loading db...
+2018-06-30 10:01:28,991 - Databases - INFO - Loaded 2 data
+2018-06-30 10:01:28,991 - Databases - DEBUG - last uid:6
+2018-06-30 10:01:28,991 - CategoriesDB - INFO - loaded db
+2018-06-30 10:01:28,992 - BannedItems - DEBUG - read items:
+2018-06-30 10:01:28,992 - BannedItems - DEBUG - bantest
+2018-06-30 10:01:28,992 - Databases - DEBUG - loading db...
+2018-06-30 10:01:28,995 - Databases - INFO - Loaded 9 data
+2018-06-30 10:01:28,995 - Databases - DEBUG - last uid:12
+2018-06-30 10:01:28,996 - MediaVoteDB - INFO - database loaded
+2018-06-30 10:01:28,996 - Databases - DEBUG - loading db...
+2018-06-30 10:01:28,997 - Databases - INFO - Loaded 0 data
+2018-06-30 10:01:28,997 - MediaVoteDB - INFO - loaded banned
+2018-06-30 10:01:28,997 - __main__ - INFO - Loaded databases
+2018-06-30 10:01:28,998 - __main__ - INFO - Message loop started
+2018-06-30 10:01:32,563 - __main__ - DEBUG - private message received
+2018-06-30 10:01:33,645 - __main__ - DEBUG - Message: /create_category
+2018-06-30 10:01:34,200 - UsersDB - INFO - updating database...
+2018-06-30 10:01:34,200 - CategoriesDB - INFO - updating database...
+2018-06-30 10:01:34,201 - PersonDB - INFO - updating database...
+2018-06-30 10:02:17,543 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 10:02:17,544 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 10:02:17,544 - Databases - DEBUG - loading db...
+2018-06-30 10:02:17,546 - Databases - INFO - Loaded 10 data
+2018-06-30 10:02:17,547 - Databases - DEBUG - last uid:9
+2018-06-30 10:02:17,547 - PersonDB - INFO - loaded persons db
+2018-06-30 10:02:17,547 - Databases - DEBUG - loading db...
+2018-06-30 10:02:17,549 - Databases - INFO - Loaded 9 data
+2018-06-30 10:02:17,549 - Databases - DEBUG - last uid:19
+2018-06-30 10:02:17,550 - UsersDB - INFO - loaded users database
+2018-06-30 10:02:17,550 - Databases - DEBUG - loading db...
+2018-06-30 10:02:17,551 - Databases - INFO - Loaded 2 data
+2018-06-30 10:02:17,551 - Databases - DEBUG - last uid:6
+2018-06-30 10:02:17,551 - CategoriesDB - INFO - loaded db
+2018-06-30 10:02:17,551 - BannedItems - DEBUG - read items:
+2018-06-30 10:02:17,552 - BannedItems - DEBUG - bantest
+2018-06-30 10:02:17,552 - Databases - DEBUG - loading db...
+2018-06-30 10:02:17,554 - Databases - INFO - Loaded 9 data
+2018-06-30 10:02:17,555 - Databases - DEBUG - last uid:12
+2018-06-30 10:02:17,555 - MediaVoteDB - INFO - database loaded
+2018-06-30 10:02:17,555 - Databases - DEBUG - loading db...
+2018-06-30 10:02:17,555 - Databases - INFO - Loaded 0 data
+2018-06-30 10:02:17,556 - MediaVoteDB - INFO - loaded banned
+2018-06-30 10:02:17,556 - __main__ - INFO - Loaded databases
+2018-06-30 10:02:17,556 - __main__ - INFO - Message loop started
+2018-06-30 10:02:20,934 - __main__ - DEBUG - private message received
+2018-06-30 10:02:22,036 - __main__ - DEBUG - Message: /create_category
+2018-06-30 10:02:22,586 - UsersDB - INFO - updating database...
+2018-06-30 10:02:22,587 - CategoriesDB - INFO - updating database...
+2018-06-30 10:02:22,587 - PersonDB - INFO - updating database...
+2018-06-30 10:03:58,227 - __main__ - DEBUG - private message received
+2018-06-30 10:03:59,385 - __main__ - DEBUG - Message: Fibonacci
+2018-06-30 10:03:59,471 - UsersDB - INFO - updating database...
+2018-06-30 10:03:59,472 - CategoriesDB - INFO - updating database...
+2018-06-30 10:03:59,474 - Databases - INFO - database update!
+2018-06-30 10:03:59,474 - PersonDB - INFO - updating database...
+2018-06-30 10:04:10,502 - __main__ - DEBUG - private message received
+2018-06-30 10:04:11,602 - __main__ - DEBUG - Message: /profile
+2018-06-30 10:04:12,251 - UsersDB - INFO - updating database...
+2018-06-30 10:04:12,252 - CategoriesDB - INFO - updating database...
+2018-06-30 10:04:12,252 - PersonDB - INFO - updating database...
+2018-06-30 10:04:22,462 - __main__ - DEBUG - private message received
+2018-06-30 10:04:23,657 - __main__ - DEBUG - Message: /upload
+2018-06-30 10:04:23,658 - Handle - DEBUG - user requested upload...
+2018-06-30 10:04:23,658 - Handle - DEBUG - user uploaded 3 media 
+2018-06-30 10:04:23,659 - Handle - DEBUG - user uploaded first time 09:00:47 30/06/18
+2018-06-30 10:04:23,853 - UsersDB - INFO - updating database...
+2018-06-30 10:04:23,853 - CategoriesDB - INFO - updating database...
+2018-06-30 10:04:23,853 - PersonDB - INFO - updating database...
+2018-06-30 10:04:29,553 - __main__ - DEBUG - private message received
+2018-06-30 10:04:30,809 - UsersDB - INFO - updating database...
+2018-06-30 10:04:30,810 - CategoriesDB - INFO - updating database...
+2018-06-30 10:04:30,810 - PersonDB - INFO - updating database...
+2018-06-30 10:04:34,127 - __main__ - DEBUG - private message received
+2018-06-30 10:04:35,337 - Handle - DEBUG - handle normal requests
+2018-06-30 10:04:35,337 - UsersDB - INFO - updating database...
+2018-06-30 10:04:35,337 - CategoriesDB - INFO - updating database...
+2018-06-30 10:04:35,340 - Databases - INFO - database update!
+2018-06-30 10:04:35,340 - PersonDB - INFO - updating database...
+2018-06-30 10:04:37,834 - __main__ - DEBUG - private message received
+2018-06-30 10:04:38,911 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 10:04:38,995 - UsersDB - INFO - updating database...
+2018-06-30 10:04:38,995 - CategoriesDB - INFO - updating database...
+2018-06-30 10:04:38,995 - PersonDB - INFO - updating database...
+2018-06-30 10:10:10,582 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 10:10:10,583 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 10:10:10,592 - BannedItems - DEBUG - read items:
+2018-06-30 10:10:10,593 - BannedItems - DEBUG - bantest
+2018-06-30 10:10:10,598 - __main__ - INFO - Loaded databases
+2018-06-30 10:10:10,598 - __main__ - INFO - Message loop started
+2018-06-30 10:43:55,344 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 10:43:55,346 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 10:43:55,362 - __main__ - INFO - Loaded databases
+2018-06-30 10:43:55,363 - __main__ - INFO - Message loop started
+2018-06-30 10:44:00,306 - __main__ - DEBUG - private message received
+2018-06-30 10:44:01,442 - Handle - DEBUG - content handler
+2018-06-30 10:44:01,443 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 10:44:11,383 - __main__ - DEBUG - private message received
+2018-06-30 10:44:12,489 - Handle - DEBUG - content handler
+2018-06-30 10:44:12,490 - __main__ - DEBUG - Message: /categories
+2018-06-30 10:44:12,490 - Handle - DEBUG - user browsing categories
+2018-06-30 10:46:09,615 - __main__ - DEBUG - private message received
+2018-06-30 10:46:10,701 - Handle - DEBUG - content handler
+2018-06-30 10:46:10,702 - __main__ - DEBUG - Message: /show_Fibonacci
+2018-06-30 10:46:18,218 - __main__ - DEBUG - vote_up_13
+2018-06-30 10:46:54,983 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 10:46:54,984 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 10:46:54,995 - __main__ - INFO - Loaded databases
+2018-06-30 10:46:54,996 - __main__ - INFO - Message loop started
+2018-06-30 10:47:06,868 - __main__ - DEBUG - private message received
+2018-06-30 10:47:07,944 - Handle - DEBUG - content handler
+2018-06-30 10:47:07,945 - __main__ - DEBUG - Message: /show_Fibonacci
+2018-06-30 10:49:07,133 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 10:49:07,134 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 10:49:07,146 - __main__ - INFO - Loaded databases
+2018-06-30 10:49:07,147 - __main__ - INFO - Message loop started
+2018-06-30 10:49:09,927 - __main__ - DEBUG - private message received
+2018-06-30 10:49:11,037 - Handle - DEBUG - content handler
+2018-06-30 10:49:11,038 - __main__ - DEBUG - Message: /show_Fibonacci
+2018-06-30 10:49:20,564 - __main__ - DEBUG - private message received
+2018-06-30 10:49:21,675 - Handle - DEBUG - content handler
+2018-06-30 10:49:21,676 - __main__ - DEBUG - Message: /show_Fibonacci
+2018-06-30 10:49:27,760 - __main__ - DEBUG - private message received
+2018-06-30 10:49:28,885 - Handle - DEBUG - content handler
+2018-06-30 10:49:28,885 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 10:49:40,342 - __main__ - DEBUG - private message received
+2018-06-30 10:49:41,448 - Handle - DEBUG - content handler
+2018-06-30 10:49:41,448 - __main__ - DEBUG - Message: /categories
+2018-06-30 10:49:41,449 - Handle - DEBUG - user browsing categories
+2018-06-30 10:49:44,467 - __main__ - DEBUG - private message received
+2018-06-30 10:49:45,565 - Handle - DEBUG - content handler
+2018-06-30 10:49:45,565 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 10:49:47,627 - __main__ - DEBUG - vote_up_11
+2018-06-30 10:49:55,397 - __main__ - DEBUG - private message received
+2018-06-30 10:49:56,512 - Handle - DEBUG - content handler
+2018-06-30 10:49:56,513 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 10:49:58,958 - __main__ - DEBUG - vote_down_12
+2018-06-30 10:50:05,924 - __main__ - DEBUG - private message received
+2018-06-30 10:50:07,053 - Handle - DEBUG - content handler
+2018-06-30 10:50:07,054 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 10:50:19,244 - __main__ - DEBUG - private message received
+2018-06-30 10:50:20,379 - Handle - DEBUG - content handler
+2018-06-30 10:50:20,380 - __main__ - DEBUG - Message: /profile
+2018-06-30 10:50:20,380 - Handle - DEBUG - user requested profile
+2018-06-30 10:50:22,397 - __main__ - DEBUG - private message received
+2018-06-30 10:50:23,501 - Handle - DEBUG - content handler
+2018-06-30 10:50:23,501 - __main__ - DEBUG - Message: /create_category
+2018-06-30 10:50:23,502 - Handle - DEBUG - user creates category
+2018-06-30 10:50:30,532 - __main__ - DEBUG - private message received
+2018-06-30 10:50:31,636 - Handle - DEBUG - content handler
+2018-06-30 10:50:31,636 - __main__ - DEBUG - Message: /remove_account
+2018-06-30 10:50:40,277 - __main__ - DEBUG - private message received
+2018-06-30 10:50:41,369 - Handle - DEBUG - content handler
+2018-06-30 10:50:41,369 - __main__ - DEBUG - Message: /cancel
+2018-06-30 10:51:15,425 - __main__ - DEBUG - private message received
+2018-06-30 10:51:16,511 - Handle - DEBUG - content handler
+2018-06-30 10:51:16,511 - __main__ - DEBUG - Message: /remove_account
+2018-06-30 10:51:19,305 - __main__ - DEBUG - rmacc_yes
+2018-06-30 10:51:19,316 - __main__ - INFO - deleted categories
+2018-06-30 10:51:19,321 - __main__ - INFO - deleted media
+2018-06-30 10:51:19,322 - __main__ - INFO - deleted user
+2018-06-30 10:51:35,183 - __main__ - DEBUG - private message received
+2018-06-30 10:51:36,260 - __main__ - DEBUG - handle privacy policy
+2018-06-30 10:51:39,052 - __main__ - DEBUG - private message received
+2018-06-30 10:51:40,125 - __main__ - DEBUG - handle privacy policy
+2018-06-30 10:51:40,126 - Handle - DEBUG - working on function /accept
+2018-06-30 10:51:43,081 - __main__ - DEBUG - private message received
+2018-06-30 10:51:44,153 - Handle - DEBUG - content handler
+2018-06-30 10:51:44,153 - __main__ - DEBUG - Message: /categories
+2018-06-30 10:51:44,154 - Handle - DEBUG - user browsing categories
+2018-06-30 10:53:12,437 - __main__ - DEBUG - private message received
+2018-06-30 10:53:13,573 - Handle - DEBUG - content handler
+2018-06-30 10:53:13,573 - __main__ - DEBUG - Message: /upload
+2018-06-30 10:53:13,574 - Handle - DEBUG - user requested upload...
+2018-06-30 10:53:13,574 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 10:53:13,574 - Handle - DEBUG - user uploaded first time 10:51:35 30/06/18
+2018-06-30 10:53:26,087 - __main__ - DEBUG - private message received
+2018-06-30 10:53:27,219 - Handle - DEBUG - content handler
+2018-06-30 10:53:27,219 - Handle - DEBUG - user sent a media
+2018-06-30 10:53:27,220 - Handle - DEBUG - next stage, category
+2018-06-30 10:53:30,474 - __main__ - DEBUG - private message received
+2018-06-30 10:53:31,595 - Handle - DEBUG - content handler
+2018-06-30 10:53:31,596 - Handle - DEBUG - New category added
+2018-06-30 10:53:31,945 - Handle - DEBUG - handle normal requests
+2018-06-30 10:53:49,585 - __main__ - DEBUG - private message received
+2018-06-30 10:53:50,742 - Handle - DEBUG - content handler
+2018-06-30 10:53:50,743 - __main__ - DEBUG - Message: /upload
+2018-06-30 10:53:50,744 - Handle - DEBUG - user requested upload...
+2018-06-30 10:53:50,746 - Handle - DEBUG - user uploaded 1 media 
+2018-06-30 10:53:50,749 - Handle - DEBUG - user uploaded first time 10:53:31 30/06/18
+2018-06-30 10:53:56,311 - __main__ - DEBUG - private message received
+2018-06-30 10:53:57,398 - Handle - DEBUG - content handler
+2018-06-30 10:53:57,398 - Handle - DEBUG - user sent a media
+2018-06-30 10:53:57,399 - Handle - DEBUG - next stage, category
+2018-06-30 10:54:00,457 - __main__ - DEBUG - private message received
+2018-06-30 10:54:01,585 - Handle - DEBUG - content handler
+2018-06-30 10:54:01,586 - Handle - DEBUG - New category added
+2018-06-30 10:54:01,714 - Handle - DEBUG - handle normal requests
+2018-06-30 10:54:05,261 - __main__ - DEBUG - private message received
+2018-06-30 10:54:06,345 - Handle - DEBUG - content handler
+2018-06-30 10:54:06,345 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 10:54:08,343 - __main__ - DEBUG - private message received
+2018-06-30 10:54:09,416 - Handle - DEBUG - content handler
+2018-06-30 10:54:09,417 - __main__ - DEBUG - Message: /categories
+2018-06-30 10:54:09,417 - Handle - DEBUG - user browsing categories
+2018-06-30 10:54:18,976 - __main__ - DEBUG - private message received
+2018-06-30 10:54:20,053 - Handle - DEBUG - content handler
+2018-06-30 10:54:20,054 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 10:54:20,054 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 101, in handle
+    send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 167, in handle_private_text
+    media.showPrivate(bot, user, usersdb, catdb)
+  File "./src\MediaVote.py", line 47, in showPrivate
+    sdb["display_id"] = userdb.hGetUser(self.creator_hash_id).getDisplayName()
+  File "./src\UserProfile.py", line 72, in getDisplayName
+    return self.display_id + " (" + str(NumberFormatter.Reputation(self.getReputation())) + ")"
+TypeError: unsupported operand type(s) for +: 'int' and 'str'

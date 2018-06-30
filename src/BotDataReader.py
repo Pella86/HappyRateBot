@@ -15,28 +15,14 @@ import datetime
 
 import telepot
 
+import Logging
+
 #==============================================================================
 # logging
 #==============================================================================
 
 # create logger
-log = logging.getLogger(__name__)
-
-# set logger level
-log.setLevel(logging.DEBUG)
-
-# create a file handler
-fh = logging.FileHandler("./log_files/log_" + datetime.datetime.now().strftime("%y%m%d") + ".log")
-
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-fh.setFormatter(formatter)
-
-# create console and file handler
-log.addHandler(fh)
-sh = logging.StreamHandler()
-formatter = logging.Formatter('%(name)s - %(message)s')
-sh.setFormatter(formatter)
-log.addHandler(sh)
+log = Logging.get_logger(__name__, "INFO")
 
 #==============================================================================
 # Bot Data Reader

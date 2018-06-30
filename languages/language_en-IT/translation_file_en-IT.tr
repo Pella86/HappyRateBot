@@ -679,3 +679,382 @@ Category is empty
 /remove_account
 --- Translation ---
 
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella
+Category: Space
+0 up - 0 down | Score: 0.0
+/main_menu
+--- Translation ---
+
+
+--- English ---
+You received 1 pella coin
+--- Translation ---
+
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella
+Category: Space
+1 up - 0 down | Score: 500.0
+/main_menu
+--- Translation ---
+
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella
+Category: Space
+1 up - 0 down | Score: 500
+/main_menu
+--- Translation ---
+
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella
+Category: Space
+2 up - 0 down | Score: 500
+/main_menu
+--- Translation ---
+
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella
+Category: Space
+3 up - 0 down | Score: 500
+/main_menu
+--- Translation ---
+
+
+--- English ---
+You lost 1 pella coin
+--- Translation ---
+
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella
+Category: Space
+3 up - -1 down | Score: 1
+/main_menu
+--- Translation ---
+
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella
+Category: Space
+3 up - -1 down | Score: 1K
+/main_menu
+--- Translation ---
+
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella
+Category: Space
+3 up - 1 down | Score: 250
+/main_menu
+--- Translation ---
+
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella
+Category: Space
+4 up - 1 down | Score: 300
+/main_menu
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pella</i>
+<i>Change nickname</i> /set_nickname
+
+Pella coins: 8 ₽
+Karma: 0🌀
+Repuation: 1⚜️
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pella</i>
+<i>Change nickname</i> /set_nickname
+
+Coins: 8 ₽
+Karma: 0🌀
+Shield points: 1🔰
+Repuation: 0⚜️
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella(0⚜️)
+Category: Space
+4 👍 up - 1 👎 down | Score: 300
+/main_menu
+--- Translation ---
+
+
+--- English ---
+this is a test
+---------------------
+Uploader: Pella (0⚜️)
+Category: Space
+4 👍 - 1 👎 | Score: 300
+/main_menu
+--- Translation ---
+
+
+--- English ---
+Content already in database
+/main_maenu
+--- Translation ---
+
+
+--- English ---
+Uploader: {display_id}
+Category: {category}
+{upvotes} - {downvotes} | Score: {score}
+/main_menu
+--- Translation ---
+
+
+--- English ---
+You received 1 ₽
+--- Translation ---
+
+
+--- English ---
+<b>Send a category name</b>
+<i>The name must be maximum 15 characters long and can contain only alphanumeric characters (a-z and A-Z and 1-10)</i>
+
+Create a category will cost 0 you have 10 ₽
+/cancel
+
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pella</i>
+<i>Change nickname</i> /set_nickname
+
+Coins: 12 ₽
+Karma: 0🌀
+Shield points: 1🔰
+Repuation: 0⚜️
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+this is a test 2
+---------------------
+Uploader: Pella (0⚜️)
+Category: Space
+0 👍 - 0 👎 | Score: 0
+/main_menu
+--- Translation ---
+
+
+--- English ---
+You can post anything text, gif, pictures, ...
+/cancel
+--- Translation ---
+
+
+--- English ---
+Max upload reached
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pella</i>
+<i>Change nickname</i> /set_nickname
+
+Coins: 14 ₽
+Karma: 1K🌀
+Shield points: 1🔰
+Repuation: 1K⚜️
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+You dont have enough coins to buy a category.
+/main_menu
+--- Translation ---
+
+
+--- English ---
+<b>Send a category name</b>
+<i>The name must be maximum 15 characters long and can contain only alphanumeric characters (a-z and A-Z and 1-10)</i>
+
+Create a category will cost 10 you have 14 ₽
+/cancel
+
+--- Translation ---
+
+
+--- English ---
+Success: new category created
+/main_menu
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pella</i>
+<i>Change nickname</i> /set_nickname
+
+Coins: 4 ₽
+Karma: 1K🌀
+Shield points: 1🔰
+Repuation: 1K⚜️
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+Uploader: {display_id}
+Category: {category}
+{upvotes} - {downvotes} | Score: {score}
+/main_menu || /show_{category}
+--- Translation ---
+
+
+--- English ---
+You lost 1 ₽
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: Pella</i>
+<i>Change nickname</i> /set_nickname
+
+Coins: 18 ₽
+Karma: 2K🌀
+Shield points: 1🔰
+Repuation: 2K⚜️
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+<b>Send a category name</b>
+<i>The name must be maximum 15 characters long and can contain only alphanumeric characters (a-z and A-Z and 1-10)</i>
+
+Create a category will cost 10 you have 18 ₽
+/cancel
+
+--- Translation ---
+
+
+--- English ---
+cancelled!/n/main_menu
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: 913544015</i>
+<i>Change nickname</i> /set_nickname
+
+Coins: 4 ₽
+Karma: 1K🌀
+Shield points: 1🔰
+Repuation: 1K⚜️
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+
+
+--- English ---
+<b>User Profile </b>
+<i>Your anonymous id is: 913544015</i>
+<i>Change nickname</i> /set_nickname
+
+Coins: 8 ₽
+Karma: 2K🌀
+Shield points: 1🔰
+Repuation: 2K⚜️
+
+<b>--- Create category ---</b>
+<i> You can create your own categories </i>
+/create_category
+
+<b>--- delete profile ---</b>
+<i> this action will delete every file you uploaded and reset all scores </i>
+/remove_account
+--- Translation ---
+

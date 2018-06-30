@@ -18,7 +18,7 @@ import Logging
 # logging
 #==============================================================================
 # create logger
-log = Logging.get_logger(__name__, "INFO")
+log = Logging.get_logger(__name__, "WARNING")
 
 #==============================================================================
 # Persons databases

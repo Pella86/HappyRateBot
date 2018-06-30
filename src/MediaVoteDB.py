@@ -15,7 +15,7 @@ import MediaVote
 # Logging
 #==============================================================================
 
-log = Logging.get_logger(__name__, "DEBUG")
+log = Logging.get_logger(__name__, "WARNING")
 
 #==============================================================================
 # Media vote database
@@ -53,7 +53,6 @@ class MediaVoteDB:
 
         medias_category = []
         for media in all_media:
-            print(media.content.type)
             if media.cat_name == cat_name:
                 medias_category.append(media)
         return medias_category
@@ -87,4 +86,7 @@ class MediaVoteDB:
                 self.database.deleteItem(dmedia)
                 deleted_media += 1
         log.debug("deleted {} media".format(deleted_media))
+    
+    def setMedia(self, media):
+        self.database[media.uid].setData(media)
         

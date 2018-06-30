@@ -1,0 +1,2493 @@
+2018-06-29 12:52:57,417 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 12:52:57,419 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 12:52:57,420 - Databases - DEBUG - loading db...
+2018-06-29 12:52:57,425 - Databases - INFO - Loaded 10 data
+2018-06-29 12:52:57,425 - Databases - DEBUG - last uid:9
+2018-06-29 12:52:57,425 - PersonDB - INFO - loaded persons db
+2018-06-29 12:52:57,426 - Databases - DEBUG - loading db...
+2018-06-29 12:52:57,433 - Databases - INFO - Loaded 9 data
+2018-06-29 12:52:57,433 - Databases - DEBUG - last uid:19
+2018-06-29 12:52:57,434 - UsersDB - INFO - loaded users database
+2018-06-29 12:52:57,435 - Databases - DEBUG - loading db...
+2018-06-29 12:52:57,439 - Databases - INFO - Loaded 4 data
+2018-06-29 12:52:57,439 - Databases - DEBUG - last uid:12
+2018-06-29 12:52:57,439 - CategoriesDB - INFO - loaded db
+2018-06-29 12:53:14,628 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 12:53:14,631 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 12:53:14,632 - Databases - DEBUG - loading db...
+2018-06-29 12:53:14,634 - Databases - INFO - Loaded 10 data
+2018-06-29 12:53:14,635 - Databases - DEBUG - last uid:9
+2018-06-29 12:53:14,635 - PersonDB - INFO - loaded persons db
+2018-06-29 12:53:14,636 - Databases - DEBUG - loading db...
+2018-06-29 12:53:14,643 - Databases - INFO - Loaded 9 data
+2018-06-29 12:53:14,644 - Databases - DEBUG - last uid:19
+2018-06-29 12:53:14,645 - UsersDB - INFO - loaded users database
+2018-06-29 12:53:14,647 - Databases - DEBUG - loading db...
+2018-06-29 12:53:14,648 - Databases - INFO - Loaded 4 data
+2018-06-29 12:53:14,648 - Databases - DEBUG - last uid:12
+2018-06-29 12:53:14,649 - CategoriesDB - INFO - loaded db
+2018-06-29 12:53:14,649 - Databases - DEBUG - loading db...
+2018-06-29 12:53:14,663 - Databases - INFO - Loaded 3 data
+2018-06-29 12:53:14,665 - Databases - DEBUG - last uid:6
+2018-06-29 12:53:14,665 - MediaVoteDB - INFO - database loaded
+2018-06-29 12:53:14,666 - Databases - DEBUG - loading db...
+2018-06-29 12:53:14,667 - Databases - INFO - Loaded 0 data
+2018-06-29 12:53:14,667 - MediaVoteDB - INFO - loaded banned
+2018-06-29 12:53:14,667 - __main__ - INFO - Loaded databases
+2018-06-29 12:53:14,668 - __main__ - INFO - Message loop started
+2018-06-29 13:01:14,716 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530270080,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11060,
+  'text': '/main_menu'}
+2018-06-29 13:01:15,308 - __main__ - DEBUG - private message received
+2018-06-29 13:01:16,434 - __main__ - DEBUG - Message: /main_menu
+2018-06-29 13:01:16,713 - UsersDB - INFO - updating database...
+2018-06-29 13:01:16,713 - CategoriesDB - INFO - updating database...
+2018-06-29 13:01:16,714 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 114, in handle
+    categoriesdb.update()
+  File "./src\CategoriesDB.py", line 106, in update
+    self.banned_database.updateDB()
+AttributeError: 'CategoriesDB' object has no attribute 'banned_database'
+2018-06-29 13:02:21,688 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:02:21,690 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:02:21,690 - Databases - DEBUG - loading db...
+2018-06-29 13:02:21,693 - Databases - INFO - Loaded 10 data
+2018-06-29 13:02:21,693 - Databases - DEBUG - last uid:9
+2018-06-29 13:02:21,694 - PersonDB - INFO - loaded persons db
+2018-06-29 13:02:21,694 - Databases - DEBUG - loading db...
+2018-06-29 13:02:21,697 - Databases - INFO - Loaded 9 data
+2018-06-29 13:02:21,697 - Databases - DEBUG - last uid:19
+2018-06-29 13:02:21,698 - UsersDB - INFO - loaded users database
+2018-06-29 13:02:21,699 - Databases - DEBUG - loading db...
+2018-06-29 13:02:21,700 - Databases - INFO - Loaded 4 data
+2018-06-29 13:02:21,701 - Databases - DEBUG - last uid:12
+2018-06-29 13:02:21,701 - CategoriesDB - INFO - loaded db
+2018-06-29 13:02:21,702 - Databases - DEBUG - loading db...
+2018-06-29 13:02:21,703 - Databases - INFO - Loaded 3 data
+2018-06-29 13:02:21,703 - Databases - DEBUG - last uid:6
+2018-06-29 13:02:21,704 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:02:21,705 - Databases - DEBUG - loading db...
+2018-06-29 13:02:21,705 - Databases - INFO - Loaded 0 data
+2018-06-29 13:02:21,706 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:02:21,707 - __main__ - INFO - Loaded databases
+2018-06-29 13:02:21,708 - __main__ - INFO - Message loop started
+2018-06-29 13:02:25,071 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530270150,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11062,
+  'text': '/main_menu'}
+2018-06-29 13:02:25,615 - __main__ - DEBUG - private message received
+2018-06-29 13:02:26,698 - __main__ - DEBUG - Message: /main_menu
+2018-06-29 13:02:26,991 - UsersDB - INFO - updating database...
+2018-06-29 13:02:26,992 - CategoriesDB - INFO - updating database...
+2018-06-29 13:02:26,992 - PersonDB - INFO - updating database...
+2018-06-29 13:02:28,983 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530270154,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11064,
+  'text': '/categories'}
+2018-06-29 13:02:29,528 - __main__ - DEBUG - private message received
+2018-06-29 13:02:30,625 - __main__ - DEBUG - Message: /categories
+2018-06-29 13:02:30,801 - UsersDB - INFO - updating database...
+2018-06-29 13:02:30,801 - CategoriesDB - INFO - updating database...
+2018-06-29 13:02:30,802 - PersonDB - INFO - updating database...
+2018-06-29 13:02:37,552 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530270163,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11066,
+  'text': '/catinfo'}
+2018-06-29 13:02:38,114 - __main__ - DEBUG - private message received
+2018-06-29 13:02:39,276 - __main__ - DEBUG - Message: /catinfo
+2018-06-29 13:02:39,496 - UsersDB - INFO - updating database...
+2018-06-29 13:02:39,496 - CategoriesDB - INFO - updating database...
+2018-06-29 13:02:39,497 - PersonDB - INFO - updating database...
+2018-06-29 13:08:00,109 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:08:00,130 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:08:00,131 - Databases - DEBUG - loading db...
+2018-06-29 13:08:00,136 - Databases - INFO - Loaded 10 data
+2018-06-29 13:08:00,136 - Databases - DEBUG - last uid:9
+2018-06-29 13:08:00,136 - PersonDB - INFO - loaded persons db
+2018-06-29 13:08:00,137 - Databases - DEBUG - loading db...
+2018-06-29 13:08:00,139 - Databases - INFO - Loaded 9 data
+2018-06-29 13:08:00,140 - Databases - DEBUG - last uid:19
+2018-06-29 13:08:00,140 - UsersDB - INFO - loaded users database
+2018-06-29 13:08:00,141 - Databases - DEBUG - loading db...
+2018-06-29 13:08:00,143 - Databases - INFO - Loaded 4 data
+2018-06-29 13:08:00,143 - Databases - DEBUG - last uid:12
+2018-06-29 13:08:00,143 - CategoriesDB - INFO - loaded db
+2018-06-29 13:08:00,144 - Databases - DEBUG - loading db...
+2018-06-29 13:08:00,146 - Databases - INFO - Loaded 3 data
+2018-06-29 13:08:00,147 - Databases - DEBUG - last uid:6
+2018-06-29 13:08:00,147 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:08:00,148 - Databases - DEBUG - loading db...
+2018-06-29 13:08:00,148 - Databases - INFO - Loaded 0 data
+2018-06-29 13:08:00,148 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:08:00,149 - __main__ - INFO - Loaded databases
+2018-06-29 13:08:00,151 - __main__ - INFO - Message loop started
+2018-06-29 13:08:03,073 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530270488,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11068,
+  'text': '/catinfo'}
+2018-06-29 13:08:03,630 - __main__ - DEBUG - private message received
+2018-06-29 13:08:04,786 - __main__ - DEBUG - Message: /catinfo
+2018-06-29 13:08:04,787 - Handle - DEBUG - requested catinfo
+2018-06-29 13:08:05,041 - UsersDB - INFO - updating database...
+2018-06-29 13:08:05,042 - CategoriesDB - INFO - updating database...
+2018-06-29 13:08:05,042 - PersonDB - INFO - updating database...
+2018-06-29 13:08:24,284 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530270509,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11070,
+  'text': '/catlist'}
+2018-06-29 13:08:24,822 - __main__ - DEBUG - private message received
+2018-06-29 13:08:25,927 - __main__ - DEBUG - Message: /catlist
+2018-06-29 13:08:26,004 - UsersDB - INFO - updating database...
+2018-06-29 13:08:26,004 - CategoriesDB - INFO - updating database...
+2018-06-29 13:08:26,005 - PersonDB - INFO - updating database...
+2018-06-29 13:08:29,424 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530270514,
+  'entities': [{'length': 12, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11072,
+  'text': '/catinfo_asd'}
+2018-06-29 13:08:29,975 - __main__ - DEBUG - private message received
+2018-06-29 13:08:31,080 - __main__ - DEBUG - Message: /catinfo_asd
+2018-06-29 13:08:31,081 - Handle - DEBUG - requested catinfo
+2018-06-29 13:08:31,296 - UsersDB - INFO - updating database...
+2018-06-29 13:08:31,297 - CategoriesDB - INFO - updating database...
+2018-06-29 13:08:31,299 - PersonDB - INFO - updating database...
+2018-06-29 13:08:58,852 - __main__ - DEBUG - bancat_asd
+2018-06-29 13:08:58,855 - bfh - DEBUG - writing I
+2018-06-29 13:08:58,857 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:08:58,858 - __main__ - ERROR - query: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 172, in query
+    categoriesdb.banCategory(st[1])
+  File "./src\CategoriesDB.py", line 62, in banCategory
+    self.banned_categories.addItem(cat_name)
+  File "./src\BannedItems.py", line 49, in addItem
+    b = f.read()
+io.UnsupportedOperation: read
+2018-06-29 13:16:46,721 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:16:46,721 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:16:46,721 - Databases - DEBUG - loading db...
+2018-06-29 13:16:46,725 - Databases - INFO - Loaded 10 data
+2018-06-29 13:16:46,725 - Databases - DEBUG - last uid:9
+2018-06-29 13:16:46,726 - PersonDB - INFO - loaded persons db
+2018-06-29 13:16:46,726 - Databases - DEBUG - loading db...
+2018-06-29 13:16:46,730 - Databases - INFO - Loaded 9 data
+2018-06-29 13:16:46,730 - Databases - DEBUG - last uid:19
+2018-06-29 13:16:46,730 - UsersDB - INFO - loaded users database
+2018-06-29 13:16:46,730 - Databases - DEBUG - loading db...
+2018-06-29 13:16:46,732 - Databases - INFO - Loaded 4 data
+2018-06-29 13:16:46,732 - Databases - DEBUG - last uid:12
+2018-06-29 13:16:46,732 - CategoriesDB - INFO - loaded db
+2018-06-29 13:16:46,732 - Databases - DEBUG - loading db...
+2018-06-29 13:16:46,734 - Databases - INFO - Loaded 3 data
+2018-06-29 13:16:46,734 - Databases - DEBUG - last uid:6
+2018-06-29 13:16:46,734 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:16:46,734 - Databases - DEBUG - loading db...
+2018-06-29 13:16:46,735 - Databases - INFO - Loaded 0 data
+2018-06-29 13:16:46,735 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:16:46,735 - __main__ - INFO - Loaded databases
+2018-06-29 13:16:46,736 - __main__ - INFO - Message loop started
+2018-06-29 13:16:52,385 - __main__ - DEBUG - bancat_asd
+2018-06-29 13:16:52,387 - bfh - DEBUG - writing I
+2018-06-29 13:16:52,387 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:16:52,388 - bfh - DEBUG - writing I
+2018-06-29 13:16:52,388 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:16:52,393 - CategoriesDB - DEBUG - category asd banned
+2018-06-29 13:21:40,263 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:21:40,265 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:21:40,265 - Databases - DEBUG - loading db...
+2018-06-29 13:21:40,270 - Databases - INFO - Loaded 10 data
+2018-06-29 13:21:40,271 - Databases - DEBUG - last uid:9
+2018-06-29 13:21:40,271 - PersonDB - INFO - loaded persons db
+2018-06-29 13:21:40,271 - Databases - DEBUG - loading db...
+2018-06-29 13:21:40,274 - Databases - INFO - Loaded 9 data
+2018-06-29 13:21:40,275 - Databases - DEBUG - last uid:19
+2018-06-29 13:21:40,275 - UsersDB - INFO - loaded users database
+2018-06-29 13:21:40,275 - Databases - DEBUG - loading db...
+2018-06-29 13:21:40,276 - Databases - INFO - Loaded 3 data
+2018-06-29 13:21:40,276 - Databases - DEBUG - last uid:12
+2018-06-29 13:21:40,277 - CategoriesDB - INFO - loaded db
+2018-06-29 13:21:59,417 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:21:59,418 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:21:59,418 - Databases - DEBUG - loading db...
+2018-06-29 13:21:59,421 - Databases - INFO - Loaded 10 data
+2018-06-29 13:21:59,421 - Databases - DEBUG - last uid:9
+2018-06-29 13:21:59,421 - PersonDB - INFO - loaded persons db
+2018-06-29 13:21:59,421 - Databases - DEBUG - loading db...
+2018-06-29 13:21:59,424 - Databases - INFO - Loaded 9 data
+2018-06-29 13:21:59,424 - Databases - DEBUG - last uid:19
+2018-06-29 13:21:59,424 - UsersDB - INFO - loaded users database
+2018-06-29 13:21:59,424 - Databases - DEBUG - loading db...
+2018-06-29 13:21:59,425 - Databases - INFO - Loaded 3 data
+2018-06-29 13:21:59,425 - Databases - DEBUG - last uid:12
+2018-06-29 13:21:59,426 - CategoriesDB - INFO - loaded db
+2018-06-29 13:21:59,426 - bfh - DEBUG - writing I
+2018-06-29 13:21:59,427 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:21:59,428 - Databases - DEBUG - loading db...
+2018-06-29 13:21:59,430 - Databases - INFO - Loaded 3 data
+2018-06-29 13:21:59,431 - Databases - DEBUG - last uid:6
+2018-06-29 13:21:59,431 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:21:59,431 - Databases - DEBUG - loading db...
+2018-06-29 13:21:59,432 - Databases - INFO - Loaded 0 data
+2018-06-29 13:21:59,432 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:21:59,432 - __main__ - INFO - Loaded databases
+2018-06-29 13:21:59,433 - __main__ - INFO - Message loop started
+2018-06-29 13:22:06,725 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530271332,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11074,
+  'text': '/catlist'}
+2018-06-29 13:22:07,279 - __main__ - DEBUG - private message received
+2018-06-29 13:22:08,379 - __main__ - DEBUG - Message: /catlist
+2018-06-29 13:22:11,945 - UsersDB - INFO - updating database...
+2018-06-29 13:22:11,945 - CategoriesDB - INFO - updating database...
+2018-06-29 13:22:11,945 - PersonDB - INFO - updating database...
+2018-06-29 13:22:15,083 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530271340,
+  'entities': [{'length': 13, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11076,
+  'text': '/catinfo_test'}
+2018-06-29 13:22:15,663 - __main__ - DEBUG - private message received
+2018-06-29 13:22:16,778 - __main__ - DEBUG - Message: /catinfo_test
+2018-06-29 13:22:16,779 - Handle - DEBUG - requested catinfo
+2018-06-29 13:22:16,853 - UsersDB - INFO - updating database...
+2018-06-29 13:22:16,854 - CategoriesDB - INFO - updating database...
+2018-06-29 13:22:16,854 - PersonDB - INFO - updating database...
+2018-06-29 13:22:26,125 - __main__ - DEBUG - bancat_test
+2018-06-29 13:22:26,128 - bfh - DEBUG - writing I
+2018-06-29 13:22:26,129 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:22:26,129 - bfh - DEBUG - writing I
+2018-06-29 13:22:26,130 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:22:26,133 - CategoriesDB - DEBUG - category test banned
+2018-06-29 13:33:19,736 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:33:19,737 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:33:19,737 - Databases - DEBUG - loading db...
+2018-06-29 13:33:19,741 - Databases - INFO - Loaded 10 data
+2018-06-29 13:33:19,741 - Databases - DEBUG - last uid:9
+2018-06-29 13:33:19,742 - PersonDB - INFO - loaded persons db
+2018-06-29 13:33:19,742 - Databases - DEBUG - loading db...
+2018-06-29 13:33:19,746 - Databases - INFO - Loaded 9 data
+2018-06-29 13:33:19,746 - Databases - DEBUG - last uid:19
+2018-06-29 13:33:19,746 - UsersDB - INFO - loaded users database
+2018-06-29 13:33:19,746 - Databases - DEBUG - loading db...
+2018-06-29 13:33:19,747 - Databases - INFO - Loaded 2 data
+2018-06-29 13:33:19,748 - Databases - DEBUG - last uid:12
+2018-06-29 13:33:19,748 - CategoriesDB - INFO - loaded db
+2018-06-29 13:33:19,749 - bfh - DEBUG - writing I
+2018-06-29 13:33:19,749 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:33:19,750 - Databases - DEBUG - loading db...
+2018-06-29 13:33:19,752 - Databases - INFO - Loaded 3 data
+2018-06-29 13:33:19,752 - Databases - DEBUG - last uid:6
+2018-06-29 13:33:19,752 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:33:19,753 - Databases - DEBUG - loading db...
+2018-06-29 13:33:19,754 - Databases - INFO - Loaded 0 data
+2018-06-29 13:33:19,754 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:33:19,754 - __main__ - INFO - Loaded databases
+2018-06-29 13:33:19,755 - __main__ - INFO - Message loop started
+2018-06-29 13:33:24,124 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530272009,
+  'entities': [{'length': 15, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11078,
+  'text': '/catinfo_ritest'}
+2018-06-29 13:33:24,699 - __main__ - DEBUG - private message received
+2018-06-29 13:33:25,768 - __main__ - DEBUG - Message: /catinfo_ritest
+2018-06-29 13:33:25,768 - Handle - DEBUG - requested catinfo
+2018-06-29 13:33:26,009 - UsersDB - INFO - updating database...
+2018-06-29 13:33:26,009 - CategoriesDB - INFO - updating database...
+2018-06-29 13:33:26,010 - PersonDB - INFO - updating database...
+2018-06-29 13:33:27,884 - __main__ - DEBUG - bancat_ritest
+2018-06-29 13:33:27,887 - bfh - DEBUG - writing I
+2018-06-29 13:33:27,888 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:33:27,888 - bfh - DEBUG - writing I
+2018-06-29 13:33:27,889 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:33:27,893 - CategoriesDB - DEBUG - category ritest banned
+2018-06-29 13:34:27,989 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530272073,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11080,
+  'text': '/main_menu'}
+2018-06-29 13:34:28,540 - __main__ - DEBUG - private message received
+2018-06-29 13:34:29,669 - __main__ - DEBUG - Message: /main_menu
+2018-06-29 13:34:29,778 - UsersDB - INFO - updating database...
+2018-06-29 13:34:29,778 - CategoriesDB - INFO - updating database...
+2018-06-29 13:34:29,779 - PersonDB - INFO - updating database...
+2018-06-29 13:34:31,382 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530272076,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11082,
+  'text': '/categories'}
+2018-06-29 13:34:31,932 - __main__ - DEBUG - private message received
+2018-06-29 13:34:33,039 - __main__ - DEBUG - Message: /categories
+2018-06-29 13:34:33,281 - UsersDB - INFO - updating database...
+2018-06-29 13:34:33,282 - CategoriesDB - INFO - updating database...
+2018-06-29 13:34:33,282 - PersonDB - INFO - updating database...
+2018-06-29 13:34:44,382 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530272089,
+  'entities': [{'length': 16, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11084,
+  'text': '/create_category'}
+2018-06-29 13:34:44,926 - __main__ - DEBUG - private message received
+2018-06-29 13:34:46,010 - __main__ - DEBUG - Message: /create_category
+2018-06-29 13:34:46,344 - UsersDB - INFO - updating database...
+2018-06-29 13:34:46,344 - CategoriesDB - INFO - updating database...
+2018-06-29 13:34:46,345 - PersonDB - INFO - updating database...
+2018-06-29 13:34:51,857 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530272094,
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11086,
+  'text': 'ritest'}
+2018-06-29 13:34:52,417 - __main__ - DEBUG - private message received
+2018-06-29 13:34:53,522 - __main__ - DEBUG - Message: ritest
+2018-06-29 13:34:53,614 - UsersDB - INFO - updating database...
+2018-06-29 13:34:53,614 - CategoriesDB - INFO - updating database...
+2018-06-29 13:34:53,615 - PersonDB - INFO - updating database...
+2018-06-29 13:36:47,598 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:36:47,599 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:36:47,599 - Databases - DEBUG - loading db...
+2018-06-29 13:36:47,602 - Databases - INFO - Loaded 10 data
+2018-06-29 13:36:47,602 - Databases - DEBUG - last uid:9
+2018-06-29 13:36:47,602 - PersonDB - INFO - loaded persons db
+2018-06-29 13:36:47,602 - Databases - DEBUG - loading db...
+2018-06-29 13:36:47,605 - Databases - INFO - Loaded 9 data
+2018-06-29 13:36:47,605 - Databases - DEBUG - last uid:19
+2018-06-29 13:36:47,605 - UsersDB - INFO - loaded users database
+2018-06-29 13:36:47,606 - Databases - DEBUG - loading db...
+2018-06-29 13:36:47,606 - Databases - INFO - Loaded 1 data
+2018-06-29 13:36:47,606 - Databases - DEBUG - last uid:5
+2018-06-29 13:36:47,607 - CategoriesDB - INFO - loaded db
+2018-06-29 13:36:47,607 - bfh - DEBUG - writing I
+2018-06-29 13:36:47,607 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:36:47,608 - Databases - DEBUG - loading db...
+2018-06-29 13:36:47,610 - Databases - INFO - Loaded 3 data
+2018-06-29 13:36:47,610 - Databases - DEBUG - last uid:6
+2018-06-29 13:36:47,610 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:36:47,610 - Databases - DEBUG - loading db...
+2018-06-29 13:36:47,611 - Databases - INFO - Loaded 0 data
+2018-06-29 13:36:47,611 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:36:47,611 - __main__ - INFO - Loaded databases
+2018-06-29 13:36:47,612 - __main__ - INFO - Message loop started
+2018-06-29 13:37:37,442 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:37:37,443 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:37:37,443 - Databases - DEBUG - loading db...
+2018-06-29 13:37:37,445 - Databases - INFO - Loaded 10 data
+2018-06-29 13:37:37,446 - Databases - DEBUG - last uid:9
+2018-06-29 13:37:37,446 - PersonDB - INFO - loaded persons db
+2018-06-29 13:37:37,446 - Databases - DEBUG - loading db...
+2018-06-29 13:37:37,448 - Databases - INFO - Loaded 9 data
+2018-06-29 13:37:37,448 - Databases - DEBUG - last uid:19
+2018-06-29 13:37:37,448 - UsersDB - INFO - loaded users database
+2018-06-29 13:37:37,449 - Databases - DEBUG - loading db...
+2018-06-29 13:37:37,450 - Databases - INFO - Loaded 1 data
+2018-06-29 13:37:37,450 - Databases - DEBUG - last uid:5
+2018-06-29 13:37:37,450 - CategoriesDB - INFO - loaded db
+2018-06-29 13:37:37,450 - BannedItems - DEBUG - read items:
+2018-06-29 13:37:37,451 - bfh - DEBUG - writing I
+2018-06-29 13:37:37,451 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:37:37,452 - Databases - DEBUG - loading db...
+2018-06-29 13:37:37,453 - Databases - INFO - Loaded 3 data
+2018-06-29 13:37:37,453 - Databases - DEBUG - last uid:6
+2018-06-29 13:37:37,453 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:37:37,454 - Databases - DEBUG - loading db...
+2018-06-29 13:37:37,454 - Databases - INFO - Loaded 0 data
+2018-06-29 13:37:37,454 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:37:37,455 - __main__ - INFO - Loaded databases
+2018-06-29 13:37:37,456 - __main__ - INFO - Message loop started
+2018-06-29 13:37:58,566 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:37:58,566 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:37:58,567 - Databases - DEBUG - loading db...
+2018-06-29 13:37:58,569 - Databases - INFO - Loaded 10 data
+2018-06-29 13:37:58,569 - Databases - DEBUG - last uid:9
+2018-06-29 13:37:58,569 - PersonDB - INFO - loaded persons db
+2018-06-29 13:37:58,570 - Databases - DEBUG - loading db...
+2018-06-29 13:37:58,572 - Databases - INFO - Loaded 9 data
+2018-06-29 13:37:58,573 - Databases - DEBUG - last uid:19
+2018-06-29 13:37:58,573 - UsersDB - INFO - loaded users database
+2018-06-29 13:37:58,573 - Databases - DEBUG - loading db...
+2018-06-29 13:37:58,574 - Databases - INFO - Loaded 1 data
+2018-06-29 13:37:58,574 - Databases - DEBUG - last uid:5
+2018-06-29 13:37:58,574 - CategoriesDB - INFO - loaded db
+2018-06-29 13:38:50,244 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:38:50,245 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:38:50,245 - Databases - DEBUG - loading db...
+2018-06-29 13:38:50,247 - Databases - INFO - Loaded 10 data
+2018-06-29 13:38:50,247 - Databases - DEBUG - last uid:9
+2018-06-29 13:38:50,247 - PersonDB - INFO - loaded persons db
+2018-06-29 13:38:50,247 - Databases - DEBUG - loading db...
+2018-06-29 13:38:50,250 - Databases - INFO - Loaded 9 data
+2018-06-29 13:38:50,250 - Databases - DEBUG - last uid:19
+2018-06-29 13:38:50,250 - UsersDB - INFO - loaded users database
+2018-06-29 13:38:50,250 - Databases - DEBUG - loading db...
+2018-06-29 13:38:50,251 - Databases - INFO - Loaded 1 data
+2018-06-29 13:38:50,251 - Databases - DEBUG - last uid:5
+2018-06-29 13:38:50,251 - CategoriesDB - INFO - loaded db
+2018-06-29 13:38:50,252 - bfh - DEBUG - writing I
+2018-06-29 13:38:50,252 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:38:50,253 - BannedItems - DEBUG - read items:
+2018-06-29 13:38:50,254 - Databases - DEBUG - loading db...
+2018-06-29 13:38:50,255 - Databases - INFO - Loaded 3 data
+2018-06-29 13:38:50,255 - Databases - DEBUG - last uid:6
+2018-06-29 13:38:50,255 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:38:50,255 - Databases - DEBUG - loading db...
+2018-06-29 13:38:50,255 - Databases - INFO - Loaded 0 data
+2018-06-29 13:38:50,255 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:38:50,256 - __main__ - INFO - Loaded databases
+2018-06-29 13:38:50,256 - __main__ - INFO - Message loop started
+2018-06-29 13:38:59,337 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530272344,
+  'entities': [{'length': 16, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11088,
+  'text': '/create_category'}
+2018-06-29 13:38:59,918 - __main__ - DEBUG - private message received
+2018-06-29 13:39:01,140 - __main__ - DEBUG - Message: /create_category
+2018-06-29 13:39:01,541 - UsersDB - INFO - updating database...
+2018-06-29 13:39:01,542 - CategoriesDB - INFO - updating database...
+2018-06-29 13:39:01,542 - PersonDB - INFO - updating database...
+2018-06-29 13:39:03,987 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530272349,
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11090,
+  'text': 'bantest'}
+2018-06-29 13:39:04,548 - __main__ - DEBUG - private message received
+2018-06-29 13:39:05,686 - __main__ - DEBUG - Message: bantest
+2018-06-29 13:39:05,808 - UsersDB - INFO - updating database...
+2018-06-29 13:39:05,808 - CategoriesDB - INFO - updating database...
+2018-06-29 13:39:05,810 - Databases - INFO - database update!
+2018-06-29 13:39:05,810 - PersonDB - INFO - updating database...
+2018-06-29 13:39:09,348 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530272354,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11092,
+  'text': '/catlist'}
+2018-06-29 13:39:09,908 - __main__ - DEBUG - private message received
+2018-06-29 13:39:11,055 - __main__ - DEBUG - Message: /catlist
+2018-06-29 13:39:11,146 - UsersDB - INFO - updating database...
+2018-06-29 13:39:11,146 - CategoriesDB - INFO - updating database...
+2018-06-29 13:39:11,147 - PersonDB - INFO - updating database...
+2018-06-29 13:39:16,331 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530272361,
+  'entities': [{'length': 16, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11094,
+  'text': '/catinfo_bantest'}
+2018-06-29 13:39:16,896 - __main__ - DEBUG - private message received
+2018-06-29 13:39:18,073 - __main__ - DEBUG - Message: /catinfo_bantest
+2018-06-29 13:39:18,074 - Handle - DEBUG - requested catinfo
+2018-06-29 13:39:18,846 - UsersDB - INFO - updating database...
+2018-06-29 13:39:18,847 - CategoriesDB - INFO - updating database...
+2018-06-29 13:39:18,847 - PersonDB - INFO - updating database...
+2018-06-29 13:39:20,431 - __main__ - DEBUG - bancat_bantest
+2018-06-29 13:39:20,432 - bfh - DEBUG - writing I
+2018-06-29 13:39:20,432 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:39:20,433 - bfh - DEBUG - writing I
+2018-06-29 13:39:20,433 - bfh - DEBUG - written 4 bytes
+2018-06-29 13:39:20,435 - CategoriesDB - DEBUG - category bantest banned
+2018-06-29 13:39:28,876 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:39:28,876 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:39:28,877 - Databases - DEBUG - loading db...
+2018-06-29 13:39:28,879 - Databases - INFO - Loaded 10 data
+2018-06-29 13:39:28,879 - Databases - DEBUG - last uid:9
+2018-06-29 13:39:28,879 - PersonDB - INFO - loaded persons db
+2018-06-29 13:39:28,880 - Databases - DEBUG - loading db...
+2018-06-29 13:39:28,882 - Databases - INFO - Loaded 9 data
+2018-06-29 13:39:28,883 - Databases - DEBUG - last uid:19
+2018-06-29 13:39:28,883 - UsersDB - INFO - loaded users database
+2018-06-29 13:39:28,883 - Databases - DEBUG - loading db...
+2018-06-29 13:39:28,884 - Databases - INFO - Loaded 1 data
+2018-06-29 13:39:28,884 - Databases - DEBUG - last uid:5
+2018-06-29 13:39:28,884 - CategoriesDB - INFO - loaded db
+2018-06-29 13:39:28,884 - BannedItems - DEBUG - read items:
+2018-06-29 13:39:28,885 - Databases - DEBUG - loading db...
+2018-06-29 13:39:28,885 - Databases - INFO - Loaded 3 data
+2018-06-29 13:39:28,886 - Databases - DEBUG - last uid:6
+2018-06-29 13:39:28,886 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:39:28,886 - Databases - DEBUG - loading db...
+2018-06-29 13:39:28,886 - Databases - INFO - Loaded 0 data
+2018-06-29 13:39:28,886 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:39:28,887 - __main__ - INFO - Loaded databases
+2018-06-29 13:39:28,887 - __main__ - INFO - Message loop started
+2018-06-29 13:40:03,183 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:40:03,184 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:40:03,184 - Databases - DEBUG - loading db...
+2018-06-29 13:40:03,186 - Databases - INFO - Loaded 10 data
+2018-06-29 13:40:03,186 - Databases - DEBUG - last uid:9
+2018-06-29 13:40:03,186 - PersonDB - INFO - loaded persons db
+2018-06-29 13:40:03,187 - Databases - DEBUG - loading db...
+2018-06-29 13:40:03,189 - Databases - INFO - Loaded 9 data
+2018-06-29 13:40:03,189 - Databases - DEBUG - last uid:19
+2018-06-29 13:40:03,189 - UsersDB - INFO - loaded users database
+2018-06-29 13:40:03,189 - Databases - DEBUG - loading db...
+2018-06-29 13:40:03,190 - Databases - INFO - Loaded 1 data
+2018-06-29 13:40:03,190 - Databases - DEBUG - last uid:5
+2018-06-29 13:40:03,190 - CategoriesDB - INFO - loaded db
+2018-06-29 13:40:03,190 - BannedItems - DEBUG - read items:
+2018-06-29 13:40:03,191 - Databases - DEBUG - loading db...
+2018-06-29 13:40:03,192 - Databases - INFO - Loaded 3 data
+2018-06-29 13:40:03,192 - Databases - DEBUG - last uid:6
+2018-06-29 13:40:03,192 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:40:03,193 - Databases - DEBUG - loading db...
+2018-06-29 13:40:03,193 - Databases - INFO - Loaded 0 data
+2018-06-29 13:40:03,193 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:40:03,194 - __main__ - INFO - Loaded databases
+2018-06-29 13:40:03,194 - __main__ - INFO - Message loop started
+2018-06-29 13:40:36,528 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 13:40:36,529 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 13:40:36,529 - Databases - DEBUG - loading db...
+2018-06-29 13:40:36,531 - Databases - INFO - Loaded 10 data
+2018-06-29 13:40:36,532 - Databases - DEBUG - last uid:9
+2018-06-29 13:40:36,532 - PersonDB - INFO - loaded persons db
+2018-06-29 13:40:36,532 - Databases - DEBUG - loading db...
+2018-06-29 13:40:36,534 - Databases - INFO - Loaded 9 data
+2018-06-29 13:40:36,534 - Databases - DEBUG - last uid:19
+2018-06-29 13:40:36,535 - UsersDB - INFO - loaded users database
+2018-06-29 13:40:36,535 - Databases - DEBUG - loading db...
+2018-06-29 13:40:36,535 - Databases - INFO - Loaded 1 data
+2018-06-29 13:40:36,536 - Databases - DEBUG - last uid:5
+2018-06-29 13:40:36,536 - CategoriesDB - INFO - loaded db
+2018-06-29 13:40:36,536 - BannedItems - DEBUG - read items:
+2018-06-29 13:40:36,537 - BannedItems - DEBUG - bantest
+2018-06-29 13:40:36,537 - Databases - DEBUG - loading db...
+2018-06-29 13:40:36,538 - Databases - INFO - Loaded 3 data
+2018-06-29 13:40:36,538 - Databases - DEBUG - last uid:6
+2018-06-29 13:40:36,539 - MediaVoteDB - INFO - database loaded
+2018-06-29 13:40:36,539 - Databases - DEBUG - loading db...
+2018-06-29 13:40:36,540 - Databases - INFO - Loaded 0 data
+2018-06-29 13:40:36,540 - MediaVoteDB - INFO - loaded banned
+2018-06-29 13:40:36,540 - __main__ - INFO - Loaded databases
+2018-06-29 13:40:36,541 - __main__ - INFO - Message loop started
+2018-06-29 17:02:14,554 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530284540,
+  'entities': [{'length': 16, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11096,
+  'text': '/catinfo_bantest'}
+2018-06-29 17:02:15,157 - __main__ - DEBUG - private message received
+2018-06-29 17:02:16,343 - __main__ - DEBUG - Message: /catinfo_bantest
+2018-06-29 17:02:16,343 - Handle - DEBUG - requested catinfo
+2018-06-29 17:02:16,787 - UsersDB - INFO - updating database...
+2018-06-29 17:02:16,788 - CategoriesDB - INFO - updating database...
+2018-06-29 17:02:16,789 - PersonDB - INFO - updating database...
+2018-06-29 17:02:27,410 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530284552,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11099,
+  'text': '/categories'}
+2018-06-29 17:02:27,972 - __main__ - DEBUG - private message received
+2018-06-29 17:02:29,087 - __main__ - DEBUG - Message: /categories
+2018-06-29 17:02:29,204 - UsersDB - INFO - updating database...
+2018-06-29 17:02:29,204 - CategoriesDB - INFO - updating database...
+2018-06-29 17:02:29,204 - PersonDB - INFO - updating database...
+2018-06-29 17:02:36,218 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530284561,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11101,
+  'text': '/show_Space'}
+2018-06-29 17:02:36,800 - __main__ - DEBUG - private message received
+2018-06-29 17:02:37,928 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 17:02:38,312 - UsersDB - INFO - updating database...
+2018-06-29 17:02:38,312 - CategoriesDB - INFO - updating database...
+2018-06-29 17:02:38,313 - PersonDB - INFO - updating database...
+2018-06-29 17:02:40,041 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530284565,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11103,
+  'text': '/main_menu'}
+2018-06-29 17:02:40,594 - __main__ - DEBUG - private message received
+2018-06-29 17:02:41,776 - __main__ - DEBUG - Message: /main_menu
+2018-06-29 17:02:41,978 - UsersDB - INFO - updating database...
+2018-06-29 17:02:41,979 - CategoriesDB - INFO - updating database...
+2018-06-29 17:02:41,979 - PersonDB - INFO - updating database...
+2018-06-29 17:57:54,843 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 17:57:54,844 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 17:57:54,844 - Databases - DEBUG - loading db...
+2018-06-29 17:57:54,850 - Databases - INFO - Loaded 10 data
+2018-06-29 17:57:54,851 - Databases - DEBUG - last uid:9
+2018-06-29 17:57:54,851 - PersonDB - INFO - loaded persons db
+2018-06-29 17:57:54,852 - Databases - DEBUG - loading db...
+2018-06-29 17:57:54,856 - Databases - INFO - Loaded 9 data
+2018-06-29 17:57:54,857 - Databases - DEBUG - last uid:19
+2018-06-29 17:57:54,857 - UsersDB - INFO - loaded users database
+2018-06-29 17:57:54,858 - Databases - DEBUG - loading db...
+2018-06-29 17:57:54,858 - Databases - INFO - Loaded 1 data
+2018-06-29 17:57:54,859 - Databases - DEBUG - last uid:5
+2018-06-29 17:57:54,860 - CategoriesDB - INFO - loaded db
+2018-06-29 17:57:54,861 - BannedItems - DEBUG - read items:
+2018-06-29 17:57:54,861 - BannedItems - DEBUG - bantest
+2018-06-29 17:57:54,861 - Databases - DEBUG - loading db...
+2018-06-29 17:57:54,863 - Databases - INFO - Loaded 3 data
+2018-06-29 17:57:54,864 - Databases - DEBUG - last uid:6
+2018-06-29 17:57:54,864 - MediaVoteDB - INFO - database loaded
+2018-06-29 17:57:54,865 - Databases - DEBUG - loading db...
+2018-06-29 17:57:54,865 - Databases - INFO - Loaded 0 data
+2018-06-29 17:57:54,866 - MediaVoteDB - INFO - loaded banned
+2018-06-29 17:57:54,867 - __main__ - INFO - Loaded databases
+2018-06-29 17:57:54,868 - __main__ - INFO - Message loop started
+2018-06-29 17:58:19,484 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530287904,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11105,
+  'text': '/main_menu'}
+2018-06-29 17:58:20,030 - __main__ - DEBUG - private message received
+2018-06-29 17:58:21,130 - __main__ - DEBUG - Message: /main_menu
+2018-06-29 17:58:21,376 - UsersDB - INFO - updating database...
+2018-06-29 17:58:21,377 - CategoriesDB - INFO - updating database...
+2018-06-29 17:58:21,377 - PersonDB - INFO - updating database...
+2018-06-29 17:58:37,863 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530287923,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11107,
+  'text': '/categories'}
+2018-06-29 17:58:38,421 - __main__ - DEBUG - private message received
+2018-06-29 17:58:39,516 - __main__ - DEBUG - Message: /categories
+2018-06-29 17:58:39,627 - UsersDB - INFO - updating database...
+2018-06-29 17:58:39,627 - CategoriesDB - INFO - updating database...
+2018-06-29 17:58:39,628 - PersonDB - INFO - updating database...
+2018-06-29 17:58:49,803 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530287935,
+  'entities': [{'length': 7, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11109,
+  'text': '/upload'}
+2018-06-29 17:58:50,354 - __main__ - DEBUG - private message received
+2018-06-29 17:58:51,486 - __main__ - DEBUG - Message: /upload
+2018-06-29 17:58:51,717 - UsersDB - INFO - updating database...
+2018-06-29 17:58:51,718 - CategoriesDB - INFO - updating database...
+2018-06-29 17:58:51,719 - PersonDB - INFO - updating database...
+2018-06-29 17:58:56,978 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530287942,
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11111,
+  'text': 'this is a test'}
+2018-06-29 17:58:57,513 - __main__ - DEBUG - private message received
+2018-06-29 17:58:58,853 - UsersDB - INFO - updating database...
+2018-06-29 17:58:58,853 - CategoriesDB - INFO - updating database...
+2018-06-29 17:58:58,855 - PersonDB - INFO - updating database...
+2018-06-29 17:59:04,577 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530287949,
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11114,
+  'text': 'Space'}
+2018-06-29 17:59:05,109 - __main__ - DEBUG - private message received
+2018-06-29 17:59:06,347 - Handle - DEBUG - handle normal requests
+2018-06-29 17:59:06,349 - UsersDB - INFO - updating database...
+2018-06-29 17:59:06,350 - CategoriesDB - INFO - updating database...
+2018-06-29 17:59:06,353 - Databases - INFO - database update!
+2018-06-29 17:59:06,353 - PersonDB - INFO - updating database...
+2018-06-29 17:59:08,127 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530287953,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11116,
+  'text': '/main_menu'}
+2018-06-29 17:59:08,661 - __main__ - DEBUG - private message received
+2018-06-29 17:59:09,734 - __main__ - DEBUG - Message: /main_menu
+2018-06-29 17:59:09,852 - UsersDB - INFO - updating database...
+2018-06-29 17:59:09,852 - CategoriesDB - INFO - updating database...
+2018-06-29 17:59:09,853 - PersonDB - INFO - updating database...
+2018-06-29 17:59:11,445 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530287956,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11118,
+  'text': '/categories'}
+2018-06-29 17:59:11,993 - __main__ - DEBUG - private message received
+2018-06-29 17:59:13,093 - __main__ - DEBUG - Message: /categories
+2018-06-29 17:59:13,177 - UsersDB - INFO - updating database...
+2018-06-29 17:59:13,178 - CategoriesDB - INFO - updating database...
+2018-06-29 17:59:13,178 - PersonDB - INFO - updating database...
+2018-06-29 17:59:15,367 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530287960,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11120,
+  'text': '/show_Space'}
+2018-06-29 17:59:15,906 - __main__ - DEBUG - private message received
+2018-06-29 17:59:16,997 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 17:59:17,002 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 107, in handle
+    send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 146, in handle_private_text
+    media.showPrivate(bot, user, usersdb, catdb)
+  File "./src\MediaVote.py", line 53, in showPrivate
+    sdb["score"] = NumberFormatter.FormatNumber(self.calculateScore(), 0)
+  File "./src\MediaVote.py", line 40, in calculateScore
+    return ((karma / tot_votes) * 500) / days_up
+ZeroDivisionError: division by zero
+2018-06-29 18:00:04,123 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:00:04,125 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:00:04,126 - Databases - DEBUG - loading db...
+2018-06-29 18:00:04,129 - Databases - INFO - Loaded 10 data
+2018-06-29 18:00:04,129 - Databases - DEBUG - last uid:9
+2018-06-29 18:00:04,130 - PersonDB - INFO - loaded persons db
+2018-06-29 18:00:04,131 - Databases - DEBUG - loading db...
+2018-06-29 18:00:04,134 - Databases - INFO - Loaded 9 data
+2018-06-29 18:00:04,134 - Databases - DEBUG - last uid:19
+2018-06-29 18:00:04,134 - UsersDB - INFO - loaded users database
+2018-06-29 18:00:04,135 - Databases - DEBUG - loading db...
+2018-06-29 18:00:04,136 - Databases - INFO - Loaded 1 data
+2018-06-29 18:00:04,136 - Databases - DEBUG - last uid:5
+2018-06-29 18:00:04,137 - CategoriesDB - INFO - loaded db
+2018-06-29 18:00:04,137 - BannedItems - DEBUG - read items:
+2018-06-29 18:00:04,137 - BannedItems - DEBUG - bantest
+2018-06-29 18:00:04,138 - Databases - DEBUG - loading db...
+2018-06-29 18:00:04,139 - Databases - INFO - Loaded 4 data
+2018-06-29 18:00:04,139 - Databases - DEBUG - last uid:7
+2018-06-29 18:00:04,140 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:00:04,141 - Databases - DEBUG - loading db...
+2018-06-29 18:00:04,141 - Databases - INFO - Loaded 0 data
+2018-06-29 18:00:04,141 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:00:04,142 - __main__ - INFO - Loaded databases
+2018-06-29 18:00:04,143 - __main__ - INFO - Message loop started
+2018-06-29 18:00:07,676 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288013,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11121,
+  'text': '/show_Space'}
+2018-06-29 18:00:08,217 - __main__ - DEBUG - private message received
+2018-06-29 18:00:09,312 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:00:09,317 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 107, in handle
+    send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 146, in handle_private_text
+    media.showPrivate(bot, user, usersdb, catdb)
+  File "./src\MediaVote.py", line 57, in showPrivate
+    vote_up = Button("upvote " + str(self.upvotes), "vote_up" + uid_tag)
+  File "./src\MediaVote.py", line 14, in Button
+    return InlineKeyboardButton(text=text, callback_data=cb)
+NameError: name 'InlineKeyboardButton' is not defined
+2018-06-29 18:00:29,724 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:00:29,725 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:00:29,725 - Databases - DEBUG - loading db...
+2018-06-29 18:00:29,728 - Databases - INFO - Loaded 10 data
+2018-06-29 18:00:29,728 - Databases - DEBUG - last uid:9
+2018-06-29 18:00:29,729 - PersonDB - INFO - loaded persons db
+2018-06-29 18:00:29,730 - Databases - DEBUG - loading db...
+2018-06-29 18:00:29,732 - Databases - INFO - Loaded 9 data
+2018-06-29 18:00:29,733 - Databases - DEBUG - last uid:19
+2018-06-29 18:00:29,733 - UsersDB - INFO - loaded users database
+2018-06-29 18:00:29,734 - Databases - DEBUG - loading db...
+2018-06-29 18:00:29,734 - Databases - INFO - Loaded 1 data
+2018-06-29 18:00:29,734 - Databases - DEBUG - last uid:5
+2018-06-29 18:00:29,734 - CategoriesDB - INFO - loaded db
+2018-06-29 18:00:29,735 - BannedItems - DEBUG - read items:
+2018-06-29 18:00:29,735 - BannedItems - DEBUG - bantest
+2018-06-29 18:00:29,736 - Databases - DEBUG - loading db...
+2018-06-29 18:00:29,738 - Databases - INFO - Loaded 4 data
+2018-06-29 18:00:29,738 - Databases - DEBUG - last uid:7
+2018-06-29 18:00:29,739 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:00:29,739 - Databases - DEBUG - loading db...
+2018-06-29 18:00:29,739 - Databases - INFO - Loaded 0 data
+2018-06-29 18:00:29,739 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:00:29,739 - __main__ - INFO - Loaded databases
+2018-06-29 18:00:29,740 - __main__ - INFO - Message loop started
+2018-06-29 18:00:33,027 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288038,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11122,
+  'text': '/show_Space'}
+2018-06-29 18:00:33,577 - __main__ - DEBUG - private message received
+2018-06-29 18:00:34,693 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:00:34,694 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 107, in handle
+    send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 146, in handle_private_text
+    media.showPrivate(bot, user, usersdb, catdb)
+  File "./src\MediaVote.py", line 53, in showPrivate
+    vote_up = Button("upvote " + str(self.upvotes), "vote_up" + uid_tag)
+NameError: name 'Button' is not defined
+2018-06-29 18:00:52,027 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:00:52,027 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:00:52,027 - Databases - DEBUG - loading db...
+2018-06-29 18:00:52,030 - Databases - INFO - Loaded 10 data
+2018-06-29 18:00:52,030 - Databases - DEBUG - last uid:9
+2018-06-29 18:00:52,030 - PersonDB - INFO - loaded persons db
+2018-06-29 18:00:52,030 - Databases - DEBUG - loading db...
+2018-06-29 18:00:52,033 - Databases - INFO - Loaded 9 data
+2018-06-29 18:00:52,033 - Databases - DEBUG - last uid:19
+2018-06-29 18:00:52,033 - UsersDB - INFO - loaded users database
+2018-06-29 18:00:52,033 - Databases - DEBUG - loading db...
+2018-06-29 18:00:52,034 - Databases - INFO - Loaded 1 data
+2018-06-29 18:00:52,034 - Databases - DEBUG - last uid:5
+2018-06-29 18:00:52,034 - CategoriesDB - INFO - loaded db
+2018-06-29 18:00:52,035 - BannedItems - DEBUG - read items:
+2018-06-29 18:00:52,035 - BannedItems - DEBUG - bantest
+2018-06-29 18:00:52,035 - Databases - DEBUG - loading db...
+2018-06-29 18:00:52,036 - Databases - INFO - Loaded 4 data
+2018-06-29 18:00:52,037 - Databases - DEBUG - last uid:7
+2018-06-29 18:00:52,037 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:00:52,037 - Databases - DEBUG - loading db...
+2018-06-29 18:00:52,037 - Databases - INFO - Loaded 0 data
+2018-06-29 18:00:52,037 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:00:52,037 - __main__ - INFO - Loaded databases
+2018-06-29 18:00:52,038 - __main__ - INFO - Message loop started
+2018-06-29 18:00:55,803 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288061,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11123,
+  'text': '/show_Space'}
+2018-06-29 18:00:56,388 - __main__ - DEBUG - private message received
+2018-06-29 18:00:57,502 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:00:59,013 - UsersDB - INFO - updating database...
+2018-06-29 18:00:59,014 - CategoriesDB - INFO - updating database...
+2018-06-29 18:00:59,014 - PersonDB - INFO - updating database...
+2018-06-29 18:01:03,452 - __main__ - DEBUG - vote_up_7
+2018-06-29 18:01:03,453 - __main__ - ERROR - query: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 203, in query
+    dmedia = mediavotedb.database[cmd_list[2]]
+  File "./src\Databases.py", line 105, in __getitem__
+    return self._db[dataid]
+KeyError: '7'
+2018-06-29 18:02:19,876 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:02:19,877 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:02:19,877 - Databases - DEBUG - loading db...
+2018-06-29 18:02:19,879 - Databases - INFO - Loaded 10 data
+2018-06-29 18:02:19,879 - Databases - DEBUG - last uid:9
+2018-06-29 18:02:19,880 - PersonDB - INFO - loaded persons db
+2018-06-29 18:02:19,880 - Databases - DEBUG - loading db...
+2018-06-29 18:02:19,882 - Databases - INFO - Loaded 9 data
+2018-06-29 18:02:19,882 - Databases - DEBUG - last uid:19
+2018-06-29 18:02:19,882 - UsersDB - INFO - loaded users database
+2018-06-29 18:02:19,883 - Databases - DEBUG - loading db...
+2018-06-29 18:02:19,883 - Databases - INFO - Loaded 1 data
+2018-06-29 18:02:19,883 - Databases - DEBUG - last uid:5
+2018-06-29 18:02:19,884 - CategoriesDB - INFO - loaded db
+2018-06-29 18:02:19,884 - BannedItems - DEBUG - read items:
+2018-06-29 18:02:19,884 - BannedItems - DEBUG - bantest
+2018-06-29 18:02:19,885 - Databases - DEBUG - loading db...
+2018-06-29 18:02:19,886 - Databases - INFO - Loaded 4 data
+2018-06-29 18:02:19,886 - Databases - DEBUG - last uid:7
+2018-06-29 18:02:19,887 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:02:19,887 - Databases - DEBUG - loading db...
+2018-06-29 18:02:19,888 - Databases - INFO - Loaded 0 data
+2018-06-29 18:02:19,889 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:02:19,890 - __main__ - INFO - Loaded databases
+2018-06-29 18:02:19,891 - __main__ - INFO - Message loop started
+2018-06-29 18:02:23,859 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288149,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11125,
+  'text': '/show_Space'}
+2018-06-29 18:02:24,411 - __main__ - DEBUG - private message received
+2018-06-29 18:02:25,508 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:02:26,056 - UsersDB - INFO - updating database...
+2018-06-29 18:02:26,056 - CategoriesDB - INFO - updating database...
+2018-06-29 18:02:26,056 - PersonDB - INFO - updating database...
+2018-06-29 18:02:27,996 - __main__ - DEBUG - vote_up_7
+2018-06-29 18:02:27,997 - __main__ - ERROR - query: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 204, in query
+    dmedia = mediavotedb.database[cmd_list[2]]
+  File "./src\Databases.py", line 105, in __getitem__
+    return self._db[dataid]
+KeyError: '7'
+2018-06-29 18:03:04,979 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:03:04,979 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:03:04,980 - Databases - DEBUG - loading db...
+2018-06-29 18:03:04,982 - Databases - INFO - Loaded 10 data
+2018-06-29 18:03:04,982 - Databases - DEBUG - last uid:9
+2018-06-29 18:03:04,982 - PersonDB - INFO - loaded persons db
+2018-06-29 18:03:04,983 - Databases - DEBUG - loading db...
+2018-06-29 18:03:04,985 - Databases - INFO - Loaded 9 data
+2018-06-29 18:03:04,985 - Databases - DEBUG - last uid:19
+2018-06-29 18:03:04,985 - UsersDB - INFO - loaded users database
+2018-06-29 18:03:04,986 - Databases - DEBUG - loading db...
+2018-06-29 18:03:04,987 - Databases - INFO - Loaded 1 data
+2018-06-29 18:03:04,987 - Databases - DEBUG - last uid:5
+2018-06-29 18:03:04,987 - CategoriesDB - INFO - loaded db
+2018-06-29 18:03:04,987 - BannedItems - DEBUG - read items:
+2018-06-29 18:03:04,988 - BannedItems - DEBUG - bantest
+2018-06-29 18:03:04,988 - Databases - DEBUG - loading db...
+2018-06-29 18:03:04,989 - Databases - INFO - Loaded 4 data
+2018-06-29 18:03:04,989 - Databases - DEBUG - last uid:7
+2018-06-29 18:03:04,990 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:03:04,990 - Databases - DEBUG - loading db...
+2018-06-29 18:03:04,990 - Databases - INFO - Loaded 0 data
+2018-06-29 18:03:04,990 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:03:04,990 - __main__ - INFO - Loaded databases
+2018-06-29 18:03:04,991 - __main__ - INFO - Message loop started
+2018-06-29 18:03:08,234 - __main__ - DEBUG - vote_up_7
+2018-06-29 18:03:08,235 - __main__ - ERROR - query: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 204, in query
+    dmedia = mediavotedb.database[str(cmd_list[2])]
+  File "./src\Databases.py", line 105, in __getitem__
+    return self._db[dataid]
+KeyError: '7'
+2018-06-29 18:03:18,272 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:03:18,273 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:03:18,273 - Databases - DEBUG - loading db...
+2018-06-29 18:03:18,275 - Databases - INFO - Loaded 10 data
+2018-06-29 18:03:18,275 - Databases - DEBUG - last uid:9
+2018-06-29 18:03:18,276 - PersonDB - INFO - loaded persons db
+2018-06-29 18:03:18,276 - Databases - DEBUG - loading db...
+2018-06-29 18:03:18,278 - Databases - INFO - Loaded 9 data
+2018-06-29 18:03:18,285 - Databases - DEBUG - last uid:19
+2018-06-29 18:03:18,286 - UsersDB - INFO - loaded users database
+2018-06-29 18:03:18,286 - Databases - DEBUG - loading db...
+2018-06-29 18:03:18,287 - Databases - INFO - Loaded 1 data
+2018-06-29 18:03:18,287 - Databases - DEBUG - last uid:5
+2018-06-29 18:03:18,287 - CategoriesDB - INFO - loaded db
+2018-06-29 18:03:18,287 - BannedItems - DEBUG - read items:
+2018-06-29 18:03:18,287 - BannedItems - DEBUG - bantest
+2018-06-29 18:03:18,288 - Databases - DEBUG - loading db...
+2018-06-29 18:03:18,289 - Databases - INFO - Loaded 4 data
+2018-06-29 18:03:18,289 - Databases - DEBUG - last uid:7
+2018-06-29 18:03:18,289 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:03:18,289 - Databases - DEBUG - loading db...
+2018-06-29 18:03:18,289 - Databases - INFO - Loaded 0 data
+2018-06-29 18:03:18,290 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:03:18,290 - __main__ - INFO - Loaded databases
+2018-06-29 18:03:18,290 - __main__ - INFO - Message loop started
+2018-06-29 18:03:21,575 - __main__ - DEBUG - vote_up_7
+2018-06-29 18:03:21,576 - __main__ - ERROR - query: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 209, in query
+    media.upvote += 1
+AttributeError: 'MediaVote' object has no attribute 'upvote'
+2018-06-29 18:03:45,005 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:03:45,006 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:03:45,006 - Databases - DEBUG - loading db...
+2018-06-29 18:03:45,008 - Databases - INFO - Loaded 10 data
+2018-06-29 18:03:45,008 - Databases - DEBUG - last uid:9
+2018-06-29 18:03:45,008 - PersonDB - INFO - loaded persons db
+2018-06-29 18:03:45,008 - Databases - DEBUG - loading db...
+2018-06-29 18:03:45,011 - Databases - INFO - Loaded 9 data
+2018-06-29 18:03:45,011 - Databases - DEBUG - last uid:19
+2018-06-29 18:03:45,011 - UsersDB - INFO - loaded users database
+2018-06-29 18:03:45,011 - Databases - DEBUG - loading db...
+2018-06-29 18:03:45,011 - Databases - INFO - Loaded 1 data
+2018-06-29 18:03:45,012 - Databases - DEBUG - last uid:5
+2018-06-29 18:03:45,012 - CategoriesDB - INFO - loaded db
+2018-06-29 18:03:45,012 - BannedItems - DEBUG - read items:
+2018-06-29 18:03:45,012 - BannedItems - DEBUG - bantest
+2018-06-29 18:03:45,013 - Databases - DEBUG - loading db...
+2018-06-29 18:03:45,014 - Databases - INFO - Loaded 4 data
+2018-06-29 18:03:45,015 - Databases - DEBUG - last uid:7
+2018-06-29 18:03:45,016 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:03:45,016 - Databases - DEBUG - loading db...
+2018-06-29 18:03:45,016 - Databases - INFO - Loaded 0 data
+2018-06-29 18:03:45,017 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:03:45,017 - __main__ - INFO - Loaded databases
+2018-06-29 18:03:45,017 - __main__ - INFO - Message loop started
+2018-06-29 18:03:48,796 - __main__ - DEBUG - vote_up_7
+2018-06-29 18:03:49,769 - Databases - INFO - database update!
+2018-06-29 18:03:49,769 - UsersDB - INFO - updating database...
+2018-06-29 18:03:49,771 - Databases - INFO - database update!
+2018-06-29 18:04:01,907 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288247,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11129,
+  'text': '/show_Space'}
+2018-06-29 18:04:02,458 - __main__ - DEBUG - private message received
+2018-06-29 18:04:03,587 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:04:05,039 - UsersDB - INFO - updating database...
+2018-06-29 18:04:05,040 - CategoriesDB - INFO - updating database...
+2018-06-29 18:04:05,040 - PersonDB - INFO - updating database...
+2018-06-29 18:06:21,042 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:06:21,043 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:06:21,043 - Databases - DEBUG - loading db...
+2018-06-29 18:06:21,047 - Databases - INFO - Loaded 10 data
+2018-06-29 18:06:21,047 - Databases - DEBUG - last uid:9
+2018-06-29 18:06:21,047 - PersonDB - INFO - loaded persons db
+2018-06-29 18:06:21,048 - Databases - DEBUG - loading db...
+2018-06-29 18:06:21,051 - Databases - INFO - Loaded 9 data
+2018-06-29 18:06:21,051 - Databases - DEBUG - last uid:19
+2018-06-29 18:06:21,051 - UsersDB - INFO - loaded users database
+2018-06-29 18:06:21,052 - Databases - DEBUG - loading db...
+2018-06-29 18:06:21,052 - Databases - INFO - Loaded 1 data
+2018-06-29 18:06:21,052 - Databases - DEBUG - last uid:5
+2018-06-29 18:06:21,053 - CategoriesDB - INFO - loaded db
+2018-06-29 18:06:21,053 - BannedItems - DEBUG - read items:
+2018-06-29 18:06:21,054 - BannedItems - DEBUG - bantest
+2018-06-29 18:06:21,054 - Databases - DEBUG - loading db...
+2018-06-29 18:06:21,055 - Databases - INFO - Loaded 4 data
+2018-06-29 18:06:21,056 - Databases - DEBUG - last uid:7
+2018-06-29 18:06:21,056 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:06:21,056 - Databases - DEBUG - loading db...
+2018-06-29 18:06:21,057 - Databases - INFO - Loaded 0 data
+2018-06-29 18:06:21,057 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:06:21,057 - __main__ - INFO - Loaded databases
+2018-06-29 18:06:21,057 - __main__ - INFO - Message loop started
+2018-06-29 18:06:24,588 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288389,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11131,
+  'text': '/show_Space'}
+2018-06-29 18:06:25,130 - __main__ - DEBUG - private message received
+2018-06-29 18:06:26,241 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:06:26,719 - UsersDB - INFO - updating database...
+2018-06-29 18:06:26,720 - CategoriesDB - INFO - updating database...
+2018-06-29 18:06:26,720 - PersonDB - INFO - updating database...
+2018-06-29 18:08:52,704 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:08:52,704 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:08:52,704 - Databases - DEBUG - loading db...
+2018-06-29 18:08:52,707 - Databases - INFO - Loaded 10 data
+2018-06-29 18:08:52,707 - Databases - DEBUG - last uid:9
+2018-06-29 18:08:52,707 - PersonDB - INFO - loaded persons db
+2018-06-29 18:08:52,707 - Databases - DEBUG - loading db...
+2018-06-29 18:08:52,710 - Databases - INFO - Loaded 9 data
+2018-06-29 18:08:52,710 - Databases - DEBUG - last uid:19
+2018-06-29 18:08:52,710 - UsersDB - INFO - loaded users database
+2018-06-29 18:08:52,710 - Databases - DEBUG - loading db...
+2018-06-29 18:08:52,711 - Databases - INFO - Loaded 1 data
+2018-06-29 18:08:52,711 - Databases - DEBUG - last uid:5
+2018-06-29 18:08:52,711 - CategoriesDB - INFO - loaded db
+2018-06-29 18:08:52,711 - BannedItems - DEBUG - read items:
+2018-06-29 18:08:52,711 - BannedItems - DEBUG - bantest
+2018-06-29 18:08:52,712 - Databases - DEBUG - loading db...
+2018-06-29 18:08:52,713 - Databases - INFO - Loaded 4 data
+2018-06-29 18:08:52,713 - Databases - DEBUG - last uid:7
+2018-06-29 18:08:52,713 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:08:52,713 - Databases - DEBUG - loading db...
+2018-06-29 18:08:52,714 - Databases - INFO - Loaded 0 data
+2018-06-29 18:08:52,714 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:08:52,714 - __main__ - INFO - Loaded databases
+2018-06-29 18:08:52,715 - __main__ - INFO - Message loop started
+2018-06-29 18:08:56,036 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288541,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11133,
+  'text': '/show_Space'}
+2018-06-29 18:08:56,588 - __main__ - DEBUG - private message received
+2018-06-29 18:08:57,733 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:08:58,477 - UsersDB - INFO - updating database...
+2018-06-29 18:08:58,477 - CategoriesDB - INFO - updating database...
+2018-06-29 18:08:58,477 - PersonDB - INFO - updating database...
+2018-06-29 18:09:30,234 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:09:30,234 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:09:30,235 - Databases - DEBUG - loading db...
+2018-06-29 18:09:30,237 - Databases - INFO - Loaded 10 data
+2018-06-29 18:09:30,237 - Databases - DEBUG - last uid:9
+2018-06-29 18:09:30,237 - PersonDB - INFO - loaded persons db
+2018-06-29 18:09:30,238 - Databases - DEBUG - loading db...
+2018-06-29 18:09:30,240 - Databases - INFO - Loaded 9 data
+2018-06-29 18:09:30,240 - Databases - DEBUG - last uid:19
+2018-06-29 18:09:30,240 - UsersDB - INFO - loaded users database
+2018-06-29 18:09:30,240 - Databases - DEBUG - loading db...
+2018-06-29 18:09:30,241 - Databases - INFO - Loaded 1 data
+2018-06-29 18:09:30,241 - Databases - DEBUG - last uid:5
+2018-06-29 18:09:30,241 - CategoriesDB - INFO - loaded db
+2018-06-29 18:09:30,242 - BannedItems - DEBUG - read items:
+2018-06-29 18:09:30,242 - BannedItems - DEBUG - bantest
+2018-06-29 18:09:30,242 - Databases - DEBUG - loading db...
+2018-06-29 18:09:30,244 - Databases - INFO - Loaded 4 data
+2018-06-29 18:09:30,244 - Databases - DEBUG - last uid:7
+2018-06-29 18:09:30,244 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:09:30,244 - Databases - DEBUG - loading db...
+2018-06-29 18:09:30,245 - Databases - INFO - Loaded 0 data
+2018-06-29 18:09:30,245 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:09:30,245 - __main__ - INFO - Loaded databases
+2018-06-29 18:09:30,246 - __main__ - INFO - Message loop started
+2018-06-29 18:09:33,135 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288578,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11135,
+  'text': '/show_Space'}
+2018-06-29 18:09:33,669 - __main__ - DEBUG - private message received
+2018-06-29 18:09:34,746 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:09:35,445 - UsersDB - INFO - updating database...
+2018-06-29 18:09:35,445 - CategoriesDB - INFO - updating database...
+2018-06-29 18:09:35,445 - PersonDB - INFO - updating database...
+2018-06-29 18:10:42,831 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:10:42,832 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:10:42,832 - Databases - DEBUG - loading db...
+2018-06-29 18:10:42,835 - Databases - INFO - Loaded 10 data
+2018-06-29 18:10:42,835 - Databases - DEBUG - last uid:9
+2018-06-29 18:10:42,835 - PersonDB - INFO - loaded persons db
+2018-06-29 18:10:42,836 - Databases - DEBUG - loading db...
+2018-06-29 18:10:42,838 - Databases - INFO - Loaded 9 data
+2018-06-29 18:10:42,839 - Databases - DEBUG - last uid:19
+2018-06-29 18:10:42,839 - UsersDB - INFO - loaded users database
+2018-06-29 18:10:42,839 - Databases - DEBUG - loading db...
+2018-06-29 18:10:42,840 - Databases - INFO - Loaded 1 data
+2018-06-29 18:10:42,840 - Databases - DEBUG - last uid:5
+2018-06-29 18:10:42,840 - CategoriesDB - INFO - loaded db
+2018-06-29 18:10:42,840 - BannedItems - DEBUG - read items:
+2018-06-29 18:10:42,841 - BannedItems - DEBUG - bantest
+2018-06-29 18:10:42,841 - Databases - DEBUG - loading db...
+2018-06-29 18:10:42,842 - Databases - INFO - Loaded 4 data
+2018-06-29 18:10:42,842 - Databases - DEBUG - last uid:7
+2018-06-29 18:10:42,842 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:10:42,843 - Databases - DEBUG - loading db...
+2018-06-29 18:10:42,843 - Databases - INFO - Loaded 0 data
+2018-06-29 18:10:42,843 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:10:42,843 - __main__ - INFO - Loaded databases
+2018-06-29 18:10:42,844 - __main__ - INFO - Message loop started
+2018-06-29 18:10:45,751 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288651,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11137,
+  'text': '/show_Space'}
+2018-06-29 18:10:46,292 - __main__ - DEBUG - private message received
+2018-06-29 18:10:47,388 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:10:47,719 - UsersDB - INFO - updating database...
+2018-06-29 18:10:47,720 - CategoriesDB - INFO - updating database...
+2018-06-29 18:10:47,720 - PersonDB - INFO - updating database...
+2018-06-29 18:11:17,136 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:11:17,136 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:11:17,137 - Databases - DEBUG - loading db...
+2018-06-29 18:11:17,139 - Databases - INFO - Loaded 10 data
+2018-06-29 18:11:17,139 - Databases - DEBUG - last uid:9
+2018-06-29 18:11:17,139 - PersonDB - INFO - loaded persons db
+2018-06-29 18:11:17,140 - Databases - DEBUG - loading db...
+2018-06-29 18:11:17,142 - Databases - INFO - Loaded 9 data
+2018-06-29 18:11:17,142 - Databases - DEBUG - last uid:19
+2018-06-29 18:11:17,142 - UsersDB - INFO - loaded users database
+2018-06-29 18:11:17,143 - Databases - DEBUG - loading db...
+2018-06-29 18:11:17,143 - Databases - INFO - Loaded 1 data
+2018-06-29 18:11:17,143 - Databases - DEBUG - last uid:5
+2018-06-29 18:11:17,144 - CategoriesDB - INFO - loaded db
+2018-06-29 18:11:17,145 - BannedItems - DEBUG - read items:
+2018-06-29 18:11:17,145 - BannedItems - DEBUG - bantest
+2018-06-29 18:11:17,146 - Databases - DEBUG - loading db...
+2018-06-29 18:11:17,147 - Databases - INFO - Loaded 4 data
+2018-06-29 18:11:17,148 - Databases - DEBUG - last uid:7
+2018-06-29 18:11:17,148 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:11:17,148 - Databases - DEBUG - loading db...
+2018-06-29 18:11:17,149 - Databases - INFO - Loaded 0 data
+2018-06-29 18:11:17,149 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:11:17,149 - __main__ - INFO - Loaded databases
+2018-06-29 18:11:17,150 - __main__ - INFO - Message loop started
+2018-06-29 18:11:18,695 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288684,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11139,
+  'text': '/show_Space'}
+2018-06-29 18:11:19,302 - __main__ - DEBUG - private message received
+2018-06-29 18:11:20,402 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:11:21,264 - UsersDB - INFO - updating database...
+2018-06-29 18:11:21,265 - CategoriesDB - INFO - updating database...
+2018-06-29 18:11:21,265 - PersonDB - INFO - updating database...
+2018-06-29 18:11:46,083 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:11:46,084 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:11:46,084 - Databases - DEBUG - loading db...
+2018-06-29 18:11:46,086 - Databases - INFO - Loaded 10 data
+2018-06-29 18:11:46,087 - Databases - DEBUG - last uid:9
+2018-06-29 18:11:46,087 - PersonDB - INFO - loaded persons db
+2018-06-29 18:11:46,087 - Databases - DEBUG - loading db...
+2018-06-29 18:11:46,089 - Databases - INFO - Loaded 9 data
+2018-06-29 18:11:46,089 - Databases - DEBUG - last uid:19
+2018-06-29 18:11:46,090 - UsersDB - INFO - loaded users database
+2018-06-29 18:11:46,090 - Databases - DEBUG - loading db...
+2018-06-29 18:11:46,090 - Databases - INFO - Loaded 1 data
+2018-06-29 18:11:46,090 - Databases - DEBUG - last uid:5
+2018-06-29 18:11:46,091 - CategoriesDB - INFO - loaded db
+2018-06-29 18:11:46,091 - BannedItems - DEBUG - read items:
+2018-06-29 18:11:46,091 - BannedItems - DEBUG - bantest
+2018-06-29 18:11:46,091 - Databases - DEBUG - loading db...
+2018-06-29 18:11:46,093 - Databases - INFO - Loaded 4 data
+2018-06-29 18:11:46,093 - Databases - DEBUG - last uid:7
+2018-06-29 18:11:46,093 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:11:46,093 - Databases - DEBUG - loading db...
+2018-06-29 18:11:46,094 - Databases - INFO - Loaded 0 data
+2018-06-29 18:11:46,094 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:11:46,094 - __main__ - INFO - Loaded databases
+2018-06-29 18:11:46,095 - __main__ - INFO - Message loop started
+2018-06-29 18:11:48,727 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530288714,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11141,
+  'text': '/show_Space'}
+2018-06-29 18:11:49,272 - __main__ - DEBUG - private message received
+2018-06-29 18:11:50,365 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:11:50,778 - UsersDB - INFO - updating database...
+2018-06-29 18:11:50,778 - CategoriesDB - INFO - updating database...
+2018-06-29 18:11:50,779 - PersonDB - INFO - updating database...
+2018-06-29 18:16:34,207 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:16:34,207 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:16:34,208 - Databases - DEBUG - loading db...
+2018-06-29 18:16:34,211 - Databases - INFO - Loaded 10 data
+2018-06-29 18:16:34,211 - Databases - DEBUG - last uid:9
+2018-06-29 18:16:34,212 - PersonDB - INFO - loaded persons db
+2018-06-29 18:16:34,212 - Databases - DEBUG - loading db...
+2018-06-29 18:16:34,214 - Databases - INFO - Loaded 9 data
+2018-06-29 18:16:34,214 - Databases - DEBUG - last uid:19
+2018-06-29 18:16:34,214 - UsersDB - INFO - loaded users database
+2018-06-29 18:16:34,215 - Databases - DEBUG - loading db...
+2018-06-29 18:16:34,215 - Databases - INFO - Loaded 1 data
+2018-06-29 18:16:34,215 - Databases - DEBUG - last uid:5
+2018-06-29 18:16:34,215 - CategoriesDB - INFO - loaded db
+2018-06-29 18:16:34,216 - BannedItems - DEBUG - read items:
+2018-06-29 18:16:34,216 - BannedItems - DEBUG - bantest
+2018-06-29 18:16:34,216 - Databases - DEBUG - loading db...
+2018-06-29 18:16:34,217 - Databases - INFO - Loaded 4 data
+2018-06-29 18:16:34,218 - Databases - DEBUG - last uid:7
+2018-06-29 18:16:34,218 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:16:34,218 - Databases - DEBUG - loading db...
+2018-06-29 18:16:34,218 - Databases - INFO - Loaded 0 data
+2018-06-29 18:16:34,219 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:16:34,219 - __main__ - INFO - Loaded databases
+2018-06-29 18:16:34,219 - __main__ - INFO - Message loop started
+2018-06-29 18:16:36,335 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289001,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11143,
+  'text': '/show_Space'}
+2018-06-29 18:16:36,891 - __main__ - DEBUG - private message received
+2018-06-29 18:16:38,031 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:16:38,562 - UsersDB - INFO - updating database...
+2018-06-29 18:16:38,563 - CategoriesDB - INFO - updating database...
+2018-06-29 18:16:38,563 - PersonDB - INFO - updating database...
+2018-06-29 18:16:48,331 - __main__ - DEBUG - vote_up_7
+2018-06-29 18:16:48,740 - Databases - INFO - database update!
+2018-06-29 18:16:48,741 - UsersDB - INFO - updating database...
+2018-06-29 18:16:48,742 - Databases - INFO - database update!
+2018-06-29 18:16:52,191 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289017,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11147,
+  'text': '/show_Space'}
+2018-06-29 18:16:52,741 - __main__ - DEBUG - private message received
+2018-06-29 18:16:53,874 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:16:53,980 - UsersDB - INFO - updating database...
+2018-06-29 18:16:53,981 - CategoriesDB - INFO - updating database...
+2018-06-29 18:16:53,981 - PersonDB - INFO - updating database...
+2018-06-29 18:17:38,627 - __main__ - DEBUG - vote_up_7
+2018-06-29 18:17:39,083 - Databases - INFO - database update!
+2018-06-29 18:17:39,083 - UsersDB - INFO - updating database...
+2018-06-29 18:17:39,086 - Databases - INFO - database update!
+2018-06-29 18:17:40,579 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289066,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11151,
+  'text': '/show_Space'}
+2018-06-29 18:17:41,129 - __main__ - DEBUG - private message received
+2018-06-29 18:17:42,206 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:17:42,304 - UsersDB - INFO - updating database...
+2018-06-29 18:17:42,304 - CategoriesDB - INFO - updating database...
+2018-06-29 18:17:42,305 - PersonDB - INFO - updating database...
+2018-06-29 18:17:44,397 - __main__ - DEBUG - vote_down_7
+2018-06-29 18:17:44,576 - Databases - INFO - database update!
+2018-06-29 18:17:44,577 - UsersDB - INFO - updating database...
+2018-06-29 18:17:44,579 - Databases - INFO - database update!
+2018-06-29 18:17:47,130 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289072,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11155,
+  'text': '/show_Space'}
+2018-06-29 18:17:47,676 - __main__ - DEBUG - private message received
+2018-06-29 18:17:48,773 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:17:49,126 - UsersDB - INFO - updating database...
+2018-06-29 18:17:49,126 - CategoriesDB - INFO - updating database...
+2018-06-29 18:17:49,126 - PersonDB - INFO - updating database...
+2018-06-29 18:19:07,415 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289152,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11157,
+  'text': '/show_Space'}
+2018-06-29 18:19:07,978 - __main__ - DEBUG - private message received
+2018-06-29 18:19:09,110 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:19:09,202 - UsersDB - INFO - updating database...
+2018-06-29 18:19:09,203 - CategoriesDB - INFO - updating database...
+2018-06-29 18:19:09,203 - PersonDB - INFO - updating database...
+2018-06-29 18:20:04,043 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:20:04,043 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:20:04,044 - Databases - DEBUG - loading db...
+2018-06-29 18:20:04,046 - Databases - INFO - Loaded 10 data
+2018-06-29 18:20:04,047 - Databases - DEBUG - last uid:9
+2018-06-29 18:20:04,047 - PersonDB - INFO - loaded persons db
+2018-06-29 18:20:04,048 - Databases - DEBUG - loading db...
+2018-06-29 18:20:04,051 - Databases - INFO - Loaded 9 data
+2018-06-29 18:20:04,051 - Databases - DEBUG - last uid:19
+2018-06-29 18:20:04,051 - UsersDB - INFO - loaded users database
+2018-06-29 18:20:04,052 - Databases - DEBUG - loading db...
+2018-06-29 18:20:04,052 - Databases - INFO - Loaded 1 data
+2018-06-29 18:20:04,052 - Databases - DEBUG - last uid:5
+2018-06-29 18:20:04,052 - CategoriesDB - INFO - loaded db
+2018-06-29 18:20:04,053 - BannedItems - DEBUG - read items:
+2018-06-29 18:20:04,053 - BannedItems - DEBUG - bantest
+2018-06-29 18:20:04,053 - Databases - DEBUG - loading db...
+2018-06-29 18:20:04,055 - Databases - INFO - Loaded 4 data
+2018-06-29 18:20:04,055 - Databases - DEBUG - last uid:7
+2018-06-29 18:20:04,055 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:20:04,055 - Databases - DEBUG - loading db...
+2018-06-29 18:20:04,055 - Databases - INFO - Loaded 0 data
+2018-06-29 18:20:04,056 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:20:04,056 - __main__ - INFO - Loaded databases
+2018-06-29 18:20:04,057 - __main__ - INFO - Message loop started
+2018-06-29 18:20:06,118 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289211,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11159,
+  'text': '/show_Space'}
+2018-06-29 18:20:06,675 - __main__ - DEBUG - private message received
+2018-06-29 18:20:07,800 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:20:08,634 - UsersDB - INFO - updating database...
+2018-06-29 18:20:08,634 - CategoriesDB - INFO - updating database...
+2018-06-29 18:20:08,634 - PersonDB - INFO - updating database...
+2018-06-29 18:21:22,268 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:21:22,269 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:21:22,269 - Databases - DEBUG - loading db...
+2018-06-29 18:21:22,272 - Databases - INFO - Loaded 10 data
+2018-06-29 18:21:22,272 - Databases - DEBUG - last uid:9
+2018-06-29 18:21:22,272 - PersonDB - INFO - loaded persons db
+2018-06-29 18:21:22,272 - Databases - DEBUG - loading db...
+2018-06-29 18:21:22,275 - Databases - INFO - Loaded 9 data
+2018-06-29 18:21:22,275 - Databases - DEBUG - last uid:19
+2018-06-29 18:21:22,275 - UsersDB - INFO - loaded users database
+2018-06-29 18:21:22,275 - Databases - DEBUG - loading db...
+2018-06-29 18:21:22,276 - Databases - INFO - Loaded 1 data
+2018-06-29 18:21:22,276 - Databases - DEBUG - last uid:5
+2018-06-29 18:21:22,276 - CategoriesDB - INFO - loaded db
+2018-06-29 18:21:22,276 - BannedItems - DEBUG - read items:
+2018-06-29 18:21:22,276 - BannedItems - DEBUG - bantest
+2018-06-29 18:21:22,277 - Databases - DEBUG - loading db...
+2018-06-29 18:21:22,278 - Databases - INFO - Loaded 4 data
+2018-06-29 18:21:22,278 - Databases - DEBUG - last uid:7
+2018-06-29 18:21:22,278 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:21:22,279 - Databases - DEBUG - loading db...
+2018-06-29 18:21:22,279 - Databases - INFO - Loaded 0 data
+2018-06-29 18:21:22,279 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:21:22,280 - __main__ - INFO - Loaded databases
+2018-06-29 18:21:22,280 - __main__ - INFO - Message loop started
+2018-06-29 18:21:25,955 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289291,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11161,
+  'text': '/show_Space'}
+2018-06-29 18:21:26,494 - __main__ - DEBUG - private message received
+2018-06-29 18:21:27,622 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:21:28,423 - UsersDB - INFO - updating database...
+2018-06-29 18:21:28,424 - CategoriesDB - INFO - updating database...
+2018-06-29 18:21:28,424 - PersonDB - INFO - updating database...
+2018-06-29 18:22:17,251 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:22:17,252 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:22:17,252 - Databases - DEBUG - loading db...
+2018-06-29 18:22:17,255 - Databases - INFO - Loaded 10 data
+2018-06-29 18:22:17,255 - Databases - DEBUG - last uid:9
+2018-06-29 18:22:17,255 - PersonDB - INFO - loaded persons db
+2018-06-29 18:22:17,256 - Databases - DEBUG - loading db...
+2018-06-29 18:22:17,258 - Databases - INFO - Loaded 9 data
+2018-06-29 18:22:17,258 - Databases - DEBUG - last uid:19
+2018-06-29 18:22:17,258 - UsersDB - INFO - loaded users database
+2018-06-29 18:22:17,259 - Databases - DEBUG - loading db...
+2018-06-29 18:22:17,259 - Databases - INFO - Loaded 1 data
+2018-06-29 18:22:17,259 - Databases - DEBUG - last uid:5
+2018-06-29 18:22:17,259 - CategoriesDB - INFO - loaded db
+2018-06-29 18:22:17,260 - BannedItems - DEBUG - read items:
+2018-06-29 18:22:17,260 - BannedItems - DEBUG - bantest
+2018-06-29 18:22:17,260 - Databases - DEBUG - loading db...
+2018-06-29 18:22:17,261 - Databases - INFO - Loaded 4 data
+2018-06-29 18:22:17,262 - Databases - DEBUG - last uid:7
+2018-06-29 18:22:17,262 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:22:17,262 - Databases - DEBUG - loading db...
+2018-06-29 18:22:17,263 - Databases - INFO - Loaded 0 data
+2018-06-29 18:22:17,263 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:22:17,263 - __main__ - INFO - Loaded databases
+2018-06-29 18:22:17,264 - __main__ - INFO - Message loop started
+2018-06-29 18:22:19,755 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289345,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11163,
+  'text': '/show_Space'}
+2018-06-29 18:22:20,306 - __main__ - DEBUG - private message received
+2018-06-29 18:22:21,428 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:22:23,118 - UsersDB - INFO - updating database...
+2018-06-29 18:22:23,119 - CategoriesDB - INFO - updating database...
+2018-06-29 18:22:23,119 - PersonDB - INFO - updating database...
+2018-06-29 18:22:35,187 - __main__ - DEBUG - vote_down_7
+2018-06-29 18:22:35,556 - Databases - INFO - database update!
+2018-06-29 18:22:35,556 - UsersDB - INFO - updating database...
+2018-06-29 18:22:35,560 - Databases - INFO - database update!
+2018-06-29 18:22:37,126 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289362,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11167,
+  'text': '/show_Space'}
+2018-06-29 18:22:37,676 - __main__ - DEBUG - private message received
+2018-06-29 18:22:38,778 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:22:38,882 - UsersDB - INFO - updating database...
+2018-06-29 18:22:38,882 - CategoriesDB - INFO - updating database...
+2018-06-29 18:22:38,882 - PersonDB - INFO - updating database...
+2018-06-29 18:22:41,562 - __main__ - DEBUG - vote_down_7
+2018-06-29 18:22:42,670 - Databases - INFO - database update!
+2018-06-29 18:22:42,670 - UsersDB - INFO - updating database...
+2018-06-29 18:22:42,674 - Databases - INFO - database update!
+2018-06-29 18:22:43,859 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289369,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11171,
+  'text': '/show_Space'}
+2018-06-29 18:22:44,406 - __main__ - DEBUG - private message received
+2018-06-29 18:22:45,518 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:22:45,931 - UsersDB - INFO - updating database...
+2018-06-29 18:22:45,932 - CategoriesDB - INFO - updating database...
+2018-06-29 18:22:45,932 - PersonDB - INFO - updating database...
+2018-06-29 18:28:42,509 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 18:28:42,509 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 18:28:42,510 - Databases - DEBUG - loading db...
+2018-06-29 18:28:42,512 - Databases - INFO - Loaded 10 data
+2018-06-29 18:28:42,512 - Databases - DEBUG - last uid:9
+2018-06-29 18:28:42,512 - PersonDB - INFO - loaded persons db
+2018-06-29 18:28:42,513 - Databases - DEBUG - loading db...
+2018-06-29 18:28:42,515 - Databases - INFO - Loaded 9 data
+2018-06-29 18:28:42,515 - Databases - DEBUG - last uid:19
+2018-06-29 18:28:42,515 - UsersDB - INFO - loaded users database
+2018-06-29 18:28:42,516 - Databases - DEBUG - loading db...
+2018-06-29 18:28:42,516 - Databases - INFO - Loaded 1 data
+2018-06-29 18:28:42,516 - Databases - DEBUG - last uid:5
+2018-06-29 18:28:42,516 - CategoriesDB - INFO - loaded db
+2018-06-29 18:28:42,517 - BannedItems - DEBUG - read items:
+2018-06-29 18:28:42,517 - BannedItems - DEBUG - bantest
+2018-06-29 18:28:42,517 - Databases - DEBUG - loading db...
+2018-06-29 18:28:42,518 - Databases - INFO - Loaded 4 data
+2018-06-29 18:28:42,518 - Databases - DEBUG - last uid:7
+2018-06-29 18:28:42,519 - MediaVoteDB - INFO - database loaded
+2018-06-29 18:28:42,519 - Databases - DEBUG - loading db...
+2018-06-29 18:28:42,519 - Databases - INFO - Loaded 0 data
+2018-06-29 18:28:42,519 - MediaVoteDB - INFO - loaded banned
+2018-06-29 18:28:42,519 - __main__ - INFO - Loaded databases
+2018-06-29 18:28:42,520 - __main__ - INFO - Message loop started
+2018-06-29 18:28:44,161 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289729,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11173,
+  'text': '/show_Space'}
+2018-06-29 18:28:44,702 - __main__ - DEBUG - private message received
+2018-06-29 18:28:45,795 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:28:46,309 - UsersDB - INFO - updating database...
+2018-06-29 18:28:46,309 - CategoriesDB - INFO - updating database...
+2018-06-29 18:28:46,309 - PersonDB - INFO - updating database...
+2018-06-29 18:28:48,718 - __main__ - DEBUG - vote_up_7
+2018-06-29 18:28:48,848 - Databases - INFO - database update!
+2018-06-29 18:28:48,849 - UsersDB - INFO - updating database...
+2018-06-29 18:28:48,850 - Databases - INFO - database update!
+2018-06-29 18:28:51,727 - __main__ - DEBUG - vote_up_7
+2018-06-29 18:28:59,613 - __main__ - DEBUG - vote_down_7
+2018-06-29 18:29:07,609 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289753,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11177,
+  'text': '/show_Space'}
+2018-06-29 18:29:08,153 - __main__ - DEBUG - private message received
+2018-06-29 18:29:09,272 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 18:29:09,627 - UsersDB - INFO - updating database...
+2018-06-29 18:29:09,627 - CategoriesDB - INFO - updating database...
+2018-06-29 18:29:09,628 - PersonDB - INFO - updating database...
+2018-06-29 18:29:48,909 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289794,
+  'entities': [{'length': 10, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11179,
+  'text': '/main_menu'}
+2018-06-29 18:29:49,457 - __main__ - DEBUG - private message received
+2018-06-29 18:29:50,554 - __main__ - DEBUG - Message: /main_menu
+2018-06-29 18:29:50,639 - UsersDB - INFO - updating database...
+2018-06-29 18:29:50,640 - CategoriesDB - INFO - updating database...
+2018-06-29 18:29:50,640 - PersonDB - INFO - updating database...
+2018-06-29 18:29:52,999 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530289797,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11181,
+  'text': '/categories'}
+2018-06-29 18:29:53,527 - __main__ - DEBUG - private message received
+2018-06-29 18:29:54,648 - __main__ - DEBUG - Message: /categories
+2018-06-29 18:29:57,497 - UsersDB - INFO - updating database...
+2018-06-29 18:29:57,497 - CategoriesDB - INFO - updating database...
+2018-06-29 18:29:57,498 - PersonDB - INFO - updating database...
+2018-06-29 19:46:55,127 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530294420,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11183,
+  'text': '/profile'}
+2018-06-29 19:46:55,719 - __main__ - DEBUG - private message received
+2018-06-29 19:46:56,840 - __main__ - DEBUG - Message: /profile
+2018-06-29 19:46:57,317 - UsersDB - INFO - updating database...
+2018-06-29 19:46:57,318 - CategoriesDB - INFO - updating database...
+2018-06-29 19:46:57,318 - PersonDB - INFO - updating database...
+2018-06-29 19:47:02,320 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 19:47:02,321 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 19:47:02,321 - Databases - DEBUG - loading db...
+2018-06-29 19:47:02,325 - Databases - INFO - Loaded 10 data
+2018-06-29 19:47:02,325 - Databases - DEBUG - last uid:9
+2018-06-29 19:47:02,326 - PersonDB - INFO - loaded persons db
+2018-06-29 19:47:02,326 - Databases - DEBUG - loading db...
+2018-06-29 19:47:02,331 - Databases - INFO - Loaded 9 data
+2018-06-29 19:47:02,331 - Databases - DEBUG - last uid:19
+2018-06-29 19:47:02,332 - UsersDB - INFO - loaded users database
+2018-06-29 19:47:02,333 - Databases - DEBUG - loading db...
+2018-06-29 19:47:02,334 - Databases - INFO - Loaded 1 data
+2018-06-29 19:47:02,334 - Databases - DEBUG - last uid:5
+2018-06-29 19:47:02,334 - CategoriesDB - INFO - loaded db
+2018-06-29 19:47:02,335 - BannedItems - DEBUG - read items:
+2018-06-29 19:47:02,335 - BannedItems - DEBUG - bantest
+2018-06-29 19:47:02,336 - Databases - DEBUG - loading db...
+2018-06-29 19:47:02,338 - Databases - INFO - Loaded 4 data
+2018-06-29 19:47:02,338 - Databases - DEBUG - last uid:7
+2018-06-29 19:47:02,338 - MediaVoteDB - INFO - database loaded
+2018-06-29 19:47:02,338 - Databases - DEBUG - loading db...
+2018-06-29 19:47:02,339 - Databases - INFO - Loaded 0 data
+2018-06-29 19:47:02,339 - MediaVoteDB - INFO - loaded banned
+2018-06-29 19:47:02,339 - __main__ - INFO - Loaded databases
+2018-06-29 19:47:02,340 - __main__ - INFO - Message loop started
+2018-06-29 19:47:04,566 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530294429,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11185,
+  'text': '/profile'}
+2018-06-29 19:47:05,135 - __main__ - DEBUG - private message received
+2018-06-29 19:47:06,241 - __main__ - DEBUG - Message: /profile
+2018-06-29 19:47:06,477 - UsersDB - INFO - updating database...
+2018-06-29 19:47:06,477 - CategoriesDB - INFO - updating database...
+2018-06-29 19:47:06,478 - PersonDB - INFO - updating database...
+2018-06-29 19:48:24,840 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 19:48:24,841 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 19:48:24,841 - Databases - DEBUG - loading db...
+2018-06-29 19:48:24,843 - Databases - INFO - Loaded 10 data
+2018-06-29 19:48:24,844 - Databases - DEBUG - last uid:9
+2018-06-29 19:48:24,844 - PersonDB - INFO - loaded persons db
+2018-06-29 19:48:24,844 - Databases - DEBUG - loading db...
+2018-06-29 19:48:24,846 - Databases - INFO - Loaded 9 data
+2018-06-29 19:48:24,847 - Databases - DEBUG - last uid:19
+2018-06-29 19:48:24,847 - UsersDB - INFO - loaded users database
+2018-06-29 19:48:24,847 - Databases - DEBUG - loading db...
+2018-06-29 19:48:24,848 - Databases - INFO - Loaded 1 data
+2018-06-29 19:48:24,848 - Databases - DEBUG - last uid:5
+2018-06-29 19:48:24,848 - CategoriesDB - INFO - loaded db
+2018-06-29 19:48:24,849 - BannedItems - DEBUG - read items:
+2018-06-29 19:48:24,849 - BannedItems - DEBUG - bantest
+2018-06-29 19:48:24,850 - Databases - DEBUG - loading db...
+2018-06-29 19:48:24,851 - Databases - INFO - Loaded 4 data
+2018-06-29 19:48:24,851 - Databases - DEBUG - last uid:7
+2018-06-29 19:48:24,852 - MediaVoteDB - INFO - database loaded
+2018-06-29 19:48:24,852 - Databases - DEBUG - loading db...
+2018-06-29 19:48:24,852 - Databases - INFO - Loaded 0 data
+2018-06-29 19:48:24,852 - MediaVoteDB - INFO - loaded banned
+2018-06-29 19:48:24,853 - __main__ - INFO - Loaded databases
+2018-06-29 19:48:24,854 - __main__ - INFO - Message loop started
+2018-06-29 19:48:28,909 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530294513,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11187,
+  'text': '/profile'}
+2018-06-29 19:48:29,493 - __main__ - DEBUG - private message received
+2018-06-29 19:48:30,596 - __main__ - DEBUG - Message: /profile
+2018-06-29 19:48:30,597 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "./src\BotWrappers.py", line 47, in function_wrapper
+    func(bot, user, *args, **kwargs)
+  File "./src\BotWrappers.py", line 64, in sendMessage
+    text = text.format(**sdb)
+  File "./src\NumberFormatter.py", line 57, in __str__
+    value, suffix = suffix_numbers(self.number, self.precision)
+  File "./src\NumberFormatter.py", line 30, in suffix_numbers
+    while abs(num) >= 1000:
+TypeError: bad operand type for abs(): 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 107, in handle
+    send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 185, in handle_private_text
+    commands[text].func()(bot, user)
+  File "./src\Handle.py", line 232, in user_profile
+    user.sendUserProfile(bot, commands)
+  File "./src\UserProfile.py", line 96, in sendUserProfile
+    BotWrappers.sendMessage(bot, self, s, sdb, parse_mode = "HTML")
+  File "./src\BotWrappers.py", line 53, in function_wrapper
+    raise Exception
+Exception
+2018-06-29 19:49:40,556 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 19:49:40,557 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 19:49:40,557 - Databases - DEBUG - loading db...
+2018-06-29 19:49:40,560 - Databases - INFO - Loaded 10 data
+2018-06-29 19:49:40,560 - Databases - DEBUG - last uid:9
+2018-06-29 19:49:40,560 - PersonDB - INFO - loaded persons db
+2018-06-29 19:49:40,560 - Databases - DEBUG - loading db...
+2018-06-29 19:49:40,563 - Databases - INFO - Loaded 9 data
+2018-06-29 19:49:40,563 - Databases - DEBUG - last uid:19
+2018-06-29 19:49:40,563 - UsersDB - INFO - loaded users database
+2018-06-29 19:49:40,563 - Databases - DEBUG - loading db...
+2018-06-29 19:49:40,564 - Databases - INFO - Loaded 1 data
+2018-06-29 19:49:40,564 - Databases - DEBUG - last uid:5
+2018-06-29 19:49:40,564 - CategoriesDB - INFO - loaded db
+2018-06-29 19:49:40,565 - BannedItems - DEBUG - read items:
+2018-06-29 19:49:40,565 - BannedItems - DEBUG - bantest
+2018-06-29 19:49:40,565 - Databases - DEBUG - loading db...
+2018-06-29 19:49:40,566 - Databases - INFO - Loaded 4 data
+2018-06-29 19:49:40,567 - Databases - DEBUG - last uid:7
+2018-06-29 19:49:40,567 - MediaVoteDB - INFO - database loaded
+2018-06-29 19:49:40,567 - Databases - DEBUG - loading db...
+2018-06-29 19:49:40,568 - Databases - INFO - Loaded 0 data
+2018-06-29 19:49:40,568 - MediaVoteDB - INFO - loaded banned
+2018-06-29 19:49:40,568 - __main__ - INFO - Loaded databases
+2018-06-29 19:49:40,569 - __main__ - INFO - Message loop started
+2018-06-29 19:49:43,366 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530294588,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11188,
+  'text': '/profile'}
+2018-06-29 19:49:43,921 - __main__ - DEBUG - private message received
+2018-06-29 19:49:45,056 - __main__ - DEBUG - Message: /profile
+2018-06-29 19:49:45,347 - UsersDB - INFO - updating database...
+2018-06-29 19:49:45,348 - CategoriesDB - INFO - updating database...
+2018-06-29 19:49:45,348 - PersonDB - INFO - updating database...
+2018-06-29 19:52:00,411 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 19:52:00,412 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 19:52:00,412 - Databases - DEBUG - loading db...
+2018-06-29 19:52:00,414 - Databases - INFO - Loaded 10 data
+2018-06-29 19:52:00,414 - Databases - DEBUG - last uid:9
+2018-06-29 19:52:00,414 - PersonDB - INFO - loaded persons db
+2018-06-29 19:52:00,415 - Databases - DEBUG - loading db...
+2018-06-29 19:52:00,417 - Databases - INFO - Loaded 9 data
+2018-06-29 19:52:00,417 - Databases - DEBUG - last uid:19
+2018-06-29 19:52:00,417 - UsersDB - INFO - loaded users database
+2018-06-29 19:52:00,418 - Databases - DEBUG - loading db...
+2018-06-29 19:52:00,418 - Databases - INFO - Loaded 1 data
+2018-06-29 19:52:00,418 - Databases - DEBUG - last uid:5
+2018-06-29 19:52:00,418 - CategoriesDB - INFO - loaded db
+2018-06-29 19:52:00,419 - BannedItems - DEBUG - read items:
+2018-06-29 19:52:00,419 - BannedItems - DEBUG - bantest
+2018-06-29 19:52:00,419 - Databases - DEBUG - loading db...
+2018-06-29 19:52:00,421 - Databases - INFO - Loaded 4 data
+2018-06-29 19:52:00,421 - Databases - DEBUG - last uid:7
+2018-06-29 19:52:00,421 - MediaVoteDB - INFO - database loaded
+2018-06-29 19:52:00,421 - Databases - DEBUG - loading db...
+2018-06-29 19:52:00,421 - Databases - INFO - Loaded 0 data
+2018-06-29 19:52:00,422 - MediaVoteDB - INFO - loaded banned
+2018-06-29 19:52:00,422 - __main__ - INFO - Loaded databases
+2018-06-29 19:52:00,423 - __main__ - INFO - Message loop started
+2018-06-29 19:52:03,782 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530294729,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11190,
+  'text': '/profile'}
+2018-06-29 19:52:04,336 - __main__ - DEBUG - private message received
+2018-06-29 19:52:05,424 - __main__ - DEBUG - Message: /profile
+2018-06-29 19:52:05,668 - UsersDB - INFO - updating database...
+2018-06-29 19:52:05,668 - CategoriesDB - INFO - updating database...
+2018-06-29 19:52:05,669 - PersonDB - INFO - updating database...
+2018-06-29 19:58:47,120 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 19:58:47,120 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 19:58:47,121 - Databases - DEBUG - loading db...
+2018-06-29 19:58:47,124 - Databases - INFO - Loaded 10 data
+2018-06-29 19:58:47,124 - Databases - DEBUG - last uid:9
+2018-06-29 19:58:47,124 - PersonDB - INFO - loaded persons db
+2018-06-29 19:58:47,124 - Databases - DEBUG - loading db...
+2018-06-29 19:58:47,127 - Databases - INFO - Loaded 9 data
+2018-06-29 19:58:47,127 - Databases - DEBUG - last uid:19
+2018-06-29 19:58:47,128 - UsersDB - INFO - loaded users database
+2018-06-29 19:58:47,128 - Databases - DEBUG - loading db...
+2018-06-29 19:58:47,129 - Databases - INFO - Loaded 1 data
+2018-06-29 19:58:47,129 - Databases - DEBUG - last uid:5
+2018-06-29 19:58:47,129 - CategoriesDB - INFO - loaded db
+2018-06-29 19:58:47,130 - BannedItems - DEBUG - read items:
+2018-06-29 19:58:47,130 - BannedItems - DEBUG - bantest
+2018-06-29 19:58:47,130 - Databases - DEBUG - loading db...
+2018-06-29 19:58:47,131 - Databases - INFO - Loaded 4 data
+2018-06-29 19:58:47,131 - Databases - DEBUG - last uid:7
+2018-06-29 19:58:47,132 - MediaVoteDB - INFO - database loaded
+2018-06-29 19:58:47,132 - Databases - DEBUG - loading db...
+2018-06-29 19:58:47,132 - Databases - INFO - Loaded 0 data
+2018-06-29 19:58:47,132 - MediaVoteDB - INFO - loaded banned
+2018-06-29 19:58:47,132 - __main__ - INFO - Loaded databases
+2018-06-29 19:58:47,133 - __main__ - INFO - Message loop started
+2018-06-29 19:58:50,345 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530295135,
+  'entities': [{'length': 8, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11192,
+  'text': '/profile'}
+2018-06-29 19:58:50,898 - __main__ - DEBUG - private message received
+2018-06-29 19:58:52,007 - __main__ - DEBUG - Message: /profile
+2018-06-29 19:58:52,654 - UsersDB - INFO - updating database...
+2018-06-29 19:58:52,655 - CategoriesDB - INFO - updating database...
+2018-06-29 19:58:52,655 - PersonDB - INFO - updating database...
+2018-06-29 19:59:09,888 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530295155,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11194,
+  'text': '/categories'}
+2018-06-29 19:59:10,459 - __main__ - DEBUG - private message received
+2018-06-29 19:59:11,606 - __main__ - DEBUG - Message: /categories
+2018-06-29 19:59:11,748 - UsersDB - INFO - updating database...
+2018-06-29 19:59:11,749 - CategoriesDB - INFO - updating database...
+2018-06-29 19:59:11,749 - PersonDB - INFO - updating database...
+2018-06-29 19:59:14,948 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530295160,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11196,
+  'text': '/show_Space'}
+2018-06-29 19:59:15,514 - __main__ - DEBUG - private message received
+2018-06-29 19:59:16,672 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 19:59:16,673 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 107, in handle
+    send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 146, in handle_private_text
+    media.showPrivate(bot, user, usersdb, catdb)
+  File "./src\MediaVote.py", line 49, in showPrivate
+    sdb["display_id"] = userdb.hGetUser(self.creator_hash_id).getDisplayName()
+  File "./src\UserProfile.py", line 65, in getDisplayName
+    return self.display_id + "(" + NumberFormatter.Reputation(self.getReputation()) + ")"
+TypeError: must be str, not Reputation
+2018-06-29 19:59:39,481 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 19:59:39,482 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 19:59:39,482 - Databases - DEBUG - loading db...
+2018-06-29 19:59:39,484 - Databases - INFO - Loaded 10 data
+2018-06-29 19:59:39,484 - Databases - DEBUG - last uid:9
+2018-06-29 19:59:39,485 - PersonDB - INFO - loaded persons db
+2018-06-29 19:59:39,485 - Databases - DEBUG - loading db...
+2018-06-29 19:59:39,487 - Databases - INFO - Loaded 9 data
+2018-06-29 19:59:39,487 - Databases - DEBUG - last uid:19
+2018-06-29 19:59:39,487 - UsersDB - INFO - loaded users database
+2018-06-29 19:59:39,488 - Databases - DEBUG - loading db...
+2018-06-29 19:59:39,488 - Databases - INFO - Loaded 1 data
+2018-06-29 19:59:39,488 - Databases - DEBUG - last uid:5
+2018-06-29 19:59:39,489 - CategoriesDB - INFO - loaded db
+2018-06-29 19:59:39,489 - BannedItems - DEBUG - read items:
+2018-06-29 19:59:39,489 - BannedItems - DEBUG - bantest
+2018-06-29 19:59:39,490 - Databases - DEBUG - loading db...
+2018-06-29 19:59:39,491 - Databases - INFO - Loaded 4 data
+2018-06-29 19:59:39,491 - Databases - DEBUG - last uid:7
+2018-06-29 19:59:39,492 - MediaVoteDB - INFO - database loaded
+2018-06-29 19:59:39,492 - Databases - DEBUG - loading db...
+2018-06-29 19:59:39,492 - Databases - INFO - Loaded 0 data
+2018-06-29 19:59:39,492 - MediaVoteDB - INFO - loaded banned
+2018-06-29 19:59:39,493 - __main__ - INFO - Loaded databases
+2018-06-29 19:59:39,493 - __main__ - INFO - Message loop started
+2018-06-29 19:59:42,405 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530295187,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11197,
+  'text': '/show_Space'}
+2018-06-29 19:59:42,959 - __main__ - DEBUG - private message received
+2018-06-29 19:59:44,100 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 19:59:44,102 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 107, in handle
+    send_main_menu = Handle.handle_private_text(msg.content.text, bot, user, usersdb, categoriesdb, mediavotedb)
+  File "./src\Handle.py", line 146, in handle_private_text
+    media.showPrivate(bot, user, usersdb, catdb)
+  File "./src\MediaVote.py", line 51, in showPrivate
+    sdb["upvotes"] = self.upvotes + " " + EmojiTable.upvote_emoji
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2018-06-29 20:00:13,711 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 20:00:13,712 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 20:00:13,712 - Databases - DEBUG - loading db...
+2018-06-29 20:00:13,715 - Databases - INFO - Loaded 10 data
+2018-06-29 20:00:13,715 - Databases - DEBUG - last uid:9
+2018-06-29 20:00:13,715 - PersonDB - INFO - loaded persons db
+2018-06-29 20:00:13,715 - Databases - DEBUG - loading db...
+2018-06-29 20:00:13,718 - Databases - INFO - Loaded 9 data
+2018-06-29 20:00:13,718 - Databases - DEBUG - last uid:19
+2018-06-29 20:00:13,718 - UsersDB - INFO - loaded users database
+2018-06-29 20:00:13,718 - Databases - DEBUG - loading db...
+2018-06-29 20:00:13,719 - Databases - INFO - Loaded 1 data
+2018-06-29 20:00:13,719 - Databases - DEBUG - last uid:5
+2018-06-29 20:00:13,719 - CategoriesDB - INFO - loaded db
+2018-06-29 20:00:13,720 - BannedItems - DEBUG - read items:
+2018-06-29 20:00:13,720 - BannedItems - DEBUG - bantest
+2018-06-29 20:00:13,720 - Databases - DEBUG - loading db...
+2018-06-29 20:00:13,721 - Databases - INFO - Loaded 4 data
+2018-06-29 20:00:13,722 - Databases - DEBUG - last uid:7
+2018-06-29 20:00:13,722 - MediaVoteDB - INFO - database loaded
+2018-06-29 20:00:13,722 - Databases - DEBUG - loading db...
+2018-06-29 20:00:13,722 - Databases - INFO - Loaded 0 data
+2018-06-29 20:00:13,723 - MediaVoteDB - INFO - loaded banned
+2018-06-29 20:00:13,723 - __main__ - INFO - Loaded databases
+2018-06-29 20:00:13,724 - __main__ - INFO - Message loop started
+2018-06-29 20:00:16,708 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530295222,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11198,
+  'text': '/show_Space'}
+2018-06-29 20:00:17,259 - __main__ - DEBUG - private message received
+2018-06-29 20:00:18,356 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 20:00:18,877 - UsersDB - INFO - updating database...
+2018-06-29 20:00:18,877 - CategoriesDB - INFO - updating database...
+2018-06-29 20:00:18,877 - PersonDB - INFO - updating database...
+2018-06-29 20:00:56,065 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-29 20:00:56,066 - __main__ - INFO - Bot data read, bot ready
+2018-06-29 20:00:56,066 - Databases - DEBUG - loading db...
+2018-06-29 20:00:56,069 - Databases - INFO - Loaded 10 data
+2018-06-29 20:00:56,069 - Databases - DEBUG - last uid:9
+2018-06-29 20:00:56,069 - PersonDB - INFO - loaded persons db
+2018-06-29 20:00:56,069 - Databases - DEBUG - loading db...
+2018-06-29 20:00:56,071 - Databases - INFO - Loaded 9 data
+2018-06-29 20:00:56,072 - Databases - DEBUG - last uid:19
+2018-06-29 20:00:56,072 - UsersDB - INFO - loaded users database
+2018-06-29 20:00:56,072 - Databases - DEBUG - loading db...
+2018-06-29 20:00:56,072 - Databases - INFO - Loaded 1 data
+2018-06-29 20:00:56,073 - Databases - DEBUG - last uid:5
+2018-06-29 20:00:56,073 - CategoriesDB - INFO - loaded db
+2018-06-29 20:00:56,073 - BannedItems - DEBUG - read items:
+2018-06-29 20:00:56,073 - BannedItems - DEBUG - bantest
+2018-06-29 20:00:56,074 - Databases - DEBUG - loading db...
+2018-06-29 20:00:56,075 - Databases - INFO - Loaded 4 data
+2018-06-29 20:00:56,075 - Databases - DEBUG - last uid:7
+2018-06-29 20:00:56,076 - MediaVoteDB - INFO - database loaded
+2018-06-29 20:00:56,076 - Databases - DEBUG - loading db...
+2018-06-29 20:00:56,076 - Databases - INFO - Loaded 0 data
+2018-06-29 20:00:56,077 - MediaVoteDB - INFO - loaded banned
+2018-06-29 20:00:56,077 - __main__ - INFO - Loaded databases
+2018-06-29 20:00:56,078 - __main__ - INFO - Message loop started
+2018-06-29 20:01:00,559 - __main__ - DEBUG - Message:
+{ 'chat': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'type': 'private',
+            'username': 'pellostyle'},
+  'date': 1530295264,
+  'entities': [{'length': 11, 'offset': 0, 'type': 'bot_command'}],
+  'from': { 'first_name': 'Pella Jiraiya',
+            'id': 183961724,
+            'is_bot': False,
+            'language_code': 'it-IT',
+            'username': 'pellostyle'},
+  'message_id': 11200,
+  'text': '/show_Space'}
+2018-06-29 20:01:01,090 - __main__ - DEBUG - private message received
+2018-06-29 20:01:02,154 - __main__ - DEBUG - Message: /show_Space
+2018-06-29 20:01:03,047 - UsersDB - INFO - updating database...
+2018-06-29 20:01:03,047 - CategoriesDB - INFO - updating database...
+2018-06-29 20:01:03,047 - PersonDB - INFO - updating database...

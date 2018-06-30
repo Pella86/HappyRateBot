@@ -34,7 +34,7 @@ import MediaVoteDB
 import Handle
 import Logging
 import Pages
-from src.language_support.LanguageSupport import _
+import NumberFormatter
 
 import BotWrappers
 
@@ -60,19 +60,14 @@ def LogBigMistakes(func):
 
 @LogBigMistakes
 def handle(raw_msg):
-    log.debug("Message:\n" + pprint.pformat(raw_msg, indent = 2))
 
     msg = MessageParser.Message(raw_msg)
     
     persondb.addPerson(msg.mfrom) # logs every person!
     
-    
-    
     if msg.chat.type == "private":
         log.debug("private message received")
-        
-        
-        
+
         #chatsdb.addChat(msg.chat)
         chatid = msg.chat.id
 
@@ -80,7 +75,6 @@ def handle(raw_msg):
         usersdb.addUser(msg.mfrom, chatid)
         user = usersdb.getUser(msg.mfrom)
 
-        
         # received a message user is supposedly active
         user.isActive = True
 
@@ -193,6 +187,56 @@ def query(raw_msg):
             cat_list = categoriesdb.getValues()
             p = Pages.CategoryList(page_n, cat_list, query)
             p.check_answer(bot, user, prev)  
+    
+    elif query.data.startswith("vote"):
+        
+        # increase the upvote count or downvote count
+        cmd_list = query.data.split("_")
+        
+        upvote = True if cmd_list[1] == "up" else False
+   
+        dmedia = mediavotedb.database[int(cmd_list[2])]
+        
+        media = dmedia.getData()
+        
+        if user.hash_id in media.voters_id:
+            bot.answerCallbackQuery(query.id, text='Already voted')
+        else:
+            if upvote:
+                media.upvotes += 1
+            else:
+                media.downvotes += 1
+                
+            # add to the media the voters
+            media.voters_id.append(user.hash_id)
+                
+            mediavotedb.setMedia(media)
+            
+    
+            # give / subtract a point from the media owner
+            
+            media_user = usersdb.hGetUser(media.creator_hash_id)
+            
+            coin = str(NumberFormatter.PellaCoins(1))
+            
+            if upvote:
+                media_user.pella_coins += 1
+                BotWrappers.sendMessage(bot, media_user, "You received " + coin)
+            else:
+                media_user.pella_coins -= 1
+                BotWrappers.sendMessage(bot, media_user, "You lost " + coin)  
+            
+            usersdb.setUser(media_user)
+                
+            # give a point to the voter
+            user.pella_coins += 1
+            BotWrappers.sendMessage(bot, user, "You received " + coin)
+            usersdb.setUser(user)
+            
+            mediavotedb.update()
+            usersdb.update()
+            bot.answerCallbackQuery(query.id, text='Voted!')
+            
     else:
         bot.answerCallbackQuery(query.id, text='what?')
 

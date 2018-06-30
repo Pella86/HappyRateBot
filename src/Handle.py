@@ -18,6 +18,7 @@ Created on Mon Jun 18 23:32:03 2018
 #==============================================================================
 
 import random
+import datetime
 
 from telepot.namedtuple import InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -35,16 +36,18 @@ from CreatorID import creator_hash_id
 log = Logging.get_logger(__name__, "DEBUG")
 
 #==============================================================================
-# helpers
+# Constants
 #==============================================================================
 
-
+MAX_UPLOADS = 5
+cat_price = 10
 
 #==============================================================================
 # Handle
 #==============================================================================
 
 def handle_content(content, bot, user, catdb, mediavotedb):
+    log.debug("content handler")
         
     if user.tmp_upload_category == True:
         text_type = content.type == "text"
@@ -62,7 +65,11 @@ def handle_content(content, bot, user, catdb, mediavotedb):
                 BotWrappers.sendMessage(bot, user, "Category not found\n/upload    /main_menu")
     
             if error_message is None:
+                user.uploads_day += 1
+                if user.uploads_day == 1:
+                    user.last_upload_time = datetime.datetime.now()
                 mediavotedb.addContent(user.tmp_upload_content, cat_name, user.hash_id)
+                log.debug("New category added")
                 BotWrappers.sendMessage(bot, user, "Content uploaded successfully\n/main_menu")
                 log.debug("handle normal requests")
         
@@ -72,6 +79,7 @@ def handle_content(content, bot, user, catdb, mediavotedb):
         return False
 
     if user.tmp_upload_content == True:
+        log.debug("user sent a media")
         error_message = None
         
         content_id = content.text if content.type == "text" else content.file_id
@@ -88,6 +96,7 @@ def handle_content(content, bot, user, catdb, mediavotedb):
                 error_message = "commands not allowed"
             
         if error_message is None:
+            log.debug("next stage, category")
             # read the content from the message
             user.tmp_upload_content = content
             
@@ -111,6 +120,9 @@ def handle_content(content, bot, user, catdb, mediavotedb):
                 BotWrappers.sendMessage(bot, user, s)                
         
         return False
+    
+    # else send the upload direct thing
+        
     return True
         
 def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
@@ -137,11 +149,20 @@ def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
         elif len(st) == 2:
             # pick a random media and show
             cat_name = st[1].lower()
-            medias = mediavotedb.getMediaCategory(cat_name)
+            all_medias = mediavotedb.getMediaCategory(cat_name)
+            voted, total = user.countVoted(cat_name, mediavotedb)
+            if voted != total:
+                medias = []
+                for media in all_medias:
+                    if user.hash_id in media.voters_id:
+                        pass
+                    else:
+                       medias.append(media) 
+            else:
+                medias = all_medias
+                   
             if medias:
                 media = random.choice(medias)
-                
-                print(media.content.type)
                
                 media.showPrivate(bot, user, usersdb, catdb)
             else:
@@ -153,12 +174,12 @@ def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
         return False
     
     if text.startswith("/catinfo") and user.hash_id == creator_hash_id:
+        log.debug("requested catinfo")
         
         st = text.split("_")
         
         if len(st) == 2:
             cat_name = st[1].lower()
-            print(cat_name in catdb.getKeys())
             if cat_name in catdb.getKeys():
                 cat = catdb.database[cat_name].getData()
                 cat.show(bot, user)
@@ -177,9 +198,15 @@ def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
         if commands[text].name == commands["/privacy_policy"].name:
             commands[text].func()(bot, usersdb, user)
             return False
+        
+        elif commands[text].name == commands["/profile"].name:
+            commands[text].func()(bot, user, mediavotedb)
+            return False
+        
         elif commands[text].name == commands["/categories"].name:
             commands[text].func()(bot, user, catdb, mediavotedb)
             return False
+        
         else:
             commands[text].func()(bot, user)
             return False
@@ -215,37 +242,36 @@ def send_main_menu(bot, user):
 #==============================================================================
 
 def upload(bot, user):
-    # send a message requessting the user to post anything
-    s = "You can post anything text, gif, pictures, ..."
+    log.debug("user requested upload...")
+    log.debug("user uploaded {} media ".format(user.uploads_day))
+    log.debug("user uploaded first time {}".format(user.last_upload_time.strftime("%H:%M:%S %d/%m/%y")))
     
-    BotWrappers.sendMessage(bot, user, s)
+    dtime = datetime.datetime.now() - user.last_upload_time
+    print(dtime)
     
-    user.tmp_upload_content = True
+    if dtime.days > 1:
+        user.uploads_day = 0 
+    
+    if user.uploads_day < MAX_UPLOADS:
+        # send a message requessting the user to post anything
+        s = "You can post anything text, gif, pictures, ...\n/cancel"
+        
+        BotWrappers.sendMessage(bot, user, s)
+        
+        user.tmp_upload_content = True
+   
+    else:
+        BotWrappers.sendMessage(bot, user, "Max upload reached\n/main_menu")
     
 
 #==============================================================================
 #  User profile
 #==============================================================================
         
-def user_profile(bot, user):
-    s = "<b>User Profile </b>\n"
-    s += "<i>Your anonymous id is: {anon_id}</i>\n"
-    s += "<i>Change nickname</i> "
-    s += commands["/set_nickname"].name + "\n"
-    s += "\n"
-    s += "<b>--- Create category ---</b>\n"
-    s += "<i> You can create your own categories </i>\n"
-    s += "/create_category\n"
-    s += "\n"
-    s += "<b>--- delete profile ---</b>\n"
-    s += "<i> this action will delete every file you uploaded and reset all scores </i>\n"
-    s += commands["/remove_account"].name
-
-    sdb = {}
-    sdb["anon_id"] = user.display_id
-    s = s.format(**sdb)
-
-    BotWrappers.sendMessage(bot, user, s, sdb, parse_mode = "HTML")
+def user_profile(bot, user, mediavotedb):
+    log.debug("user requested profile")
+    user.calculateKarma(mediavotedb)
+    user.sendUserProfile(bot, commands)
 
 #==============================================================================
 # short categories
@@ -266,6 +292,7 @@ def answer_short_categories(bot, user, catdb, query, prev, page_n):
 #============================================================================== 
 
 def categories(bot, user, catdb, mediavotedb):
+    log.debug("user browsing categories")
     # get category list
     cat_list = catdb.getValues()
     
@@ -287,23 +314,28 @@ def answer_categories_page(bot, user, catdb, query, prev, page_n, mediavotedb):
 #==============================================================================
 
 def create_category(bot, user):
-    
-    user.tmp_create_category = True
-    
-    s = "<b>Send a category name</b>\n"
-    s += "<i>The name must be maximum 15 characters long and can contain only alphanumeric characters (a-z and A-Z and 1-10)</i>\n"
-
-    s += "\n"
-    s += "Create a category will cost {price} you have {points}\n"
-    s += "/cancel\n"
-    
-    sdb = {}
-    sdb["price"] = 0
-    sdb["points"] = user.getPoints()
-    
-    s = s.format(**sdb)
-    
-    BotWrappers.sendMessage(bot, user, s, sdb, parse_mode = "HTML")
+    log.debug("user creates category")
+    if user.pella_coins >= cat_price:
+        user.tmp_create_category = True
+        
+        s = "<b>Send a category name</b>\n"
+        s += "<i>The name must be maximum 15 characters long and can contain only alphanumeric characters (a-z and A-Z and 1-10)</i>\n"
+        s += "\n"
+        s += "Create a category will cost {price} you have {points}\n"
+        s += "/cancel\n"
+        
+        sdb = {}
+        sdb["price"] = cat_price
+        sdb["points"] = user.getPoints()
+        
+        BotWrappers.sendMessage(bot, user, s, sdb, parse_mode = "HTML")
+    else:
+        s = "You dont have enough coins to buy a category.\n/main_menu"
+        s += "Create a category will cost {price} you have {points}\n"
+        sdb = {}
+        sdb["price"] = cat_price
+        sdb["points"] = user.getPoints()
+        BotWrappers.sendMessage(bot, user, s, sdb)
 
     
 def get_category(bot, user, text, catdb):
@@ -319,11 +351,10 @@ def get_category(bot, user, text, catdb):
     
         category = Category.Category(text, user.hash_id)
         
-        if catdb.addCategory(category):
-            s = "Success: new category created"
+        if catdb.addCategory(category) and user.pella_coins >= cat_price:
+            s = "Success: new category created\n/main_menu"
             BotWrappers.sendMessage(bot, user, s)
-            
-            
+            user.pella_coins -= cat_price 
         else:
             s = "Fail: category already present"
             BotWrappers.sendMessage(bot, user, s)
@@ -338,7 +369,7 @@ def cancel(bot, user):
     user.tmp_upload_content = None
     user.tmp_upload_category = None
     user.tmp_create_category = None
-    BotWrappers.sendMessage(bot, user, "cancelled!")
+    BotWrappers.sendMessage(bot, user, "cancelled!\n/main_menu")
     send_main_menu(bot, user)
 
 #==============================================================================
@@ -346,6 +377,7 @@ def cancel(bot, user):
 #==============================================================================
 
 def set_nickname(bot, user):
+    log.debug("user requested nickname change")
     # create a delegator bot and starts its own message loop?
     user.tmp_display_id = True
     

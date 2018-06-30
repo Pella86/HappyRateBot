@@ -47,9 +47,7 @@ class Category:
             s += self.creation_date.strftime("%D-%M-%Y") + "\n"
             s += "Score: " + str(self.score) + "\n"
             s +=  "Reported by: " + str(len(self.reported_by)) + "\n"
-            
-            
-            
+
             text = "delete"
             query_tag = "remcat_{}".format(self.name_id)
             b_del = BotWrappers.Button(text, query_tag)

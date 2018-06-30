@@ -22,7 +22,7 @@ import Logging
 # logging
 #==============================================================================
 # create logger
-log = Logging.get_logger(__name__, "INFO")
+log = Logging.get_logger(__name__, "WARNING")
 
 #==============================================================================
 # Helpers
@@ -81,8 +81,6 @@ class UsersDB:
     def banUser(self, user):
         duser = self.database[user.hash_id]
         self.deleteUser(user)
-        
-        ban_duser = Data(user.hash_id, user.)
         
 
     def addUser(self, person, chatid):

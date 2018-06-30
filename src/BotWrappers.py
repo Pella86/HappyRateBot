@@ -19,7 +19,7 @@ from language_support.LanguageSupport import _
 # logging
 #==============================================================================
 
-log = Logging.get_logger(__name__, "DEBUG")
+log = Logging.get_logger(__name__, "INFO")
 
 #==============================================================================
 # bot functions
