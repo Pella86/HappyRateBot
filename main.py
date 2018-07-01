@@ -94,7 +94,7 @@ def handle(raw_msg):
                 # log the messages to the bot 
                 text = msg.content.text
                 log_msg = text if len(text) < 244 else text[:241] + "..."
-                log_msg = log_msg.encode("utf-8").decode("utf-8", "backslashreplace")
+                log_msg = log_msg.encode("utf-8").decode("ascii", "backslashreplace")
                 log.debug("Message: " + log_msg)
                 
                 # handle the requests

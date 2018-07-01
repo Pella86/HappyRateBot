@@ -966,3 +966,2003 @@ Traceback (most recent call last):
   File "./src\UserProfile.py", line 72, in getDisplayName
     return self.display_id + " (" + str(NumberFormatter.Reputation(self.getReputation())) + ")"
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2018-06-30 10:54:55,624 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 10:54:55,625 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 10:54:55,638 - __main__ - INFO - Loaded databases
+2018-06-30 10:54:55,639 - __main__ - INFO - Message loop started
+2018-06-30 10:54:59,050 - __main__ - DEBUG - private message received
+2018-06-30 10:55:00,158 - Handle - DEBUG - content handler
+2018-06-30 10:55:00,159 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 10:55:02,442 - __main__ - DEBUG - vote_up_14
+2018-06-30 10:55:15,742 - __main__ - DEBUG - private message received
+2018-06-30 10:55:16,876 - Handle - DEBUG - content handler
+2018-06-30 10:55:16,877 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 10:55:19,120 - __main__ - DEBUG - vote_up_15
+2018-06-30 10:55:22,928 - __main__ - DEBUG - private message received
+2018-06-30 10:55:24,046 - Handle - DEBUG - content handler
+2018-06-30 10:55:24,047 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 10:55:30,675 - __main__ - DEBUG - private message received
+2018-06-30 10:55:31,782 - Handle - DEBUG - content handler
+2018-06-30 10:55:31,783 - __main__ - DEBUG - Message: /profile
+2018-06-30 10:55:31,783 - Handle - DEBUG - user requested profile
+2018-06-30 10:55:40,668 - __main__ - DEBUG - private message received
+2018-06-30 10:55:41,772 - Handle - DEBUG - content handler
+2018-06-30 10:55:41,773 - __main__ - DEBUG - Message: /upload
+2018-06-30 10:55:41,773 - Handle - DEBUG - user requested upload...
+2018-06-30 10:55:41,774 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 10:55:41,774 - Handle - DEBUG - user uploaded first time 10:51:35 30/06/18
+2018-06-30 10:56:30,360 - __main__ - DEBUG - private message received
+2018-06-30 10:56:31,505 - Handle - DEBUG - content handler
+2018-06-30 10:56:31,506 - Handle - DEBUG - user sent a media
+2018-06-30 10:56:31,506 - Handle - DEBUG - next stage, category
+2018-06-30 10:56:48,617 - __main__ - DEBUG - private message received
+2018-06-30 10:56:49,736 - Handle - DEBUG - content handler
+2018-06-30 10:56:49,736 - Handle - DEBUG - New category added
+2018-06-30 10:56:49,806 - Handle - DEBUG - handle normal requests
+2018-06-30 10:57:19,620 - __main__ - DEBUG - private message received
+2018-06-30 10:57:20,899 - Handle - DEBUG - content handler
+2018-06-30 10:57:20,899 - __main__ - DEBUG - Message: /upload
+2018-06-30 10:57:20,900 - Handle - DEBUG - user requested upload...
+2018-06-30 10:57:20,900 - Handle - DEBUG - user uploaded 1 media 
+2018-06-30 10:57:20,900 - Handle - DEBUG - user uploaded first time 10:56:49 30/06/18
+2018-06-30 10:57:21,793 - __main__ - DEBUG - private message received
+2018-06-30 10:57:22,971 - Handle - DEBUG - content handler
+2018-06-30 10:57:22,971 - Handle - DEBUG - user sent a media
+2018-06-30 10:57:22,972 - Handle - DEBUG - next stage, category
+2018-06-30 10:57:26,133 - __main__ - DEBUG - private message received
+2018-06-30 10:57:27,222 - Handle - DEBUG - content handler
+2018-06-30 10:57:27,223 - Handle - DEBUG - New category added
+2018-06-30 10:57:27,342 - Handle - DEBUG - handle normal requests
+2018-06-30 10:57:42,255 - __main__ - DEBUG - private message received
+2018-06-30 10:57:43,322 - Handle - DEBUG - content handler
+2018-06-30 10:57:43,322 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 10:57:46,974 - __main__ - DEBUG - private message received
+2018-06-30 10:57:48,094 - Handle - DEBUG - content handler
+2018-06-30 10:57:48,095 - __main__ - DEBUG - Message: /categories
+2018-06-30 10:57:48,095 - Handle - DEBUG - user browsing categories
+2018-06-30 10:57:50,992 - __main__ - DEBUG - private message received
+2018-06-30 10:57:52,092 - Handle - DEBUG - content handler
+2018-06-30 10:57:52,093 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 10:57:53,899 - __main__ - DEBUG - vote_up_16
+2018-06-30 10:57:57,560 - __main__ - DEBUG - private message received
+2018-06-30 10:57:58,653 - Handle - DEBUG - content handler
+2018-06-30 10:57:58,654 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 10:58:01,141 - __main__ - DEBUG - vote_up_17
+2018-06-30 10:58:04,415 - __main__ - DEBUG - private message received
+2018-06-30 10:58:05,550 - Handle - DEBUG - content handler
+2018-06-30 10:58:05,550 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 10:58:08,201 - __main__ - DEBUG - private message received
+2018-06-30 10:58:09,314 - Handle - DEBUG - content handler
+2018-06-30 10:58:09,314 - __main__ - DEBUG - Message: /profile
+2018-06-30 10:58:09,315 - Handle - DEBUG - user requested profile
+2018-06-30 10:58:34,527 - __main__ - DEBUG - private message received
+2018-06-30 10:58:35,593 - Handle - DEBUG - content handler
+2018-06-30 10:58:35,594 - __main__ - DEBUG - Message: /upload
+2018-06-30 10:58:35,594 - Handle - DEBUG - user requested upload...
+2018-06-30 10:58:35,594 - Handle - DEBUG - user uploaded 2 media 
+2018-06-30 10:58:35,594 - Handle - DEBUG - user uploaded first time 10:56:49 30/06/18
+2018-06-30 10:58:39,979 - __main__ - DEBUG - private message received
+2018-06-30 10:58:41,134 - Handle - DEBUG - content handler
+2018-06-30 10:58:41,135 - Handle - DEBUG - user sent a media
+2018-06-30 10:58:41,135 - Handle - DEBUG - next stage, category
+2018-06-30 10:58:48,796 - __main__ - DEBUG - private message received
+2018-06-30 10:58:49,871 - Handle - DEBUG - content handler
+2018-06-30 10:58:49,872 - Handle - DEBUG - New category added
+2018-06-30 10:58:49,960 - Handle - DEBUG - handle normal requests
+2018-06-30 10:58:52,266 - __main__ - DEBUG - private message received
+2018-06-30 10:58:53,352 - Handle - DEBUG - content handler
+2018-06-30 10:58:53,353 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:03:59,668 - __main__ - DEBUG - private message received
+2018-06-30 11:04:00,666 - Handle - DEBUG - content handler
+2018-06-30 11:04:00,667 - __main__ - DEBUG - Message: /start
+2018-06-30 11:04:03,065 - __main__ - DEBUG - private message received
+2018-06-30 11:04:04,029 - Handle - DEBUG - content handler
+2018-06-30 11:04:04,029 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:04:04,029 - Handle - DEBUG - user browsing categories
+2018-06-30 11:04:06,918 - __main__ - DEBUG - private message received
+2018-06-30 11:04:07,894 - Handle - DEBUG - content handler
+2018-06-30 11:04:07,895 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:04:07,895 - Handle - DEBUG - user requested upload...
+2018-06-30 11:04:07,895 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 11:04:07,895 - Handle - DEBUG - user uploaded first time 16:14:16 24/06/18
+2018-06-30 11:04:12,369 - __main__ - DEBUG - private message received
+2018-06-30 11:04:13,320 - Handle - DEBUG - content handler
+2018-06-30 11:04:13,321 - Handle - DEBUG - user sent a media
+2018-06-30 11:04:24,304 - __main__ - DEBUG - private message received
+2018-06-30 11:04:25,241 - Handle - DEBUG - content handler
+2018-06-30 11:04:25,242 - Handle - DEBUG - user sent a media
+2018-06-30 11:04:52,128 - __main__ - DEBUG - private message received
+2018-06-30 11:04:53,092 - Handle - DEBUG - content handler
+2018-06-30 11:04:53,092 - Handle - DEBUG - user sent a media
+2018-06-30 11:04:55,704 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 11:04:58,103 - __main__ - DEBUG - private message received
+2018-06-30 11:04:59,021 - Handle - DEBUG - content handler
+2018-06-30 11:04:59,022 - Handle - DEBUG - user sent a media
+2018-06-30 11:05:02,967 - __main__ - DEBUG - private message received
+2018-06-30 11:05:04,083 - Handle - DEBUG - content handler
+2018-06-30 11:05:04,084 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:05:04,084 - Handle - DEBUG - user requested profile
+2018-06-30 11:05:04,671 - __main__ - DEBUG - private message received
+2018-06-30 11:05:05,620 - Handle - DEBUG - content handler
+2018-06-30 11:05:05,621 - Handle - DEBUG - user sent a media
+2018-06-30 11:05:05,621 - __main__ - DEBUG - Message: /cancel
+2018-06-30 11:05:19,068 - __main__ - DEBUG - private message received
+2018-06-30 11:05:19,982 - Handle - DEBUG - content handler
+2018-06-30 11:05:19,983 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:05:19,983 - Handle - DEBUG - user requested profile
+2018-06-30 11:05:37,851 - __main__ - DEBUG - private message received
+2018-06-30 11:05:38,762 - Handle - DEBUG - content handler
+2018-06-30 11:05:38,763 - __main__ - DEBUG - Message: /create_category
+2018-06-30 11:05:38,763 - Handle - DEBUG - user creates category
+2018-06-30 11:05:41,216 - __main__ - DEBUG - private message received
+2018-06-30 11:05:41,619 - __main__ - DEBUG - handle privacy policy
+2018-06-30 11:05:41,763 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "./src\BotWrappers.py", line 47, in function_wrapper
+    func(bot, user, *args, **kwargs)
+  File "./src\BotWrappers.py", line 67, in sendMessage
+    text = _(text, user.lang_tag)
+  File "./src\language_support\LanguageSupport.py", line 223, in _
+    tr.updateTags(new_tag)
+  File "./src\language_support\LanguageSupport.py", line 166, in updateTags
+    os.mkdir(self.getTagFolder(lang_tag))
+FileExistsError: [WinError 183] Impossibile creare un file, se il file esiste già: './languages\\language_en'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 83, in handle
+    Handle.handle_privacy_policy(bot, usersdb, user, msg.content)
+  File "./src\Handle.py", line 421, in handle_privacy_policy
+    BotWrappers.sendMessage(bot, user, s, parse_mode="HTML")
+  File "./src\BotWrappers.py", line 53, in function_wrapper
+    raise Exception
+Exception
+2018-06-30 11:05:47,665 - __main__ - DEBUG - private message received
+2018-06-30 11:05:48,648 - Handle - DEBUG - content handler
+2018-06-30 11:05:48,650 - __main__ - DEBUG - Message: /remove_account
+2018-06-30 11:05:52,628 - __main__ - DEBUG - rmacc_no
+2018-06-30 11:05:55,693 - __main__ - DEBUG - private message received
+2018-06-30 11:05:56,646 - Handle - DEBUG - content handler
+2018-06-30 11:05:56,647 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:05:56,648 - Handle - DEBUG - user requested upload...
+2018-06-30 11:05:56,648 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 11:05:56,648 - Handle - DEBUG - user uploaded first time 16:14:16 24/06/18
+2018-06-30 11:06:07,876 - __main__ - DEBUG - private message received
+2018-06-30 11:06:08,872 - Handle - DEBUG - content handler
+2018-06-30 11:06:08,872 - Handle - DEBUG - user sent a media
+2018-06-30 11:06:08,872 - Handle - DEBUG - next stage, category
+2018-06-30 11:06:20,645 - __main__ - DEBUG - private message received
+2018-06-30 11:06:21,559 - Handle - DEBUG - content handler
+2018-06-30 11:06:21,560 - Handle - DEBUG - New category added
+2018-06-30 11:06:21,649 - Handle - DEBUG - handle normal requests
+2018-06-30 11:06:25,138 - __main__ - DEBUG - private message received
+2018-06-30 11:06:26,147 - Handle - DEBUG - content handler
+2018-06-30 11:06:26,149 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:06:28,185 - __main__ - DEBUG - private message received
+2018-06-30 11:06:29,109 - Handle - DEBUG - content handler
+2018-06-30 11:06:29,109 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:06:29,110 - Handle - DEBUG - user browsing categories
+2018-06-30 11:06:34,774 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 11:06:44,057 - __main__ - DEBUG - private message received
+2018-06-30 11:06:45,028 - Handle - DEBUG - content handler
+2018-06-30 11:06:45,029 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:06:49,149 - __main__ - DEBUG - vote_up_15
+2018-06-30 11:06:53,459 - __main__ - DEBUG - private message received
+2018-06-30 11:06:54,376 - Handle - DEBUG - content handler
+2018-06-30 11:06:54,376 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:06:57,132 - __main__ - DEBUG - vote_up_14
+2018-06-30 11:07:00,200 - __main__ - DEBUG - private message received
+2018-06-30 11:07:01,112 - Handle - DEBUG - content handler
+2018-06-30 11:07:01,113 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:07:02,817 - __main__ - DEBUG - vote_up_16
+2018-06-30 11:07:06,565 - __main__ - DEBUG - private message received
+2018-06-30 11:07:07,569 - Handle - DEBUG - content handler
+2018-06-30 11:07:07,570 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:07:09,988 - __main__ - DEBUG - vote_up_19
+2018-06-30 11:07:15,141 - __main__ - DEBUG - vote_up_19
+2018-06-30 11:07:19,351 - __main__ - DEBUG - private message received
+2018-06-30 11:07:20,283 - Handle - DEBUG - content handler
+2018-06-30 11:07:20,283 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:07:20,575 - __main__ - DEBUG - private message received
+2018-06-30 11:07:20,967 - __main__ - DEBUG - handle privacy policy
+2018-06-30 11:07:22,132 - __main__ - DEBUG - vote_up_17
+2018-06-30 11:07:24,203 - __main__ - DEBUG - private message received
+2018-06-30 11:07:25,134 - Handle - DEBUG - content handler
+2018-06-30 11:07:25,135 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:07:26,949 - __main__ - DEBUG - vote_up_18
+2018-06-30 11:07:29,818 - __main__ - DEBUG - private message received
+2018-06-30 11:07:30,742 - Handle - DEBUG - content handler
+2018-06-30 11:07:30,743 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:07:32,766 - __main__ - DEBUG - vote_up_14
+2018-06-30 11:07:34,003 - __main__ - DEBUG - private message received
+2018-06-30 11:07:34,405 - __main__ - DEBUG - handle privacy policy
+2018-06-30 11:07:34,406 - Handle - DEBUG - working on function /privacy_policy
+2018-06-30 11:07:37,718 - __main__ - DEBUG - vote_up_14
+2018-06-30 11:07:39,688 - __main__ - DEBUG - private message received
+2018-06-30 11:07:40,615 - Handle - DEBUG - content handler
+2018-06-30 11:07:40,616 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:07:42,691 - __main__ - DEBUG - vote_up_18
+2018-06-30 11:07:46,835 - __main__ - DEBUG - private message received
+2018-06-30 11:07:47,756 - Handle - DEBUG - content handler
+2018-06-30 11:07:47,756 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:07:49,921 - __main__ - DEBUG - private message received
+2018-06-30 11:07:50,826 - Handle - DEBUG - content handler
+2018-06-30 11:07:50,826 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:07:50,827 - Handle - DEBUG - user browsing categories
+2018-06-30 11:07:55,404 - __main__ - DEBUG - private message received
+2018-06-30 11:07:56,447 - Handle - DEBUG - content handler
+2018-06-30 11:07:56,448 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:07:56,449 - Handle - DEBUG - user requested profile
+2018-06-30 11:08:00,330 - __main__ - DEBUG - private message received
+2018-06-30 11:08:01,402 - Handle - DEBUG - content handler
+2018-06-30 11:08:01,403 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:08:01,403 - Handle - DEBUG - user requested profile
+2018-06-30 11:08:05,105 - __main__ - DEBUG - private message received
+2018-06-30 11:08:05,503 - __main__ - DEBUG - handle privacy policy
+2018-06-30 11:08:05,503 - Handle - DEBUG - working on function /decline
+2018-06-30 11:08:11,586 - __main__ - DEBUG - private message received
+2018-06-30 11:08:11,983 - __main__ - DEBUG - handle privacy policy
+2018-06-30 11:08:11,984 - Handle - DEBUG - working on function /privacy_policy
+2018-06-30 11:08:16,572 - __main__ - DEBUG - private message received
+2018-06-30 11:08:16,966 - __main__ - DEBUG - handle privacy policy
+2018-06-30 11:08:16,967 - Handle - DEBUG - working on function /accept
+2018-06-30 11:08:20,153 - __main__ - DEBUG - private message received
+2018-06-30 11:08:20,550 - Handle - DEBUG - content handler
+2018-06-30 11:08:20,551 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:08:20,551 - Handle - DEBUG - user browsing categories
+2018-06-30 11:08:24,869 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 11:08:27,624 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 11:08:29,989 - __main__ - DEBUG - cp_cat_0_prev
+2018-06-30 11:08:34,798 - __main__ - DEBUG - private message received
+2018-06-30 11:08:35,204 - Handle - DEBUG - content handler
+2018-06-30 11:08:35,204 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:08:35,205 - Handle - DEBUG - user requested profile
+2018-06-30 11:08:42,731 - __main__ - DEBUG - private message received
+2018-06-30 11:08:43,135 - Handle - DEBUG - content handler
+2018-06-30 11:08:43,136 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:08:43,136 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:08:49,028 - __main__ - DEBUG - private message received
+2018-06-30 11:08:50,150 - Handle - DEBUG - content handler
+2018-06-30 11:08:50,150 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:08:50,151 - Handle - DEBUG - user browsing categories
+2018-06-30 11:08:52,346 - __main__ - DEBUG - private message received
+2018-06-30 11:08:53,435 - Handle - DEBUG - content handler
+2018-06-30 11:08:53,436 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:08:56,846 - __main__ - DEBUG - vote_up_19
+2018-06-30 11:09:08,739 - __main__ - DEBUG - private message received
+2018-06-30 11:09:09,172 - Handle - DEBUG - content handler
+2018-06-30 11:09:09,172 - __main__ - DEBUG - Message: vbextreme
+2018-06-30 11:09:10,731 - __main__ - DEBUG - private message received
+2018-06-30 11:09:11,863 - Handle - DEBUG - content handler
+2018-06-30 11:09:11,864 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:09:14,244 - __main__ - DEBUG - vote_up_18
+2018-06-30 11:09:16,553 - __main__ - DEBUG - private message received
+2018-06-30 11:09:16,965 - Handle - DEBUG - content handler
+2018-06-30 11:09:16,966 - __main__ - DEBUG - Message: /create_category
+2018-06-30 11:09:16,966 - Handle - DEBUG - user creates category
+2018-06-30 11:09:18,694 - __main__ - DEBUG - private message received
+2018-06-30 11:09:19,801 - Handle - DEBUG - content handler
+2018-06-30 11:09:19,802 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:09:22,688 - __main__ - DEBUG - vote_down_19
+2018-06-30 11:09:23,435 - __main__ - DEBUG - private message received
+2018-06-30 11:09:23,844 - Handle - DEBUG - content handler
+2018-06-30 11:09:23,845 - __main__ - DEBUG - Message: /main_menuCreate
+2018-06-30 11:09:26,654 - __main__ - DEBUG - private message received
+2018-06-30 11:09:27,071 - Handle - DEBUG - content handler
+2018-06-30 11:09:27,072 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:09:27,072 - Handle - DEBUG - user requested upload...
+2018-06-30 11:09:27,072 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 11:09:27,072 - Handle - DEBUG - user uploaded first time 11:08:11 30/06/18
+2018-06-30 11:09:52,308 - __main__ - DEBUG - private message received
+2018-06-30 11:09:53,369 - Handle - DEBUG - content handler
+2018-06-30 11:09:53,370 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:09:53,370 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:09:58,448 - __main__ - DEBUG - private message received
+2018-06-30 11:09:59,515 - Handle - DEBUG - content handler
+2018-06-30 11:09:59,516 - __main__ - DEBUG - Message: Pella
+2018-06-30 11:10:03,423 - __main__ - DEBUG - private message received
+2018-06-30 11:10:04,557 - Handle - DEBUG - content handler
+2018-06-30 11:10:04,558 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:10:04,558 - Handle - DEBUG - user requested profile
+2018-06-30 11:10:04,875 - __main__ - DEBUG - private message received
+2018-06-30 11:10:05,272 - Handle - DEBUG - content handler
+2018-06-30 11:10:05,273 - Handle - DEBUG - user sent a media
+2018-06-30 11:10:05,273 - Handle - DEBUG - next stage, category
+2018-06-30 11:10:29,275 - __main__ - DEBUG - cp_shortcat_0_prev
+2018-06-30 11:10:55,322 - __main__ - DEBUG - private message received
+2018-06-30 11:10:56,238 - Handle - DEBUG - content handler
+2018-06-30 11:10:56,238 - __main__ - DEBUG - Message: /repuation
+2018-06-30 11:11:02,198 - __main__ - DEBUG - private message received
+2018-06-30 11:11:03,116 - Handle - DEBUG - content handler
+2018-06-30 11:11:03,117 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:11:03,117 - Handle - DEBUG - user browsing categories
+2018-06-30 11:11:04,244 - __main__ - DEBUG - private message received
+2018-06-30 11:11:04,655 - Handle - DEBUG - content handler
+2018-06-30 11:11:11,576 - __main__ - DEBUG - private message received
+2018-06-30 11:11:12,508 - Handle - DEBUG - content handler
+2018-06-30 11:11:12,509 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:11:12,509 - Handle - DEBUG - user requested profile
+2018-06-30 11:11:27,044 - __main__ - DEBUG - private message received
+2018-06-30 11:11:27,448 - Handle - DEBUG - content handler
+2018-06-30 11:11:27,449 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:11:27,449 - Handle - DEBUG - user requested upload...
+2018-06-30 11:11:27,449 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 11:11:27,451 - Handle - DEBUG - user uploaded first time 11:08:11 30/06/18
+2018-06-30 11:11:34,615 - __main__ - DEBUG - private message received
+2018-06-30 11:11:35,038 - Handle - DEBUG - content handler
+2018-06-30 11:11:35,038 - Handle - DEBUG - user sent a media
+2018-06-30 11:11:35,039 - Handle - DEBUG - next stage, category
+2018-06-30 11:12:04,709 - __main__ - DEBUG - cp_shortcat_0_succ
+2018-06-30 11:12:10,926 - __main__ - DEBUG - private message received
+2018-06-30 11:12:11,331 - Handle - DEBUG - content handler
+2018-06-30 11:12:14,195 - __main__ - DEBUG - private message received
+2018-06-30 11:12:14,602 - Handle - DEBUG - content handler
+2018-06-30 11:12:14,603 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:12:18,212 - __main__ - DEBUG - private message received
+2018-06-30 11:12:18,609 - Handle - DEBUG - content handler
+2018-06-30 11:12:18,610 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:12:18,610 - Handle - DEBUG - user browsing categories
+2018-06-30 11:12:22,112 - __main__ - DEBUG - private message received
+2018-06-30 11:12:22,505 - Handle - DEBUG - content handler
+2018-06-30 11:12:22,505 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:12:25,828 - __main__ - DEBUG - private message received
+2018-06-30 11:12:26,758 - Handle - DEBUG - content handler
+2018-06-30 11:12:26,759 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:12:26,759 - Handle - DEBUG - user requested upload...
+2018-06-30 11:12:26,759 - Handle - DEBUG - user uploaded 1 media 
+2018-06-30 11:12:26,760 - Handle - DEBUG - user uploaded first time 11:06:21 30/06/18
+2018-06-30 11:12:27,244 - __main__ - DEBUG - vote_up_17
+2018-06-30 11:12:33,824 - __main__ - DEBUG - private message received
+2018-06-30 11:12:34,243 - Handle - DEBUG - content handler
+2018-06-30 11:12:34,244 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:12:36,595 - __main__ - DEBUG - vote_up_14
+2018-06-30 11:12:38,556 - __main__ - DEBUG - private message received
+2018-06-30 11:12:38,949 - Handle - DEBUG - content handler
+2018-06-30 11:12:38,950 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:12:42,076 - __main__ - DEBUG - vote_up_16
+2018-06-30 11:12:46,797 - __main__ - DEBUG - private message received
+2018-06-30 11:12:47,195 - Handle - DEBUG - content handler
+2018-06-30 11:12:47,196 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:12:49,561 - __main__ - DEBUG - vote_up_18
+2018-06-30 11:12:51,429 - __main__ - DEBUG - private message received
+2018-06-30 11:12:51,829 - Handle - DEBUG - content handler
+2018-06-30 11:12:51,829 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:12:56,807 - __main__ - DEBUG - vote_up_15
+2018-06-30 11:13:02,155 - __main__ - DEBUG - private message received
+2018-06-30 11:13:02,557 - Handle - DEBUG - content handler
+2018-06-30 11:13:02,558 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:13:04,811 - __main__ - DEBUG - private message received
+2018-06-30 11:13:05,743 - Handle - DEBUG - content handler
+2018-06-30 11:13:05,744 - Handle - DEBUG - user sent a media
+2018-06-30 11:13:05,746 - Handle - DEBUG - next stage, category
+2018-06-30 11:13:06,120 - __main__ - DEBUG - vote_up_19
+2018-06-30 11:13:16,015 - __main__ - DEBUG - private message received
+2018-06-30 11:13:16,960 - Handle - DEBUG - content handler
+2018-06-30 11:13:16,961 - Handle - DEBUG - New category added
+2018-06-30 11:13:17,047 - Handle - DEBUG - handle normal requests
+2018-06-30 11:13:20,065 - __main__ - DEBUG - private message received
+2018-06-30 11:13:20,976 - Handle - DEBUG - content handler
+2018-06-30 11:13:20,977 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:13:23,066 - __main__ - DEBUG - private message received
+2018-06-30 11:13:24,002 - Handle - DEBUG - content handler
+2018-06-30 11:13:24,003 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:13:24,003 - Handle - DEBUG - user browsing categories
+2018-06-30 11:13:24,288 - __main__ - DEBUG - private message received
+2018-06-30 11:13:24,687 - Handle - DEBUG - content handler
+2018-06-30 11:13:24,688 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:13:27,549 - __main__ - DEBUG - private message received
+2018-06-30 11:13:28,500 - Handle - DEBUG - content handler
+2018-06-30 11:13:28,501 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:13:28,904 - __main__ - DEBUG - vote_up_20
+2018-06-30 11:13:30,409 - __main__ - DEBUG - vote_up_20
+2018-06-30 11:13:30,859 - __main__ - DEBUG - private message received
+2018-06-30 11:13:31,274 - Handle - DEBUG - content handler
+2018-06-30 11:13:31,274 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:13:33,964 - __main__ - DEBUG - private message received
+2018-06-30 11:13:34,395 - Handle - DEBUG - content handler
+2018-06-30 11:13:34,396 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:13:35,912 - __main__ - DEBUG - private message received
+2018-06-30 11:13:36,313 - Handle - DEBUG - content handler
+2018-06-30 11:13:36,314 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:13:40,997 - __main__ - DEBUG - private message received
+2018-06-30 11:13:41,397 - Handle - DEBUG - content handler
+2018-06-30 11:13:41,397 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:13:43,276 - __main__ - DEBUG - private message received
+2018-06-30 11:13:43,679 - Handle - DEBUG - content handler
+2018-06-30 11:13:43,679 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:13:46,107 - __main__ - DEBUG - private message received
+2018-06-30 11:13:46,509 - Handle - DEBUG - content handler
+2018-06-30 11:13:46,510 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:13:46,511 - Handle - DEBUG - user requested upload...
+2018-06-30 11:13:46,511 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 11:13:46,512 - Handle - DEBUG - user uploaded first time 11:08:11 30/06/18
+2018-06-30 11:13:57,826 - __main__ - DEBUG - private message received
+2018-06-30 11:13:58,234 - Handle - DEBUG - content handler
+2018-06-30 11:13:58,235 - Handle - DEBUG - user sent a media
+2018-06-30 11:13:58,235 - Handle - DEBUG - next stage, category
+2018-06-30 11:14:05,688 - __main__ - DEBUG - private message received
+2018-06-30 11:14:06,621 - Handle - DEBUG - content handler
+2018-06-30 11:14:06,621 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:14:06,622 - Handle - DEBUG - user requested profile
+2018-06-30 11:14:15,869 - __main__ - DEBUG - private message received
+2018-06-30 11:14:16,274 - Handle - DEBUG - content handler
+2018-06-30 11:14:16,274 - Handle - DEBUG - New category added
+2018-06-30 11:14:16,354 - Handle - DEBUG - handle normal requests
+2018-06-30 11:14:20,732 - __main__ - DEBUG - private message received
+2018-06-30 11:14:21,137 - Handle - DEBUG - content handler
+2018-06-30 11:14:21,138 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:14:23,264 - __main__ - DEBUG - private message received
+2018-06-30 11:14:23,666 - Handle - DEBUG - content handler
+2018-06-30 11:14:23,666 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:14:23,668 - Handle - DEBUG - user browsing categories
+2018-06-30 11:14:26,103 - __main__ - DEBUG - private message received
+2018-06-30 11:14:27,165 - Handle - DEBUG - content handler
+2018-06-30 11:14:27,165 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:14:27,165 - Handle - DEBUG - user requested upload...
+2018-06-30 11:14:27,166 - Handle - DEBUG - user uploaded 3 media 
+2018-06-30 11:14:27,166 - Handle - DEBUG - user uploaded first time 10:56:49 30/06/18
+2018-06-30 11:14:27,797 - __main__ - DEBUG - private message received
+2018-06-30 11:14:28,732 - Handle - DEBUG - content handler
+2018-06-30 11:14:28,733 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:14:28,733 - Handle - DEBUG - user requested upload...
+2018-06-30 11:14:28,733 - Handle - DEBUG - user uploaded 2 media 
+2018-06-30 11:14:28,733 - Handle - DEBUG - user uploaded first time 11:06:21 30/06/18
+2018-06-30 11:14:29,189 - __main__ - DEBUG - private message received
+2018-06-30 11:14:29,647 - Handle - DEBUG - content handler
+2018-06-30 11:14:29,649 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:14:31,963 - __main__ - DEBUG - vote_up_21
+2018-06-30 11:14:33,764 - __main__ - DEBUG - private message received
+2018-06-30 11:14:34,910 - Handle - DEBUG - content handler
+2018-06-30 11:14:34,911 - Handle - DEBUG - user sent a media
+2018-06-30 11:14:34,912 - __main__ - DEBUG - Message: /cancel
+2018-06-30 11:14:35,895 - __main__ - DEBUG - private message received
+2018-06-30 11:14:37,025 - Handle - DEBUG - content handler
+2018-06-30 11:14:37,026 - __main__ - DEBUG - Message: /create_category
+2018-06-30 11:14:37,026 - Handle - DEBUG - user creates category
+2018-06-30 11:14:42,380 - __main__ - DEBUG - private message received
+2018-06-30 11:14:43,569 - Handle - DEBUG - content handler
+2018-06-30 11:14:43,570 - __main__ - DEBUG - Message: Nature
+2018-06-30 11:15:02,187 - __main__ - DEBUG - private message received
+2018-06-30 11:15:03,312 - Handle - DEBUG - content handler
+2018-06-30 11:15:03,312 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:15:03,312 - Handle - DEBUG - user requested upload...
+2018-06-30 11:15:03,313 - Handle - DEBUG - user uploaded 3 media 
+2018-06-30 11:15:03,313 - Handle - DEBUG - user uploaded first time 10:56:49 30/06/18
+2018-06-30 11:15:03,610 - __main__ - DEBUG - private message received
+2018-06-30 11:15:04,010 - Handle - DEBUG - content handler
+2018-06-30 11:15:04,010 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:15:06,659 - __main__ - DEBUG - vote_up_21
+2018-06-30 11:15:08,614 - __main__ - DEBUG - private message received
+2018-06-30 11:15:09,749 - Handle - DEBUG - content handler
+2018-06-30 11:15:09,750 - Handle - DEBUG - user sent a media
+2018-06-30 11:15:09,750 - Handle - DEBUG - next stage, category
+2018-06-30 11:15:11,595 - __main__ - DEBUG - private message received
+2018-06-30 11:15:11,997 - Handle - DEBUG - content handler
+2018-06-30 11:15:11,998 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:15:15,233 - __main__ - DEBUG - private message received
+2018-06-30 11:15:15,630 - Handle - DEBUG - content handler
+2018-06-30 11:15:15,630 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:15:18,009 - __main__ - DEBUG - private message received
+2018-06-30 11:15:18,404 - Handle - DEBUG - content handler
+2018-06-30 11:15:18,405 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:15:19,727 - __main__ - DEBUG - private message received
+2018-06-30 11:15:20,788 - Handle - DEBUG - content handler
+2018-06-30 11:15:20,788 - Handle - DEBUG - New category added
+2018-06-30 11:15:20,979 - Handle - DEBUG - handle normal requests
+2018-06-30 11:15:21,190 - __main__ - DEBUG - private message received
+2018-06-30 11:15:21,592 - Handle - DEBUG - content handler
+2018-06-30 11:15:21,592 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:15:23,745 - __main__ - DEBUG - private message received
+2018-06-30 11:15:24,180 - Handle - DEBUG - content handler
+2018-06-30 11:15:24,180 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:15:25,962 - __main__ - DEBUG - private message received
+2018-06-30 11:15:26,367 - Handle - DEBUG - content handler
+2018-06-30 11:15:26,367 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:15:27,048 - __main__ - DEBUG - private message received
+2018-06-30 11:15:27,964 - Handle - DEBUG - content handler
+2018-06-30 11:15:27,965 - Handle - DEBUG - user sent a media
+2018-06-30 11:15:27,965 - Handle - DEBUG - next stage, category
+2018-06-30 11:15:29,314 - __main__ - DEBUG - private message received
+2018-06-30 11:15:29,716 - Handle - DEBUG - content handler
+2018-06-30 11:15:29,717 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:15:40,385 - __main__ - DEBUG - private message received
+2018-06-30 11:15:40,779 - Handle - DEBUG - content handler
+2018-06-30 11:15:40,780 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:15:43,796 - __main__ - DEBUG - private message received
+2018-06-30 11:15:44,206 - Handle - DEBUG - content handler
+2018-06-30 11:15:44,206 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:15:46,805 - __main__ - DEBUG - private message received
+2018-06-30 11:15:47,289 - Handle - DEBUG - content handler
+2018-06-30 11:15:47,289 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:15:47,290 - Handle - DEBUG - user requested profile
+2018-06-30 11:15:49,617 - __main__ - DEBUG - private message received
+2018-06-30 11:15:50,691 - Handle - DEBUG - content handler
+2018-06-30 11:15:50,691 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:15:52,968 - __main__ - DEBUG - private message received
+2018-06-30 11:15:54,066 - Handle - DEBUG - content handler
+2018-06-30 11:15:54,068 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:15:54,068 - Handle - DEBUG - user browsing categories
+2018-06-30 11:15:56,085 - __main__ - DEBUG - private message received
+2018-06-30 11:15:57,176 - Handle - DEBUG - content handler
+2018-06-30 11:15:57,176 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:15:59,849 - __main__ - DEBUG - vote_up_21
+2018-06-30 11:16:05,043 - __main__ - DEBUG - private message received
+2018-06-30 11:16:05,959 - Handle - DEBUG - content handler
+2018-06-30 11:16:05,959 - Handle - DEBUG - New category added
+2018-06-30 11:16:06,042 - Handle - DEBUG - handle normal requests
+2018-06-30 11:16:09,477 - __main__ - DEBUG - private message received
+2018-06-30 11:16:10,477 - Handle - DEBUG - content handler
+2018-06-30 11:16:10,477 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:16:12,233 - __main__ - DEBUG - private message received
+2018-06-30 11:16:13,158 - Handle - DEBUG - content handler
+2018-06-30 11:16:13,158 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:16:13,158 - Handle - DEBUG - user browsing categories
+2018-06-30 11:16:17,755 - __main__ - DEBUG - private message received
+2018-06-30 11:16:18,704 - Handle - DEBUG - content handler
+2018-06-30 11:16:18,705 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:16:20,958 - __main__ - DEBUG - vote_up_23
+2018-06-30 11:16:29,665 - __main__ - DEBUG - private message received
+2018-06-30 11:16:30,697 - Handle - DEBUG - content handler
+2018-06-30 11:16:30,698 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:16:31,501 - __main__ - DEBUG - private message received
+2018-06-30 11:16:32,563 - Handle - DEBUG - content handler
+2018-06-30 11:16:32,564 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:16:33,978 - __main__ - DEBUG - vote_down_21
+2018-06-30 11:16:36,158 - __main__ - DEBUG - vote_up_20
+2018-06-30 11:16:44,604 - __main__ - DEBUG - vote_down_21
+2018-06-30 11:16:46,354 - __main__ - DEBUG - private message received
+2018-06-30 11:16:47,428 - Handle - DEBUG - content handler
+2018-06-30 11:16:47,428 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:16:49,988 - __main__ - DEBUG - private message received
+2018-06-30 11:16:51,067 - Handle - DEBUG - content handler
+2018-06-30 11:16:51,068 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:16:51,068 - Handle - DEBUG - user browsing categories
+2018-06-30 11:16:52,969 - __main__ - DEBUG - private message received
+2018-06-30 11:16:53,371 - Handle - DEBUG - content handler
+2018-06-30 11:16:53,371 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:16:53,971 - __main__ - DEBUG - private message received
+2018-06-30 11:16:55,033 - Handle - DEBUG - content handler
+2018-06-30 11:16:55,034 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:16:58,800 - __main__ - DEBUG - vote_up_23
+2018-06-30 11:16:59,764 - __main__ - DEBUG - vote_up_22
+2018-06-30 11:17:02,092 - __main__ - DEBUG - private message received
+2018-06-30 11:17:02,526 - Handle - DEBUG - content handler
+2018-06-30 11:17:02,526 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:17:03,624 - __main__ - DEBUG - private message received
+2018-06-30 11:17:04,712 - Handle - DEBUG - content handler
+2018-06-30 11:17:04,713 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:17:05,464 - __main__ - DEBUG - vote_up_21
+2018-06-30 11:17:07,525 - __main__ - DEBUG - vote_up_23
+2018-06-30 11:17:09,780 - __main__ - DEBUG - private message received
+2018-06-30 11:17:10,186 - Handle - DEBUG - content handler
+2018-06-30 11:17:10,187 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:17:12,936 - __main__ - DEBUG - private message received
+2018-06-30 11:17:13,344 - Handle - DEBUG - content handler
+2018-06-30 11:17:13,345 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:17:14,952 - __main__ - DEBUG - private message received
+2018-06-30 11:17:15,892 - Handle - DEBUG - content handler
+2018-06-30 11:17:15,897 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:17:15,898 - Handle - DEBUG - user requested upload...
+2018-06-30 11:17:15,898 - Handle - DEBUG - user uploaded 3 media 
+2018-06-30 11:17:15,898 - Handle - DEBUG - user uploaded first time 11:06:21 30/06/18
+2018-06-30 11:17:16,196 - __main__ - DEBUG - private message received
+2018-06-30 11:17:16,598 - Handle - DEBUG - content handler
+2018-06-30 11:17:16,599 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:17:19,253 - __main__ - DEBUG - private message received
+2018-06-30 11:17:19,653 - Handle - DEBUG - content handler
+2018-06-30 11:17:19,653 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:17:21,266 - __main__ - DEBUG - private message received
+2018-06-30 11:17:21,696 - Handle - DEBUG - content handler
+2018-06-30 11:17:21,696 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:17:23,417 - __main__ - DEBUG - private message received
+2018-06-30 11:17:24,351 - Handle - DEBUG - content handler
+2018-06-30 11:17:24,351 - Handle - DEBUG - user sent a media
+2018-06-30 11:17:24,352 - Handle - DEBUG - next stage, category
+2018-06-30 11:17:24,748 - __main__ - DEBUG - vote_up_14
+2018-06-30 11:17:26,630 - __main__ - DEBUG - private message received
+2018-06-30 11:17:27,032 - Handle - DEBUG - content handler
+2018-06-30 11:17:27,032 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:17:29,187 - __main__ - DEBUG - private message received
+2018-06-30 11:17:29,585 - Handle - DEBUG - content handler
+2018-06-30 11:17:29,585 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:17:30,653 - __main__ - DEBUG - private message received
+2018-06-30 11:17:31,590 - Handle - DEBUG - content handler
+2018-06-30 11:17:31,590 - Handle - DEBUG - New category added
+2018-06-30 11:17:31,700 - Handle - DEBUG - handle normal requests
+2018-06-30 11:17:31,900 - __main__ - DEBUG - private message received
+2018-06-30 11:17:32,299 - Handle - DEBUG - content handler
+2018-06-30 11:17:32,300 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:17:33,671 - __main__ - DEBUG - private message received
+2018-06-30 11:17:34,090 - Handle - DEBUG - content handler
+2018-06-30 11:17:34,091 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:17:35,550 - __main__ - DEBUG - private message received
+2018-06-30 11:17:36,518 - Handle - DEBUG - content handler
+2018-06-30 11:17:36,518 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:17:39,116 - __main__ - DEBUG - private message received
+2018-06-30 11:17:40,134 - Handle - DEBUG - content handler
+2018-06-30 11:17:40,135 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:17:40,135 - Handle - DEBUG - user browsing categories
+2018-06-30 11:17:42,138 - __main__ - DEBUG - private message received
+2018-06-30 11:17:42,547 - Handle - DEBUG - content handler
+2018-06-30 11:17:42,547 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:17:45,027 - __main__ - DEBUG - private message received
+2018-06-30 11:17:46,010 - Handle - DEBUG - content handler
+2018-06-30 11:17:46,010 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:17:48,393 - __main__ - DEBUG - vote_up_24
+2018-06-30 11:17:50,885 - __main__ - DEBUG - private message received
+2018-06-30 11:17:51,793 - Handle - DEBUG - content handler
+2018-06-30 11:17:51,794 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:17:55,735 - __main__ - DEBUG - vote_up_22
+2018-06-30 11:18:01,532 - __main__ - DEBUG - private message received
+2018-06-30 11:18:02,572 - Handle - DEBUG - content handler
+2018-06-30 11:18:02,573 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:18:02,573 - Handle - DEBUG - user requested upload...
+2018-06-30 11:18:02,573 - Handle - DEBUG - user uploaded 4 media 
+2018-06-30 11:18:02,573 - Handle - DEBUG - user uploaded first time 11:06:21 30/06/18
+2018-06-30 11:18:02,852 - __main__ - DEBUG - private message received
+2018-06-30 11:18:03,276 - Handle - DEBUG - content handler
+2018-06-30 11:18:03,277 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:18:07,590 - __main__ - DEBUG - private message received
+2018-06-30 11:18:08,708 - Handle - DEBUG - content handler
+2018-06-30 11:18:08,709 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:18:11,958 - __main__ - DEBUG - private message received
+2018-06-30 11:18:13,067 - Handle - DEBUG - content handler
+2018-06-30 11:18:13,068 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:18:13,068 - Handle - DEBUG - user requested profile
+2018-06-30 11:18:18,358 - __main__ - DEBUG - private message received
+2018-06-30 11:18:18,760 - Handle - DEBUG - content handler
+2018-06-30 11:18:18,760 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:18:18,761 - Handle - DEBUG - user requested profile
+2018-06-30 11:18:21,372 - __main__ - DEBUG - private message received
+2018-06-30 11:18:21,775 - Handle - DEBUG - content handler
+2018-06-30 11:18:21,777 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:18:21,777 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:18:23,524 - __main__ - DEBUG - private message received
+2018-06-30 11:18:24,495 - Handle - DEBUG - content handler
+2018-06-30 11:18:24,496 - Handle - DEBUG - user sent a media
+2018-06-30 11:18:24,496 - Handle - DEBUG - next stage, category
+2018-06-30 11:18:29,362 - __main__ - DEBUG - private message received
+2018-06-30 11:18:30,341 - Handle - DEBUG - content handler
+2018-06-30 11:18:30,342 - Handle - DEBUG - New category added
+2018-06-30 11:18:30,408 - Handle - DEBUG - handle normal requests
+2018-06-30 11:18:32,358 - __main__ - DEBUG - private message received
+2018-06-30 11:18:32,751 - Handle - DEBUG - content handler
+2018-06-30 11:18:32,752 - __main__ - DEBUG - Message: '); drop table users
+2018-06-30 11:18:34,021 - __main__ - DEBUG - private message received
+2018-06-30 11:18:34,926 - Handle - DEBUG - content handler
+2018-06-30 11:18:34,927 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:18:34,927 - Handle - DEBUG - user requested upload...
+2018-06-30 11:18:34,927 - Handle - DEBUG - user uploaded 5 media 
+2018-06-30 11:18:34,927 - Handle - DEBUG - user uploaded first time 11:06:21 30/06/18
+2018-06-30 11:18:42,397 - __main__ - DEBUG - private message received
+2018-06-30 11:18:42,791 - Handle - DEBUG - content handler
+2018-06-30 11:18:42,791 - __main__ - DEBUG - Message: ');
+2018-06-30 11:18:47,656 - __main__ - DEBUG - private message received
+2018-06-30 11:18:48,047 - Handle - DEBUG - content handler
+2018-06-30 11:18:48,048 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:18:48,048 - Handle - DEBUG - user requested profile
+2018-06-30 11:18:48,717 - __main__ - DEBUG - private message received
+2018-06-30 11:18:49,663 - Handle - DEBUG - content handler
+2018-06-30 11:18:49,664 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:18:50,000 - __main__ - DEBUG - private message received
+2018-06-30 11:18:50,405 - Handle - DEBUG - content handler
+2018-06-30 11:18:50,405 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:18:50,405 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:18:52,343 - __main__ - DEBUG - private message received
+2018-06-30 11:18:53,291 - Handle - DEBUG - content handler
+2018-06-30 11:18:53,291 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:18:53,292 - Handle - DEBUG - user browsing categories
+2018-06-30 11:18:53,582 - __main__ - DEBUG - private message received
+2018-06-30 11:18:53,998 - Handle - DEBUG - content handler
+2018-06-30 11:18:53,998 - __main__ - DEBUG - Message: ');
+2018-06-30 11:18:57,124 - __main__ - DEBUG - private message received
+2018-06-30 11:18:58,038 - Handle - DEBUG - content handler
+2018-06-30 11:18:58,038 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:19:00,407 - __main__ - DEBUG - vote_up_25
+2018-06-30 11:19:15,075 - __main__ - DEBUG - private message received
+2018-06-30 11:19:16,025 - Handle - DEBUG - content handler
+2018-06-30 11:19:16,025 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:19:16,025 - Handle - DEBUG - user requested profile
+2018-06-30 11:19:19,650 - __main__ - DEBUG - private message received
+2018-06-30 11:19:20,612 - Handle - DEBUG - content handler
+2018-06-30 11:19:20,612 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:19:20,613 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:19:20,930 - __main__ - DEBUG - private message received
+2018-06-30 11:19:21,345 - Handle - DEBUG - content handler
+2018-06-30 11:19:21,345 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:19:21,346 - Handle - DEBUG - user requested profile
+2018-06-30 11:19:35,426 - __main__ - DEBUG - private message received
+2018-06-30 11:19:36,426 - Handle - DEBUG - content handler
+2018-06-30 11:19:45,159 - __main__ - DEBUG - private message received
+2018-06-30 11:19:46,154 - Handle - DEBUG - content handler
+2018-06-30 11:19:46,154 - __main__ - DEBUG - Message: Sara
+2018-06-30 11:19:48,993 - __main__ - DEBUG - private message received
+2018-06-30 11:19:49,920 - Handle - DEBUG - content handler
+2018-06-30 11:19:49,921 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:19:49,921 - Handle - DEBUG - user browsing categories
+2018-06-30 11:19:53,275 - __main__ - DEBUG - private message received
+2018-06-30 11:19:54,187 - Handle - DEBUG - content handler
+2018-06-30 11:19:54,188 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:20:05,558 - __main__ - DEBUG - private message received
+2018-06-30 11:20:05,986 - Handle - DEBUG - content handler
+2018-06-30 11:20:05,987 - __main__ - DEBUG - Message: /create_category
+2018-06-30 11:20:05,987 - Handle - DEBUG - user creates category
+2018-06-30 11:20:10,453 - __main__ - DEBUG - private message received
+2018-06-30 11:20:11,404 - Handle - DEBUG - content handler
+2018-06-30 11:20:11,404 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:20:11,405 - Handle - DEBUG - user requested profile
+2018-06-30 11:20:12,362 - __main__ - DEBUG - private message received
+2018-06-30 11:20:12,764 - Handle - DEBUG - content handler
+2018-06-30 11:20:12,765 - __main__ - DEBUG - Message: nudi di pella
+2018-06-30 11:20:18,847 - __main__ - DEBUG - private message received
+2018-06-30 11:20:19,271 - Handle - DEBUG - content handler
+2018-06-30 11:20:19,272 - __main__ - DEBUG - Message: nudi_di_pella
+2018-06-30 11:20:23,314 - __main__ - DEBUG - private message received
+2018-06-30 11:20:23,741 - Handle - DEBUG - content handler
+2018-06-30 11:20:23,741 - __main__ - DEBUG - Message: /create_category
+2018-06-30 11:20:23,741 - Handle - DEBUG - user creates category
+2018-06-30 11:20:25,848 - __main__ - DEBUG - private message received
+2018-06-30 11:20:26,273 - Handle - DEBUG - content handler
+2018-06-30 11:20:26,273 - __main__ - DEBUG - Message: nudi_di_pella
+2018-06-30 11:20:31,641 - __main__ - DEBUG - private message received
+2018-06-30 11:20:32,052 - Handle - DEBUG - content handler
+2018-06-30 11:20:32,053 - __main__ - DEBUG - Message: /create_category
+2018-06-30 11:20:32,053 - Handle - DEBUG - user creates category
+2018-06-30 11:20:34,791 - __main__ - DEBUG - private message received
+2018-06-30 11:20:35,209 - Handle - DEBUG - content handler
+2018-06-30 11:20:35,209 - __main__ - DEBUG - Message: NudiDiPella
+2018-06-30 11:20:38,206 - __main__ - DEBUG - private message received
+2018-06-30 11:20:38,614 - Handle - DEBUG - content handler
+2018-06-30 11:20:38,615 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:20:41,871 - __main__ - DEBUG - private message received
+2018-06-30 11:20:42,300 - Handle - DEBUG - content handler
+2018-06-30 11:20:42,300 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:20:42,300 - Handle - DEBUG - user browsing categories
+2018-06-30 11:22:56,968 - __main__ - DEBUG - private message received
+2018-06-30 11:22:58,056 - Handle - DEBUG - content handler
+2018-06-30 11:22:58,057 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:22:58,057 - Handle - DEBUG - user browsing categories
+2018-06-30 11:23:59,602 - __main__ - DEBUG - private message received
+2018-06-30 11:24:00,726 - Handle - DEBUG - content handler
+2018-06-30 11:24:00,727 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:24:04,827 - __main__ - DEBUG - vote_up_25
+2018-06-30 11:24:11,780 - __main__ - DEBUG - private message received
+2018-06-30 11:24:12,868 - Handle - DEBUG - content handler
+2018-06-30 11:24:12,869 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:24:14,747 - __main__ - DEBUG - private message received
+2018-06-30 11:24:15,740 - Handle - DEBUG - content handler
+2018-06-30 11:24:15,741 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:24:15,741 - Handle - DEBUG - user requested profile
+2018-06-30 11:24:16,390 - __main__ - DEBUG - vote_up_24
+2018-06-30 11:24:21,482 - __main__ - DEBUG - private message received
+2018-06-30 11:24:22,631 - Handle - DEBUG - content handler
+2018-06-30 11:24:22,631 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:24:25,177 - __main__ - DEBUG - vote_up_22
+2018-06-30 11:25:19,221 - __main__ - DEBUG - private message received
+2018-06-30 11:25:20,163 - Handle - DEBUG - content handler
+2018-06-30 11:25:20,163 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:25:20,163 - Handle - DEBUG - user requested profile
+2018-06-30 11:26:43,688 - __main__ - DEBUG - private message received
+2018-06-30 11:26:44,794 - Handle - DEBUG - content handler
+2018-06-30 11:26:44,794 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:26:45,509 - __main__ - DEBUG - vote_up_22
+2018-06-30 11:26:55,001 - __main__ - DEBUG - private message received
+2018-06-30 11:26:55,408 - Handle - DEBUG - content handler
+2018-06-30 11:26:55,408 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:26:56,142 - __main__ - DEBUG - private message received
+2018-06-30 11:26:57,240 - Handle - DEBUG - content handler
+2018-06-30 11:26:57,241 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:26:58,076 - __main__ - DEBUG - private message received
+2018-06-30 11:26:58,508 - Handle - DEBUG - content handler
+2018-06-30 11:26:58,511 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:27:00,702 - __main__ - DEBUG - private message received
+2018-06-30 11:27:01,123 - Handle - DEBUG - content handler
+2018-06-30 11:27:01,125 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:27:01,773 - __main__ - DEBUG - private message received
+2018-06-30 11:27:02,877 - Handle - DEBUG - content handler
+2018-06-30 11:27:02,877 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:27:06,902 - __main__ - DEBUG - private message received
+2018-06-30 11:27:08,087 - Handle - DEBUG - content handler
+2018-06-30 11:27:08,087 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:27:13,917 - __main__ - DEBUG - private message received
+2018-06-30 11:27:14,329 - Handle - DEBUG - content handler
+2018-06-30 11:27:14,329 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:27:18,464 - __main__ - DEBUG - private message received
+2018-06-30 11:27:18,942 - Handle - DEBUG - content handler
+2018-06-30 11:27:18,943 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:27:24,192 - __main__ - DEBUG - private message received
+2018-06-30 11:27:25,284 - Handle - DEBUG - content handler
+2018-06-30 11:27:25,285 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:27:25,285 - Handle - DEBUG - user browsing categories
+2018-06-30 11:27:27,885 - __main__ - DEBUG - private message received
+2018-06-30 11:27:28,983 - Handle - DEBUG - content handler
+2018-06-30 11:27:28,984 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:27:31,930 - __main__ - DEBUG - private message received
+2018-06-30 11:27:33,021 - Handle - DEBUG - content handler
+2018-06-30 11:27:33,021 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:27:33,417 - __main__ - DEBUG - private message received
+2018-06-30 11:27:33,820 - Handle - DEBUG - content handler
+2018-06-30 11:27:33,821 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:27:35,234 - __main__ - DEBUG - private message received
+2018-06-30 11:27:36,321 - Handle - DEBUG - content handler
+2018-06-30 11:27:36,322 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:27:38,706 - __main__ - DEBUG - private message received
+2018-06-30 11:27:39,843 - Handle - DEBUG - content handler
+2018-06-30 11:27:39,843 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:27:40,391 - __main__ - DEBUG - private message received
+2018-06-30 11:27:40,865 - Handle - DEBUG - content handler
+2018-06-30 11:27:40,866 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:27:40,867 - Handle - DEBUG - user requested profile
+2018-06-30 11:27:45,547 - __main__ - DEBUG - private message received
+2018-06-30 11:27:45,981 - Handle - DEBUG - content handler
+2018-06-30 11:27:45,982 - __main__ - DEBUG - Message: /create_category
+2018-06-30 11:27:45,982 - Handle - DEBUG - user creates category
+2018-06-30 11:27:52,846 - __main__ - DEBUG - private message received
+2018-06-30 11:27:53,818 - Handle - DEBUG - content handler
+2018-06-30 11:27:53,820 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:27:55,708 - __main__ - DEBUG - private message received
+2018-06-30 11:27:56,647 - Handle - DEBUG - content handler
+2018-06-30 11:27:56,648 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:27:56,648 - Handle - DEBUG - user browsing categories
+2018-06-30 11:29:11,588 - __main__ - DEBUG - private message received
+2018-06-30 11:29:11,983 - Handle - DEBUG - content handler
+2018-06-30 11:29:11,984 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:29:11,984 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:29:25,764 - __main__ - DEBUG - private message received
+2018-06-30 11:29:26,696 - Handle - DEBUG - content handler
+2018-06-30 11:29:26,697 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:29:26,697 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:29:27,026 - __main__ - DEBUG - private message received
+2018-06-30 11:29:27,445 - Handle - DEBUG - content handler
+2018-06-30 11:29:33,527 - __main__ - DEBUG - private message received
+2018-06-30 11:29:33,924 - Handle - DEBUG - content handler
+2018-06-30 11:29:33,924 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:29:33,925 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:29:37,959 - __main__ - DEBUG - private message received
+2018-06-30 11:29:38,892 - Handle - DEBUG - content handler
+2018-06-30 11:29:38,893 - __main__ - DEBUG - Message: Sarasmarties
+2018-06-30 11:29:45,188 - __main__ - DEBUG - private message received
+2018-06-30 11:29:45,581 - Handle - DEBUG - content handler
+2018-06-30 11:29:47,645 - __main__ - DEBUG - private message received
+2018-06-30 11:29:48,042 - Handle - DEBUG - content handler
+2018-06-30 11:29:48,043 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:29:48,043 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:29:53,188 - __main__ - DEBUG - private message received
+2018-06-30 11:29:53,588 - Handle - DEBUG - content handler
+2018-06-30 11:29:56,270 - __main__ - DEBUG - private message received
+2018-06-30 11:29:56,714 - Handle - DEBUG - content handler
+2018-06-30 11:29:56,715 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:29:56,715 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:30:03,948 - __main__ - DEBUG - private message received
+2018-06-30 11:30:04,909 - Handle - DEBUG - content handler
+2018-06-30 11:30:04,910 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:30:07,702 - __main__ - DEBUG - private message received
+2018-06-30 11:30:08,119 - Handle - DEBUG - content handler
+2018-06-30 11:30:08,120 - __main__ - DEBUG - Message: ppppppppppp
+2018-06-30 11:30:11,140 - __main__ - DEBUG - private message received
+2018-06-30 11:30:11,541 - Handle - DEBUG - content handler
+2018-06-30 11:30:11,542 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:30:11,542 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:30:12,423 - __main__ - DEBUG - private message received
+2018-06-30 11:30:13,525 - Handle - DEBUG - content handler
+2018-06-30 11:30:13,526 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:30:15,781 - __main__ - DEBUG - private message received
+2018-06-30 11:30:16,868 - Handle - DEBUG - content handler
+2018-06-30 11:30:16,869 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:30:20,316 - __main__ - DEBUG - private message received
+2018-06-30 11:30:21,432 - Handle - DEBUG - content handler
+2018-06-30 11:30:21,433 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:30:23,274 - __main__ - DEBUG - private message received
+2018-06-30 11:30:23,682 - Handle - DEBUG - content handler
+2018-06-30 11:30:23,682 - __main__ - DEBUG - Message: -----------------
+2018-06-30 11:30:25,871 - __main__ - DEBUG - private message received
+2018-06-30 11:30:26,274 - Handle - DEBUG - content handler
+2018-06-30 11:30:26,274 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:30:26,274 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:30:32,514 - __main__ - DEBUG - private message received
+2018-06-30 11:30:32,907 - Handle - DEBUG - content handler
+2018-06-30 11:30:32,907 - __main__ - DEBUG - Message: mmmmmmmmmmmm
+2018-06-30 11:30:38,411 - __main__ - DEBUG - private message received
+2018-06-30 11:30:38,817 - Handle - DEBUG - content handler
+2018-06-30 11:30:38,818 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:30:38,818 - Handle - DEBUG - user requested profile
+2018-06-30 11:30:44,785 - __main__ - DEBUG - private message received
+2018-06-30 11:30:45,194 - Handle - DEBUG - content handler
+2018-06-30 11:30:45,195 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:30:45,195 - Handle - DEBUG - user requested profile
+2018-06-30 11:31:35,272 - __main__ - DEBUG - private message received
+2018-06-30 11:31:35,668 - Handle - DEBUG - content handler
+2018-06-30 11:31:35,669 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:31:35,669 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:31:39,752 - __main__ - DEBUG - private message received
+2018-06-30 11:31:40,185 - Handle - DEBUG - content handler
+2018-06-30 11:31:40,185 - __main__ - DEBUG - Message: NULL
+2018-06-30 11:31:45,396 - __main__ - DEBUG - private message received
+2018-06-30 11:31:45,820 - Handle - DEBUG - content handler
+2018-06-30 11:31:45,821 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:31:45,821 - Handle - DEBUG - user requested profile
+2018-06-30 11:31:52,160 - __main__ - DEBUG - private message received
+2018-06-30 11:31:53,006 - __main__ - DEBUG - handle privacy policy
+2018-06-30 11:32:01,451 - __main__ - DEBUG - private message received
+2018-06-30 11:32:02,279 - __main__ - DEBUG - handle privacy policy
+2018-06-30 11:32:02,279 - Handle - DEBUG - working on function /accept
+2018-06-30 11:32:07,223 - __main__ - DEBUG - private message received
+2018-06-30 11:32:08,024 - Handle - DEBUG - content handler
+2018-06-30 11:32:08,025 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:32:08,025 - Handle - DEBUG - user browsing categories
+2018-06-30 11:32:15,018 - __main__ - DEBUG - private message received
+2018-06-30 11:32:15,797 - Handle - DEBUG - content handler
+2018-06-30 11:32:15,798 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:32:20,681 - __main__ - DEBUG - vote_down_19
+2018-06-30 11:32:28,670 - __main__ - DEBUG - private message received
+2018-06-30 11:32:29,493 - Handle - DEBUG - content handler
+2018-06-30 11:32:29,494 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:32:29,494 - Handle - DEBUG - user requested profile
+2018-06-30 11:32:30,148 - __main__ - DEBUG - private message received
+2018-06-30 11:32:31,081 - Handle - DEBUG - content handler
+2018-06-30 11:32:31,082 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:32:34,425 - __main__ - DEBUG - private message received
+2018-06-30 11:32:35,341 - Handle - DEBUG - content handler
+2018-06-30 11:32:35,342 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:32:38,076 - __main__ - DEBUG - private message received
+2018-06-30 11:32:38,992 - Handle - DEBUG - content handler
+2018-06-30 11:32:38,993 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:32:44,583 - __main__ - DEBUG - private message received
+2018-06-30 11:32:45,362 - Handle - DEBUG - content handler
+2018-06-30 11:32:45,363 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:32:45,363 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:32:45,915 - __main__ - DEBUG - private message received
+2018-06-30 11:32:46,826 - Handle - DEBUG - content handler
+2018-06-30 11:32:46,826 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:32:47,165 - __main__ - DEBUG - private message received
+2018-06-30 11:32:47,558 - Handle - DEBUG - content handler
+2018-06-30 11:32:47,558 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:32:47,559 - Handle - DEBUG - user requested profile
+2018-06-30 11:32:47,952 - __main__ - DEBUG - private message received
+2018-06-30 11:32:48,347 - Handle - DEBUG - content handler
+2018-06-30 11:32:48,348 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:32:48,349 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:32:50,978 - __main__ - DEBUG - private message received
+2018-06-30 11:32:51,753 - Handle - DEBUG - content handler
+2018-06-30 11:32:51,754 - __main__ - DEBUG - Message: entanglement
+2018-06-30 11:32:52,045 - __main__ - DEBUG - private message received
+2018-06-30 11:32:52,438 - Handle - DEBUG - content handler
+2018-06-30 11:32:52,438 - __main__ - DEBUG - Message: ''
+2018-06-30 11:32:58,204 - __main__ - DEBUG - private message received
+2018-06-30 11:32:58,599 - Handle - DEBUG - content handler
+2018-06-30 11:32:58,600 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 11:32:58,600 - Handle - DEBUG - user requested nickname change
+2018-06-30 11:32:59,466 - __main__ - DEBUG - private message received
+2018-06-30 11:33:00,381 - Handle - DEBUG - content handler
+2018-06-30 11:33:00,381 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:01,071 - __main__ - DEBUG - private message received
+2018-06-30 11:33:01,850 - Handle - DEBUG - content handler
+2018-06-30 11:33:01,851 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:03,874 - __main__ - DEBUG - private message received
+2018-06-30 11:33:04,787 - Handle - DEBUG - content handler
+2018-06-30 11:33:04,787 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:06,017 - __main__ - DEBUG - vote_up_16
+2018-06-30 11:33:08,002 - __main__ - DEBUG - private message received
+2018-06-30 11:33:08,964 - Handle - DEBUG - content handler
+2018-06-30 11:33:08,964 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:12,710 - __main__ - DEBUG - private message received
+2018-06-30 11:33:13,640 - Handle - DEBUG - content handler
+2018-06-30 11:33:13,641 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:14,677 - __main__ - DEBUG - private message received
+2018-06-30 11:33:15,456 - Handle - DEBUG - content handler
+2018-06-30 11:33:15,456 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:16,032 - __main__ - DEBUG - private message received
+2018-06-30 11:33:16,940 - Handle - DEBUG - content handler
+2018-06-30 11:33:16,940 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:20,495 - __main__ - DEBUG - private message received
+2018-06-30 11:33:21,450 - Handle - DEBUG - content handler
+2018-06-30 11:33:21,451 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:21,767 - __main__ - DEBUG - private message received
+2018-06-30 11:33:22,169 - Handle - DEBUG - content handler
+2018-06-30 11:33:22,170 - __main__ - DEBUG - Message: kenziolo
+2018-06-30 11:33:22,834 - __main__ - DEBUG - vote_down_23
+2018-06-30 11:33:25,387 - __main__ - DEBUG - private message received
+2018-06-30 11:33:26,346 - Handle - DEBUG - content handler
+2018-06-30 11:33:26,347 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:26,902 - __main__ - DEBUG - private message received
+2018-06-30 11:33:27,692 - Handle - DEBUG - content handler
+2018-06-30 11:33:27,693 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:28,161 - __main__ - DEBUG - private message received
+2018-06-30 11:33:28,554 - Handle - DEBUG - content handler
+2018-06-30 11:33:28,555 - __main__ - DEBUG - Message: /remove_account
+2018-06-30 11:33:30,724 - __main__ - DEBUG - vote_down_20
+2018-06-30 11:33:31,339 - __main__ - DEBUG - rmacc_no
+2018-06-30 11:33:32,162 - __main__ - DEBUG - private message received
+2018-06-30 11:33:33,109 - Handle - DEBUG - content handler
+2018-06-30 11:33:33,109 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:33,624 - __main__ - DEBUG - private message received
+2018-06-30 11:33:34,431 - Handle - DEBUG - content handler
+2018-06-30 11:33:34,431 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:34,903 - __main__ - DEBUG - private message received
+2018-06-30 11:33:35,309 - Handle - DEBUG - content handler
+2018-06-30 11:33:35,310 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:33:35,310 - Handle - DEBUG - user requested profile
+2018-06-30 11:33:41,105 - __main__ - DEBUG - vote_down_15
+2018-06-30 11:33:42,583 - __main__ - DEBUG - private message received
+2018-06-30 11:33:43,682 - Handle - DEBUG - content handler
+2018-06-30 11:33:43,683 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:33:44,010 - __main__ - DEBUG - private message received
+2018-06-30 11:33:44,409 - Handle - DEBUG - content handler
+2018-06-30 11:33:44,410 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:33:44,410 - Handle - DEBUG - user browsing categories
+2018-06-30 11:33:44,946 - __main__ - DEBUG - private message received
+2018-06-30 11:33:45,774 - Handle - DEBUG - content handler
+2018-06-30 11:33:45,775 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:51,204 - __main__ - DEBUG - vote_up_18
+2018-06-30 11:33:53,436 - __main__ - DEBUG - private message received
+2018-06-30 11:33:54,265 - Handle - DEBUG - content handler
+2018-06-30 11:33:54,265 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:54,822 - __main__ - DEBUG - private message received
+2018-06-30 11:33:55,772 - Handle - DEBUG - content handler
+2018-06-30 11:33:55,773 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:58,352 - __main__ - DEBUG - private message received
+2018-06-30 11:33:59,287 - Handle - DEBUG - content handler
+2018-06-30 11:33:59,288 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:33:59,695 - __main__ - DEBUG - private message received
+2018-06-30 11:34:00,090 - Handle - DEBUG - content handler
+2018-06-30 11:34:00,090 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:34:02,025 - __main__ - DEBUG - vote_down_21
+2018-06-30 11:34:04,393 - __main__ - DEBUG - vote_down_14
+2018-06-30 11:34:05,434 - __main__ - DEBUG - private message received
+2018-06-30 11:34:06,236 - Handle - DEBUG - content handler
+2018-06-30 11:34:06,237 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:34:08,268 - __main__ - DEBUG - private message received
+2018-06-30 11:34:08,668 - Handle - DEBUG - content handler
+2018-06-30 11:34:08,668 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:34:10,108 - __main__ - DEBUG - vote_up_14
+2018-06-30 11:34:11,889 - __main__ - DEBUG - private message received
+2018-06-30 11:34:12,742 - Handle - DEBUG - content handler
+2018-06-30 11:34:12,743 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:34:15,526 - __main__ - DEBUG - private message received
+2018-06-30 11:34:15,930 - Handle - DEBUG - content handler
+2018-06-30 11:34:15,931 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:34:18,092 - __main__ - DEBUG - vote_up_17
+2018-06-30 11:34:25,932 - __main__ - DEBUG - vote_up_21
+2018-06-30 11:34:26,194 - __main__ - DEBUG - private message received
+2018-06-30 11:34:26,608 - Handle - DEBUG - content handler
+2018-06-30 11:34:26,609 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:34:28,709 - __main__ - DEBUG - private message received
+2018-06-30 11:34:29,530 - Handle - DEBUG - content handler
+2018-06-30 11:34:29,531 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:34:29,870 - __main__ - DEBUG - private message received
+2018-06-30 11:34:30,291 - Handle - DEBUG - content handler
+2018-06-30 11:34:30,292 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:34:31,046 - __main__ - DEBUG - private message received
+2018-06-30 11:34:32,132 - Handle - DEBUG - content handler
+2018-06-30 11:34:32,133 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:34:32,133 - Handle - DEBUG - user browsing categories
+2018-06-30 11:34:32,794 - __main__ - DEBUG - private message received
+2018-06-30 11:34:33,639 - Handle - DEBUG - content handler
+2018-06-30 11:34:33,639 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:34:34,543 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 11:34:35,758 - __main__ - DEBUG - private message received
+2018-06-30 11:34:36,218 - Handle - DEBUG - content handler
+2018-06-30 11:34:36,220 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:34:36,715 - __main__ - DEBUG - private message received
+2018-06-30 11:34:37,492 - Handle - DEBUG - content handler
+2018-06-30 11:34:37,492 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:34:38,240 - __main__ - DEBUG - cp_cat_1_prev
+2018-06-30 11:34:38,736 - __main__ - DEBUG - private message received
+2018-06-30 11:34:39,132 - Handle - DEBUG - content handler
+2018-06-30 11:34:39,133 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:34:40,447 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 11:34:40,963 - __main__ - DEBUG - private message received
+2018-06-30 11:34:41,854 - Handle - DEBUG - content handler
+2018-06-30 11:34:41,854 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:34:41,855 - Handle - DEBUG - user browsing categories
+2018-06-30 11:34:42,134 - __main__ - DEBUG - private message received
+2018-06-30 11:34:42,526 - Handle - DEBUG - content handler
+2018-06-30 11:34:42,527 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:34:44,719 - __main__ - DEBUG - cp_cat_1_prev
+2018-06-30 11:34:45,309 - __main__ - DEBUG - private message received
+2018-06-30 11:34:46,130 - Handle - DEBUG - content handler
+2018-06-30 11:34:46,131 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:34:49,216 - __main__ - DEBUG - private message received
+2018-06-30 11:34:50,236 - Handle - DEBUG - content handler
+2018-06-30 11:34:50,237 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:34:50,831 - __main__ - DEBUG - vote_down_24
+2018-06-30 11:34:52,999 - __main__ - DEBUG - private message received
+2018-06-30 11:34:53,909 - Handle - DEBUG - content handler
+2018-06-30 11:34:53,909 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:34:53,909 - Handle - DEBUG - user requested profile
+2018-06-30 11:34:54,424 - __main__ - DEBUG - private message received
+2018-06-30 11:34:55,200 - Handle - DEBUG - content handler
+2018-06-30 11:34:55,201 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:34:58,679 - __main__ - DEBUG - vote_up_22
+2018-06-30 11:35:01,592 - __main__ - DEBUG - private message received
+2018-06-30 11:35:02,394 - Handle - DEBUG - content handler
+2018-06-30 11:35:02,395 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:35:04,875 - __main__ - DEBUG - private message received
+2018-06-30 11:35:05,279 - Handle - DEBUG - content handler
+2018-06-30 11:35:05,279 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:35:08,766 - __main__ - DEBUG - vote_up_25
+2018-06-30 11:35:09,352 - __main__ - DEBUG - private message received
+2018-06-30 11:35:09,761 - Handle - DEBUG - content handler
+2018-06-30 11:35:09,762 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:35:11,907 - __main__ - DEBUG - vote_up_21
+2018-06-30 11:35:13,038 - __main__ - DEBUG - private message received
+2018-06-30 11:35:13,853 - Handle - DEBUG - content handler
+2018-06-30 11:35:13,853 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:35:15,211 - __main__ - DEBUG - private message received
+2018-06-30 11:35:15,612 - Handle - DEBUG - content handler
+2018-06-30 11:35:15,613 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:35:16,362 - __main__ - DEBUG - vote_down_24
+2018-06-30 11:35:17,084 - __main__ - DEBUG - private message received
+2018-06-30 11:35:17,486 - Handle - DEBUG - content handler
+2018-06-30 11:35:17,486 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:35:19,121 - __main__ - DEBUG - private message received
+2018-06-30 11:35:19,528 - Handle - DEBUG - content handler
+2018-06-30 11:35:19,529 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:35:20,749 - __main__ - DEBUG - private message received
+2018-06-30 11:35:21,574 - Handle - DEBUG - content handler
+2018-06-30 11:35:21,575 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:35:21,879 - __main__ - DEBUG - private message received
+2018-06-30 11:35:22,286 - Handle - DEBUG - content handler
+2018-06-30 11:35:22,286 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:35:23,631 - __main__ - DEBUG - private message received
+2018-06-30 11:35:24,430 - Handle - DEBUG - content handler
+2018-06-30 11:35:24,430 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:35:24,704 - __main__ - DEBUG - private message received
+2018-06-30 11:35:25,105 - Handle - DEBUG - content handler
+2018-06-30 11:35:25,106 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:35:26,789 - __main__ - DEBUG - private message received
+2018-06-30 11:35:27,581 - Handle - DEBUG - content handler
+2018-06-30 11:35:27,582 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:35:27,582 - Handle - DEBUG - user browsing categories
+2018-06-30 11:35:27,938 - __main__ - DEBUG - vote_down_15
+2018-06-30 11:35:29,620 - __main__ - DEBUG - private message received
+2018-06-30 11:35:30,435 - Handle - DEBUG - content handler
+2018-06-30 11:35:30,435 - __main__ - DEBUG - Message: /show_NudiDiPella
+2018-06-30 11:35:30,849 - __main__ - DEBUG - private message received
+2018-06-30 11:35:31,291 - Handle - DEBUG - content handler
+2018-06-30 11:35:31,292 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:35:33,397 - __main__ - DEBUG - private message received
+2018-06-30 11:35:33,804 - Handle - DEBUG - content handler
+2018-06-30 11:35:33,804 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:35:35,763 - __main__ - DEBUG - vote_down_15
+2018-06-30 11:35:37,232 - __main__ - DEBUG - private message received
+2018-06-30 11:35:37,642 - Handle - DEBUG - content handler
+2018-06-30 11:35:37,643 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:35:40,035 - __main__ - DEBUG - private message received
+2018-06-30 11:35:40,436 - Handle - DEBUG - content handler
+2018-06-30 11:35:40,437 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:35:41,023 - __main__ - DEBUG - private message received
+2018-06-30 11:35:41,891 - Handle - DEBUG - content handler
+2018-06-30 11:35:41,891 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:35:42,331 - __main__ - DEBUG - private message received
+2018-06-30 11:35:42,736 - Handle - DEBUG - content handler
+2018-06-30 11:35:42,736 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:35:47,654 - __main__ - DEBUG - private message received
+2018-06-30 11:35:48,443 - Handle - DEBUG - content handler
+2018-06-30 11:35:48,444 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:35:48,444 - Handle - DEBUG - user requested profile
+2018-06-30 11:35:50,040 - __main__ - DEBUG - private message received
+2018-06-30 11:35:50,437 - Handle - DEBUG - content handler
+2018-06-30 11:35:50,438 - __main__ - DEBUG - Message: /show_space
+2018-06-30 11:35:53,080 - __main__ - DEBUG - private message received
+2018-06-30 11:35:53,504 - Handle - DEBUG - content handler
+2018-06-30 11:35:53,505 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:35:59,761 - __main__ - DEBUG - private message received
+2018-06-30 11:36:00,174 - Handle - DEBUG - content handler
+2018-06-30 11:36:00,175 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:36:00,175 - Handle - DEBUG - user browsing categories
+2018-06-30 11:36:03,109 - __main__ - DEBUG - private message received
+2018-06-30 11:36:03,502 - Handle - DEBUG - content handler
+2018-06-30 11:36:03,503 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:36:09,271 - __main__ - DEBUG - vote_up_24
+2018-06-30 11:36:11,635 - __main__ - DEBUG - private message received
+2018-06-30 11:36:12,027 - Handle - DEBUG - content handler
+2018-06-30 11:36:12,027 - __main__ - DEBUG - Message: /show_nature
+2018-06-30 11:36:15,209 - __main__ - DEBUG - vote_up_22
+2018-06-30 11:36:17,118 - __main__ - DEBUG - private message received
+2018-06-30 11:36:17,527 - Handle - DEBUG - content handler
+2018-06-30 11:36:17,528 - __main__ - DEBUG - Message: /show_nature
+2018-06-30 11:36:20,745 - __main__ - DEBUG - vote_up_25
+2018-06-30 11:36:23,218 - __main__ - DEBUG - private message received
+2018-06-30 11:36:23,619 - Handle - DEBUG - content handler
+2018-06-30 11:36:23,620 - __main__ - DEBUG - Message: /show_nature
+2018-06-30 11:36:44,754 - __main__ - DEBUG - private message received
+2018-06-30 11:36:45,758 - Handle - DEBUG - content handler
+2018-06-30 11:36:45,759 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:36:45,759 - Handle - DEBUG - user requested profile
+2018-06-30 11:36:46,582 - __main__ - DEBUG - private message received
+2018-06-30 11:36:47,450 - Handle - DEBUG - content handler
+2018-06-30 11:36:47,450 - __main__ - DEBUG - Message: /upload
+2018-06-30 11:36:47,451 - Handle - DEBUG - user requested upload...
+2018-06-30 11:36:47,451 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 11:36:47,451 - Handle - DEBUG - user uploaded first time 11:31:52 30/06/18
+2018-06-30 11:36:54,256 - __main__ - DEBUG - private message received
+2018-06-30 11:36:55,185 - Handle - DEBUG - content handler
+2018-06-30 11:36:55,186 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:36:57,778 - __main__ - DEBUG - private message received
+2018-06-30 11:36:58,723 - Handle - DEBUG - content handler
+2018-06-30 11:36:58,724 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:37:01,616 - __main__ - DEBUG - private message received
+2018-06-30 11:37:02,523 - Handle - DEBUG - content handler
+2018-06-30 11:37:02,523 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:37:15,047 - __main__ - DEBUG - private message received
+2018-06-30 11:37:15,957 - Handle - DEBUG - content handler
+2018-06-30 11:37:15,958 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:37:18,697 - __main__ - DEBUG - private message received
+2018-06-30 11:37:19,614 - Handle - DEBUG - content handler
+2018-06-30 11:37:19,614 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:37:21,711 - __main__ - DEBUG - private message received
+2018-06-30 11:37:22,694 - Handle - DEBUG - content handler
+2018-06-30 11:37:22,695 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:37:27,245 - __main__ - DEBUG - private message received
+2018-06-30 11:37:28,217 - Handle - DEBUG - content handler
+2018-06-30 11:37:28,218 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:37:28,771 - __main__ - DEBUG - private message received
+2018-06-30 11:37:29,560 - Handle - DEBUG - content handler
+2018-06-30 11:37:29,560 - Handle - DEBUG - user sent a media
+2018-06-30 11:37:29,561 - Handle - DEBUG - next stage, category
+2018-06-30 11:37:38,628 - __main__ - DEBUG - cp_shortcat_0_succ
+2018-06-30 11:37:39,275 - __main__ - DEBUG - private message received
+2018-06-30 11:37:40,211 - Handle - DEBUG - content handler
+2018-06-30 11:37:40,213 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:37:44,660 - __main__ - DEBUG - private message received
+2018-06-30 11:37:45,590 - Handle - DEBUG - content handler
+2018-06-30 11:37:45,591 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 11:37:51,979 - __main__ - DEBUG - private message received
+2018-06-30 11:37:52,785 - Handle - DEBUG - content handler
+2018-06-30 11:37:52,786 - Handle - DEBUG - New category added
+2018-06-30 11:37:52,956 - Handle - DEBUG - handle normal requests
+2018-06-30 11:38:00,848 - __main__ - DEBUG - private message received
+2018-06-30 11:38:01,666 - Handle - DEBUG - content handler
+2018-06-30 11:38:01,667 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:38:05,266 - __main__ - DEBUG - private message received
+2018-06-30 11:38:06,047 - Handle - DEBUG - content handler
+2018-06-30 11:38:06,047 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:38:06,047 - Handle - DEBUG - user browsing categories
+2018-06-30 11:38:07,946 - __main__ - DEBUG - private message received
+2018-06-30 11:38:08,912 - Handle - DEBUG - content handler
+2018-06-30 11:38:08,913 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:38:09,481 - __main__ - DEBUG - private message received
+2018-06-30 11:38:10,266 - Handle - DEBUG - content handler
+2018-06-30 11:38:10,267 - __main__ - DEBUG - Message: /show_NudiDiPella
+2018-06-30 11:38:12,560 - __main__ - DEBUG - private message received
+2018-06-30 11:38:13,489 - Handle - DEBUG - content handler
+2018-06-30 11:38:13,490 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:38:14,060 - __main__ - DEBUG - vote_up_26
+2018-06-30 11:38:16,630 - __main__ - DEBUG - private message received
+2018-06-30 11:38:17,610 - Handle - DEBUG - content handler
+2018-06-30 11:38:17,611 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:38:20,352 - __main__ - DEBUG - private message received
+2018-06-30 11:38:21,309 - Handle - DEBUG - content handler
+2018-06-30 11:38:21,311 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:38:23,707 - __main__ - DEBUG - private message received
+2018-06-30 11:38:24,678 - Handle - DEBUG - content handler
+2018-06-30 11:38:24,679 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:38:27,229 - __main__ - DEBUG - private message received
+2018-06-30 11:38:28,174 - Handle - DEBUG - content handler
+2018-06-30 11:38:28,175 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:38:28,714 - __main__ - DEBUG - private message received
+2018-06-30 11:38:29,537 - Handle - DEBUG - content handler
+2018-06-30 11:38:29,538 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:38:30,144 - __main__ - DEBUG - private message received
+2018-06-30 11:38:31,117 - Handle - DEBUG - content handler
+2018-06-30 11:38:31,118 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:38:31,870 - __main__ - DEBUG - private message received
+2018-06-30 11:38:32,685 - Handle - DEBUG - content handler
+2018-06-30 11:38:32,685 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:38:32,685 - Handle - DEBUG - user requested profile
+2018-06-30 11:38:36,374 - __main__ - DEBUG - private message received
+2018-06-30 11:38:37,290 - Handle - DEBUG - content handler
+2018-06-30 11:38:37,291 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:38:44,649 - __main__ - DEBUG - private message received
+2018-06-30 11:38:45,586 - Handle - DEBUG - content handler
+2018-06-30 11:38:45,587 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:38:48,892 - __main__ - DEBUG - private message received
+2018-06-30 11:38:49,886 - Handle - DEBUG - content handler
+2018-06-30 11:38:49,887 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 11:40:21,602 - __main__ - DEBUG - private message received
+2018-06-30 11:40:22,711 - Handle - DEBUG - content handler
+2018-06-30 11:40:22,711 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:40:22,711 - Handle - DEBUG - user requested profile
+2018-06-30 11:40:26,594 - __main__ - DEBUG - private message received
+2018-06-30 11:40:27,708 - Handle - DEBUG - content handler
+2018-06-30 11:40:27,708 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:40:27,709 - Handle - DEBUG - user browsing categories
+2018-06-30 11:40:36,212 - __main__ - DEBUG - private message received
+2018-06-30 11:40:37,311 - Handle - DEBUG - content handler
+2018-06-30 11:40:37,311 - __main__ - DEBUG - Message: /show_NudiDiPella
+2018-06-30 11:40:41,454 - __main__ - DEBUG - vote_up_26
+2018-06-30 11:47:40,925 - __main__ - DEBUG - private message received
+2018-06-30 11:47:41,733 - Handle - DEBUG - content handler
+2018-06-30 11:47:41,734 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:47:41,742 - Handle - DEBUG - user requested profile
+2018-06-30 11:52:49,054 - __main__ - DEBUG - private message received
+2018-06-30 11:52:50,237 - Handle - DEBUG - content handler
+2018-06-30 11:52:50,238 - __main__ - DEBUG - Message: /show_NudiDiPella
+2018-06-30 11:52:55,777 - __main__ - DEBUG - private message received
+2018-06-30 11:52:56,971 - Handle - DEBUG - content handler
+2018-06-30 11:52:56,971 - __main__ - DEBUG - Message: /categories
+2018-06-30 11:52:56,972 - Handle - DEBUG - user browsing categories
+2018-06-30 11:58:02,879 - __main__ - DEBUG - private message received
+2018-06-30 11:58:04,012 - Handle - DEBUG - content handler
+2018-06-30 11:58:04,015 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 11:58:11,631 - __main__ - DEBUG - private message received
+2018-06-30 11:58:12,723 - Handle - DEBUG - content handler
+2018-06-30 11:58:12,723 - __main__ - DEBUG - Message: /profile
+2018-06-30 11:58:12,724 - Handle - DEBUG - user requested profile
+2018-06-30 12:00:05,623 - __main__ - DEBUG - private message received
+2018-06-30 12:00:05,913 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:00:15,066 - __main__ - DEBUG - private message received
+2018-06-30 12:00:15,334 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:00:15,334 - Handle - DEBUG - working on function /privacy_policy
+2018-06-30 12:00:23,529 - __main__ - DEBUG - private message received
+2018-06-30 12:00:23,794 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:00:23,795 - Handle - DEBUG - working on function /accept
+2018-06-30 12:00:44,909 - __main__ - DEBUG - private message received
+2018-06-30 12:00:45,175 - Handle - DEBUG - content handler
+2018-06-30 12:00:45,175 - __main__ - DEBUG - Message: /categories
+2018-06-30 12:00:45,176 - Handle - DEBUG - user browsing categories
+2018-06-30 12:00:49,064 - __main__ - DEBUG - private message received
+2018-06-30 12:00:49,438 - Handle - DEBUG - content handler
+2018-06-30 12:00:49,440 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 12:00:53,108 - __main__ - DEBUG - vote_down_19
+2018-06-30 12:00:59,736 - __main__ - DEBUG - private message received
+2018-06-30 12:01:00,012 - Handle - DEBUG - content handler
+2018-06-30 12:01:00,013 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 12:01:02,247 - __main__ - DEBUG - vote_up_18
+2018-06-30 12:01:05,165 - __main__ - DEBUG - private message received
+2018-06-30 12:01:05,426 - Handle - DEBUG - content handler
+2018-06-30 12:01:05,427 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 12:01:11,537 - __main__ - DEBUG - private message received
+2018-06-30 12:01:11,800 - Handle - DEBUG - content handler
+2018-06-30 12:01:11,801 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 12:01:14,207 - __main__ - DEBUG - vote_up_14
+2018-06-30 12:08:44,648 - __main__ - DEBUG - private message received
+2018-06-30 12:08:44,912 - Handle - DEBUG - content handler
+2018-06-30 12:08:44,912 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 12:08:49,322 - __main__ - DEBUG - private message received
+2018-06-30 12:08:49,581 - Handle - DEBUG - content handler
+2018-06-30 12:08:49,582 - __main__ - DEBUG - Message: /categories
+2018-06-30 12:08:49,582 - Handle - DEBUG - user browsing categories
+2018-06-30 12:08:53,285 - __main__ - DEBUG - private message received
+2018-06-30 12:08:53,548 - Handle - DEBUG - content handler
+2018-06-30 12:08:53,549 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 12:08:57,126 - __main__ - DEBUG - vote_up_22
+2018-06-30 12:09:02,317 - __main__ - DEBUG - private message received
+2018-06-30 12:09:02,581 - Handle - DEBUG - content handler
+2018-06-30 12:09:02,582 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 12:09:07,557 - __main__ - DEBUG - vote_down_25
+2018-06-30 12:09:16,643 - __main__ - DEBUG - private message received
+2018-06-30 12:09:17,202 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:09:20,147 - __main__ - DEBUG - private message received
+2018-06-30 12:09:20,739 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:09:21,057 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 12:09:21,460 - __main__ - DEBUG - private message received
+2018-06-30 12:09:22,030 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:09:22,481 - __main__ - DEBUG - private message received
+2018-06-30 12:09:22,739 - Handle - DEBUG - content handler
+2018-06-30 12:09:22,739 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 12:09:25,927 - __main__ - DEBUG - private message received
+2018-06-30 12:09:26,184 - Handle - DEBUG - content handler
+2018-06-30 12:09:26,185 - __main__ - DEBUG - Message: /profile
+2018-06-30 12:09:26,185 - Handle - DEBUG - user requested profile
+2018-06-30 12:09:36,327 - __main__ - DEBUG - private message received
+2018-06-30 12:09:36,899 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:09:36,899 - Handle - DEBUG - working on function /privacy_policy
+2018-06-30 12:18:23,169 - __main__ - DEBUG - private message received
+2018-06-30 12:18:24,043 - Handle - DEBUG - content handler
+2018-06-30 12:18:24,044 - __main__ - DEBUG - Message: /profile
+2018-06-30 12:18:24,044 - Handle - DEBUG - user requested profile
+2018-06-30 12:20:35,078 - __main__ - DEBUG - private message received
+2018-06-30 12:20:36,048 - Handle - DEBUG - content handler
+2018-06-30 12:20:36,049 - __main__ - DEBUG - Message: /categories
+2018-06-30 12:20:36,049 - Handle - DEBUG - user browsing categories
+2018-06-30 12:20:41,232 - __main__ - DEBUG - private message received
+2018-06-30 12:20:42,196 - Handle - DEBUG - content handler
+2018-06-30 12:20:42,197 - __main__ - DEBUG - Message: /show_NudiDiPella
+2018-06-30 12:20:56,539 - __main__ - DEBUG - vote_down_26
+2018-06-30 12:22:16,726 - __main__ - DEBUG - private message received
+2018-06-30 12:22:18,062 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:22:18,860 - __main__ - DEBUG - private message received
+2018-06-30 12:22:20,287 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:22:29,216 - __main__ - DEBUG - private message received
+2018-06-30 12:22:30,542 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:22:30,543 - Handle - DEBUG - working on function /decline
+2018-06-30 12:22:34,062 - __main__ - DEBUG - private message received
+2018-06-30 12:22:35,395 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:22:35,396 - Handle - DEBUG - working on function /decline
+2018-06-30 12:22:35,598 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 83, in handle
+    Handle.handle_privacy_policy(bot, usersdb, user, msg.content)
+  File "./src\Handle.py", line 412, in handle_privacy_policy
+    commands[msg_content.text].func()(bot, userdb, user)
+  File "./src\Handle.py", line 432, in decline_policy
+    userdb.deleteUser(user)
+  File "./src\UsersDB.py", line 116, in deleteUser
+    self.database.deleteItem(data)
+  File "./src\Databases.py", line 108, in deleteItem
+    os.remove(os.path.join(self.folder, data.filename + ".pickle"))
+FileNotFoundError: [WinError 2] Impossibile trovare il file specificato: './databases/user_db\\user_27.pickle'
+2018-06-30 12:22:55,667 - __main__ - DEBUG - private message received
+2018-06-30 12:22:56,987 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:22:59,595 - __main__ - DEBUG - private message received
+2018-06-30 12:23:01,027 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:23:01,028 - Handle - DEBUG - working on function /decline
+2018-06-30 12:24:59,806 - __main__ - DEBUG - private message received
+2018-06-30 12:25:00,951 - Handle - DEBUG - content handler
+2018-06-30 12:25:00,952 - __main__ - DEBUG - Message: /categories
+2018-06-30 12:25:00,952 - Handle - DEBUG - user browsing categories
+2018-06-30 12:45:48,783 - __main__ - DEBUG - private message received
+2018-06-30 12:45:52,164 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:46:34,140 - __main__ - DEBUG - private message received
+2018-06-30 12:46:37,578 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:46:37,579 - Handle - DEBUG - working on function /privacy_policy
+2018-06-30 12:46:53,653 - __main__ - DEBUG - private message received
+2018-06-30 12:46:57,106 - __main__ - DEBUG - handle privacy policy
+2018-06-30 12:46:57,106 - Handle - DEBUG - working on function /privacy_policy
+2018-06-30 13:02:36,594 - __main__ - DEBUG - private message received
+2018-06-30 13:02:37,905 - __main__ - DEBUG - handle privacy policy
+2018-06-30 13:02:37,906 - Handle - DEBUG - working on function /accept
+2018-06-30 13:02:45,936 - __main__ - DEBUG - private message received
+2018-06-30 13:02:47,262 - Handle - DEBUG - content handler
+2018-06-30 13:02:47,263 - __main__ - DEBUG - Message: /profile
+2018-06-30 13:02:47,263 - Handle - DEBUG - user requested profile
+2018-06-30 13:02:54,317 - __main__ - DEBUG - private message received
+2018-06-30 13:02:55,641 - Handle - DEBUG - content handler
+2018-06-30 13:02:55,641 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 13:02:55,642 - Handle - DEBUG - user requested nickname change
+2018-06-30 13:03:09,072 - __main__ - DEBUG - private message received
+2018-06-30 13:03:10,391 - Handle - DEBUG - content handler
+2018-06-30 13:03:10,392 - __main__ - DEBUG - Message: RagazzoSmarties
+2018-06-30 13:03:17,225 - __main__ - DEBUG - private message received
+2018-06-30 13:03:18,549 - Handle - DEBUG - content handler
+2018-06-30 13:03:18,549 - __main__ - DEBUG - Message: fottiti
+2018-06-30 13:03:23,581 - __main__ - DEBUG - private message received
+2018-06-30 13:03:24,911 - Handle - DEBUG - content handler
+2018-06-30 13:03:24,911 - __main__ - DEBUG - Message: /profile
+2018-06-30 13:03:24,912 - Handle - DEBUG - user requested profile
+2018-06-30 13:03:29,677 - __main__ - DEBUG - private message received
+2018-06-30 13:03:31,003 - Handle - DEBUG - content handler
+2018-06-30 13:03:31,004 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 13:03:31,004 - Handle - DEBUG - user requested nickname change
+2018-06-30 13:03:40,228 - __main__ - DEBUG - private message received
+2018-06-30 13:03:41,549 - Handle - DEBUG - content handler
+2018-06-30 13:03:41,549 - __main__ - DEBUG - Message: Gabbiano
+2018-06-30 13:08:42,850 - __main__ - DEBUG - private message received
+2018-06-30 13:08:43,977 - Handle - DEBUG - content handler
+2018-06-30 13:08:43,977 - __main__ - DEBUG - Message: /categories
+2018-06-30 13:08:43,978 - Handle - DEBUG - user browsing categories
+2018-06-30 13:10:10,722 - __main__ - DEBUG - private message received
+2018-06-30 13:10:10,957 - __main__ - DEBUG - handle privacy policy
+2018-06-30 13:10:20,168 - __main__ - DEBUG - private message received
+2018-06-30 13:10:20,402 - __main__ - DEBUG - handle privacy policy
+2018-06-30 13:10:20,402 - Handle - DEBUG - working on function /decline
+2018-06-30 13:10:26,516 - __main__ - DEBUG - private message received
+2018-06-30 13:10:26,750 - __main__ - DEBUG - handle privacy policy
+2018-06-30 13:10:26,751 - Handle - DEBUG - working on function /decline
+2018-06-30 13:10:26,824 - __main__ - ERROR - handle: Big mistake
+Traceback (most recent call last):
+  File "main.py", line 56, in func_wrapper
+    func(*args, **kwargs)
+  File "main.py", line 83, in handle
+    Handle.handle_privacy_policy(bot, usersdb, user, msg.content)
+  File "./src\Handle.py", line 412, in handle_privacy_policy
+    commands[msg_content.text].func()(bot, userdb, user)
+  File "./src\Handle.py", line 432, in decline_policy
+    userdb.deleteUser(user)
+  File "./src\UsersDB.py", line 116, in deleteUser
+    self.database.deleteItem(data)
+  File "./src\Databases.py", line 108, in deleteItem
+    os.remove(os.path.join(self.folder, data.filename + ".pickle"))
+FileNotFoundError: [WinError 2] Impossibile trovare il file specificato: './databases/user_db\\user_31.pickle'
+2018-06-30 13:11:00,505 - __main__ - DEBUG - private message received
+2018-06-30 13:11:01,877 - Handle - DEBUG - content handler
+2018-06-30 13:11:01,878 - __main__ - DEBUG - Message: /
+2018-06-30 13:14:05,654 - __main__ - DEBUG - private message received
+2018-06-30 13:14:05,892 - __main__ - DEBUG - handle privacy policy
+2018-06-30 13:14:09,173 - __main__ - DEBUG - private message received
+2018-06-30 13:14:09,409 - __main__ - DEBUG - handle privacy policy
+2018-06-30 13:14:12,169 - __main__ - DEBUG - private message received
+2018-06-30 13:14:12,403 - __main__ - DEBUG - handle privacy policy
+2018-06-30 13:14:16,463 - __main__ - DEBUG - private message received
+2018-06-30 13:14:16,701 - __main__ - DEBUG - handle privacy policy
+2018-06-30 13:14:19,598 - __main__ - DEBUG - private message received
+2018-06-30 13:14:19,837 - __main__ - DEBUG - handle privacy policy
+2018-06-30 13:15:25,037 - __main__ - DEBUG - private message received
+2018-06-30 13:15:25,274 - __main__ - DEBUG - handle privacy policy
+2018-06-30 13:15:53,700 - __main__ - DEBUG - private message received
+2018-06-30 13:15:55,170 - Handle - DEBUG - content handler
+2018-06-30 13:15:55,171 - __main__ - DEBUG - Message: /categories
+2018-06-30 13:15:55,172 - Handle - DEBUG - user browsing categories
+2018-06-30 13:16:02,813 - __main__ - DEBUG - private message received
+2018-06-30 13:16:04,208 - Handle - DEBUG - content handler
+2018-06-30 13:16:04,208 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 13:16:07,138 - __main__ - DEBUG - vote_down_23
+2018-06-30 13:16:11,632 - __main__ - DEBUG - vote_down_23
+2018-06-30 13:16:14,481 - __main__ - DEBUG - vote_down_23
+2018-06-30 13:16:20,933 - __main__ - DEBUG - vote_down_23
+2018-06-30 13:16:25,524 - __main__ - DEBUG - private message received
+2018-06-30 13:16:26,903 - Handle - DEBUG - content handler
+2018-06-30 13:16:26,904 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 13:16:30,629 - __main__ - DEBUG - vote_down_19
+2018-06-30 13:16:32,207 - __main__ - DEBUG - private message received
+2018-06-30 13:16:33,140 - Handle - DEBUG - content handler
+2018-06-30 13:16:33,141 - __main__ - DEBUG - Message: /categories
+2018-06-30 13:16:33,141 - Handle - DEBUG - user browsing categories
+2018-06-30 13:16:33,927 - __main__ - DEBUG - private message received
+2018-06-30 13:16:35,264 - Handle - DEBUG - content handler
+2018-06-30 13:16:35,265 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 13:16:37,279 - __main__ - DEBUG - vote_down_16
+2018-06-30 13:16:41,346 - __main__ - DEBUG - private message received
+2018-06-30 13:16:42,652 - Handle - DEBUG - content handler
+2018-06-30 13:16:42,652 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 13:16:45,958 - __main__ - DEBUG - vote_down_14
+2018-06-30 13:16:49,386 - __main__ - DEBUG - private message received
+2018-06-30 13:16:50,698 - Handle - DEBUG - content handler
+2018-06-30 13:16:50,699 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 13:16:53,584 - __main__ - DEBUG - private message received
+2018-06-30 13:16:54,956 - Handle - DEBUG - content handler
+2018-06-30 13:16:54,957 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 13:16:55,806 - __main__ - DEBUG - vote_down_21
+2018-06-30 13:16:59,082 - __main__ - DEBUG - vote_down_18
+2018-06-30 13:17:03,141 - __main__ - DEBUG - private message received
+2018-06-30 13:17:04,477 - Handle - DEBUG - content handler
+2018-06-30 13:17:04,478 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 13:17:07,274 - __main__ - DEBUG - private message received
+2018-06-30 13:17:08,686 - Handle - DEBUG - content handler
+2018-06-30 13:17:08,687 - __main__ - DEBUG - Message: /profile
+2018-06-30 13:17:08,688 - Handle - DEBUG - user requested profile
+2018-06-30 13:20:57,399 - __main__ - DEBUG - private message received
+2018-06-30 13:20:58,515 - Handle - DEBUG - content handler
+2018-06-30 13:20:58,516 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 13:21:09,425 - __main__ - DEBUG - private message received
+2018-06-30 13:21:10,505 - Handle - DEBUG - content handler
+2018-06-30 13:21:10,506 - __main__ - DEBUG - Message: /categories
+2018-06-30 13:21:10,506 - Handle - DEBUG - user browsing categories
+2018-06-30 15:15:46,520 - __main__ - INFO - 
+---Happy rate bot---
+2018-06-30 15:15:46,521 - __main__ - INFO - Bot data read, bot ready
+2018-06-30 15:15:46,549 - __main__ - INFO - Loaded databases
+2018-06-30 15:15:46,550 - __main__ - INFO - Message loop started
+2018-06-30 15:59:32,507 - __main__ - DEBUG - private message received
+2018-06-30 15:59:36,000 - __main__ - DEBUG - handle privacy policy
+2018-06-30 15:59:36,001 - Handle - DEBUG - working on function /accept
+2018-06-30 16:00:07,347 - __main__ - DEBUG - private message received
+2018-06-30 16:00:10,699 - Handle - DEBUG - content handler
+2018-06-30 16:00:10,699 - __main__ - DEBUG - Message: /profile
+2018-06-30 16:00:10,700 - Handle - DEBUG - user requested profile
+2018-06-30 16:00:44,334 - __main__ - DEBUG - private message received
+2018-06-30 16:00:47,668 - Handle - DEBUG - content handler
+2018-06-30 16:00:47,668 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 16:00:47,669 - Handle - DEBUG - user requested nickname change
+2018-06-30 16:01:29,246 - __main__ - DEBUG - private message received
+2018-06-30 16:01:32,665 - Handle - DEBUG - content handler
+2018-06-30 16:01:32,665 - __main__ - DEBUG - Message: remove
+2018-06-30 16:02:07,979 - __main__ - DEBUG - private message received
+2018-06-30 16:02:11,421 - Handle - DEBUG - content handler
+2018-06-30 16:02:11,421 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 16:02:11,421 - Handle - DEBUG - user requested nickname change
+2018-06-30 16:02:13,338 - __main__ - DEBUG - private message received
+2018-06-30 16:02:16,752 - Handle - DEBUG - content handler
+2018-06-30 16:02:16,753 - __main__ - DEBUG - Message: /remove_account
+2018-06-30 16:02:34,697 - __main__ - DEBUG - private message received
+2018-06-30 16:02:38,109 - Handle - DEBUG - content handler
+2018-06-30 16:02:38,110 - __main__ - DEBUG - Message: /cancel
+2018-06-30 16:02:45,781 - __main__ - DEBUG - private message received
+2018-06-30 16:02:49,184 - Handle - DEBUG - content handler
+2018-06-30 16:02:49,185 - __main__ - DEBUG - Message: /profile
+2018-06-30 16:02:49,185 - Handle - DEBUG - user requested profile
+2018-06-30 16:03:21,835 - __main__ - DEBUG - private message received
+2018-06-30 16:03:25,252 - Handle - DEBUG - content handler
+2018-06-30 16:03:25,252 - __main__ - DEBUG - Message: /create_category
+2018-06-30 16:03:25,252 - Handle - DEBUG - user creates category
+2018-06-30 16:03:27,056 - __main__ - DEBUG - private message received
+2018-06-30 16:03:30,468 - Handle - DEBUG - content handler
+2018-06-30 16:03:30,468 - __main__ - DEBUG - Message: /remove_account
+2018-06-30 16:03:44,006 - __main__ - DEBUG - rmacc_no
+2018-06-30 16:04:15,898 - __main__ - DEBUG - private message received
+2018-06-30 16:04:19,310 - Handle - DEBUG - content handler
+2018-06-30 16:04:19,311 - __main__ - DEBUG - Message: /categories
+2018-06-30 16:04:19,311 - Handle - DEBUG - user browsing categories
+2018-06-30 16:04:30,998 - __main__ - DEBUG - private message received
+2018-06-30 16:04:34,424 - Handle - DEBUG - content handler
+2018-06-30 16:04:34,424 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 16:04:56,498 - __main__ - DEBUG - private message received
+2018-06-30 16:05:00,033 - Handle - DEBUG - content handler
+2018-06-30 16:05:00,034 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 16:05:11,692 - __main__ - DEBUG - vote_up_22
+2018-06-30 16:05:13,806 - __main__ - DEBUG - private message received
+2018-06-30 16:05:17,359 - Handle - DEBUG - content handler
+2018-06-30 16:05:17,359 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 16:05:22,725 - __main__ - DEBUG - vote_up_24
+2018-06-30 16:05:37,019 - __main__ - DEBUG - private message received
+2018-06-30 16:05:40,698 - Handle - DEBUG - content handler
+2018-06-30 16:05:40,698 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 16:05:48,081 - __main__ - DEBUG - private message received
+2018-06-30 16:05:51,682 - Handle - DEBUG - content handler
+2018-06-30 16:05:51,683 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 16:06:10,104 - __main__ - DEBUG - private message received
+2018-06-30 16:06:13,671 - Handle - DEBUG - content handler
+2018-06-30 16:06:13,672 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:06:27,007 - __main__ - DEBUG - private message received
+2018-06-30 16:06:30,392 - Handle - DEBUG - content handler
+2018-06-30 16:06:30,393 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:06:39,341 - __main__ - DEBUG - vote_down_15
+2018-06-30 16:06:41,131 - __main__ - DEBUG - private message received
+2018-06-30 16:06:42,104 - Handle - DEBUG - content handler
+2018-06-30 16:06:42,105 - __main__ - DEBUG - Message: /categories
+2018-06-30 16:06:42,105 - Handle - DEBUG - user browsing categories
+2018-06-30 16:06:50,370 - __main__ - DEBUG - vote_up_23
+2018-06-30 16:06:53,955 - __main__ - DEBUG - private message received
+2018-06-30 16:06:57,426 - Handle - DEBUG - content handler
+2018-06-30 16:06:57,426 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:07:04,884 - __main__ - DEBUG - vote_up_19
+2018-06-30 16:07:10,924 - __main__ - DEBUG - private message received
+2018-06-30 16:07:14,685 - Handle - DEBUG - content handler
+2018-06-30 16:07:14,686 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:07:32,194 - __main__ - DEBUG - vote_down_21
+2018-06-30 16:07:36,358 - __main__ - DEBUG - private message received
+2018-06-30 16:07:39,833 - Handle - DEBUG - content handler
+2018-06-30 16:07:39,834 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:07:53,387 - __main__ - DEBUG - vote_up_16
+2018-06-30 16:07:57,038 - __main__ - DEBUG - private message received
+2018-06-30 16:08:00,495 - Handle - DEBUG - content handler
+2018-06-30 16:08:00,495 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:08:00,878 - __main__ - DEBUG - private message received
+2018-06-30 16:08:01,275 - Handle - DEBUG - content handler
+2018-06-30 16:08:01,276 - __main__ - DEBUG - Message: /profile
+2018-06-30 16:08:01,276 - Handle - DEBUG - user requested profile
+2018-06-30 16:08:05,885 - __main__ - DEBUG - private message received
+2018-06-30 16:08:06,294 - Handle - DEBUG - content handler
+2018-06-30 16:08:06,294 - __main__ - DEBUG - Message: /set_nickname
+2018-06-30 16:08:06,294 - Handle - DEBUG - user requested nickname change
+2018-06-30 16:08:09,489 - __main__ - DEBUG - private message received
+2018-06-30 16:08:09,894 - Handle - DEBUG - content handler
+2018-06-30 16:08:09,894 - __main__ - DEBUG - Message: vbextreme
+2018-06-30 16:08:32,613 - __main__ - DEBUG - vote_up_18
+2018-06-30 16:08:36,742 - __main__ - DEBUG - private message received
+2018-06-30 16:08:40,270 - Handle - DEBUG - content handler
+2018-06-30 16:08:40,271 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:08:56,526 - __main__ - DEBUG - vote_up_17
+2018-06-30 16:08:59,536 - __main__ - DEBUG - private message received
+2018-06-30 16:09:03,244 - Handle - DEBUG - content handler
+2018-06-30 16:09:03,244 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:09:28,933 - __main__ - DEBUG - vote_up_14
+2018-06-30 16:09:49,057 - __main__ - DEBUG - private message received
+2018-06-30 16:09:52,583 - Handle - DEBUG - content handler
+2018-06-30 16:09:52,583 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:09:55,204 - __main__ - DEBUG - vote_up_17
+2018-06-30 16:10:05,488 - __main__ - DEBUG - vote_down_18
+2018-06-30 16:10:10,777 - __main__ - DEBUG - vote_up_18
+2018-06-30 16:10:22,719 - __main__ - DEBUG - vote_up_20
+2018-06-30 16:10:27,905 - __main__ - DEBUG - private message received
+2018-06-30 16:10:31,759 - Handle - DEBUG - content handler
+2018-06-30 16:10:31,760 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:10:35,935 - __main__ - DEBUG - private message received
+2018-06-30 16:10:39,431 - Handle - DEBUG - content handler
+2018-06-30 16:10:39,432 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:10:41,397 - __main__ - DEBUG - vote_up_14
+2018-06-30 16:10:49,401 - __main__ - DEBUG - vote_down_20
+2018-06-30 16:11:20,646 - __main__ - DEBUG - private message received
+2018-06-30 16:11:24,028 - Handle - DEBUG - content handler
+2018-06-30 16:11:24,028 - __main__ - DEBUG - Message: Categories
+2018-06-30 16:11:35,238 - __main__ - DEBUG - private message received
+2018-06-30 16:11:38,708 - Handle - DEBUG - content handler
+2018-06-30 16:11:38,708 - __main__ - DEBUG - Message: /upload
+2018-06-30 16:11:38,708 - Handle - DEBUG - user requested upload...
+2018-06-30 16:11:38,709 - Handle - DEBUG - user uploaded 0 media 
+2018-06-30 16:11:38,709 - Handle - DEBUG - user uploaded first time 12:45:50 30/06/18
+2018-06-30 16:12:41,530 - __main__ - DEBUG - private message received
+2018-06-30 16:12:44,988 - Handle - DEBUG - content handler
+2018-06-30 16:12:44,988 - Handle - DEBUG - user sent a media
+2018-06-30 16:12:44,989 - Handle - DEBUG - next stage, category
+2018-06-30 16:12:57,200 - __main__ - DEBUG - cp_shortcat_0_succ
+2018-06-30 16:13:00,713 - __main__ - DEBUG - cp_shortcat_0_succ
+2018-06-30 16:13:03,720 - __main__ - DEBUG - cp_shortcat_0_succ
+2018-06-30 16:13:20,530 - __main__ - DEBUG - cp_shortcat_0_succ
+2018-06-30 16:13:22,317 - __main__ - DEBUG - cp_shortcat_0_prev
+2018-06-30 16:13:24,243 - __main__ - DEBUG - cp_shortcat_0_prev
+2018-06-30 16:13:27,055 - __main__ - DEBUG - cp_shortcat_0_prev
+2018-06-30 16:13:31,437 - __main__ - DEBUG - private message received
+2018-06-30 16:13:34,943 - Handle - DEBUG - content handler
+2018-06-30 16:13:34,944 - Handle - DEBUG - New category added
+2018-06-30 16:13:35,053 - Handle - DEBUG - handle normal requests
+2018-06-30 16:13:41,013 - __main__ - DEBUG - private message received
+2018-06-30 16:13:44,537 - Handle - DEBUG - content handler
+2018-06-30 16:13:44,538 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 16:14:02,495 - __main__ - DEBUG - private message received
+2018-06-30 16:14:05,970 - Handle - DEBUG - content handler
+2018-06-30 16:14:05,971 - __main__ - DEBUG - Message: /categories
+2018-06-30 16:14:05,971 - Handle - DEBUG - user browsing categories
+2018-06-30 16:14:12,881 - __main__ - DEBUG - private message received
+2018-06-30 16:14:16,396 - Handle - DEBUG - content handler
+2018-06-30 16:14:16,396 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:14:24,109 - __main__ - DEBUG - private message received
+2018-06-30 16:14:27,552 - Handle - DEBUG - content handler
+2018-06-30 16:14:27,552 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 16:14:36,106 - __main__ - DEBUG - private message received
+2018-06-30 16:14:39,632 - Handle - DEBUG - content handler
+2018-06-30 16:14:39,632 - __main__ - DEBUG - Message: /upload
+2018-06-30 16:14:39,632 - Handle - DEBUG - user requested upload...
+2018-06-30 16:14:39,633 - Handle - DEBUG - user uploaded 1 media 
+2018-06-30 16:14:39,633 - Handle - DEBUG - user uploaded first time 16:13:34 30/06/18
+2018-06-30 16:18:31,503 - __main__ - DEBUG - private message received
+2018-06-30 16:18:35,292 - Handle - DEBUG - content handler
+2018-06-30 16:18:35,292 - Handle - DEBUG - user sent a media
+2018-06-30 16:18:35,293 - Handle - DEBUG - next stage, category
+2018-06-30 16:18:44,349 - __main__ - DEBUG - private message received
+2018-06-30 16:18:48,052 - Handle - DEBUG - content handler
+2018-06-30 16:18:48,052 - Handle - DEBUG - New category added
+2018-06-30 16:18:48,365 - Handle - DEBUG - handle normal requests
+2018-06-30 16:19:41,238 - __main__ - DEBUG - private message received
+2018-06-30 16:19:44,656 - Handle - DEBUG - content handler
+2018-06-30 16:19:44,657 - __main__ - DEBUG - Message: Space
+2018-06-30 16:19:51,903 - __main__ - DEBUG - private message received
+2018-06-30 16:19:55,327 - Handle - DEBUG - content handler
+2018-06-30 16:20:08,631 - __main__ - DEBUG - private message received
+2018-06-30 16:20:12,032 - Handle - DEBUG - content handler
+2018-06-30 16:20:12,033 - __main__ - DEBUG - Message: /categories
+2018-06-30 16:20:12,033 - Handle - DEBUG - user browsing categories
+2018-06-30 16:20:20,976 - __main__ - DEBUG - private message received
+2018-06-30 16:20:24,398 - Handle - DEBUG - content handler
+2018-06-30 16:20:24,399 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:20:32,836 - __main__ - DEBUG - vote_up_27
+2018-06-30 16:20:42,816 - __main__ - DEBUG - private message received
+2018-06-30 16:20:46,237 - Handle - DEBUG - content handler
+2018-06-30 16:20:46,238 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:20:54,606 - __main__ - DEBUG - vote_up_28
+2018-06-30 16:23:29,903 - __main__ - DEBUG - private message received
+2018-06-30 16:23:33,342 - Handle - DEBUG - content handler
+2018-06-30 16:23:33,343 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:24:41,068 - __main__ - DEBUG - private message received
+2018-06-30 16:24:44,478 - Handle - DEBUG - content handler
+2018-06-30 16:24:44,478 - __main__ - DEBUG - Message: /upload
+2018-06-30 16:24:44,478 - Handle - DEBUG - user requested upload...
+2018-06-30 16:24:44,478 - Handle - DEBUG - user uploaded 2 media 
+2018-06-30 16:24:44,479 - Handle - DEBUG - user uploaded first time 16:13:34 30/06/18
+2018-06-30 16:30:54,701 - __main__ - DEBUG - private message received
+2018-06-30 16:30:58,040 - Handle - DEBUG - content handler
+2018-06-30 16:30:58,041 - Handle - DEBUG - user sent a media
+2018-06-30 16:30:58,041 - Handle - DEBUG - next stage, category
+2018-06-30 16:32:10,365 - __main__ - DEBUG - private message received
+2018-06-30 16:32:13,706 - Handle - DEBUG - content handler
+2018-06-30 16:32:13,707 - Handle - DEBUG - New category added
+2018-06-30 16:32:13,850 - Handle - DEBUG - handle normal requests
+2018-06-30 16:32:25,050 - __main__ - DEBUG - private message received
+2018-06-30 16:32:28,397 - Handle - DEBUG - content handler
+2018-06-30 16:32:28,397 - __main__ - DEBUG - Message: /nature
+2018-06-30 16:32:30,128 - __main__ - DEBUG - private message received
+2018-06-30 16:32:33,493 - Handle - DEBUG - content handler
+2018-06-30 16:32:33,494 - __main__ - DEBUG - Message: /nature
+2018-06-30 16:32:35,529 - __main__ - DEBUG - private message received
+2018-06-30 16:32:38,870 - Handle - DEBUG - content handler
+2018-06-30 16:32:38,870 - __main__ - DEBUG - Message: /categories
+2018-06-30 16:32:38,870 - Handle - DEBUG - user browsing categories
+2018-06-30 16:32:43,354 - __main__ - DEBUG - private message received
+2018-06-30 16:32:46,713 - Handle - DEBUG - content handler
+2018-06-30 16:32:46,714 - __main__ - DEBUG - Message: /upload
+2018-06-30 16:32:46,714 - Handle - DEBUG - user requested upload...
+2018-06-30 16:32:46,714 - Handle - DEBUG - user uploaded 3 media 
+2018-06-30 16:32:46,714 - Handle - DEBUG - user uploaded first time 16:13:34 30/06/18
+2018-06-30 16:32:53,187 - __main__ - DEBUG - private message received
+2018-06-30 16:32:56,529 - Handle - DEBUG - content handler
+2018-06-30 16:32:56,530 - Handle - DEBUG - user sent a media
+2018-06-30 16:34:48,464 - __main__ - DEBUG - private message received
+2018-06-30 16:34:51,801 - Handle - DEBUG - content handler
+2018-06-30 16:34:51,802 - Handle - DEBUG - user sent a media
+2018-06-30 16:34:51,802 - Handle - DEBUG - next stage, category
+2018-06-30 16:34:52,553 - __main__ - DEBUG - private message received
+2018-06-30 16:34:53,655 - Handle - DEBUG - content handler
+2018-06-30 16:34:53,655 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 16:34:56,721 - __main__ - DEBUG - private message received
+2018-06-30 16:34:57,786 - Handle - DEBUG - content handler
+2018-06-30 16:34:57,786 - __main__ - DEBUG - Message: /categories
+2018-06-30 16:34:57,786 - Handle - DEBUG - user browsing categories
+2018-06-30 16:35:05,662 - __main__ - DEBUG - private message received
+2018-06-30 16:35:09,032 - Handle - DEBUG - content handler
+2018-06-30 16:35:09,918 - __main__ - DEBUG - private message received
+2018-06-30 16:35:10,975 - Handle - DEBUG - content handler
+2018-06-30 16:35:10,976 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:35:13,681 - __main__ - DEBUG - vote_up_27
+2018-06-30 16:35:21,741 - __main__ - DEBUG - private message received
+2018-06-30 16:35:22,798 - Handle - DEBUG - content handler
+2018-06-30 16:35:22,799 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:35:24,720 - __main__ - DEBUG - vote_up_28
+2018-06-30 16:35:31,147 - __main__ - DEBUG - private message received
+2018-06-30 16:35:32,207 - Handle - DEBUG - content handler
+2018-06-30 16:35:32,207 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 16:36:20,096 - __main__ - DEBUG - private message received
+2018-06-30 16:36:23,441 - Handle - DEBUG - content handler
+2018-06-30 16:36:23,442 - __main__ - DEBUG - Message: /categories
+2018-06-30 16:36:23,442 - Handle - DEBUG - user browsing categories
+2018-06-30 16:36:29,277 - __main__ - DEBUG - private message received
+2018-06-30 16:36:32,671 - Handle - DEBUG - content handler
+2018-06-30 16:36:32,672 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 16:36:34,377 - __main__ - DEBUG - vote_up_17
+2018-06-30 16:36:41,903 - __main__ - DEBUG - private message received
+2018-06-30 16:36:42,968 - Handle - DEBUG - content handler
+2018-06-30 16:36:42,969 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 16:36:45,761 - __main__ - DEBUG - vote_up_29
+2018-06-30 16:36:50,672 - __main__ - DEBUG - private message received
+2018-06-30 16:36:51,736 - Handle - DEBUG - content handler
+2018-06-30 16:36:51,736 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 16:36:58,969 - __main__ - DEBUG - private message received
+2018-06-30 16:37:00,061 - Handle - DEBUG - content handler
+2018-06-30 16:37:00,062 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 16:37:01,940 - __main__ - DEBUG - private message received
+2018-06-30 16:37:03,028 - Handle - DEBUG - content handler
+2018-06-30 16:37:03,029 - __main__ - DEBUG - Message: /categories
+2018-06-30 16:37:03,030 - Handle - DEBUG - user browsing categories
+2018-06-30 16:37:12,013 - __main__ - DEBUG - vote_up_29
+2018-06-30 16:39:35,717 - __main__ - DEBUG - vote_up_29
+2018-06-30 16:39:38,753 - __main__ - DEBUG - vote_down_29
+2018-06-30 16:39:43,863 - __main__ - DEBUG - private message received
+2018-06-30 16:39:47,212 - Handle - DEBUG - content handler
+2018-06-30 16:39:47,213 - __main__ - DEBUG - Message: /show_Nature
+2018-06-30 16:40:13,151 - __main__ - DEBUG - private message received
+2018-06-30 16:40:16,518 - Handle - DEBUG - content handler
+2018-06-30 16:40:16,518 - __main__ - DEBUG - Message: /upload
+2018-06-30 16:40:16,519 - Handle - DEBUG - user requested upload...
+2018-06-30 16:40:16,519 - Handle - DEBUG - user uploaded 3 media 
+2018-06-30 16:40:16,519 - Handle - DEBUG - user uploaded first time 16:13:34 30/06/18
+2018-06-30 16:40:25,200 - __main__ - DEBUG - private message received
+2018-06-30 16:40:28,630 - Handle - DEBUG - content handler
+2018-06-30 16:40:28,630 - Handle - DEBUG - user sent a media
+2018-06-30 16:40:28,630 - Handle - DEBUG - next stage, category
+2018-06-30 16:40:46,776 - __main__ - DEBUG - private message received
+2018-06-30 16:40:50,535 - Handle - DEBUG - content handler
+2018-06-30 16:41:22,285 - __main__ - DEBUG - private message received
+2018-06-30 16:41:25,763 - Handle - DEBUG - content handler
+2018-06-30 16:41:25,764 - __main__ - DEBUG - Message: /upload
+2018-06-30 16:41:25,764 - Handle - DEBUG - user requested upload...
+2018-06-30 16:41:25,764 - Handle - DEBUG - user uploaded 3 media 
+2018-06-30 16:41:25,765 - Handle - DEBUG - user uploaded first time 16:13:34 30/06/18
+2018-06-30 16:41:27,580 - __main__ - DEBUG - private message received
+2018-06-30 16:41:31,134 - Handle - DEBUG - content handler
+2018-06-30 16:41:31,134 - Handle - DEBUG - user sent a media
+2018-06-30 16:41:33,355 - __main__ - DEBUG - private message received
+2018-06-30 16:41:37,326 - Handle - DEBUG - content handler
+2018-06-30 16:41:37,327 - Handle - DEBUG - user sent a media
+2018-06-30 17:06:01,707 - __main__ - DEBUG - private message received
+2018-06-30 17:06:05,080 - Handle - DEBUG - content handler
+2018-06-30 17:06:05,081 - Handle - DEBUG - user sent a media
+2018-06-30 17:06:05,082 - __main__ - DEBUG - Message: /cancel
+2018-06-30 17:06:15,576 - __main__ - DEBUG - private message received
+2018-06-30 17:06:18,961 - Handle - DEBUG - content handler
+2018-06-30 17:06:18,962 - __main__ - DEBUG - Message: /profile
+2018-06-30 17:06:18,962 - Handle - DEBUG - user requested profile
+2018-06-30 17:07:25,462 - __main__ - DEBUG - private message received
+2018-06-30 17:07:28,963 - Handle - DEBUG - content handler
+2018-06-30 17:07:28,964 - __main__ - DEBUG - Message: /create_category
+2018-06-30 17:07:28,964 - Handle - DEBUG - user creates category
+2018-06-30 17:08:04,076 - __main__ - DEBUG - private message received
+2018-06-30 17:08:07,448 - Handle - DEBUG - content handler
+2018-06-30 17:08:07,449 - __main__ - DEBUG - Message: /create_category
+2018-06-30 17:08:17,640 - __main__ - DEBUG - private message received
+2018-06-30 17:08:21,036 - Handle - DEBUG - content handler
+2018-06-30 17:08:21,036 - __main__ - DEBUG - Message: /create_category
+2018-06-30 17:08:21,036 - Handle - DEBUG - user creates category
+2018-06-30 17:10:11,122 - __main__ - DEBUG - private message received
+2018-06-30 17:10:14,573 - Handle - DEBUG - content handler
+2018-06-30 17:10:14,574 - __main__ - DEBUG - Message: MusicTop100
+2018-06-30 17:10:23,236 - __main__ - DEBUG - private message received
+2018-06-30 17:10:26,596 - Handle - DEBUG - content handler
+2018-06-30 17:10:26,597 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 17:10:32,368 - __main__ - DEBUG - private message received
+2018-06-30 17:10:35,725 - Handle - DEBUG - content handler
+2018-06-30 17:10:35,725 - __main__ - DEBUG - Message: /categories
+2018-06-30 17:10:35,726 - Handle - DEBUG - user browsing categories
+2018-06-30 17:10:44,029 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 17:10:53,717 - __main__ - DEBUG - private message received
+2018-06-30 17:10:57,108 - Handle - DEBUG - content handler
+2018-06-30 17:10:57,108 - __main__ - DEBUG - Message: /show_MusicTop100
+2018-06-30 17:11:07,143 - __main__ - DEBUG - private message received
+2018-06-30 17:11:10,567 - Handle - DEBUG - content handler
+2018-06-30 17:11:10,568 - __main__ - DEBUG - Message: /upload
+2018-06-30 17:11:10,568 - Handle - DEBUG - user requested upload...
+2018-06-30 17:11:10,568 - Handle - DEBUG - user uploaded 3 media 
+2018-06-30 17:11:10,569 - Handle - DEBUG - user uploaded first time 16:13:34 30/06/18
+2018-06-30 17:12:19,569 - __main__ - DEBUG - private message received
+2018-06-30 17:12:22,908 - Handle - DEBUG - content handler
+2018-06-30 17:12:22,908 - Handle - DEBUG - user sent a media
+2018-06-30 17:12:22,909 - Handle - DEBUG - next stage, category
+2018-06-30 17:12:34,183 - __main__ - DEBUG - private message received
+2018-06-30 17:12:37,579 - Handle - DEBUG - content handler
+2018-06-30 17:12:37,580 - Handle - DEBUG - New category added
+2018-06-30 17:12:37,765 - Handle - DEBUG - handle normal requests
+2018-06-30 17:12:46,035 - __main__ - DEBUG - private message received
+2018-06-30 17:12:49,422 - Handle - DEBUG - content handler
+2018-06-30 17:12:49,423 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 17:13:40,764 - __main__ - DEBUG - private message received
+2018-06-30 17:13:44,124 - Handle - DEBUG - content handler
+2018-06-30 17:13:44,124 - __main__ - DEBUG - Message: /categories
+2018-06-30 17:13:44,125 - Handle - DEBUG - user browsing categories
+2018-06-30 17:14:10,432 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 17:14:21,803 - __main__ - DEBUG - private message received
+2018-06-30 17:14:25,325 - Handle - DEBUG - content handler
+2018-06-30 17:14:25,325 - __main__ - DEBUG - Message: /show_MusicTop100
+2018-06-30 17:15:13,032 - __main__ - DEBUG - vote_down_30
+2018-06-30 17:15:53,132 - __main__ - DEBUG - private message received
+2018-06-30 17:15:56,490 - Handle - DEBUG - content handler
+2018-06-30 17:15:56,491 - __main__ - DEBUG - Message: /profile
+2018-06-30 17:15:56,491 - Handle - DEBUG - user requested profile
+2018-06-30 17:18:08,841 - __main__ - DEBUG - private message received
+2018-06-30 17:18:12,193 - Handle - DEBUG - content handler
+2018-06-30 17:18:12,193 - __main__ - DEBUG - Message: Reputation
+2018-06-30 17:18:18,824 - __main__ - DEBUG - private message received
+2018-06-30 17:18:22,171 - Handle - DEBUG - content handler
+2018-06-30 17:18:22,172 - __main__ - DEBUG - Message: Repuation
+2018-06-30 17:18:30,591 - __main__ - DEBUG - private message received
+2018-06-30 17:18:33,978 - Handle - DEBUG - content handler
+2018-06-30 17:18:33,978 - __main__ - DEBUG - Message: /profile
+2018-06-30 17:18:33,979 - Handle - DEBUG - user requested profile
+2018-06-30 17:18:35,737 - __main__ - DEBUG - private message received
+2018-06-30 17:18:39,087 - Handle - DEBUG - content handler
+2018-06-30 17:18:39,088 - __main__ - DEBUG - Message: /upload
+2018-06-30 17:18:39,088 - Handle - DEBUG - user requested upload...
+2018-06-30 17:18:39,088 - Handle - DEBUG - user uploaded 4 media 
+2018-06-30 17:18:39,088 - Handle - DEBUG - user uploaded first time 16:13:34 30/06/18
+2018-06-30 17:18:40,851 - __main__ - DEBUG - private message received
+2018-06-30 17:18:44,193 - Handle - DEBUG - content handler
+2018-06-30 17:18:44,194 - Handle - DEBUG - user sent a media
+2018-06-30 17:28:04,460 - __main__ - DEBUG - private message received
+2018-06-30 17:28:05,595 - Handle - DEBUG - content handler
+2018-06-30 17:28:05,596 - __main__ - DEBUG - Message: /categories
+2018-06-30 17:28:05,596 - Handle - DEBUG - user browsing categories
+2018-06-30 17:28:11,209 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 17:28:13,634 - __main__ - DEBUG - private message received
+2018-06-30 17:28:14,709 - Handle - DEBUG - content handler
+2018-06-30 17:28:14,709 - __main__ - DEBUG - Message: /show_MusicTop100
+2018-06-30 17:28:16,992 - __main__ - DEBUG - vote_up_30
+2018-06-30 18:01:23,613 - __main__ - DEBUG - private message received
+2018-06-30 18:01:24,679 - Handle - DEBUG - content handler
+2018-06-30 18:01:24,680 - __main__ - DEBUG - Message: /main_menu
+2018-06-30 18:01:27,938 - __main__ - DEBUG - private message received
+2018-06-30 18:01:29,042 - Handle - DEBUG - content handler
+2018-06-30 18:01:29,044 - __main__ - DEBUG - Message: /categories
+2018-06-30 18:01:29,044 - Handle - DEBUG - user browsing categories
+2018-06-30 18:01:32,063 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 18:01:34,157 - __main__ - DEBUG - cp_cat_1_prev
+2018-06-30 20:05:43,703 - __main__ - DEBUG - private message received
+2018-06-30 20:05:47,336 - Handle - DEBUG - content handler
+2018-06-30 20:05:47,336 - Handle - DEBUG - user sent a media
+2018-06-30 20:06:36,718 - __main__ - DEBUG - private message received
+2018-06-30 20:06:40,681 - Handle - DEBUG - content handler
+2018-06-30 20:06:40,681 - Handle - DEBUG - user sent a media
+2018-06-30 20:06:42,622 - __main__ - DEBUG - private message received
+2018-06-30 20:06:46,179 - Handle - DEBUG - content handler
+2018-06-30 20:06:46,180 - Handle - DEBUG - user sent a media
+2018-06-30 20:06:46,180 - __main__ - DEBUG - Message: /cancel
+2018-06-30 20:06:56,847 - __main__ - DEBUG - private message received
+2018-06-30 20:07:00,200 - Handle - DEBUG - content handler
+2018-06-30 20:07:00,201 - __main__ - DEBUG - Message: /categories
+2018-06-30 20:07:00,201 - Handle - DEBUG - user browsing categories
+2018-06-30 20:07:04,520 - __main__ - DEBUG - cp_cat_0_succ
+2018-06-30 20:07:08,970 - __main__ - DEBUG - private message received
+2018-06-30 20:07:12,326 - Handle - DEBUG - content handler
+2018-06-30 20:07:12,327 - __main__ - DEBUG - Message: /show_MusicTop100
+2018-06-30 20:07:31,720 - __main__ - DEBUG - cp_cat_1_prev
+2018-06-30 20:08:48,165 - __main__ - DEBUG - private message received
+2018-06-30 20:08:51,581 - Handle - DEBUG - content handler
+2018-06-30 20:08:51,582 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 20:09:03,315 - __main__ - DEBUG - private message received
+2018-06-30 20:09:06,864 - Handle - DEBUG - content handler
+2018-06-30 20:09:06,865 - __main__ - DEBUG - Message: /show_Space
+2018-06-30 20:54:59,092 - __main__ - DEBUG - private message received
+2018-06-30 20:55:05,713 - Handle - DEBUG - content handler
+2018-06-30 20:55:05,714 - __main__ - DEBUG - Message: /remove_account
+2018-06-30 20:55:19,396 - __main__ - DEBUG - rmacc_yes
+2018-06-30 20:55:19,399 - __main__ - INFO - deleted categories
+2018-06-30 20:55:19,405 - __main__ - INFO - deleted media
+2018-06-30 20:55:19,407 - __main__ - INFO - deleted user
+2018-06-30 20:55:37,036 - __main__ - DEBUG - private message received
+2018-06-30 20:55:44,286 - __main__ - DEBUG - handle privacy policy
+2018-06-30 20:55:48,062 - __main__ - DEBUG - private message received
+2018-06-30 20:55:54,848 - __main__ - DEBUG - handle privacy policy
