@@ -1,3 +1,4 @@
 botdata/*
 src/__pycache__/*
 databases/*
+log_files/*
