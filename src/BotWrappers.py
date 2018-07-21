@@ -97,12 +97,12 @@ def sendMedia(bot, user, content, caption = None, sdb = None, translation = True
     if sdb:
         caption = caption.format(**sdb)
     
-
     file_id = content.file_id
-    if file_id in sendMethods:
-        if sendMethods[file_id][0] == True:
-            sendMethods[file_id][1](bot, user.chatid, file_id, caption=caption, *args, **kwargs)
+    
+    if content.type in sendMethods:
+        if sendMethods[content.type][0] == True:
+            sendMethods[content.type][1](bot, user.chatid, file_id, caption=caption, *args, **kwargs)
         else:
-            sendMethods[file_id][1](bot, user.chatid, file_id, *args, **kwargs)
+            sendMethods[content.type][1](bot, user.chatid, file_id, *args, **kwargs)
             if caption:
                 sendMessage(bot, user, caption, translation=False)
