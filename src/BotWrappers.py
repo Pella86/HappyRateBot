@@ -10,6 +10,7 @@ Created on Sat Jun 23 01:58:59 2018
 #==============================================================================
 
 import telepot
+from telepot import Bot
 from telepot.namedtuple import InlineKeyboardButton, InlineKeyboardMarkup
 
 import Logging
@@ -24,6 +25,16 @@ log = Logging.get_logger(__name__, "INFO")
 #==============================================================================
 # bot functions
 #==============================================================================
+
+sendMethods = {
+    "photo": (true, Bot.sendPhoto),
+    "video": (true, Bot.sendVideo),
+    "document": (true, Bot.sendDocument),
+    "sticker": (false, Bot.sendSticker),
+    "audio": (true, Bot.sendAudio),
+    "voice": (true, Bot.sendVoice),
+    "video_note": (false, Bot.sendVideoNote),
+}
 
 def Button(text, cb):    
     return InlineKeyboardButton(text=text, callback_data=cb)
@@ -88,21 +99,10 @@ def sendMedia(bot, user, content, caption = None, sdb = None, translation = True
     
 
     file_id = content.file_id
-    if content.type == "photo":
-        bot.sendPhoto(user.chatid, file_id, caption = caption, *args, **kwargs)
-    elif content.type == "video":
-        bot.sendVideo(user.chatid, file_id, caption = caption, *args, **kwargs)
-    elif content.type == "document":
-        bot.sendDocument(user.chatid, file_id, caption = caption, *args, **kwargs) 
-    elif content.type == "sticker":
-        bot.sendSticker(user.chatid, file_id, *args, **kwargs)
-        if caption:
-            sendMessage(bot, user, caption, translation=False)
-    elif content.type == "audio":
-        bot.sendAudio(user.chatid, file_id, caption=caption, *args, **kwargs)
-    elif content.type == "voice":
-        bot.sendVoice(user.chatid, file_id, caption=caption, *args, **kwargs)
-    elif content.type == "video_note":
-        bot.sendVideoNote(user.chatid, file_id, *args, **kwargs)
-        if caption:
-            sendMessage(bot, user, caption, translation=False)
+    if file_id in sendMethods:
+        if sendMethods[file_id][0] == True:
+            sendMethods[file_id][1](bot, user.chatid, file_id, caption=caption, *args, **kwargs)
+        else:
+            sendMethods[file_id][1](bot, user.chatid, file_id, *args, **kwargs)
+            if caption:
+                sendMessage(bot, user, caption, translation=False)
