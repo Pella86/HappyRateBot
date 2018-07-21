@@ -68,6 +68,11 @@ class Category:
             BotWrappers.sendMessage(bot, user, s ,translation=False, reply_markup=rmk)
         else:
             BotWrappers.sendMessage(bot, user, "no permission")
+    
+    def calculateScore(self, mediavotedb):
+        self.score = 0
+        for media in mediavotedb.getValues():
+            self.score += media.calculateScore()
         
     
     

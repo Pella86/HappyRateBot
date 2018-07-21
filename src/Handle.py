@@ -150,28 +150,65 @@ def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
             # pick a random media and show
             cat_name = st[1].lower()
             all_medias = mediavotedb.getMediaCategory(cat_name)
-            voted, total = user.countVoted(cat_name, mediavotedb)
-            if voted != total:
-                medias = []
-                for media in all_medias:
-                    if user.hash_id in media.voters_id:
-                        pass
-                    else:
-                       medias.append(media) 
-            else:
-                medias = all_medias
+#            voted, total = user.countVoted(cat_name, mediavotedb)
+#            if voted != total:
+#                medias = []
+#                for media in all_medias:
+#                    if user.hash_id in media.voters_id:
+#                        pass
+#                    else:
+#                       medias.append(media) 
+#            else:
+#                medias = all_medias
                    
-            if medias:
-                media = random.choice(medias)
+            if all_medias:
+                media = random.choice(all_medias)
                
                 media.showPrivate(bot, user, usersdb, catdb)
+            
             else:
                 BotWrappers.sendMessage(bot, user, "Category is empty\n/main_menu")
         
         elif len(st) == 3:
-            pass
+            uid = int(st[2])
+            media = mediavotedb.getMedia(uid)
+            
+            media.showPrivate(bot, user, usersdb, catdb)
         
         return False
+    
+    if text.startswith("/vote"):
+        
+        st = text.split("_")
+        
+        if len(st) == 1:
+            # randomly pic a media
+            pass
+        if len(st) == 2:
+            # randomly pic a media in the category
+            cat_name = st[1].lower()
+            
+            all_medias = mediavotedb.getMediaCategory(cat_name)
+            medias = []
+            for media in all_medias:
+                if user.hash_id in media.voters_id:
+                    pass
+                else:
+                   medias.append(media)  
+            
+            if medias:
+                scores = [usersdb.hGetUser(media.creator_hash_id).getReputation() for media in medias]
+                
+                s_media = sorted(zip(medias, scores), key = lambda x : x[1])
+                
+                media = s_media[-1][0]
+                
+                media.votePrivate(bot, user, usersdb, catdb)
+            else:
+                BotWrappers.sendMessage(bot, user, "Nothing to rate\n/main_menu")        
+        
+        return False
+        
     
     if text.startswith("/catinfo") and user.hash_id == creator_hash_id:
         log.debug("requested catinfo")
@@ -199,19 +236,54 @@ def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
             commands[text].func()(bot, usersdb, user)
             return False
         
-        elif commands[text].name == commands["/profile"].name:
+        elif (commands[text].name == commands["/profile"].name or
+              commands[text].name == commands["/uploaded_media"].name):
+                    
             commands[text].func()(bot, user, mediavotedb)
             return False
-        
+            
         elif commands[text].name == commands["/categories"].name:
             commands[text].func()(bot, user, catdb, mediavotedb)
             return False
         
+        elif commands[text].name == commands["/user_top"].name:
+            commands[text].func()(bot, user, usersdb)
+            return False            
+        
         else:
             commands[text].func()(bot, user)
             return False
+    
     return True
 
+#==============================================================================
+# Uploaded Media
+#==============================================================================
+
+def uploaded_media(bot, user, mediavotedb):
+    p = Pages.UploadedMediaPages(0, user, mediavotedb)
+    p.sendPage(bot, user)
+
+#==============================================================================
+# User Top
+#==============================================================================
+
+def getSortedUserList(usersdb):
+    user_list = usersdb.getUsersList()
+    
+    sorted_ulist = sorted(user_list, key= lambda x : x.getReputation())
+    sorted_ulist = sorted_ulist[::-1]
+    
+    return sorted_ulist
+
+def user_top(bot, user, usersdb):
+    
+    # get user list
+    sorted_ulist = getSortedUserList(usersdb)
+
+    # send pages
+    p = Pages.UserTopPages(0, sorted_ulist)
+    p.sendPage(bot, user)
 
 #==============================================================================
 # Main menu
@@ -341,6 +413,9 @@ def create_category(bot, user):
 def get_category(bot, user, text, catdb):
     # check if category name is valid
     # must be alphanumeric
+    if commands[text].name == commands["/cancel"].name:
+        cancel(bot, user)
+        
     valid = catdb.checkName(text)
     user.tmp_display_id = ""
     user.tmp_upload_content = None

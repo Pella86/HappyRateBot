@@ -91,3 +91,14 @@ class RepPoints(FormatNumber):
     
     def __init__(self, number, precision = 0, suffixed = True):
         super().__init__(number, precision, EmojiTable.reputation_points_emoji, suffixed)
+        
+class UpVotes(FormatNumber):
+    
+    def __init__(self, number, precision = 0, suffixed = True):
+      super().__init__(number, precision, EmojiTable.upvote_emoji, suffixed)  
+
+
+class DownVotes(FormatNumber):
+    
+    def __init__(self, number, precision = 0, suffixed = True):
+      super().__init__(number, precision, EmojiTable.downvote_emoji, suffixed)  

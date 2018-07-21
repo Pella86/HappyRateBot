@@ -52,7 +52,10 @@ class UsersDB:
         if not os.path.isdir(folder):
             os.mkdir(folder)
         
-        self.banned_database = Databases.Database(folder, "banned_user_")        
+        self.banned_database = Databases.Database(folder, "banned_user_") 
+    
+    def getUsersList(self):
+        return self.database.getValues()
     
     def check_nickname(self, user, text):
         

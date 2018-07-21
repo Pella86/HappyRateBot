@@ -12,6 +12,17 @@ import sys
 sys.path.append("./src")
 
 #==============================================================================
+# TO DO
+#==============================================================================
+
+# - language support
+# - media selection probability
+# - list uploaded media
+# - manage more than 10 pages
+# - delete media
+# - ban users
+
+#==============================================================================
 # Imports
 #==============================================================================
 
@@ -35,6 +46,8 @@ import Handle
 import Logging
 import Pages
 import NumberFormatter
+
+import Routine
 
 import BotWrappers
 
@@ -186,7 +199,13 @@ def query(raw_msg):
         elif cmd_list[1] == "catlist":
             cat_list = categoriesdb.getValues()
             p = Pages.CategoryList(page_n, cat_list, query)
-            p.check_answer(bot, user, prev)  
+            p.check_answer(bot, user, prev) 
+        
+        elif cmd_list[1] == "utop":
+            ulist = Handle.getSortedUserList(usersdb)
+            p = Pages.UserTopPages(page_n, ulist, query)
+            
+            p.check_answer(bot, user, prev)
     
     elif query.data.startswith("vote"):
         
@@ -221,16 +240,16 @@ def query(raw_msg):
             
             if upvote:
                 media_user.pella_coins += 1
-                BotWrappers.sendMessage(bot, media_user, "You received " + coin)
+                BotWrappers.sendMessage(bot, media_user, "Somebody upvoted your media. You received " + coin)
             else:
                 media_user.pella_coins -= 1
-                BotWrappers.sendMessage(bot, media_user, "You lost " + coin)  
+                BotWrappers.sendMessage(bot, media_user, "Somebody downvoted your media. You lost " + coin)  
             
             usersdb.setUser(media_user)
                 
             # give a point to the voter
             user.pella_coins += 1
-            BotWrappers.sendMessage(bot, user, "You received " + coin)
+            BotWrappers.sendMessage(bot, user, "You voted a media. You received " + coin)
             usersdb.setUser(user)
             
             mediavotedb.update()
@@ -293,5 +312,11 @@ if __name__ == "__main__":
         log.exception("main: Big mistake")
     
     log.info("Message loop started")
+    
+    routine = Routine.Routine()
+    routine.run_routine_func(usersdb, mediavotedb, categoriesdb)
+    
+    log.info("Routine started")
+    
     while 1:
         time.sleep(10)    

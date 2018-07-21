@@ -82,6 +82,9 @@ class CategoriesDB:
         
         return error_message
     
+    def setCategory(self, category):
+        self.database[category.name_id].setData(category)
+    
     def addCategory(self, category):
         if not self.isPresent(category.name_id):
             data = Databases.Data(category.name_id, category)

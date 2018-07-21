@@ -7,6 +7,8 @@
 /set_nickname set_nickname
 /cancel cancel
 /upload upload
+/user_top user_top
+/uploaded_media uploaded_media
 #only_policy
 /accept accept_policy
 /decline decline_policy

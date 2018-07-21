@@ -50,6 +50,33 @@ class MediaVote:
         sdb["downvotes"] = str(self.downvotes) + " " + EmojiTable.downvote_emoji
         sdb["score"] = NumberFormatter.FormatNumber(self.calculateScore(), 0)
         
+
+        keyboard = BotWrappers.ReplyKeyboard()
+        
+        rmk = keyboard.getKeyboard()
+        
+        if self.content.type == "text":
+            original_message = self.content.text + "\n"
+            original_message += "---------------------\n"
+            original_message += caption
+            
+            BotWrappers.sendMessage(bot, user, original_message, sdb, reply_markup = rmk)                        
+        
+        else:
+            BotWrappers.sendMedia(bot, user, self.content, caption, sdb, reply_markup = rmk)
+            caption = caption.format(**sdb)
+    
+    def votePrivate(self, bot, user, usersdb, catdb):
+        caption = "Uploader: {display_id}\n"
+        caption += "Category: {category}\n"
+        caption += "Score: {score}\n"
+        caption += "/main_menu || /vote_{category}"
+        
+        sdb = {}
+        sdb["display_id"] = usersdb.hGetUser(self.creator_hash_id).getDisplayName()
+        sdb["category"] = catdb.getCategory(self.cat_name).display_name
+        sdb["score"] = NumberFormatter.FormatNumber(self.calculateScore(), 0)
+        
         uid_tag = "_" + str(self.uid)
         vote_up = BotWrappers.Button(EmojiTable.upvote_emoji + " " + str(self.upvotes), "vote_up" + uid_tag)
         vote_down = BotWrappers.Button(EmojiTable.downvote_emoji + " " + str(self.downvotes), "vote_down" + uid_tag)

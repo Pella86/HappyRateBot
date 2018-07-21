@@ -62,7 +62,7 @@ class UserProfile:
                 self.karma += media.calculateScore()
     
     def getReputation(self):
-        if self.karma:
+        if self.karma > 0:
             return self.karma * self.rep_points
         else:
             return 0
@@ -99,6 +99,14 @@ class UserProfile:
         s += "<b>--- Create category ---</b>\n"
         s += "<i> You can create your own categories </i>\n"
         s += "/create_category\n"
+        s += "\n"
+        s += "<b>--- User Top ---</b>\n"
+        s += "<i> The bot top chart </i>\n"
+        s += "/user_top\n"
+        s += "\n"
+        s += "<b>--- Uploaded media ---</b>\n"
+        s += "<i> The media you uploaded to the bot </i>\n"
+        s += "/uploaded_media\n"
         s += "\n"
         s += "<b>--- delete profile ---</b>\n"
         s += "<i> this action will delete every file you uploaded and reset all scores </i>\n"

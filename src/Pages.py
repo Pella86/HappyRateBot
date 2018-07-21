@@ -68,8 +68,90 @@ class Pages:
         if self.query is not None:
             BotWrappers.editMessage(bot, user, self.query.getChatMsgID(), s, translation = False, reply_markup=rmk, parse_mode="HTML")
         else:
-            BotWrappers.sendMessage(bot, user, s, translation=False, reply_markup=rmk, parse_mode="HTML")      
+            BotWrappers.sendMessage(bot, user, s, translation=False, reply_markup=rmk, parse_mode="HTML")     
 
+#==============================================================================
+# Uploaded Media Pages
+#==============================================================================
+
+class UploadedMediaPages(Pages):
+
+    def __init__(self, page, user, mediavotedb, query=None):
+        super().__init__("Uploaded media", page, 10, "cp_umedia_", query) 
+
+        self.medialist = mediavotedb.getUserMedia(user) 
+    
+    def create_element_list(self):
+        elements = []
+        for i in range(*self.get_page_list_indexes()):
+            if i < len(self.medialist):
+                media = self.medialist[i]
+                
+                sdb = {}
+                sdb["n"] = str(i)
+                sdb["media_type"] = media.content.type
+                sdb["cat_name"] = media.cat_name #this would not be capitalized
+                sdb["up"] = NumberFormatter.UpVotes(media.upvotes)
+                sdb["down"] = NumberFormatter.DownVotes(media.downvotes)
+                sdb["uid"] = str(media.uid)
+                sdb["score"] = NumberFormatter.FormatNumber(media.calculateScore(), 0)
+                
+                s = "{n}. {media_type} | {cat_name}\n"
+                s += "{up} - {down} | {score}\n"
+                s += "/show_{cat_name}_{uid}"
+                
+                s = s.format(**sdb)
+                
+                elements.append(s)
+        return elements
+    
+    def sendPage(self, bot, user):
+        super().sendPage(bot, user, self.create_element_list(), self.calcTotPages(self.medialist))
+
+   
+#==============================================================================
+# User top pages
+#==============================================================================
+class UserTopPages(Pages):
+    
+    def __init__(self, page, user_list, query=None):
+        super().__init__("Users top", page, 10, "cp_utop_", query)
+        
+        self.ulist = user_list
+    
+    def create_element_list(self):
+        elements = []
+        for i in range(*self.get_page_list_indexes()):
+            if i < len(self.ulist):
+                user = self.ulist[i]
+                
+                sdb = {}
+                sdb["pos"] = str(i)
+                sdb["name"] = user.display_id
+                sdb["rep"] = NumberFormatter.Reputation(user.getReputation())
+                elem = "<code>{pos}.{name:_^15}|{rep}</code>".format(**sdb)
+                elements.append(elem)
+            else:
+                break
+        return elements
+    
+    def check_answer(self, bot, user, prev):
+        if prev:
+            self.page -= 1
+            if self.page < 0:
+                bot.answerCallbackQuery(self.query.id, "Reached first page")
+                return
+        else:
+            self.page += 1
+            if self.page > self.calcTotPages(self.ulist):
+               bot.answerCallbackQuery(self.query.id, "Reached last page")
+               return
+        
+        self.sendPage(bot, user)
+        
+    def sendPage(self, bot, user):
+        super().sendPage(bot, user, self.create_element_list(), self.calcTotPages(self.ulist))
+                
 #==============================================================================
 # Categories base class
 #==============================================================================
@@ -122,12 +204,19 @@ class CategoryPages(CategeroyPagesBase):
             s += "Empty\n"
         else:
             s += "Voted: {} / {}\n".format(n_voted, total)
+        
         s += "Category score: " + str(NumberFormatter.FormatNumber(cat_list[i].score, 0)) + "\n"
+        
+        if n_voted == total:
+            s += "/show_" + cat_list[i].display_name
+        else:
+            s += "/vote_" + cat_list[i].display_name
+            
         #user_voted_all = get media if user in  already voted
         #calc tot for media in media list if not hide nor ban
         # if voted == tot -> show
         # else -> vote
-        s += "/show_" + cat_list[i].display_name
+        
         return s  
     
     def create_element_list(self, user, mediavotedb):

@@ -41,6 +41,16 @@ class MediaVoteDB:
         self.banned_database.update_uid()
         log.info("loaded banned")
     
+    def getMedia(self, uid):
+        return self.database[uid].getData()
+        
+    def getUserMedia(self, user):
+        umedia = []
+        for media in self.database.getValues():
+            if media.creator_hash_id == user.hash_id:
+                umedia.append(media)
+        return umedia
+    
     def banMedia(self, media):
         dban_media = self.database[media.uid]
         self.banned_database.addData(dban_media)
