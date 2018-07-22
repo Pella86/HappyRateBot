@@ -27,13 +27,13 @@ log = Logging.get_logger(__name__, "INFO")
 #==============================================================================
 
 sendMethods = {
-    "photo": (true, Bot.sendPhoto),
-    "video": (true, Bot.sendVideo),
-    "document": (true, Bot.sendDocument),
-    "sticker": (false, Bot.sendSticker),
-    "audio": (true, Bot.sendAudio),
-    "voice": (true, Bot.sendVoice),
-    "video_note": (false, Bot.sendVideoNote),
+    "photo": (True, Bot.sendPhoto),
+    "video": (True, Bot.sendVideo),
+    "document": (True, Bot.sendDocument),
+    "sticker": (False, Bot.sendSticker),
+    "audio": (True, Bot.sendAudio),
+    "voice": (True, Bot.sendVoice),
+    "video_note": (False, Bot.sendVideoNote),
 }
 
 def Button(text, cb):    

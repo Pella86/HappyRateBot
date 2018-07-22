@@ -17,10 +17,20 @@ sys.path.append("./src")
 
 # - language support
 # - media selection probability
-# - list uploaded media
 # - manage more than 10 pages
 # - delete media
 # - ban users
+# - handle inline queries
+# - report system
+# - notifications system
+# - refactor bot wrapper
+# - group interface
+# - inline queries
+# - create top media
+
+# Done
+# - list uploaded media
+# - admin tools remove categories
 
 #==============================================================================
 # Imports
@@ -135,6 +145,7 @@ def query(raw_msg):
     
     query.initOptionals()
     
+    # warning user might not be in the database
     user = usersdb.getUser(query.person)
     
     log.debug(query.data)
@@ -255,7 +266,30 @@ def query(raw_msg):
             mediavotedb.update()
             usersdb.update()
             bot.answerCallbackQuery(query.id, text='Voted!')
-            
+   
+    elif query.data.startswith("hide"):
+        # hide the picture
+        scmd = query.data.split("_")
+        
+        uid = scmd[1]
+        if uid not in user.no_show_ids: 
+            user.no_show_ids.append(uid)
+        bot.answerCallbackQuery(query.id, text='Hidden')
+        
+    
+    elif query.data.startswith("report"):
+        # send report to the admins
+        
+        # send the creator a message with the option to ban/delete media
+        
+        # send the category creator a message with the option to delete the
+        # media
+        pass
+    
+    elif query.data.startswith("delete"):
+        # delete picture if enough money
+        pass
+    
     else:
         bot.answerCallbackQuery(query.id, text='what?')
 

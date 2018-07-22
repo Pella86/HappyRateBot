@@ -37,6 +37,24 @@ class MediaVote:
         days_up = 1 if days_up.days < 1 else days_up.days
         return ((karma / tot_votes) * 500) / days_up
     
+    def generateHideReportButtons(self):
+        
+        cb = "hide_" + str(self.uid)
+        b_hide = BotWrappers.Button("Hide " + EmojiTable.hidemedia_emoji, cb)
+        
+        cb = "report_" + str(self.uid)
+        b_report = BotWrappers.Button("Report " + EmojiTable.report_emoji, cb)
+        
+        return [b_hide, b_report]
+    
+    def generateDeleteButton(self, user):        
+        price = 100 + self.calculateScore()
+        cb = "delete_{uid}_{price}".format(uid=self.uid, price=price)
+        emdel = EmojiTable.report_emoji 
+        price_fmt = NumberFormatter.PellaCoins(price)
+        text = "Delete {} {}".format(emdel, price_fmt)
+        return BotWrappers.Button(text, cb)
+    
     def showPrivate(self, bot, user, userdb, catdb):
         caption = "Uploader: {display_id}\n"
         caption += "Category: {category}\n"
@@ -50,8 +68,13 @@ class MediaVote:
         sdb["downvotes"] = str(self.downvotes) + " " + EmojiTable.downvote_emoji
         sdb["score"] = NumberFormatter.FormatNumber(self.calculateScore(), 0)
         
-
         keyboard = BotWrappers.ReplyKeyboard()
+        buttons = self.generateHideReportButtons()
+        keyboard.addButtonLine(buttons)
+        if user.hash_id == self.creator_hash_id:
+            d_button = [self.generateDeleteButton(user)]
+            keyboard.addButtonLine(d_button)
+        
         
         rmk = keyboard.getKeyboard()
         
@@ -83,6 +106,11 @@ class MediaVote:
         
         keyboard = BotWrappers.ReplyKeyboard()
         keyboard.addButtonLine([vote_up, vote_down])
+        buttons = self.generateHideReportButtons()
+        keyboard.addButtonLine(buttons)
+        if user.hash_id == self.creator_hash_id:
+            d_button = [self.generateDeleteButton(user)]
+            keyboard.addButtonLine(d_button)
         
         rmk = keyboard.getKeyboard()
         

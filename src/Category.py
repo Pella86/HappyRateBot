@@ -43,16 +43,16 @@ class Category:
     def show(self, bot, user):
         ## can be used only by the creator_id        
         if user.hash_id == creator_hash_id:        
-            s = self.display_name + "\n"
-            s += self.creation_date.strftime("%D-%M-%Y") + "\n"
-            s += "Score: " + str(self.score) + "\n"
+            s = "Name: " + self.display_name + "\n"
+            s += "Creation date: " + self.creation_date.strftime("%D-%M-%y") + "\n"
+            s += "Score: " + "{:.2f}".format(self.score) + "\n"
             s +=  "Reported by: " + str(len(self.reported_by)) + "\n"
 
-            text = "delete"
+            text = "delete category"
             query_tag = "remcat_{}".format(self.name_id)
             b_del = BotWrappers.Button(text, query_tag)
 
-            text = "ban"
+            text = "ban category"
             query_tag = "bancat_{}".format(self.name_id)
             b_ban = BotWrappers.Button(text, query_tag)
             

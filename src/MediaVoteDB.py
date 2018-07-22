@@ -67,6 +67,15 @@ class MediaVoteDB:
                 medias_category.append(media)
         return medias_category
     
+    def getMediaCategoryFiltered(self, cat_name, user):
+        all_media = self.getValues()
+
+        medias_category = []
+        for media in all_media:
+            if media.cat_name == cat_name and media.uid not in user.no_show_ids:
+                medias_category.append(media)
+        return medias_category       
+    
     def addContent(self, content, cat_name, hash_id):
         
         uid = self.database.short_uid

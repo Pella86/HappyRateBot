@@ -149,17 +149,7 @@ def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
         elif len(st) == 2:
             # pick a random media and show
             cat_name = st[1].lower()
-            all_medias = mediavotedb.getMediaCategory(cat_name)
-#            voted, total = user.countVoted(cat_name, mediavotedb)
-#            if voted != total:
-#                medias = []
-#                for media in all_medias:
-#                    if user.hash_id in media.voters_id:
-#                        pass
-#                    else:
-#                       medias.append(media) 
-#            else:
-#                medias = all_medias
+            all_medias = mediavotedb.getMediaCategoryFiltered(cat_name, user)
                    
             if all_medias:
                 media = random.choice(all_medias)
@@ -188,7 +178,7 @@ def handle_private_text(text, bot, user, usersdb, catdb, mediavotedb):
             # randomly pic a media in the category
             cat_name = st[1].lower()
             
-            all_medias = mediavotedb.getMediaCategory(cat_name)
+            all_medias = mediavotedb.getMediaCategoryFiltered(cat_name, user)
             medias = []
             for media in all_medias:
                 if user.hash_id in media.voters_id:

@@ -10,7 +10,7 @@ import time
 
 import Logging
 
-log = Logging.get_logger(__name__, "DEBUG")
+log = Logging.get_logger(__name__, "INFO")
 
 class Routine:
     
@@ -18,9 +18,9 @@ class Routine:
         pass
     
     def routine_func(self, usersdb, mediavotedb, catdb):
-        log.debug("routine function")
+        log.info("routine function started")
         
-        print("Updating karma...")
+        log.debug("Updating karma...")
         for user in usersdb.getUsersList():
             
             user.calculateKarma(mediavotedb)
@@ -28,7 +28,7 @@ class Routine:
             usersdb.setUser(user)
         usersdb.update()
        
-        print("Updating categories db...")
+        log.debug("Updating categories db...")
         for category in catdb.getValues():
             category.calculateScore(mediavotedb)
             
@@ -36,7 +36,7 @@ class Routine:
         
         catdb.update()
         
-        print("Maintenence done.")
+        log.info("Maintenence done.")
     
     def run_routine_func(self, usersdb, mediavotedb, catdb):
         while 1:
@@ -44,4 +44,4 @@ class Routine:
             #t = threading.Thread(target=self.routine_func, args=(catManager,))
             t = threading.Thread(target=self.routine_func, args=(usersdb, mediavotedb, catdb) )
             t.start()
-            time.sleep(60)
+            time.sleep(60*60)
